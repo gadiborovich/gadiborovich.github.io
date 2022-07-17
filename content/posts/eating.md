@@ -1,7 +1,7 @@
 ---
 title: "Eating, the truth of awakening"
 date: 2022-07-16T14:02:34-07:00
-draft: true
+draft: false
 ---
 The person I spend the most time with, and whom I should have the best relationship is myself. Yet, every example of reality is a contradiction to the above stated, a sort of proof that my actions reflect the intention to escape my own consciousness. So, I think I can define this as a search for answers, or pure understanding of myself and what led me to be like this, what is actually going on, how it hurts me, are there alternatives, and, most importantly, am I alone?
 
