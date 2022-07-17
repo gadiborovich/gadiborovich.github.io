@@ -1,0 +1,27 @@
+baseURL = 'https://gadiborovich.github.io'
+languageCode = 'en-us'
+title = "gadi.fm"
+theme = 'cactus'
+
+[params]
+# General
+colortheme = "white"
+# Homepage
+description = "This is my personal website. You can find things I wrote, music I play, and other stuff about my life."
+
+# mainSection = "content"
+mainSectionTitle = "Articles"
+# showAllPostsOnHomePage = true
+postsOnHomePage = 4
+
+[[params.social]]
+link = "https://twitter.com/gadiborovich"
+name = "twitter"
+
+[[params.social]]
+link = "https://www.linkedin.com/in/gadi-borovich-08836b173/"
+name = "linkedin"
+
+[[params.social]]
+link = "gadi.borovich@gmail.com"
+name = "email"
