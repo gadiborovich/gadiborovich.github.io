@@ -30,4 +30,3 @@ name = "email"
 
 
 showProjectsList = true # show projects list by default (if projects data file exists).
-projectsSectionTitle= "Music"
