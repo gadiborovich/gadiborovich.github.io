@@ -1,4 +1,5 @@
-baseURL = 'https://gadiborovich.github.io'
+baseURL = "https://gadi.fm"
+copyright = "Gadi Borovich"
 languageCode = 'en-us'
 title = "gadi.fm"
 theme = 'cactus'
@@ -13,6 +14,7 @@ description = "This is my personal website. You can find things I wrote, music I
 mainSectionTitle = "Articles"
 # showAllPostsOnHomePage = true
 postsOnHomePage = 4
+showProjectsList = true
 
 [[params.social]]
 link = "https://twitter.com/gadiborovich"
@@ -25,3 +27,7 @@ name = "linkedin"
 [[params.social]]
 link = "gadi.borovich@gmail.com"
 name = "email"
+
+
+showProjectsList = true # show projects list by default (if projects data file exists).
+projectsSectionTitle= "Music"
