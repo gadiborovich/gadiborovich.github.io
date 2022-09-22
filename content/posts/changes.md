@@ -25,20 +25,15 @@ That Gadi standing in that graduation party was about to head out to Israel only
 
 I will not summarize my experience in Israel from this point in time, but instead will quote another version of myself that was feeling a bit reminiscent one night in Minerva: 
 
-{{< rawhtml >}}
-<p><i><center>I have lived so much. It’s only been one year since I started the Ulpan in Israel, an experience that changed my way of understanding life, and shifted the direction I thought to take.<center></i></p>
+"I have lived so much. It’s only been one year since I started the Ulpan in Israel, an experience that changed my way of understanding life, and shifted the direction I thought to take.
 
-<p><i><center>Who was I before Israel? Who was I before Minerva? I don’t really remember, I can only remember who I was through the lens of who I am, and in that discordance, I am confused. I think I used to be different but I’m not really sure. Honestly, I’m rumbling around right now as I don’t know what I am trying to say.<center></i></p>
+Who was I before Israel? Who was I before Minerva? I don’t really remember, I can only remember who I was through the lens of who I am, and in that discordance, I am confused. I think I used to be different but I’m not really sure. Honestly, I’m rumbling around right now as I don’t know what I am trying to say.
 
+The point is that in thinking about this constant evolution of myself, I feel confused and anguished. Why? I am not sure, but I do accept it.
 
-<p><i><center>The point is that in thinking about this constant evolution of myself, I feel confused and anguished. Why? I am not sure, but I do accept it.<center></i></p>
+Israel...those six months feel like a disconnected bubble from the rest of my life’s experiences. However, six months cannot describe the amount of experiences I lived there, cannot snapshot my growth, my friends, and the connections I’ve created which I will preserve for the rest of my life.
 
-
-<p><i><center>Israel...those six months feel like a disconnected bubble from the rest of my life’s experiences. However, six months cannot describe the amount of experiences I lived there, cannot snapshot my growth, my friends, and the connections I’ve created which I will preserve for the rest of my life.<center></i></p>
-
-
-<p><i><center>I am grateful, insanely grateful.<center></i></p>
-{{< /rawhtml >}} 
+I am grateful, insanely grateful."
 
 
 I remembered I had a quote about this but didn’t remember its exact content. Only as I re-read while adding it here, I noticed a common theme between what I am writing now, and that passage - reflecting on personal growth, friends, and change is a common theme through time. The need to write this now is a necessity to caption the change, and through its caption, an opportunity to reconnect with my essence - that indescribable thing that makes me who I am no matter point in time.
