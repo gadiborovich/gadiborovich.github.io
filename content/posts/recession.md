@@ -1,6 +1,6 @@
 ---
 title: "My first recession"
-date: 2023-01-27T14:02:34-07:00
+date: 2023-01-25T14:02:34-07:00
 draft: false
 ---
 There’s an entire generation going through a recession for the first time. 
