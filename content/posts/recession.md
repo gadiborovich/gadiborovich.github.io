@@ -8,7 +8,7 @@ There’s an entire generation going through a recession for the first time.
 Sure, everyone says we need to adapt, and while true, I think the phenomenon in itself – going through a recession for the first time – is a key paradigm shift for all of us first-timers. I’ll try capturing some of it here through my personal experience. 
 
 I was a one-year-old when the Dotcom bubble burst, and I was 9 when the Great Recession started. To be honest, I don’t remember much about those times. I was just a kid wanting the latest Hot Wheels of that time, happily enjoying my innocence and being sad when my parents couldn’t afford it. But I do remember the stories. I remember my parents struggling, mad about some bankers that suddenly disappeared with everyone’s money, and others losing everything. A decade later, I moved to San Francisco, a city known for its creative, ambitious people. It shaped almost everything about me, especially my perspective on startups. 
-d
+
 What I didn’t know was that 2018-2022 San Francisco was pretty unprecedented, a time of infinite abundance. And being early in my career, I wasn’t thinking about why there was such abundance; I just focused on trying to run faster, leveraging what I could. Maybe I’d read here and there that zero interest rates lead to assets like technology being overvalued. But no one seemed to care, so why would I? 
 
 I kept running, increasingly used to playing a game that knew nothing about scarcity. The funny thing is that (almost) everyone gets used to whatever rules of their time. It’s the logical thing to do to leverage market opportunities. The difference, however, is that while I was running the same race, I had no perspective on how it could change. Emotionally, I had no idea what was ahead.
