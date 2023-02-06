@@ -30,7 +30,7 @@ name = "email"
 
 [[params.social]]
 link = "https://gadiborovich.substack.com/"
-name = "substack"
+name = "rss"
 
 
 showProjectsList = true # show projects list by default (if projects data file exists).
