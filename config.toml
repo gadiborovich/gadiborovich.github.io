@@ -28,5 +28,9 @@ name = "linkedin"
 link = "gadi.borovich@gmail.com"
 name = "email"
 
+[[params.social]]
+link = "https://gadiborovich.substack.com/"
+name = "substack"
+
 
 showProjectsList = true # show projects list by default (if projects data file exists).
