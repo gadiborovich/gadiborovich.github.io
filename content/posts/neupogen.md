@@ -130,7 +130,11 @@ Esto puede parecer confuso. Si ahora los globulos blancos estan bien, por que ag
 
 Porque el problema no es el numero de hoy. El problema es lo que puede pasar unos dias despues de la quimio.
 
-Despues de cada ciclo suele haber un momento en que las defensas bajan. A ese punto bajo muchas veces le dicen nadir. No es inmediato. Puede aparecer varios dias despues del tratamiento. Por eso un analisis bueno antes del ciclo tranquiliza, pero no cuenta toda la historia.
+Despues de cada ciclo suele haber unos dias en que las defensas bajan. Muchas veces no bajan el mismo dia de la quimio, sino varios dias despues. Primero el cuerpo recibe el tratamiento, despues las defensas pueden ir bajando, y luego llegan a su punto mas bajo.
+
+A ese punto mas bajo los medicos a veces le dicen nadir. Nadir quiere decir eso: el punto mas bajo de una curva. En este caso, el momento en que los neutrofilos estan mas bajos despues de la quimio. Despues de ese punto, si todo va bien, el cuerpo empieza a recuperarlos otra vez.
+
+Por eso un analisis bueno antes del ciclo tranquiliza, pero no cuenta toda la historia. Tambien importa cuidar esos dias posteriores en que puede aparecer la bajada.
 
 Hoy estar bien es una buena noticia. Significa que el cuerpo se recupero. El Neupogen se piensa mirando la curva completa: quimio, bajada posible, dias de mas riesgo, recuperacion.
 
