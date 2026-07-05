@@ -4,6 +4,12 @@ date: 2026-07-05T13:00:00-07:00
 draft: false
 description: "Una guia tranquila para entender por que el equipo medico puede agregar Neupogen despues de una fiebre con defensas bajas."
 url: "/neupogen/"
+noindex: true
+sitemap:
+  disable: true
+_build:
+  render: always
+  list: never
 ---
 
 {{< rawhtml >}}

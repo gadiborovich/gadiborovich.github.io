@@ -4,6 +4,12 @@ date: 2026-06-26T08:00:00-07:00
 draft: false
 description: "Una guía tranquila para entender cómo funciona una florería moderna por dentro."
 url: "/floreria/"
+noindex: true
+sitemap:
+  disable: true
+_build:
+  render: always
+  list: never
 ---
 
 {{< rawhtml >}}
