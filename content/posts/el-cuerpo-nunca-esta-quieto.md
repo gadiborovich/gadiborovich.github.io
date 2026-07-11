@@ -1,6 +1,6 @@
 ---
 title: "El cuerpo nunca está quieto"
-date: 2026-07-11T16:00:00-07:00
+date: 2026-07-11T09:00:00-07:00
 draft: false
 description: "Un viaje por todo lo que ocurre adentro mientras descansamos."
 url: "/el-cuerpo-nunca-esta-quieto/"
