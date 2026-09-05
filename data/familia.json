@@ -1,0 +1,465 @@
+{
+  "people": {
+    "gadi": {
+      "name": "Gadi Borovich",
+      "short": "Gadi",
+      "relation": "La generación que reúne esta historia",
+      "era": "",
+      "place": "",
+      "status": "Recuerdo familiar",
+      "body": [
+        "Esta historia empieza con una búsqueda sobre la rama paterna de Gadi: nombres que la familia recuerda, documentos que aparecen y fotografías que todavía necesitan una voz que las reconozca."
+      ],
+      "sources": [
+        "familia"
+      ],
+      "parents": [
+        "daniel"
+      ]
+    },
+    "daniel": {
+      "name": "Daniel Ilan Borovich Levy",
+      "short": "Daniel Ilan",
+      "relation": "Papá de Gadi",
+      "era": "",
+      "place": "",
+      "status": "Recuerdo familiar",
+      "body": [
+        "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero. A través de sus padres se unen las ramas Borovich, Polak, Levy y Caballero."
+      ],
+      "sources": [
+        "familia"
+      ],
+      "parents": [
+        "bernardo",
+        "lucy"
+      ]
+    },
+    "bernardo": {
+      "name": "Bernardo Borovich Polak",
+      "short": "Bernardo",
+      "relation": "Abuelo de Gadi",
+      "era": "1932",
+      "place": "Montevideo · Haifa · Jerusalén",
+      "status": "Documentos y familia",
+      "body": [
+        "Nació en Montevideo el 18 de marzo de 1932. Sus padres, Efraim y Luisa, habían llegado a Uruguay desde Lituania y Polonia.",
+        "Se graduó de médico en 1960. En 1963 presentó su tesis sobre empiema subdural y absceso extradural: hoy conocemos la fotografía de un ejemplar de esa obra.",
+        "Trabajó en Israel desde 1971, en los hospitales Rambam de Haifa y Hadassah de Jerusalén. Regresó a Uruguay en 1988 y dirigió la neurocirugía del Instituto de Neurología hasta 1997.",
+        "El Sindicato Médico del Uruguay lo distinguió en 2004. La presentación de ese acto conserva el retrato que abre este álbum."
+      ],
+      "sources": [
+        "familia",
+        "liondas",
+        "smu",
+        "retrato"
+      ],
+      "image": "bernardo.jpg",
+      "parents": [
+        "efraim",
+        "luisa"
+      ]
+    },
+    "lucy": {
+      "name": "Lucy Mary Levy Caballero",
+      "short": "Lucy Mary",
+      "relation": "Abuela de Gadi",
+      "era": "1942",
+      "place": "Montevideo",
+      "status": "Índice y familia",
+      "body": [
+        "La familia la recuerda como Lucy. Su ficha migratoria de Brasil registra el nombre completo Lucy Mary Levy Caballero, nacida en Montevideo el 18 de noviembre de 1942, hija de Jacobo y Catalina.",
+        "El índice registra un trámite migratorio en Río de Janeiro en 1962; la imagen de la ficha todavía no está disponible. Ese dato no establece una residencia permanente en Brasil.",
+        "Gadi confirma que fue enterrada en el cementerio de La Paz. Todavía buscamos su retrato para acompañar esta ficha."
+      ],
+      "sources": [
+        "familia",
+        "lucy"
+      ],
+      "parents": [
+        "jacobo",
+        "cata"
+      ]
+    },
+    "efraim": {
+      "name": "Efraim Borovich",
+      "short": "Efraim",
+      "relation": "Papá de Bernardo",
+      "era": "1894",
+      "place": "Lituania → Montevideo",
+      "status": "Documentos y familia",
+      "body": [
+        "Nació el 13 de noviembre de 1894 en Lituania. Su matrimonio de 1929 lo registra como comerciante; la semblanza de Bernardo recuerda que su padre era mueblero y había llegado en 1926.",
+        "En la familia se recuerda el apellido anterior Borovicas. El acta matrimonial presenta la forma Efroim / Efraim Borovik, con correcciones del apellido. Son pistas para seguir buscando documentos.",
+        "Se casó con Luisa Polak en Villa del Cerro el 14 de enero de 1929. Ambos aparecen domiciliados en la calle Portugal. Sus padres, David y Rosa, seguían en Lituania."
+      ],
+      "sources": [
+        "mat1929",
+        "liondas",
+        "familia"
+      ],
+      "parents": [
+        "david",
+        "rosa"
+      ]
+    },
+    "luisa": {
+      "name": "Luisa Polak",
+      "short": "Luisa",
+      "relation": "Mamá de Bernardo",
+      "era": "1907",
+      "place": "Polonia → Montevideo",
+      "status": "Documentos y familia",
+      "body": [
+        "Nació el 4 de octubre de 1907 en Polonia. La semblanza de Bernardo sitúa la llegada de su madre a Uruguay en 1928.",
+        "En enero de 1929 se casó con Efraim en Villa del Cerro. El acta nombra a su padre Boris, ya fallecido, y a su madre Rebeca, viuda y residente en Polonia."
+      ],
+      "sources": [
+        "mat1929",
+        "liondas",
+        "familia"
+      ],
+      "parents": [
+        "boris",
+        "rebeca"
+      ]
+    },
+    "jacobo": {
+      "name": "Jacobo Levy",
+      "short": "Jacobo · Jaco",
+      "relation": "Papá de Lucy",
+      "era": "1911",
+      "place": "Esmirna → Montevideo",
+      "status": "Documento original",
+      "body": [
+        "Nació en Esmirna el 7 de noviembre de 1911. En la familia también se lo recuerda como Jaco o Yako.",
+        "Se casó con Catalina Caballero en Montevideo el 17 de mayo de 1935. Su acta identifica a sus padres como Salomón y Alejandra Levy.",
+        "La fecha y el barco de su llegada a Uruguay siguen pendientes de comprobación. Un manifiesto de 1924 es una pista, pero presenta una edad incompatible con su nacimiento documentado."
+      ],
+      "sources": [
+        "mat1935",
+        "familia"
+      ],
+      "parents": [
+        "salomon",
+        "alejandra"
+      ]
+    },
+    "cata": {
+      "name": "Catalina Caballero",
+      "short": "Catalina · Cata",
+      "relation": "Mamá de Lucy",
+      "era": "1917",
+      "place": "Esmirna → Montevideo",
+      "status": "Documentos y familia",
+      "body": [
+        "Nació en Esmirna el 17 de mayo de 1917, hija de León Caballero y Luna Benaderet.",
+        "Se casó con Jacobo Levy en Montevideo el 17 de mayo de 1935: el mismo día que cumplía dieciocho años.",
+        "Edy recuerda tres hermanos de Cata: Simón, José y Ester. Esa información familiar ayuda a comparar las fotografías y los documentos encontrados, aunque todavía no confirma la identidad de los retratados."
+      ],
+      "sources": [
+        "mat1935",
+        "edy"
+      ],
+      "parents": [
+        "leon",
+        "luna"
+      ]
+    },
+    "david": {
+      "name": "David",
+      "short": "David",
+      "relation": "Papá de Efraim",
+      "era": "",
+      "place": "Lituania",
+      "status": "Documento original",
+      "body": [
+        "El matrimonio de Efraim de 1929 nombra a David, lituano, comerciante y residente en Lituania junto a Rosa. Todavía no se ha localizado su propio nacimiento o matrimonio."
+      ],
+      "sources": [
+        "mat1929"
+      ]
+    },
+    "rosa": {
+      "name": "Rosa",
+      "short": "Rosa",
+      "relation": "Mamá de Efraim",
+      "era": "",
+      "place": "Lituania",
+      "status": "Documento original",
+      "body": [
+        "Figura como madre de Efraim en el acta de 1929, residente en Lituania con David. No se ha establecido su apellido de nacimiento."
+      ],
+      "sources": [
+        "mat1929"
+      ]
+    },
+    "boris": {
+      "name": "Boris Polak",
+      "short": "Boris",
+      "relation": "Papá de Luisa",
+      "era": "",
+      "place": "Polonia",
+      "status": "Documento original",
+      "body": [
+        "El acta matrimonial de Luisa identifica a su padre como Boris Polak, polaco y ya fallecido en enero de 1929. No se conoce aún la fecha de su fallecimiento."
+      ],
+      "sources": [
+        "mat1929"
+      ]
+    },
+    "rebeca": {
+      "name": "Rebeca",
+      "short": "Rebeca",
+      "relation": "Mamá de Luisa",
+      "era": "",
+      "place": "Polonia",
+      "status": "Documento original",
+      "body": [
+        "El acta de Luisa la registra como Rebeca Polak, viuda y residente en Polonia. No está establecido si Polak era también su apellido de nacimiento."
+      ],
+      "sources": [
+        "mat1929"
+      ]
+    },
+    "salomon": {
+      "name": "Salomón Levy",
+      "short": "Salomón",
+      "relation": "Papá de Jacobo",
+      "era": "Falleció en 1944",
+      "place": "Turquía · Montevideo",
+      "status": "Documento original",
+      "body": [
+        "Murió el 7 de octubre de 1944, a los 68 años. El acta lo registra como turco y comerciante; declara desconocido su lugar de nacimiento.",
+        "Su esposa aparece como Alejandra Buenavida. Sus padres fueron Jacobo Levy y Perla Cohen: este documento permite remontar una generación más la rama Levy.",
+        "El acta menciona siete hijos sobrevivientes. Varios nombres se leen con claridad, pero uno todavía requiere revisar la escritura original."
+      ],
+      "sources": [
+        "salomon",
+        "mat1935"
+      ],
+      "parents": [
+        "jacobo-mayor",
+        "perla"
+      ]
+    },
+    "alejandra": {
+      "name": "Alejandra Buenavida",
+      "short": "Alejandra",
+      "relation": "Mamá de Jacobo",
+      "era": "",
+      "place": "Turquía · Montevideo",
+      "status": "Documento y nombre por resolver",
+      "body": [
+        "El acta de fallecimiento de Salomón la identifica como Alejandra Buenavida. En la boda de Jacobo aparece como Alejandra Levy.",
+        "Edy recuerda el nombre Bejora y cree que quizá en Uruguay la llamaban Alejandra. Esa equivalencia sigue pendiente: Bejora y Behora son pistas de búsqueda, no alias ya demostrados."
+      ],
+      "sources": [
+        "salomon",
+        "mat1935",
+        "edy"
+      ]
+    },
+    "leon": {
+      "name": "León Caballero",
+      "short": "León",
+      "relation": "Papá de Cata",
+      "era": "",
+      "place": "Turquía · Montevideo",
+      "status": "Documento original",
+      "body": [
+        "El matrimonio de Catalina lo identifica como su padre, turco, casado con Luna Benaderet.",
+        "Según la información familiar aportada por Gadi, León seguía en Turquía en 1912. Por eso una fotografía argentina fechada en ese año no se incorpora como retrato suyo.",
+        "Las coincidencias con una familia Caballero descrita en una tesis merecen seguimiento, pero todavía no permiten añadir generaciones anteriores a León."
+      ],
+      "sources": [
+        "mat1935",
+        "familia"
+      ]
+    },
+    "luna": {
+      "name": "Luna Benaderet",
+      "short": "Luna",
+      "relation": "Mamá de Cata",
+      "era": "",
+      "place": "Turquía · Montevideo",
+      "status": "Documento original",
+      "body": [
+        "Su nombre completo figura en el matrimonio de Catalina y Jacobo de 1935. Allí consta como turca y esposa de León Caballero.",
+        "Víctor Benaderet fue testigo de esa boda. El apellido compartido es una pista; el acta no indica qué parentesco tenía con Luna."
+      ],
+      "sources": [
+        "mat1935"
+      ]
+    },
+    "jacobo-mayor": {
+      "name": "Jacobo Levy",
+      "short": "Jacobo",
+      "relation": "Papá de Salomón",
+      "era": "",
+      "place": "",
+      "status": "Documento original",
+      "body": [
+        "Su nombre aparece como padre de Salomón en la defunción de 1944. Ya había fallecido para entonces. Es una persona distinta de su nieto Jacobo, el papá de Lucy."
+      ],
+      "sources": [
+        "salomon"
+      ]
+    },
+    "perla": {
+      "name": "Perla Cohen",
+      "short": "Perla",
+      "relation": "Mamá de Salomón",
+      "era": "",
+      "place": "",
+      "status": "Documento original",
+      "body": [
+        "La defunción de Salomón identifica a su madre como Perla Cohen, ya fallecida. Todavía no se han establecido fechas ni lugares de su vida."
+      ],
+      "sources": [
+        "salomon"
+      ]
+    },
+    "simon": {
+      "name": "Simón Caballero",
+      "short": "Simón",
+      "relation": "Hermano de Cata",
+      "era": "",
+      "place": "",
+      "status": "Recuerdo de Edy",
+      "body": [
+        "Edy recuerda a Simón Caballero como hermano de Cata. No se han establecido todavía fechas, pareja o descendencia.",
+        "Hay una fotografía candidata en la sección «Por reconocer». La coincidencia de nombres y relaciones justifica investigarla; todavía no confirma que retrate a este familiar."
+      ],
+      "sources": [
+        "edy",
+        "simon"
+      ]
+    },
+    "jose": {
+      "name": "José Caballero",
+      "short": "José",
+      "relation": "Hermano de Cata",
+      "era": "",
+      "place": "",
+      "status": "Recuerdo de Edy",
+      "body": [
+        "Edy recuerda a José Caballero como hermano de Cata. No se han establecido todavía fechas, pareja o descendencia.",
+        "Hay una fotografía candidata en la sección «Por reconocer». La coincidencia de nombres y relaciones justifica investigarla; todavía no confirma que retrate a este familiar."
+      ],
+      "sources": [
+        "edy",
+        "jose"
+      ]
+    },
+    "ester": {
+      "name": "Ester Caballero",
+      "short": "Ester",
+      "relation": "Hermana de Cata",
+      "era": "",
+      "place": "",
+      "status": "Recuerdo de Edy",
+      "body": [
+        "Edy recuerda a Ester Caballero como hermana de Cata. No se han establecido todavía fechas, pareja o descendencia."
+      ],
+      "sources": [
+        "edy"
+      ]
+    }
+  },
+  "sources": {
+    "familia": {
+      "title": "Recuerdos de la familia",
+      "note": "Información aportada por Gadi durante la investigación familiar, septiembre de 2026."
+    },
+    "edy": {
+      "title": "Recuerdo de Edy, 5 de septiembre de 2026",
+      "note": "Edy identifica a Simón, José y Ester como hermanos de Cata. Su recuerdo sobre Bejora / Alejandra es expresamente incierto."
+    },
+    "mat1929": {
+      "title": "Matrimonio de Efraim y Luisa · 1929",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2W-292Q-Z",
+      "note": "Villa del Cerro, 14 de enero. Acta 6, imagen 9. El original manuscrito corrige errores del índice automático. FamilySearch puede pedir una cuenta gratuita."
+    },
+    "mat1935": {
+      "title": "Matrimonio de Jacobo y Catalina · 1935",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q3HK-2",
+      "note": "Montevideo, 17 de mayo. Acta 48, imagen 116. FamilySearch puede pedir una cuenta gratuita."
+    },
+    "salomon": {
+      "title": "Defunción de Salomón Levy · 1944",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-8XXC",
+      "note": "7 de octubre. Acta 375, imagen 194. Identifica a sus padres y a Alejandra Buenavida, su esposa."
+    },
+    "lucy": {
+      "title": "Lucy: ficha migratoria de Brasil · 1962",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:KCXH-RS5",
+      "note": "Índice de una ficha de Río de Janeiro; la imagen no está disponible. No prueba una mudanza permanente."
+    },
+    "smu": {
+      "title": "Homenaje del Sindicato Médico del Uruguay · 2004",
+      "url": "https://www.smu.org.uy/cartelera/84aniversario/dist2004.pdf#page=7",
+      "note": "Página 7: trayectoria de Bernardo y distinción docente, científica y profesional."
+    },
+    "retrato": {
+      "title": "Retrato y distinción de Bernardo · SMU",
+      "url": "https://www.smu.org.uy/cartelera/84aniversario/aniv2004.pdf#page=8",
+      "note": "Presentación del 11 de agosto de 2004, páginas PDF 8 y 9. La fecha del retrato no está indicada."
+    },
+    "galeria": {
+      "title": "Fotografías del homenaje · SMU",
+      "url": "https://www.smu.org.uy/images/galeria/index.php?albumid=75&tarea=a",
+      "note": "El pie original identifica a Bernardo en la entrega de la distinción y entre el público."
+    },
+    "liondas": {
+      "title": "Semblanza de Bernardo · Samuel Liondas",
+      "url": "https://anaforas.fic.edu.uy/jspui/bitstream/123456789/93805/1/Medicina_21.pdf#page=90",
+      "note": "Página PDF 90: nacimiento de Bernardo, orígenes de sus padres, oficio del padre y llegadas a Uruguay en 1926 y 1928. Los padres se identifican por el testimonio familiar."
+    },
+    "tesis": {
+      "title": "Un ejemplar de la tesis de Bernardo · 1963",
+      "url": "https://www.mercadolibre.com.uy/empiema-subdural-y-absceso-extradural-tesis-doctorado/up/MLUU3432918510",
+      "note": "Foto de portada en una publicación de libros usados, no disponible al consultarla. No se sabe si fue un ejemplar personal de Bernardo."
+    },
+    "portugal": {
+      "title": "Calle Portugal y Estados Unidos · CdF",
+      "url": "https://cdf.montevideo.gub.uy/catalogo/foto/18997fmhge",
+      "note": "10 de julio de 1936. Referencia 18997FMHGE. Intendencia de Montevideo; archivo marcado como dominio público. Misma calle del acta de 1929, no identificación de la casa familiar."
+    },
+    "esmirna": {
+      "title": "Distrito comercial de Esmirna · Library of Congress",
+      "url": "https://www.loc.gov/pictures/item/2009633137/",
+      "note": "Referencia 2009633137. Fecha catalogada de creación/publicación: 17 de septiembre de 1922; fecha exacta de toma no establecida. No se conocen restricciones de publicación. Imagen de contexto, sin familiares identificados."
+    },
+    "simon": {
+      "title": "Boda de Simón · De Cervera a Beer Seba",
+      "url": "https://diposit.ub.edu/bitstreams/c46e5384-8f36-4a53-81ad-4c458d4fe58a/download#page=657",
+      "note": "Marcos Caballero, volumen 2, página PDF 657. Simón se identifica como hijo de León y Luna. Su identidad con el hermano de Cata está pendiente."
+    },
+    "jose": {
+      "title": "Retrato de José · De Cervera a Beer Seba",
+      "url": "https://diposit.ub.edu/bitstreams/c46e5384-8f36-4a53-81ad-4c458d4fe58a/download#page=659",
+      "note": "Volumen 2, página PDF 659. El autor lo identifica como hijo de León, residente y fallecido en Uruguay. Su identidad con el hermano de Cata está pendiente."
+    },
+    "klein": {
+      "title": "Documentos de Simón · Fernando Raúl Klein",
+      "url": "https://www.memoria.fahce.unlp.edu.ar/tesis/te.1453/te.1453.pdf#page=228",
+      "note": "Tesis de 2017, página PDF 228. Traducción de un nacimiento en Esmirna: Simón, hijo de Yuda León y Luna. No se incorpora su fecha al hermano de Cata hasta confirmar la identidad."
+    },
+    "revista": {
+      "title": "Revista del Talmud-Tora · 1955",
+      "url": "https://anaforas.fic.edu.uy/jspui/bitstream/123456789/51814/1/BIS_n4.pdf#page=6",
+      "note": "Número 4, página PDF 6. Aviso de Víctor Benaderet, importador; identidad con el testigo de la boda de 1935 por comprobar. El retrato de esta página es David Morón."
+    },
+    "libro": {
+      "title": "Neurocirugía · Biblioteca del Poder Legislativo",
+      "url": "https://pmb.parlamento.gub.uy/pmb/opac_css/index.php?id=21607&lvl=notice_display",
+      "note": "Edgardo Spagnuolo, Bernardo Borovich (colaborador). Montevideo, 1995, 61 páginas. ISBN 9974-31-046-6. Portada aún no localizada."
+    },
+    "wilson": {
+      "title": "Historia de la neurocirugía · Eduardo Wilson",
+      "url": "https://www.smu.org.uy/dpmc/hmed/historia/articulos/neurocirugia-primer-siglo.pdf#page=12",
+      "note": "Página PDF 12: cambios que Wilson atribuye a la dirección de Bernardo y a sus vínculos de formación internacional."
+    }
+  }
+}

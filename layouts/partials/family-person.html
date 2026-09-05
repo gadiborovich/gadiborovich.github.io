@@ -1,0 +1,5 @@
+{{ $p := index .site.Data.familia.people .id }}
+<a class="person {{ if $p.image }}person-photo{{ end }}" href="#p-{{ .id }}" data-person="{{ .id }}">
+  {{ with $p.image }}<img src="/familia/img/{{ . }}" width="265" height="373" alt="" loading="lazy">{{ end }}
+  <span><strong>{{ $p.short }}</strong><small>{{ if $p.era }}{{ $p.era }}{{ else }}{{ $p.relation }}{{ end }}</small></span><span class="person-arrow" aria-hidden="true">↗</span>
+</a>
