@@ -1,0 +1,327 @@
+<!doctype html><html lang=en-us>
+<head>
+<link rel=preload href=/lib/font-awesome/webfonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=/lib/font-awesome/webfonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=/lib/font-awesome/webfonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<script type=text/javascript src=https://latest.cactus.chat/cactus.js></script>
+<link rel=stylesheet href=https://latest.cactus.chat/style.css type=text/css>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title> Terac follow-on ownership math | gadi.fm</title>
+<link rel=canonical href=https://gadi.fm/terac-ownership/>
+<meta name=description content="This is my personal website. You can find things I wrote, music I play, and other stuff about my life.">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noindex,nofollow,noarchive">
+<meta name=googlebot content="noindex,nofollow,noarchive">
+<meta property="og:title" content="Terac follow-on ownership math">
+<meta property="og:description" content="A simple comparison of the ownership produced by a $75K follow-on investment under different Series A and discount scenarios.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gadi.fm/terac-ownership/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2026-09-04T12:00:00-07:00">
+<meta property="article:modified_time" content="2026-09-04T12:00:00-07:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Terac follow-on ownership math">
+<meta name=twitter:description content="A simple comparison of the ownership produced by a $75K follow-on investment under different Series A and discount scenarios.">
+<link rel=stylesheet href=https://gadi.fm/css/styles.e4f5875e49be7097d34e7a67577e4974651228f117b49522366b0bdf6590b11a28177fda028fc4e0291824005354f7d890b1f635a8ec0798a0bf66ed44e45e5e.css integrity="sha512-5PWHXkm+cJfTTnpnV35JdGUSKPEXtJUiNmsL32WQsRooF3/aAo/E4CkYJABTVPfYkLH2NajsB5igv2btROReXg=="><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script>
+<script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]-->
+<link rel=icon type=image/png href=https://gadi.fm/images/favicon.ico>
+</head>
+<body class="max-width mx-auto px3 ltr">
+<div class="content index py4">
+<div id=header-post>
+<a id=menu-icon href=#><i class="fas fa-bars fa-lg"></i></a>
+<a id=menu-icon-tablet href=#><i class="fas fa-bars fa-lg"></i></a>
+<a id=top-icon-tablet href=# onclick="$('html, body').animate({scrollTop:0},'fast')" style=display:none aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+<span id=menu>
+<span id=nav>
+<ul>
+</ul>
+</span>
+<br>
+<span id=actions>
+<ul>
+<li>
+<a class=icon href=# onclick="$('html, body').animate({scrollTop:0},'fast')" aria-label="Top of Page">
+<i class="fas fa-chevron-up" aria-hidden=true onmouseover="$('#i-top').toggle()" onmouseout="$('#i-top').toggle()"></i>
+</a>
+</li>
+<li>
+<a class=icon href=# aria-label=Share>
+<i class="fas fa-share-alt" aria-hidden=true onmouseover="$('#i-share').toggle()" onmouseout="$('#i-share').toggle()" onclick="return $('#share').toggle(),!1"></i>
+</a>
+</li>
+</ul>
+<span id=i-prev class=info style=display:none>Previous post</span>
+<span id=i-next class=info style=display:none>Next post</span>
+<span id=i-top class=info style=display:none>Back to top</span>
+<span id=i-share class=info style=display:none>Share post</span>
+</span>
+<br>
+<div id=share style=display:none>
+<ul>
+<li>
+<a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fgadi.fm%2fterac-ownership%2f" aria-label=Facebook>
+<i class="fab fa-facebook" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://twitter.com/share?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&text=Terac%20follow-on%20ownership%20math" aria-label=Twitter>
+<i class="fab fa-twitter" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&title=Terac%20follow-on%20ownership%20math" aria-label=Linkedin>
+<i class="fab fa-linkedin" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&is_video=false&description=Terac%20follow-on%20ownership%20math" aria-label=Pinterest>
+<i class="fab fa-pinterest" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="mailto:?subject=Terac%20follow-on%20ownership%20math&body=Check out this article: https%3a%2f%2fgadi.fm%2fterac-ownership%2f" aria-label=Email>
+<i class="fas fa-envelope" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&title=Terac%20follow-on%20ownership%20math" aria-label=Pocket>
+<i class="fab fa-get-pocket" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&title=Terac%20follow-on%20ownership%20math" aria-label=reddit>
+<i class="fab fa-reddit" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&name=Terac%20follow-on%20ownership%20math&description=A%20simple%20comparison%20of%20the%20ownership%20produced%20by%20a%20%2475K%20follow-on%20investment%20under%20different%20Series%20A%20and%20discount%20scenarios." aria-label=Tumblr>
+<i class="fab fa-tumblr" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&t=Terac%20follow-on%20ownership%20math" aria-label="Hacker News">
+<i class="fab fa-hacker-news" aria-hidden=true></i>
+</a>
+</li>
+</ul>
+</div>
+<div id=toc>
+<nav id=TableOfContents></nav>
+</div>
+</span>
+</div>
+<article class=post itemscope itemtype=http://schema.org/BlogPosting>
+<header>
+<h1 class=posttitle itemprop="name headline">
+Terac follow-on ownership math
+</h1>
+<div class=meta>
+<div class=postdate>
+<time datetime="2026-09-04 12:00:00 -0700 -0700" itemprop=datePublished>2026-09-04</time>
+</div>
+</div>
+</header>
+<div class=content itemprop=articleBody>
+<style>.post>header{display:none}.terac-page{color:#17212b;margin:1.2rem 0 4rem}.terac-cover{border-top:9px solid #17212b;border-bottom:1px solid #d8dee5;padding:2.5rem 0 2.2rem}.terac-eyebrow{color:#68717c;font-size:.78rem;font-weight:800;letter-spacing:.13em;margin-bottom:.9rem;text-transform:uppercase}.terac-cover h1{color:#17212b;font-family:Georgia,times new roman,serif;font-size:clamp(2.5rem,7vw,4.2rem);letter-spacing:-.035em;line-height:1;margin:0}.terac-subtitle{color:#56606b;font-size:1.14rem;line-height:1.55;margin:1.1rem 0 0;max-width:44rem}.terac-section{margin-top:3rem}.terac-section h2{border-top:2px solid #17212b;color:#17212b;font-family:Georgia,times new roman,serif;font-size:1.9rem;letter-spacing:-.02em;line-height:1.15;margin:0;padding-top:1rem}.terac-section>p{color:#3f4954;font-size:1.03rem;line-height:1.65;margin:.8rem 0 1.25rem}.terac-stat-grid{display:grid;gap:.8rem;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:1.4rem}.terac-stat{background:#f4f6f8;border:1px solid #dfe4ea;border-radius:10px;padding:1rem}.terac-stat-label{color:#68717c;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.terac-stat-value{color:#17212b;font-size:1.55rem;font-weight:800;letter-spacing:-.03em;margin-top:.4rem}.terac-stat-detail{color:#68717c;font-size:.86rem;line-height:1.45;margin-top:.3rem}.terac-callout{background:#edf7f1;border-left:5px solid #238653;border-radius:0 8px 8px 0;color:#254434;font-size:1.02rem;line-height:1.55;margin:1.2rem 0 0;padding:1rem 1.1rem}.terac-table-wrap{border:1px solid #d8dee5;border-radius:10px;margin-top:1.25rem;overflow-x:auto}.terac-table{border-collapse:collapse;margin:0;min-width:760px;width:100%}.terac-table th,.terac-table td{border:0;border-bottom:1px solid #e5e9ed;padding:.85rem .9rem;text-align:right;vertical-align:middle}.terac-table th:first-child,.terac-table td:first-child{text-align:left}.terac-table th{background:#f4f6f8;color:#56606b;font-size:.72rem;font-weight:800;letter-spacing:.035em;line-height:1.35;text-transform:uppercase}.terac-table td{color:#26313c;font-size:.94rem;line-height:1.4}.terac-table tr:last-child td{border-bottom:0}.terac-table .terac-result{color:#137a47;font-weight:800}.terac-note{color:#68717c;font-size:.83rem;line-height:1.55;margin-top:1rem}@media(max-width:650px){.terac-cover{padding-top:2rem}.terac-stat-grid{grid-template-columns:1fr}.terac-stat{display:grid;gap:.25rem 1rem;grid-template-columns:1fr auto}.terac-stat-value{grid-column:2;grid-row:1/span 2;margin:0}}</style>
+<main class=terac-page>
+<section class=terac-cover>
+<div class=terac-eyebrow>Antigravity × Terac</div>
+<h1>Follow-on ownership math</h1>
+<p class=terac-subtitle>A simple comparison of what a $75K follow-on buys under three potential Series A valuations and two discount scenarios.</p>
+<div class=terac-stat-grid>
+<div class=terac-stat>
+<div class=terac-stat-label>Initially invested</div>
+<div class=terac-stat-value>$10K</div>
+<div class=terac-stat-detail>At a $30M valuation</div>
+</div>
+<div class=terac-stat>
+<div class=terac-stat-label>Intended investment</div>
+<div class=terac-stat-value>$100K</div>
+<div class=terac-stat-detail>At the same $30M valuation</div>
+</div>
+<div class=terac-stat>
+<div class=terac-stat-label>Follow-on available</div>
+<div class=terac-stat-value>$75K</div>
+<div class=terac-stat-detail>For the current investment</div>
+</div>
+</div>
+</section>
+<section class=terac-section>
+<h2>Starting point</h2>
+<p>The original $10K investment at $30M bought approximately 0.0333%. The $100K investment we wanted to make at that price would have bought approximately 0.3333%.</p>
+<div class=terac-callout><strong>We bought 10% of the position we originally wanted.</strong></div>
+</section>
+<section class=terac-section>
+<h2>75% discount</h2>
+<p>A 75% discount means investing at 25% of the Series A price. The new $75K receives the same number of shares as $300K invested at the Series A price.</p>
+<div class=terac-table-wrap>
+<table class=terac-table>
+<thead>
+<tr>
+<th>Series A valuation</th>
+<th>Effective conversion price</th>
+<th>Ownership from new $75K</th>
+<th>Headline total*</th>
+<th>% of original target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$150M</td>
+<td>$37.5M</td>
+<td>0.2000%</td>
+<td class=terac-result>0.2333%</td>
+<td class=terac-result>70%</td>
+</tr>
+<tr>
+<td>$200M</td>
+<td>$50M</td>
+<td>0.1500%</td>
+<td class=terac-result>0.1833%</td>
+<td class=terac-result>55%</td>
+</tr>
+<tr>
+<td>$300M</td>
+<td>$75M</td>
+<td>0.1000%</td>
+<td class=terac-result>0.1333%</td>
+<td class=terac-result>40%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class=terac-section>
+<h2>50% discount</h2>
+<p>A 50% discount means investing at 50% of the Series A price. The new $75K receives the same number of shares as $150K invested at the Series A price.</p>
+<div class=terac-table-wrap>
+<table class=terac-table>
+<thead>
+<tr>
+<th>Series A valuation</th>
+<th>Effective conversion price</th>
+<th>Ownership from new $75K</th>
+<th>Headline total*</th>
+<th>% of original target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$150M</td>
+<td>$75M</td>
+<td>0.1000%</td>
+<td class=terac-result>0.1333%</td>
+<td class=terac-result>40%</td>
+</tr>
+<tr>
+<td>$200M</td>
+<td>$100M</td>
+<td>0.0750%</td>
+<td class=terac-result>0.1083%</td>
+<td class=terac-result>32.5%</td>
+</tr>
+<tr>
+<td>$300M</td>
+<td>$150M</td>
+<td>0.0500%</td>
+<td class=terac-result>0.0833%</td>
+<td class=terac-result>25%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<p class=terac-note>* Headline totals add the original 0.0333% without accounting for dilution. Exact ownership depends on the current fully diluted cap table and the final SAFE and Series A mechanics.</p>
+</main>
+</div>
+</article>
+<div id=footer-post-container>
+<div id=footer-post>
+<div id=nav-footer style=display:none>
+<ul>
+</ul>
+</div>
+<div id=toc-footer style=display:none>
+<nav id=TableOfContents></nav>
+</div>
+<div id=share-footer style=display:none>
+<ul>
+<li>
+<a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fgadi.fm%2fterac-ownership%2f" aria-label=Facebook>
+<i class="fab fa-facebook fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://twitter.com/share?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&text=Terac%20follow-on%20ownership%20math" aria-label=Twitter>
+<i class="fab fa-twitter fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&title=Terac%20follow-on%20ownership%20math" aria-label=Linkedin>
+<i class="fab fa-linkedin fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&is_video=false&description=Terac%20follow-on%20ownership%20math" aria-label=Pinterest>
+<i class="fab fa-pinterest fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="mailto:?subject=Terac%20follow-on%20ownership%20math&body=Check out this article: https%3a%2f%2fgadi.fm%2fterac-ownership%2f" aria-label=Email>
+<i class="fas fa-envelope fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&title=Terac%20follow-on%20ownership%20math" aria-label=Pocket>
+<i class="fab fa-get-pocket fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&title=Terac%20follow-on%20ownership%20math" aria-label=reddit>
+<i class="fab fa-reddit fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&name=Terac%20follow-on%20ownership%20math&description=A%20simple%20comparison%20of%20the%20ownership%20produced%20by%20a%20%2475K%20follow-on%20investment%20under%20different%20Series%20A%20and%20discount%20scenarios." aria-label=Tumblr>
+<i class="fab fa-tumblr fa-lg" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fgadi.fm%2fterac-ownership%2f&t=Terac%20follow-on%20ownership%20math" aria-label="Hacker News">
+<i class="fab fa-hacker-news fa-lg" aria-hidden=true></i>
+</a>
+</li>
+</ul>
+</div>
+<div id=actions-footer>
+<a id=menu-toggle class=icon href=# onclick="return $('#nav-footer').toggle(),!1" aria-label=Menu>
+<i class="fas fa-bars fa-lg" aria-hidden=true></i> Menu</a>
+<a id=toc-toggle class=icon href=# onclick="return $('#toc-footer').toggle(),!1" aria-label=TOC>
+<i class="fas fa-list fa-lg" aria-hidden=true></i> TOC</a>
+<a id=share-toggle class=icon href=# onclick="return $('#share-footer').toggle(),!1" aria-label=Share>
+<i class="fas fa-share-alt fa-lg" aria-hidden=true></i> share</a>
+<a id=top style=display:none class=icon href=# onclick="$('html, body').animate({scrollTop:0},'fast')" aria-label="Top of Page">
+<i class="fas fa-chevron-up fa-lg" aria-hidden=true></i> Top</a>
+</div>
+</div>
+</div>
+<footer id=footer>
+<div class=footer-left>
+Copyright &copy; 2026 Gadi Borovich
+</div>
+<div class=footer-right>
+<nav>
+<ul>
+</ul>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+<link rel=stylesheet href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+<script src=/js/code-copy.js></script>
+</html>
