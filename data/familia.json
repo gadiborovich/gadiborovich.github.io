@@ -11,11 +11,14 @@
         "Hijo de Daniel Ilan Borovich Levy y nieto de Bernardo y Lucy. Reúne este álbum para compartir la historia con la familia."
       ],
       "sources": [
-        "familia"
+        "familia",
+        "fotos-familia"
       ],
       "parents": [
         "daniel"
-      ]
+      ],
+      "photo": "gadi-bernardo-abrazo.jpg",
+      "photoCaption": "Gadi de niño abrazado a su abuelo Bernardo."
     },
     "daniel": {
       "name": "Daniel Ilan Borovich Levy",
@@ -28,12 +31,15 @@
         "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero, hermano de Eduardo y papá de Gadi."
       ],
       "sources": [
-        "familia"
+        "familia",
+        "lucy-lapida"
       ],
       "parents": [
         "bernardo",
         "lucy"
-      ]
+      ],
+      "photo": "daniel-lucy-la-paz.jpg",
+      "photoCaption": "Daniel junto a la lápida de su madre Lucy, en La Paz."
     },
     "bernardo": {
       "name": "Bernardo Borovich Polak",
@@ -52,34 +58,43 @@
         "familia",
         "liondas",
         "smu",
-        "retrato"
+        "retrato",
+        "fotos-familia"
       ],
       "image": "bernardo.jpg",
       "parents": [
         "efraim",
         "luisa"
-      ]
+      ],
+      "photo": "gadi-bernardo-abrazo.jpg",
+      "photoCaption": "Bernardo con su nieto Gadi de niño. Fotografía del álbum familiar."
     },
     "lucy": {
       "name": "Lucy Mary Levy Caballero",
       "short": "Lucy Mary",
       "relation": "Hija de Jacobo y Cata",
-      "era": "1942",
+      "era": "1942–2022",
       "place": "Montevideo",
       "status": "Índice y familia",
       "body": [
         "Lucy Mary Levy Caballero nació en Montevideo el 18 de noviembre de 1942. Era hija de Jacobo Levy y Catalina Caballero, ambos nacidos en Esmirna.",
         "Junto a Bernardo Borovich Polak formó la familia de Daniel y Eduardo. Sus abuelos maternos eran León Caballero y Luna Benaderet; los paternos, Salomón Levy y Alejandra Buenavida.",
-        "Fue enterrada en el cementerio de La Paz, según la memoria familiar."
+        "Murió el 30 de junio de 2022 y fue enterrada en el cementerio de La Paz. Su familia la recuerda en la inscripción como la luz y la alegría de sus vidas, y destaca su bondad y su generosidad."
       ],
       "sources": [
         "familia",
-        "lucy"
+        "lucy",
+        "fotos-familia",
+        "lucy-lapida"
       ],
       "parents": [
         "jacobo",
         "cata"
-      ]
+      ],
+      "image": "lucy-joven.jpg",
+      "imageWidth": 720,
+      "imageHeight": 686,
+      "imageClass": "lucy-portrait-photo"
     },
     "efraim": {
       "name": "Efraim Borovich",
@@ -134,7 +149,7 @@
       "body": [
         "Nació en Esmirna el 7 de noviembre de 1911. En la familia también se lo recuerda como Jaco o Yako.",
         "Se casó con Catalina Caballero en Montevideo el 17 de mayo de 1935. Su acta identifica a sus padres como Salomón y Alejandra Levy.",
-        "Él y Cata fueron los padres de Lucy. En una fotografía familiar aparecen juntos frente a una casa en Piriápolis."
+        "Él y Cata fueron los padres de Lucy. En una fotografía familiar aparecen juntos frente a su casa en Piriápolis."
       ],
       "sources": [
         "mat1935",
@@ -146,7 +161,7 @@
         "alejandra"
       ],
       "photo": "cata-jacobo-piriapolis.jpg",
-      "photoCaption": "Catalina Caballero y Jacobo Levy en Piriápolis. Fotografía familiar sin fecha conocida."
+      "photoCaption": "Catalina Caballero y Jacobo Levy en su casa de Piriápolis. Fotografía familiar sin fecha conocida."
     },
     "cata": {
       "name": "Catalina Caballero",
@@ -170,7 +185,7 @@
         "luna"
       ],
       "photo": "cata-jacobo-piriapolis.jpg",
-      "photoCaption": "Catalina Caballero y Jacobo Levy en Piriápolis. Fotografía familiar sin fecha conocida."
+      "photoCaption": "Catalina Caballero y Jacobo Levy en su casa de Piriápolis. Fotografía familiar sin fecha conocida."
     },
     "david": {
       "name": "David",
@@ -406,12 +421,15 @@
       ],
       "sources": [
         "familia",
-        "edy"
+        "edy",
+        "fotos-familia"
       ],
       "parents": [
         "bernardo",
         "lucy"
-      ]
+      ],
+      "photo": "edy-bernardo-abrazo.jpg",
+      "photoCaption": "Edy abrazando a su padre Bernardo. Fotografía del álbum familiar."
     },
     "yosef": {
       "name": "Yosef Cavallero",
@@ -562,7 +580,7 @@
     },
     "piriapolis": {
       "title": "Catalina y Jacobo en Piriápolis · fotografía familiar",
-      "note": "Fotografía compartida por Gadi el 5 de septiembre de 2026 e identificada por él como Catalina y su esposo en Piriápolis. La fecha de la toma y la propiedad de la casa no están establecidas. Se conserva la imagen recibida, sin reconstrucción de rostros."
+      "note": "Fotografía compartida por Daniel el 5 de septiembre de 2026 con el pie «Kata y Jaco en su casa de Piriapolis». Gadi también identifica a la pareja. La fecha de la toma no está establecida. Se conserva la imagen recibida sin reconstrucción de rostros."
     },
     "correspondencia": {
       "title": "Recuerdos de Mordechai compartidos con Daniel y Edy",
@@ -582,6 +600,14 @@
       "title": "Claudia Poggi recuerda a Borovich · entrevista de 2017",
       "url": "https://cciu.org.uy/claudia-poggi-ya-les-dije-que-pongan-una-ambulancia-en-la-puerta/",
       "note": "Entrevista publicada por el CCIU el 3 de noviembre de 2017. Poggi recuerda a Borovich, neurocirujano que había vivido en Israel y regresado a Uruguay, y su aliento sobre su trabajo allí. El pasaje se parafrasea en el relato."
+    },
+    "fotos-familia": {
+      "title": "Fotografías de Lucy y de los abrazos familiares",
+      "note": "Cinco imágenes compartidas por Daniel en el grupo Borovich & Cía el 5 de septiembre de 2026. Gadi identifica el retrato joven de Lucy, el abrazo de Eduardo con Bernardo, el suyo de niño con Bernardo y a Daniel junto a la lápida de Lucy. Fechas de las tomas no establecidas. El texto 18NOV1942 sobre el retrato de Lucy corresponde a su nacimiento; no fecha la fotografía."
+    },
+    "lucy-lapida": {
+      "title": "Lucy · inscripción en su lápida",
+      "note": "Fotografía de Daniel junto a la lápida de su madre, compartida el 5 de septiembre de 2026 e identificada por Gadi. Se leen Lucy Mary Levy Caballero de Borovich y las fechas 18.11.1942–30.6.2022. Gadi identifica el cementerio como La Paz. El autorretrato recibido está en espejo; se conserva el original sin modificación."
     }
   }
 }

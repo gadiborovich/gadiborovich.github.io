@@ -76,3 +76,34 @@
  .family-next>div{grid-template-columns:1fr}.bibliography-title{font-size:1.35rem}.sources{padding-block:2rem}
 }
 @media print{.book-contents{display:none}.book-chapter{padding-top:2rem}.book-chapter+.book-chapter{margin-top:2rem}.book-spread,.book-landscape,.book-object{break-inside:avoid}.book-prose p{font-size:12pt}.chapter-heading{break-after:avoid}.book-image>span{display:none}}
+
+/* Lucy y Bernardo comparten la portada, con sus fotografías originales. */
+.cover-couple{display:flex;align-items:center;justify-content:center;gap:0;min-height:420px}
+.cover-couple .cover-portrait{position:relative;right:auto;bottom:auto;width:49%;padding:11px 11px 14px;flex-shrink:0;max-width:260px}
+.cover-couple .portrait-lucy{transform:rotate(-6deg);z-index:1;margin-top:-2rem}
+.cover-couple .portrait-bernardo{transform:rotate(6deg);margin-top:3.5rem}
+.cover-couple .cover-portrait figcaption{font-size:1.55rem;margin-top:.65rem}
+.portrait-window{aspect-ratio:265/373;overflow:hidden}
+.cover-couple .portrait-window img{width:100%;height:100%;object-fit:cover;aspect-ratio:auto}
+.cover-couple .portrait-lucy img{height:110%;transform:translateY(-9%);object-position:center}
+@media(max-width:700px){.cover-couple{width:100%;min-height:0;padding:1rem .6rem .5rem;gap:0}.cover-couple .cover-portrait{width:48%;padding:7px 7px 10px}.cover-couple .portrait-lucy{margin-top:0}.cover-couple .portrait-bernardo{margin-top:2.7rem}.cover-couple .cover-portrait figcaption{font-size:1.2rem}.cover-couple .portrait-window{aspect-ratio:3/4}}
+
+.book-pair{display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:760px;margin:3rem auto}
+.book-pair figcaption{font-size:.84rem;line-height:1.6}
+.photo-portrait-window{display:block;aspect-ratio:4/5;overflow:hidden}
+.book-image .photo-portrait-window img{height:100%;object-fit:cover}
+.book-image .lucy-window img{height:110%;transform:translateY(-9%)}
+.book-image:hover .lucy-window img{transform:translateY(-9%)}
+.family-embraces{max-width:960px;align-items:start}
+.family-embraces .image-button{background:#ecece4}
+.family-embraces .image-button img{height:auto;object-fit:contain}
+.remembrance{margin:4rem auto 3rem;padding-top:3rem;border-top:1px solid var(--line);max-width:960px}
+.remembrance h4{font-family:var(--serif);font-size:2.25rem;font-weight:400;line-height:1.2;margin:0 0 1.3rem;letter-spacing:-.035em}
+.book-prose .eyebrow{font-family:var(--sans);font-size:.78rem;line-height:1.5;color:var(--muted)}
+.person-thumbnail{display:block;width:50px;height:70px;flex-shrink:0;overflow:hidden}
+.person .person-thumbnail img{width:100%;height:100%;object-fit:cover;object-position:center}
+.person .lucy-portrait-photo img{height:110%;transform:translateY(-9%)}
+.profile-portrait{width:110px;aspect-ratio:265/373;overflow:hidden;flex-shrink:0}
+.profile-portrait img{width:100%;height:100%;object-fit:cover}
+.profile-portrait.lucy-portrait-photo img{height:110%;transform:translateY(-9%)}
+@media(max-width:700px){.book-pair{gap:1rem;margin-block:2rem}.book-pair figcaption{font-size:.76rem}.family-embraces{grid-template-columns:1fr;max-width:460px;gap:2rem}.remembrance{margin-top:3rem;padding-top:2rem}.profile-portrait{width:80px}}
