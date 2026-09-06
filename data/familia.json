@@ -12,14 +12,18 @@
       ],
       "sources": [
         "familia",
-        "fotos-familia"
+        "fotos-familia",
+        "gadi-retrato"
       ],
       "parents": [
         "daniel",
         "mariela"
       ],
       "photo": "gadi-bernardo-abrazo.jpg",
-      "photoCaption": "Gadi de niño abrazado a su abuelo Bernardo."
+      "photoCaption": "Gadi de niño abrazado a su abuelo Bernardo.",
+      "image": "gadi-retrato.jpg",
+      "imageWidth": 640,
+      "imageHeight": 640
     },
     "daniel": {
       "name": "Daniel Ilan Borovich Levy",
@@ -40,7 +44,11 @@
         "lucy"
       ],
       "photo": "daniel-lucy-la-paz.jpg",
-      "photoCaption": "Daniel junto a la lápida de su madre Lucy, en La Paz."
+      "photoCaption": "Daniel junto a la lápida de su madre Lucy, en La Paz.",
+      "image": "daniel-lucy-la-paz.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1536,
+      "imageClass": "daniel-portrait-photo"
     },
     "bernardo": {
       "name": "Bernardo Borovich Polak",
@@ -428,14 +436,18 @@
       "sources": [
         "familia",
         "edy",
-        "fotos-familia"
+        "fotos-familia",
+        "eduardo-retrato"
       ],
       "parents": [
         "bernardo",
         "lucy"
       ],
       "photo": "edy-bernardo-abrazo.jpg",
-      "photoCaption": "Edy abrazando a su padre Bernardo. Fotografía del álbum familiar."
+      "photoCaption": "Edy abrazando a su padre Bernardo. Fotografía del álbum familiar.",
+      "image": "eduardo-retrato.jpg",
+      "imageWidth": 360,
+      "imageHeight": 360
     },
     "yosef": {
       "name": "Yosef Cavallero",
@@ -509,8 +521,12 @@
         "Dalia Szpiro y Eduardo (Edy) Borovich son los padres de Yael y Vanessa."
       ],
       "sources": [
-        "familia"
-      ]
+        "familia",
+        "dalia-retrato"
+      ],
+      "image": "dalia-retrato.jpg",
+      "imageWidth": 166,
+      "imageHeight": 179
     },
     "yael": {
       "name": "Yael Borovich",
@@ -523,12 +539,16 @@
         "Hija de Eduardo (Edy) Borovich y Dalia Szpiro, hermana de Vanessa y prima de Gadi. Es nieta de Bernardo y Lucy."
       ],
       "sources": [
-        "familia"
+        "familia",
+        "yael-retrato"
       ],
       "parents": [
         "eduardo",
         "dalia"
-      ]
+      ],
+      "image": "yael-retrato.jpg",
+      "imageWidth": 800,
+      "imageHeight": 800
     },
     "vanessa": {
       "name": "Vanessa Borovich",
@@ -541,12 +561,16 @@
         "Hija de Eduardo (Edy) Borovich y Dalia Szpiro, hermana de Yael y prima de Gadi. Es nieta de Bernardo y Lucy."
       ],
       "sources": [
-        "familia"
+        "familia",
+        "vanessa-retrato"
       ],
       "parents": [
         "eduardo",
         "dalia"
-      ]
+      ],
+      "image": "vanessa-retrato.jpg",
+      "imageWidth": 121,
+      "imageHeight": 121
     }
   },
   "sources": {
@@ -708,6 +732,30 @@
       "title": "Dos capítulos en Skull Base Surgery · Karger, 1994",
       "url": "https://karger.com/books/book/2975/Skull-Base-SurgeryAnatomy-Diagnosis-and",
       "note": "Índice oficial del libro editado por M. Samii, correspondiente al congreso de Hannover de junio de 1992 y publicado en 1994. B. Borovich: A Proposed CT Grading System for Brain Edema and Intracranial Mass Effect, pp. 38–39, DOI 10.1159/000429726; Yaffa Doron y Bernardo Borovich: Recurrence of Meningiomas, pp. 210–212, DOI 10.1159/000429830. Se verificaron los datos editoriales; no se consultó el texto completo de los capítulos."
+    },
+    "gadi-retrato": {
+      "title": "Retrato de Gadi",
+      "note": "Fotografía de perfil de Gadi en WhatsApp, incorporada al álbum familiar."
+    },
+    "eduardo-retrato": {
+      "title": "Retrato de Eduardo Borovich",
+      "url": "https://www.linkedin.com/in/eduardo-borovich-50aa50102/",
+      "note": "Fotografía de su perfil profesional. La nota sobre Dalia en The Jewish Post & News también identifica a Eduardo, Yael y Vanessa como su familia."
+    },
+    "dalia-retrato": {
+      "title": "Dalia Szpiro · GrowWinnipeg",
+      "url": "https://jewishpostandnews.ca/faqs/rokmicronews-fp-1/growwinnipeg-celebrates-25th-anniversary/",
+      "note": "Retrato identificado como Dalia Szpiro en The Jewish Post & News, en la nota por los 25 años de GrowWinnipeg (2025)."
+    },
+    "yael-retrato": {
+      "title": "Retrato de Yael Borovich",
+      "url": "https://www.linkedin.com/in/yael-borovich/",
+      "note": "Fotografía de su perfil profesional. Su trayectoria en Scotiabank y la Universidad de Manitoba coincide con la nota sobre la familia de Dalia en The Jewish Post & News."
+    },
+    "vanessa-retrato": {
+      "title": "Vanessa Borovich Szpiro · Jewish Foundation of Manitoba",
+      "url": "https://www.jewishfoundation.org/docs/default-source/jfm-newsletters/2025/jfm-newsletter-april-2025-online.pdf#page=5",
+      "note": "Retrato rotulado con su nombre completo en el boletín de abril de 2025, página 5, entre los George Finkle Memorial Scholastic Awards de 2024."
     }
   }
 }
