@@ -5,7 +5,7 @@
   <title>{{ .Title }} | gadi.fm</title><meta name="description" content="{{ .Description }}">
   <meta name="robots" content="noindex,nofollow,noarchive"><link rel="canonical" href="https://gadi.fm/familia/">
   <meta name="theme-color" content="#183d44"><link rel="icon" href="/images/favicon.ico">
-  <link rel="stylesheet" href="/familia/album.css"><script defer src="/familia/album.js"></script>
+  <link rel="stylesheet" href="/familia/album.css?v={{ md5 (readFile "static/familia/album.css") }}"><script defer src="/familia/album.js?v={{ md5 (readFile "static/familia/album.js") }}"></script>
 </head>
 <body>
 <a class="skip" href="#historia">Empezar la historia</a>
