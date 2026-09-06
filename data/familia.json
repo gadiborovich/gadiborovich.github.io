@@ -13,7 +13,8 @@
       "sources": [
         "familia",
         "fotos-familia",
-        "gadi-retrato"
+        "gadi-retrato",
+        "yael-gadi-infancia"
       ],
       "parents": [
         "daniel",
@@ -540,7 +541,8 @@
       ],
       "sources": [
         "familia",
-        "yael-retrato"
+        "yael-retrato",
+        "yael-gadi-infancia"
       ],
       "parents": [
         "eduardo",
@@ -548,7 +550,9 @@
       ],
       "image": "yael-retrato.jpg",
       "imageWidth": 800,
-      "imageHeight": 800
+      "imageHeight": 800,
+      "photo": "yael-gadi-infancia.jpg",
+      "photoCaption": "Yael y Gadi, de chicos. Un beso entre primos."
     },
     "vanessa": {
       "name": "Vanessa Borovich",
@@ -756,6 +760,10 @@
       "title": "Vanessa Borovich Szpiro · Jewish Foundation of Manitoba",
       "url": "https://www.jewishfoundation.org/docs/default-source/jfm-newsletters/2025/jfm-newsletter-april-2025-online.pdf#page=5",
       "note": "Retrato rotulado con su nombre completo en el boletín de abril de 2025, página 5, entre los George Finkle Memorial Scholastic Awards de 2024."
+    },
+    "yael-gadi-infancia": {
+      "title": "Yael y Gadi, de chicos",
+      "note": "Fotografía compartida e identificada por Gadi el 5 de septiembre de 2026. La fecha y el lugar de la toma no están establecidos. Se conserva la imagen completa."
     }
   }
 }
