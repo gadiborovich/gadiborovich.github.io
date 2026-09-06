@@ -7,3 +7,72 @@
 .map-point circle.map-hit{fill:transparent;stroke:none}.map-point:focus-visible{outline:none}.map-point:focus-visible circle:not(.map-hit){stroke:var(--accent);stroke-width:4}.map-credit{font-size:.75rem}
 
 .candidate-image img{object-fit:cover;object-position:center 55%;padding:0}@media(max-width:700px){.map-point text{display:none}}
+
+/* Lectura familiar: voz de libro, fotografías y espacio entre capítulos. */
+.story-copy>p:not(.eyebrow){font-family:var(--serif);font-size:1.2rem;line-height:1.85;color:#29464c}.story-copy h3{font-size:clamp(2.2rem,4vw,3.4rem)}.cover-intro{font-family:var(--serif);font-size:1.15rem}.history{background:var(--paper)}
+
+/* La historia se lee como un libro; árbol y archivo acompañan al final. */
+.book-opening{max-width:680px;margin:0 auto 3rem;text-align:center}
+.book-opening h2{font-size:clamp(2.8rem,5.4vw,4.6rem);margin-bottom:1.6rem}
+.book-opening>p:not(.eyebrow){font-family:var(--serif);font-size:1.28rem;line-height:1.8;color:#3e5458}
+.book-contents{list-style:none;counter-reset:none;padding:1.6rem 0;margin:0 0 1rem;display:grid;grid-template-columns:repeat(5,1fr);gap:1.5rem;border-block:1px solid var(--line)}
+.book-contents a{display:block;text-decoration:none;font-family:var(--serif);font-size:1.08rem;line-height:1.45}
+.book-contents a:hover{text-decoration:underline}.book-contents span{display:block;color:var(--accent);font-style:italic;font-size:1.4rem;margin-bottom:.35rem}
+.book-chapter{padding:5rem 0 0;scroll-margin-top:5rem}
+.book-chapter+.book-chapter{margin-top:5rem;border-top:1px solid var(--line)}
+.chapter-heading{max-width:720px;margin:0 auto 2.25rem;text-align:center}
+.chapter-heading h3{font-size:clamp(2.5rem,4.5vw,4rem)}
+.book-prose{max-width:690px;margin-inline:auto}
+.book-prose p{font-family:var(--serif);font-size:1.24rem;line-height:1.9;color:#29464c;margin-bottom:1.3em}
+.book-prose p:last-child{margin-bottom:0}
+.book-prose>p:first-child:first-letter{font-variant-ligatures:none}
+.book-spread{max-width:960px;margin:3rem auto}
+.book-landscape{max-width:730px;margin:3rem auto}
+.book-spread figcaption,.book-landscape figcaption{max-width:740px;margin:1rem auto 0;font-size:.87rem;line-height:1.6}
+.book-image{background:transparent}
+.book-image img{height:auto;width:100%;max-height:none;object-fit:contain;padding:0}
+.book-image:hover img{transform:none}
+.book-image:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+.book-image>span{background:#faf9f5ed}
+.book-aside{max-width:640px;margin:2.5rem auto;padding:1.6rem 2rem;border-left:2px solid #ad8b60;background:#f0efe7}
+.book-aside .eyebrow{margin-bottom:.65rem}
+.book-aside p:last-child{font-family:var(--serif);font-size:1.15rem;line-height:1.8;margin:0}
+.chapter-notes{max-width:690px;margin:2.2rem auto 0;font-size:.78rem;color:var(--muted);line-height:1.9}
+.chapter-notes a{text-decoration-color:#b6c1b9}
+.book-inset{max-width:960px;margin:3rem auto;display:grid;grid-template-columns:245px 1fr;gap:3.5rem;align-items:center}
+.bernardo-inset{padding:.75rem .75rem 1rem;background:#fff;box-shadow:0 4px 18px #183d4412}
+.bernardo-inset img{width:100%}
+.bernardo-inset figcaption{font-size:.78rem}
+.book-object{max-width:480px;margin:2.5rem auto}
+.book-object .image-button{background:#f0eee5;padding:1rem}
+.book-object .image-button img{height:auto;padding:0}
+.family-next{margin:3rem auto 0;padding-top:2rem;border-top:1px solid var(--line);max-width:640px;text-align:center}
+.family-next>div{display:grid;grid-template-columns:1fr 1fr;gap:1rem;text-align:left}
+.family-next>p:last-child{font-family:var(--serif);font-style:italic;color:var(--muted);margin:1.5rem 0 0}
+.family-closing{text-align:center;max-width:700px;border-top:1px solid var(--line)}
+.family-closing>p:not(.eyebrow):not(#share-status){font-family:var(--serif);font-size:1.2rem;line-height:1.85}
+.sources{padding-block:2.5rem}
+.bibliography>summary{display:flex;align-items:center;justify-content:space-between;gap:1rem;list-style:none;cursor:pointer}
+.bibliography>summary::-webkit-details-marker{display:none}
+.bibliography>summary .eyebrow{display:block;margin-bottom:.4rem}
+.bibliography-title{font-family:var(--serif);font-size:1.65rem;line-height:1.3}
+.bibliography>summary>span:last-child{font-size:1.8rem;transition:transform .2s}
+.bibliography[open]>summary>span:last-child{transform:rotate(45deg)}
+.bibliography[open]>.source-list{margin-top:1.5rem}
+.profile-photo{margin-top:1.5rem}
+.profile-photo img{max-height:450px;object-fit:contain;margin:auto}
+.profile-sources{border-top:1px solid var(--line);padding-top:1rem}
+.profile-sources summary{font-size:.9rem;cursor:pointer;margin-bottom:1rem}
+.profile-body p{font-family:var(--serif);font-size:1.08rem}
+.cover-street img{aspect-ratio:2048/1288;object-fit:contain;filter:none}
+@media(max-width:1000px){.book-contents{gap:1rem}.book-inset{gap:2.5rem;grid-template-columns:210px 1fr}.book-prose{max-width:660px}}
+@media(max-width:700px){
+ .book-opening{text-align:left;margin-bottom:2.25rem}.book-opening>p:not(.eyebrow){font-size:1.16rem}
+ .book-contents{grid-template-columns:1fr;gap:0;padding-block:.5rem}.book-contents a{display:flex;gap:.9rem;align-items:baseline;padding:.6rem 0}.book-contents span{width:1.8rem;flex-shrink:0;margin:0;font-size:1.1rem}
+ .book-chapter{padding-top:3rem}.book-chapter+.book-chapter{margin-top:3rem}.chapter-heading{text-align:left;margin-bottom:1.7rem}.chapter-heading h3{font-size:2.55rem}
+ .book-prose p{font-size:1.12rem;line-height:1.85}.book-spread,.book-landscape{margin-block:2rem}.book-spread figcaption,.book-landscape figcaption{font-size:.79rem}
+ .book-aside{padding:1.2rem 1.25rem;margin-block:2rem}.book-aside p:last-child{font-size:1.08rem}
+ .book-inset{grid-template-columns:1fr;gap:2rem;margin-block:2rem}.bernardo-inset{max-width:240px;justify-self:center}.chapter-notes{font-size:.76rem}
+ .family-next>div{grid-template-columns:1fr}.bibliography-title{font-size:1.35rem}.sources{padding-block:2rem}
+}
+@media print{.book-contents{display:none}.book-chapter{padding-top:2rem}.book-chapter+.book-chapter{margin-top:2rem}.book-spread,.book-landscape,.book-object{break-inside:avoid}.book-prose p{font-size:12pt}.chapter-heading{break-after:avoid}.book-image>span{display:none}}

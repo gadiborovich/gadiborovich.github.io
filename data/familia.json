@@ -3,12 +3,12 @@
     "gadi": {
       "name": "Gadi Borovich",
       "short": "Gadi",
-      "relation": "La generación que reúne esta historia",
+      "relation": "Nieto de Bernardo y Lucy",
       "era": "",
       "place": "",
       "status": "Recuerdo familiar",
       "body": [
-        "Esta historia empieza con una búsqueda sobre la rama paterna de Gadi: nombres que la familia recuerda, documentos que aparecen y fotografías que todavía necesitan una voz que las reconozca."
+        "Hijo de Daniel Ilan Borovich Levy y nieto de Bernardo y Lucy. Reúne este álbum para compartir la historia con la familia."
       ],
       "sources": [
         "familia"
@@ -20,12 +20,12 @@
     "daniel": {
       "name": "Daniel Ilan Borovich Levy",
       "short": "Daniel Ilan",
-      "relation": "Papá de Gadi",
+      "relation": "Hijo de Bernardo y Lucy",
       "era": "",
       "place": "",
       "status": "Recuerdo familiar",
       "body": [
-        "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero. A través de sus padres se unen las ramas Borovich, Polak, Levy y Caballero."
+        "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero, hermano de Eduardo y papá de Gadi."
       ],
       "sources": [
         "familia"
@@ -38,15 +38,15 @@
     "bernardo": {
       "name": "Bernardo Borovich Polak",
       "short": "Bernardo",
-      "relation": "Abuelo de Gadi",
+      "relation": "Hijo de Efraim y Luisa",
       "era": "1932",
       "place": "Montevideo · Haifa · Jerusalén",
       "status": "Documentos y familia",
       "body": [
         "Nació en Montevideo el 18 de marzo de 1932. Sus padres, Efraim y Luisa, habían llegado a Uruguay desde Lituania y Polonia.",
-        "Se graduó de médico en 1960. En 1963 presentó su tesis sobre empiema subdural y absceso extradural: hoy conocemos la fotografía de un ejemplar de esa obra.",
+        "Se recibió de médico en 1960. Su tesis de 1963 se tituló Empiema subdural y absceso extradural.",
         "Trabajó en Israel desde 1971, en los hospitales Rambam de Haifa y Hadassah de Jerusalén. Regresó a Uruguay en 1988 y dirigió la neurocirugía del Instituto de Neurología hasta 1997.",
-        "El Sindicato Médico del Uruguay lo distinguió en 2004. La presentación de ese acto conserva el retrato que abre este álbum."
+        "Junto a Lucy Levy Caballero formó la familia de Daniel y Eduardo. En 2004 recibió una distinción del Sindicato Médico del Uruguay por su labor docente, científica y profesional."
       ],
       "sources": [
         "familia",
@@ -63,14 +63,14 @@
     "lucy": {
       "name": "Lucy Mary Levy Caballero",
       "short": "Lucy Mary",
-      "relation": "Abuela de Gadi",
+      "relation": "Hija de Jacobo y Cata",
       "era": "1942",
       "place": "Montevideo",
       "status": "Índice y familia",
       "body": [
-        "La familia la recuerda como Lucy. Su ficha migratoria de Brasil registra el nombre completo Lucy Mary Levy Caballero, nacida en Montevideo el 18 de noviembre de 1942, hija de Jacobo y Catalina.",
-        "El índice registra un trámite migratorio en Río de Janeiro en 1962; la imagen de la ficha todavía no está disponible. Ese dato no establece una residencia permanente en Brasil.",
-        "Gadi confirma que fue enterrada en el cementerio de La Paz. Todavía buscamos su retrato para acompañar esta ficha."
+        "Lucy Mary Levy Caballero nació en Montevideo el 18 de noviembre de 1942. Era hija de Jacobo Levy y Catalina Caballero, ambos nacidos en Esmirna.",
+        "Junto a Bernardo Borovich Polak formó la familia de Daniel y Eduardo. Sus abuelos maternos eran León Caballero y Luna Benaderet; los paternos, Salomón Levy y Alejandra Buenavida.",
+        "Fue enterrada en el cementerio de La Paz, según la memoria familiar."
       ],
       "sources": [
         "familia",
@@ -89,8 +89,8 @@
       "place": "Lituania → Montevideo",
       "status": "Documentos y familia",
       "body": [
-        "Nació el 13 de noviembre de 1894 en Lituania. Su matrimonio de 1929 lo registra como comerciante; la semblanza de Bernardo recuerda que su padre era mueblero y había llegado en 1926.",
-        "En la familia se recuerda el apellido anterior Borovicas. El acta matrimonial presenta la forma Efroim / Efraim Borovik, con correcciones del apellido. Son pistas para seguir buscando documentos.",
+        "Nació el 13 de noviembre de 1894 en Lituania. Llegó a Uruguay en 1926 y se dedicó al negocio de los muebles.",
+        "En la familia se recuerda el apellido anterior Borovicas. Su acta matrimonial también conserva la forma Borovik.",
         "Se casó con Luisa Polak en Villa del Cerro el 14 de enero de 1929. Ambos aparecen domiciliados en la calle Portugal. Sus padres, David y Rosa, seguían en Lituania."
       ],
       "sources": [
@@ -134,16 +134,19 @@
       "body": [
         "Nació en Esmirna el 7 de noviembre de 1911. En la familia también se lo recuerda como Jaco o Yako.",
         "Se casó con Catalina Caballero en Montevideo el 17 de mayo de 1935. Su acta identifica a sus padres como Salomón y Alejandra Levy.",
-        "La fecha y el barco de su llegada a Uruguay siguen pendientes de comprobación. Un manifiesto de 1924 es una pista, pero presenta una edad incompatible con su nacimiento documentado."
+        "Él y Cata fueron los padres de Lucy. En una fotografía familiar aparecen juntos frente a una casa en Piriápolis."
       ],
       "sources": [
         "mat1935",
-        "familia"
+        "familia",
+        "piriapolis"
       ],
       "parents": [
         "salomon",
         "alejandra"
-      ]
+      ],
+      "photo": "cata-jacobo-piriapolis.jpg",
+      "photoCaption": "Catalina Caballero y Jacobo Levy en Piriápolis. Fotografía familiar sin fecha conocida."
     },
     "cata": {
       "name": "Catalina Caballero",
@@ -155,16 +158,19 @@
       "body": [
         "Nació en Esmirna el 17 de mayo de 1917, hija de León Caballero y Luna Benaderet.",
         "Se casó con Jacobo Levy en Montevideo el 17 de mayo de 1935: el mismo día que cumplía dieciocho años.",
-        "Edy recuerda tres hermanos de Cata: Simón, José y Ester. Esa información familiar ayuda a comparar las fotografías y los documentos encontrados, aunque todavía no confirma la identidad de los retratados."
+        "Fue madre de Lucy y hermana de Simón, José y Ester. Una fotografía familiar la muestra con Jacobo en Piriápolis."
       ],
       "sources": [
         "mat1935",
-        "edy"
+        "edy",
+        "piriapolis"
       ],
       "parents": [
         "leon",
         "luna"
-      ]
+      ],
+      "photo": "cata-jacobo-piriapolis.jpg",
+      "photoCaption": "Catalina Caballero y Jacobo Levy en Piriápolis. Fotografía familiar sin fecha conocida."
     },
     "david": {
       "name": "David",
@@ -174,7 +180,7 @@
       "place": "Lituania",
       "status": "Documento original",
       "body": [
-        "El matrimonio de Efraim de 1929 nombra a David, lituano, comerciante y residente en Lituania junto a Rosa. Todavía no se ha localizado su propio nacimiento o matrimonio."
+        "Padre de Efraim y esposo de Rosa. Era comerciante y vivía en Lituania cuando su hijo se casó en Uruguay, en enero de 1929."
       ],
       "sources": [
         "mat1929"
@@ -188,7 +194,7 @@
       "place": "Lituania",
       "status": "Documento original",
       "body": [
-        "Figura como madre de Efraim en el acta de 1929, residente en Lituania con David. No se ha establecido su apellido de nacimiento."
+        "Madre de Efraim y esposa de David. Vivía con él en Lituania cuando su hijo se casó en Uruguay, en 1929. Su apellido de nacimiento no está establecido."
       ],
       "sources": [
         "mat1929"
@@ -202,7 +208,7 @@
       "place": "Polonia",
       "status": "Documento original",
       "body": [
-        "El acta matrimonial de Luisa identifica a su padre como Boris Polak, polaco y ya fallecido en enero de 1929. No se conoce aún la fecha de su fallecimiento."
+        "Padre de Luisa Polak. Era polaco y ya había fallecido cuando su hija se casó en Montevideo, en enero de 1929."
       ],
       "sources": [
         "mat1929"
@@ -216,7 +222,7 @@
       "place": "Polonia",
       "status": "Documento original",
       "body": [
-        "El acta de Luisa la registra como Rebeca Polak, viuda y residente en Polonia. No está establecido si Polak era también su apellido de nacimiento."
+        "Madre de Luisa y viuda de Boris. Seguía viviendo en Polonia cuando Luisa se casó con Efraim en Uruguay, en 1929."
       ],
       "sources": [
         "mat1929"
@@ -230,9 +236,9 @@
       "place": "Turquía · Montevideo",
       "status": "Documento original",
       "body": [
-        "Murió el 7 de octubre de 1944, a los 68 años. El acta lo registra como turco y comerciante; declara desconocido su lugar de nacimiento.",
-        "Su esposa aparece como Alejandra Buenavida. Sus padres fueron Jacobo Levy y Perla Cohen: este documento permite remontar una generación más la rama Levy.",
-        "El acta menciona siete hijos sobrevivientes. Varios nombres se leen con claridad, pero uno todavía requiere revisar la escritura original."
+        "Salomón Levy era comerciante y estaba casado con Alejandra Buenavida. Fue el padre de Jacobo, el abuelo de Lucy.",
+        "Sus padres se llamaban Jacobo Levy y Perla Cohen. El nombre Jacobo volvió a aparecer en la generación de su hijo.",
+        "Murió en Montevideo el 7 de octubre de 1944, a los 68 años. Dejó siete hijos sobrevivientes. Su acta lo registra como turco, sin precisar la localidad de nacimiento."
       ],
       "sources": [
         "salomon",
@@ -268,14 +274,21 @@
       "place": "Turquía · Montevideo",
       "status": "Documento original",
       "body": [
-        "El matrimonio de Catalina lo identifica como su padre, turco, casado con Luna Benaderet.",
-        "Según la información familiar aportada por Gadi, León seguía en Turquía en 1912. Por eso una fotografía argentina fechada en ese año no se incorpora como retrato suyo.",
-        "Las coincidencias con una familia Caballero descrita en una tesis merecen seguimiento, pero todavía no permiten añadir generaciones anteriores a León."
+        "León Caballero estaba casado con Luna Benaderet. Fueron los padres de Catalina, Simón, José y Ester.",
+        "Era hermano de Jacobo Caballero, el padre de Marcos Caballero —Mordechai Ben Abir—. Sus padres fueron Yosef Cavallero y Esther, o Estérula, Guiní, según la genealogía de Mordechai."
       ],
       "sources": [
         "mat1935",
-        "familia"
-      ]
+        "caballero",
+        "leon-foto",
+        "edy"
+      ],
+      "parents": [
+        "yosef",
+        "esterula"
+      ],
+      "photo": "leon-familia-1912.jpg",
+      "photoCaption": "León, a la izquierda, con su hermano Jacobo y la familia de Esther Sabaj. Argentina, 1912, según la atribución de Mordechai."
     },
     "luna": {
       "name": "Luna Benaderet",
@@ -285,8 +298,8 @@
       "place": "Turquía · Montevideo",
       "status": "Documento original",
       "body": [
-        "Su nombre completo figura en el matrimonio de Catalina y Jacobo de 1935. Allí consta como turca y esposa de León Caballero.",
-        "Víctor Benaderet fue testigo de esa boda. El apellido compartido es una pista; el acta no indica qué parentesco tenía con Luna."
+        "Luna Benaderet, nacida en Turquía, estaba casada con León Caballero. Fueron los padres de Cata, Simón, José y Ester.",
+        "Su hija Cata se casó con Jacobo Levy en Montevideo en 1935. A través de ella, Luna fue la abuela de Lucy."
       ],
       "sources": [
         "mat1935"
@@ -324,16 +337,21 @@
       "name": "Simón Caballero",
       "short": "Simón",
       "relation": "Hermano de Cata",
-      "era": "",
-      "place": "",
+      "era": "1911",
+      "place": "Esmirna · Montevideo",
       "status": "Recuerdo de Edy",
       "body": [
-        "Edy recuerda a Simón Caballero como hermano de Cata. No se han establecido todavía fechas, pareja o descendencia.",
-        "Hay una fotografía candidata en la sección «Por reconocer». La coincidencia de nombres y relaciones justifica investigarla; todavía no confirma que retrate a este familiar."
+        "Simón Caballero era hermano de Cata, José y Ester, hijo de León Caballero y Luna Benaderet.",
+        "Nació en Esmirna el 1 de enero de 1911. Edy recuerda que compartían el cumpleaños. La tesis de Fernando Raúl Klein reproduce documentación de su nacimiento."
       ],
       "sources": [
         "edy",
+        "klein",
         "simon"
+      ],
+      "parents": [
+        "leon",
+        "luna"
       ]
     },
     "jose": {
@@ -341,15 +359,21 @@
       "short": "José",
       "relation": "Hermano de Cata",
       "era": "",
-      "place": "",
+      "place": "Uruguay",
       "status": "Recuerdo de Edy",
       "body": [
-        "Edy recuerda a José Caballero como hermano de Cata. No se han establecido todavía fechas, pareja o descendencia.",
-        "Hay una fotografía candidata en la sección «Por reconocer». La coincidencia de nombres y relaciones justifica investigarla; todavía no confirma que retrate a este familiar."
+        "José Caballero era hermano de Cata, Simón y Ester, hijo de León y Luna.",
+        "Mordechai lo recuerda como un familiar que vivió y murió en Uruguay. Edy reconoció su retrato entre las imágenes compartidas por la familia."
       ],
       "sources": [
         "edy",
         "jose"
+      ],
+      "photo": "jose-candidato.png",
+      "photoCaption": "José Caballero, hermano de Cata. Retrato publicado por Mordechai y reconocido por Edy.",
+      "parents": [
+        "leon",
+        "luna"
       ]
     },
     "ester": {
@@ -360,21 +384,91 @@
       "place": "",
       "status": "Recuerdo de Edy",
       "body": [
-        "Edy recuerda a Ester Caballero como hermana de Cata. No se han establecido todavía fechas, pareja o descendencia."
+        "Ester Caballero era hermana de Cata, Simón y José, e hija de León Caballero y Luna Benaderet."
       ],
       "sources": [
         "edy"
+      ],
+      "parents": [
+        "leon",
+        "luna"
+      ]
+    },
+    "eduardo": {
+      "name": "Eduardo Borovich Levy",
+      "short": "Eduardo · Edy",
+      "relation": "Hijo de Bernardo y Lucy",
+      "era": "",
+      "place": "",
+      "status": "Memoria familiar",
+      "body": [
+        "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero y hermano de Daniel. En la familia, Edy."
+      ],
+      "sources": [
+        "familia",
+        "edy"
+      ],
+      "parents": [
+        "bernardo",
+        "lucy"
+      ]
+    },
+    "yosef": {
+      "name": "Yosef Cavallero",
+      "short": "Yosef",
+      "relation": "Papá de León",
+      "era": "",
+      "place": "Esmirna",
+      "status": "Genealogía publicada",
+      "body": [
+        "Padre de León y Jacobo Caballero, según la genealogía de Mordechai Ben Abir.",
+        "El compromiso matrimonial con Esther, llamada Estérula, Guiní está fechado en 1880. Un censo de alrededor de 1888 los registra con una hija pequeña, Miriam."
+      ],
+      "sources": [
+        "caballero"
+      ]
+    },
+    "esterula": {
+      "name": "Esther · Estérula Guiní",
+      "short": "Estérula",
+      "relation": "Mamá de León",
+      "era": "",
+      "place": "Esmirna",
+      "status": "Genealogía publicada",
+      "body": [
+        "Madre de León y Jacobo Caballero y esposa de Yosef Cavallero, según la genealogía de Mordechai Ben Abir.",
+        "El compromiso matrimonial de 1880 la identifica como hija de Abraham Giní. En la documentación aparece como Esther, también llamada Estérula."
+      ],
+      "sources": [
+        "caballero"
+      ],
+      "parents": [
+        "abraham-gini"
+      ]
+    },
+    "abraham-gini": {
+      "name": "Abraham Giní",
+      "short": "Abraham",
+      "relation": "Papá de Estérula",
+      "era": "",
+      "place": "",
+      "status": "Documento publicado en una genealogía",
+      "body": [
+        "Padre de Esther, o Estérula, Guiní. Su nombre figura en el compromiso matrimonial de su hija con Yosef Cavallero, fechado en 1880 y publicado por Mordechai Ben Abir."
+      ],
+      "sources": [
+        "caballero"
       ]
     }
   },
   "sources": {
     "familia": {
       "title": "Recuerdos de la familia",
-      "note": "Información aportada por Gadi durante la investigación familiar, septiembre de 2026."
+      "note": "Parentescos y recuerdos compartidos por Gadi, Daniel y Eduardo (Edy), septiembre de 2026. Las conversaciones y los datos de contacto permanecen en el archivo familiar."
     },
     "edy": {
       "title": "Recuerdo de Edy, 5 de septiembre de 2026",
-      "note": "Edy identifica a Simón, José y Ester como hermanos de Cata. Su recuerdo sobre Bejora / Alejandra es expresamente incierto."
+      "note": "Edy identifica a los hermanos de Cata: Simón, José y Ester. Posteriormente reconoció a León en la foto de grupo y a José en su retrato; confirmó la ficha de Simón y el cumpleaños del 1 de enero. Su respuesta sobre la foto de boda de Simón fue tentativa, y la equivalencia Bejora / Alejandra sigue siendo incierta."
     },
     "mat1929": {
       "title": "Matrimonio de Efraim y Luisa · 1929",
@@ -384,7 +478,7 @@
     "mat1935": {
       "title": "Matrimonio de Jacobo y Catalina · 1935",
       "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q3HK-2",
-      "note": "Montevideo, 17 de mayo. Acta 48, imagen 116. FamilySearch puede pedir una cuenta gratuita."
+      "note": "Montevideo, 17 de mayo. Acta 48, imagen 116. FamilySearch puede pedir una cuenta gratuita. El acta da el nacimiento de Cata como 17 de mayo de 1917. El año 1916 aparece en otros recuerdos y referencias familiares; se conserva aquí la fecha del acta sin dar esa diferencia por resuelta."
     },
     "salomon": {
       "title": "Defunción de Salomón Levy · 1944",
@@ -394,7 +488,7 @@
     "lucy": {
       "title": "Lucy: ficha migratoria de Brasil · 1962",
       "url": "https://www.familysearch.org/ark:/61903/1:1:KCXH-RS5",
-      "note": "Índice de una ficha de Río de Janeiro; la imagen no está disponible. No prueba una mudanza permanente."
+      "note": "Índice de una ficha de Río de Janeiro de 1962: Lucy Mary Levy Caballero, nacida en Montevideo el 18 de noviembre de 1942, hija de Jacobo y Catalina. No se ha podido cotejar la imagen original; el trámite no demuestra una residencia permanente en Brasil."
     },
     "smu": {
       "title": "Homenaje del Sindicato Médico del Uruguay · 2004",
@@ -434,22 +528,17 @@
     "simon": {
       "title": "Boda de Simón · De Cervera a Beer Seba",
       "url": "https://diposit.ub.edu/bitstreams/c46e5384-8f36-4a53-81ad-4c458d4fe58a/download#page=657",
-      "note": "Marcos Caballero, volumen 2, página PDF 657. Simón se identifica como hijo de León y Luna. Su identidad con el hermano de Cata está pendiente."
+      "note": "Volumen 2 de De Cervera a Beer Seba: fotografía de boda atribuida a Simón Caballero, hijo de León y Luna. La respuesta familiar sobre esta imagen fue tentativa. La novia y los niños no están identificados; esta foto no se usa como retrato confirmado."
     },
     "jose": {
       "title": "Retrato de José · De Cervera a Beer Seba",
       "url": "https://diposit.ub.edu/bitstreams/c46e5384-8f36-4a53-81ad-4c458d4fe58a/download#page=659",
-      "note": "Volumen 2, página PDF 659. El autor lo identifica como hijo de León, residente y fallecido en Uruguay. Su identidad con el hermano de Cata está pendiente."
+      "note": "Volumen 2, página PDF 659. El autor lo identifica como hijo de León, residente y fallecido en Uruguay. Edy reconoció posteriormente el retrato compartido en la conversación familiar."
     },
     "klein": {
       "title": "Documentos de Simón · Fernando Raúl Klein",
       "url": "https://www.memoria.fahce.unlp.edu.ar/tesis/te.1453/te.1453.pdf#page=228",
-      "note": "Tesis de 2017, página PDF 228. Traducción de un nacimiento en Esmirna: Simón, hijo de Yuda León y Luna. No se incorpora su fecha al hermano de Cata hasta confirmar la identidad."
-    },
-    "revista": {
-      "title": "Revista del Talmud-Tora · 1955",
-      "url": "https://anaforas.fic.edu.uy/jspui/bitstream/123456789/51814/1/BIS_n4.pdf#page=6",
-      "note": "Número 4, página PDF 6. Aviso de Víctor Benaderet, importador; identidad con el testigo de la boda de 1935 por comprobar. El retrato de esta página es David Morón."
+      "note": "Tesis de 2017, página PDF 228. Publica documentación del nacimiento de Simón en Esmirna el 1 de enero de 1911, hijo de Yuda León y Luna. Edy confirmó la identidad con su tío y el cumpleaños compartido."
     },
     "libro": {
       "title": "Neurocirugía · Biblioteca del Poder Legislativo",
@@ -460,6 +549,39 @@
       "title": "Historia de la neurocirugía · Eduardo Wilson",
       "url": "https://www.smu.org.uy/dpmc/hmed/historia/articulos/neurocirugia-primer-siglo.pdf#page=12",
       "note": "Página PDF 12: cambios que Wilson atribuye a la dirección de Bernardo y a sus vínculos de formación internacional."
+    },
+    "caballero": {
+      "title": "La familia Caballero en Esmirna · Marcos Caballero",
+      "url": "https://diposit.ub.edu/dspace/handle/2445/184056",
+      "note": "De Cervera a Beer Seba (2007), volumen 1: páginas PDF 64–66, parentesco de León y Jacobo; PDF 71–72, compromiso de Yosef y Estérula (1880) y censo (circa 1888). Estérula figura como hija de Abraham Giní. Se cita la edición y reconstrucción de Mordechai; los originales otomanos no se han cotejado de forma independiente. No se extiende aquí la filiación hasta los Cavaller medievales."
+    },
+    "leon-foto": {
+      "title": "León y la familia de su hermano · fotografía atribuida a 1912",
+      "url": "https://diposit.ub.edu/bitstreams/c46e5384-8f36-4a53-81ad-4c458d4fe58a/download#page=645",
+      "note": "Copia restaurada por Israel Asher Kaplan (2014), compartida por Daniel. Mordechai identifica a León a la izquierda, con su hermano Jacobo, Esther Sabaj y familiares de ella; atribuye la escena a Argentina a fines de 1912. Edy reconoció después a León, corrigiendo la identificación inicialmente descartada por la cronología. La fecha y el lugar siguen siendo atribuciones del autor: el viaje de León no está reconstruido. El mensaje en judeoespañol del reverso se conoce por la descripción de Mordechai; el dorso no está entre las imágenes recibidas."
+    },
+    "piriapolis": {
+      "title": "Catalina y Jacobo en Piriápolis · fotografía familiar",
+      "note": "Fotografía compartida por Gadi el 5 de septiembre de 2026 e identificada por él como Catalina y su esposo en Piriápolis. La fecha de la toma y la propiedad de la casa no están establecidas. Se conserva la imagen recibida, sin reconstrucción de rostros."
+    },
+    "correspondencia": {
+      "title": "Recuerdos de Mordechai compartidos con Daniel y Edy",
+      "note": "Correspondencia familiar conservada por Daniel y compartida en septiembre de 2026. Mordechai recuerda a León, Luna y sus hijos, y una visita a los padres de los destinatarios en Haifa. Ese contexto corresponde a Bernardo y Lucy. Los correos y sus datos personales no se publican."
+    },
+    "comunidad": {
+      "title": "La colectividad judía del Uruguay · CCIU",
+      "url": "https://cciu.org.uy/nuestra-historia/",
+      "note": "Historia institucional del Comité Central Israelita del Uruguay. Contexto sobre inmigración, oficios, instituciones y periódicos en ídish, ladino y castellano; no establece prácticas particulares de cada hogar de la familia."
+    },
+    "cerro": {
+      "title": "Una historia del Cerro · Universidad de la República",
+      "url": "https://municipioa.montevideo.gub.uy/sites/municipioa/files/Una%20Historia%20del%20Cerro.pdf#page=5",
+      "note": "Rodolfo Porrini y equipo, Una historia del Cerro, 1940–1980 (2025), introducción, páginas impresas 5–6. Contexto de Villa Cosmópolis, las comunidades inmigrantes y los oficios del barrio."
+    },
+    "poggi": {
+      "title": "Claudia Poggi recuerda a Borovich · entrevista de 2017",
+      "url": "https://cciu.org.uy/claudia-poggi-ya-les-dije-que-pongan-una-ambulancia-en-la-puerta/",
+      "note": "Entrevista publicada por el CCIU el 3 de noviembre de 2017. Poggi recuerda a Borovich, neurocirujano que había vivido en Israel y regresado a Uruguay, y su aliento sobre su trabajo allí. El pasaje se parafrasea en el relato."
     }
   }
 }
