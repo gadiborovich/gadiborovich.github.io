@@ -8,14 +8,15 @@
       "place": "",
       "status": "Recuerdo familiar",
       "body": [
-        "Hijo de Daniel Ilan Borovich Levy y nieto de Bernardo y Lucy. Reúne este álbum para compartir la historia con la familia."
+        "Gadi es hijo único de Daniel Ilan Borovich Levy y Mariela Oxman. Es nieto de Bernardo y Lucy y primo de Yael y Vanessa. Reúne este álbum para compartir la historia con la familia."
       ],
       "sources": [
         "familia",
         "fotos-familia"
       ],
       "parents": [
-        "daniel"
+        "daniel",
+        "mariela"
       ],
       "photo": "gadi-bernardo-abrazo.jpg",
       "photoCaption": "Gadi de niño abrazado a su abuelo Bernardo."
@@ -28,7 +29,7 @@
       "place": "",
       "status": "Recuerdo familiar",
       "body": [
-        "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero, hermano de Eduardo y papá de Gadi."
+        "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero y hermano de Eduardo. Daniel y Mariela Oxman son los padres de Gadi, su único hijo."
       ],
       "sources": [
         "familia",
@@ -417,7 +418,8 @@
       "place": "",
       "status": "Memoria familiar",
       "body": [
-        "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero y hermano de Daniel. En la familia, Edy."
+        "Hijo de Bernardo Borovich Polak y Lucy Levy Caballero y hermano de Daniel. En la familia, Edy.",
+        "Edy y Dalia Szpiro son los padres de Yael y Vanessa."
       ],
       "sources": [
         "familia",
@@ -477,12 +479,76 @@
       "sources": [
         "caballero"
       ]
+    },
+    "mariela": {
+      "name": "Mariela Oxman",
+      "short": "Mariela",
+      "relation": "Mamá de Gadi",
+      "era": "",
+      "place": "",
+      "status": "Memoria familiar",
+      "body": [
+        "Mariela Oxman y Daniel Borovich son los padres de Gadi, su único hijo."
+      ],
+      "sources": [
+        "familia"
+      ]
+    },
+    "dalia": {
+      "name": "Dalia Szpiro",
+      "short": "Dalia",
+      "relation": "Mamá de Yael y Vanessa",
+      "era": "",
+      "place": "",
+      "status": "Memoria familiar",
+      "body": [
+        "Dalia Szpiro y Eduardo (Edy) Borovich son los padres de Yael y Vanessa."
+      ],
+      "sources": [
+        "familia"
+      ]
+    },
+    "yael": {
+      "name": "Yael Borovich",
+      "short": "Yael",
+      "relation": "Hija de Edy y Dalia",
+      "era": "",
+      "place": "",
+      "status": "Memoria familiar",
+      "body": [
+        "Hija de Eduardo (Edy) Borovich y Dalia Szpiro, hermana de Vanessa y prima de Gadi. Es nieta de Bernardo y Lucy."
+      ],
+      "sources": [
+        "familia"
+      ],
+      "parents": [
+        "eduardo",
+        "dalia"
+      ]
+    },
+    "vanessa": {
+      "name": "Vanessa Borovich",
+      "short": "Vanessa",
+      "relation": "Hija de Edy y Dalia",
+      "era": "",
+      "place": "",
+      "status": "Memoria familiar",
+      "body": [
+        "Hija de Eduardo (Edy) Borovich y Dalia Szpiro, hermana de Yael y prima de Gadi. Es nieta de Bernardo y Lucy."
+      ],
+      "sources": [
+        "familia"
+      ],
+      "parents": [
+        "eduardo",
+        "dalia"
+      ]
     }
   },
   "sources": {
     "familia": {
       "title": "Recuerdos de la familia",
-      "note": "Parentescos y recuerdos compartidos por Gadi, Daniel y Eduardo (Edy), septiembre de 2026. Las conversaciones y los datos de contacto permanecen en el archivo familiar."
+      "note": "Parentescos y recuerdos compartidos por Gadi, Daniel y Eduardo (Edy), septiembre de 2026. Gadi identifica a Yael y Vanessa como hijas de Edy y Dalia Szpiro, y a sí mismo como hijo único de Daniel y Mariela Oxman. Las conversaciones y los datos de contacto permanecen en el archivo familiar."
     },
     "edy": {
       "title": "Recuerdo de Edy, 5 de septiembre de 2026",
