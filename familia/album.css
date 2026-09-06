@@ -115,3 +115,16 @@
 .family-children:before{content:'';position:absolute;left:50%;top:-1.5rem;height:1.5rem;border-left:1px solid #97aaa4}
 .family-children>p{grid-column:1/-1;font-size:.8rem;color:var(--muted);margin:0}
 @media(max-width:700px){.family-next>.descendant-families{grid-template-columns:1fr;gap:2rem}.family-parents{gap:.75rem}.family-children{margin-inline:.7rem;grid-template-columns:1fr}}
+
+/* Bernardo's work remains part of the family narrative, with optional reading. */
+.career-passage{margin-top:2.7rem}
+.career-passage h4{font-family:var(--serif);font-weight:400;font-size:clamp(1.7rem,3vw,2.15rem);line-height:1.25;letter-spacing:-.025em;margin:0 0 1.2rem}
+.career-reading{max-width:690px;margin:2.4rem auto 0;border-block:1px solid var(--line);padding:1.1rem 0;color:var(--muted)}
+.career-reading summary{cursor:pointer;font-family:var(--serif);font-size:1.15rem;color:var(--ink);line-height:1.5}
+.career-reading p,.career-reading li{font-size:.9rem;line-height:1.75}
+.career-reading p{margin:1rem 0 0}
+.career-reading ul{padding-left:1.2rem;margin:1.2rem 0}
+.career-reading li+li{margin-top:1.15rem}
+.career-reading li>span{display:block;margin-top:.25rem}
+.career-reading li>a{color:var(--ink)}
+@media print{.career-passage h4{break-after:avoid}}
