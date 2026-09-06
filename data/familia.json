@@ -52,7 +52,8 @@
       "body": [
         "Nació en Montevideo el 18 de marzo de 1932. Sus padres, Efraim y Luisa, habían llegado a Uruguay desde Lituania y Polonia.",
         "Se recibió de médico en 1960. Su tesis de 1963 se tituló Empiema subdural y absceso extradural.",
-        "Trabajó en Israel desde 1971, en los hospitales Rambam de Haifa y Hadassah de Jerusalén. Regresó a Uruguay en 1988 y dirigió la neurocirugía del Instituto de Neurología hasta 1997.",
+        "Trabajó en Israel desde 1971, en Rambam y Hadassah; fue subdirector de Neurocirugía de Rambam entre 1986 y 1988. De regreso en Uruguay dirigió Neurocirugía del Instituto de Neurología, en el Hospital de Clínicas, entre 1988 y 1997.",
+        "Investigó tumores, infecciones y traumatismos del sistema nervioso. En 1986, con Yaffa Doron y otros colegas, propuso el grado cero de resección de meningiomas: ampliar la extirpación de la membrana alrededor del tumor cuando fuera posible, con la expectativa de reducir algunas reapariciones. Sus trabajos de los años noventa incluyeron colaboraciones con cuidados intensivos del Clínicas.",
         "Junto a Lucy Levy Caballero formó la familia de Daniel y Eduardo. En 2004 recibió una distinción del Sindicato Médico del Uruguay por su labor docente, científica y profesional."
       ],
       "sources": [
@@ -60,7 +61,10 @@
         "liondas",
         "smu",
         "retrato",
-        "fotos-familia"
+        "fotos-familia",
+        "meningiomas-1986",
+        "wilson",
+        "cuidados-intensivos"
       ],
       "image": "bernardo.jpg",
       "parents": [
@@ -632,7 +636,7 @@
     "wilson": {
       "title": "Historia de la neurocirugía · Eduardo Wilson",
       "url": "https://www.smu.org.uy/dpmc/hmed/historia/articulos/neurocirugia-primer-siglo.pdf#page=12",
-      "note": "Página PDF 12: cambios que Wilson atribuye a la dirección de Bernardo y a sus vínculos de formación internacional."
+      "note": "Eduardo Wilson, Primer siglo de cirugía neurológica en Uruguay (1897–1997), escrito en 2012, página PDF 12. Relato de los cambios bajo la dirección de Bernardo: medición de presión intracraneana, tomografía posoperatoria, ampliación de indicaciones quirúrgicas, comienzo de cirugía de base de cráneo en el servicio universitario y formación internacional. No se atribuye a Bernardo la primera tomografía ni la primera microcirugía del país."
     },
     "caballero": {
       "title": "La familia Caballero en Esmirna · Marcos Caballero",
@@ -674,6 +678,36 @@
     "lucy-lapida": {
       "title": "Lucy · inscripción en su lápida",
       "note": "Fotografía de Daniel junto a la lápida de su madre, compartida el 5 de septiembre de 2026 e identificada por Gadi. Se leen Lucy Mary Levy Caballero de Borovich y las fechas 18.11.1942–30.6.2022. Gadi identifica el cementerio como La Paz. El autorretrato recibido está en espejo; se conserva el original sin modificación."
+    },
+    "meningiomas-1986": {
+      "title": "Bernardo y los meningiomas · 1986",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3723173/",
+      "note": "Dos artículos originales en Journal of Neurosurgery: Borovich y Doron, 64(1):58–63 (PMID 3941351; estudio de tejido de 14 pacientes y 10 controles), y Borovich y colaboradores, 65(2):168–171 (PMID 3723173; cinco casos ilustrativos y propuesta de añadir un grado 0 a la clasificación quirúrgica de Simpson). Consultados los registros y resúmenes originales de PubMed. La propuesta buscaba reducir recurrencias; estos trabajos no demostraron por sí solos una mejora universal de resultados ni crearon la clasificación de Simpson."
+    },
+    "hematomas-1985": {
+      "title": "Hematomas de aparición tardía · 1985",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4009271/",
+      "note": "Borovich y colaboradores, Delayed onset of traumatic extradural hematoma, Journal of Neurosurgery 63(1):30–34. Siete casos entre 80 pacientes tratados por hematomas extradurales; la hemorragia era mínima o ausente en la primera tomografía. Resumen original de PubMed. Es un hallazgo de esa serie, no una frecuencia aplicable a todos los traumatismos."
+    },
+    "empiema-1990": {
+      "title": "Infecciones alrededor del cerebro · 1990",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1967304/",
+      "note": "Borovich, Johnston y Spagnuolo, Infratentorial subdural empyema: clinical and computerized tomography findings. Report of three cases, Journal of Neurosurgery 72(2):299–301. Resumen original, con afiliación al Hospital de Clínicas. El tema continúa una línea presente en su tesis de 1963; no se afirma que el artículo reproduzca aquella tesis."
+    },
+    "cuidados-intensivos": {
+      "title": "Investigación con cuidados intensivos del Clínicas · 1995–1998",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9309287/",
+      "note": "Bernardo figura como coautor, con Alberto Biestro y otros colegas, en estudios sobre indometacina (1995, PMID 7674011; 11 pacientes), manitol y glicerol (1997, PMID 9309287; 16 pacientes) y vasopresores para la perfusión cerebral (1998, PMID 9779128; 16 pacientes). Registros y resúmenes de PubMed, con afiliación al Hospital de Clínicas. Son investigaciones pequeñas de su época, no recomendaciones de tratamiento actuales."
+    },
+    "meningiomas-2025": {
+      "title": "Los artículos de 1986 en una publicación de 2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11877360/",
+      "note": "Multiple meningiomas of different variants in a single patient: illustrative cases, Journal of Neurosurgery: Case Lessons, 2025; DOI 10.3171/CASE24359. Texto completo consultado mediante la API oficial de PubMed Central. Sus referencias 4 y 5 son los dos artículos de Borovich de 1986, citados al distinguir multicentricidad regional y meningiomas múltiples. Es evidencia de continuidad bibliográfica, no una validación clínica del grado 0."
+    },
+    "libro-samii": {
+      "title": "Dos capítulos en Skull Base Surgery · Karger, 1994",
+      "url": "https://karger.com/books/book/2975/Skull-Base-SurgeryAnatomy-Diagnosis-and",
+      "note": "Índice oficial del libro editado por M. Samii, correspondiente al congreso de Hannover de junio de 1992 y publicado en 1994. B. Borovich: A Proposed CT Grading System for Brain Edema and Intracranial Mass Effect, pp. 38–39, DOI 10.1159/000429726; Yaffa Doron y Bernardo Borovich: Recurrence of Meningiomas, pp. 210–212, DOI 10.1159/000429830. Se verificaron los datos editoriales; no se consultó el texto completo de los capítulos."
     }
   }
 }
