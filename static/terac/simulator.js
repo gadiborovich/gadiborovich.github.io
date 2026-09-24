@@ -27,6 +27,28 @@
     return '<div><span class="detail-label">' + label + '</span><span class="detail-value">' + value + '</span></div>';
   }
 
+  // Series A snapshot: use the same entry and original-stake assumptions as
+  // the later-outcome model, with no subsequent-round dilution or exit price.
+  const percent = function (ownership) { return (ownership * 100).toFixed(5) + '%'; };
+  const millions = function (value) { return '$' + value / 1e6 + 'M'; };
+  function aPositionCell(ownership, value, combined) {
+    return '<td' + (combined ? ' class="a-combined"' : '') + '><span class="a-value">' + percent(ownership) + '</span><span class="cell-extra">' + exact.format(value) + ' on paper</span></td>';
+  }
+  document.getElementById('terac-a-fund-values').innerHTML = entries.map(function (entry) {
+    const discountedEntry = entry * 0.9;
+    const existingOwnership = originalCost / 30e6 * 0.8;
+    const newOwnership = checks[0].amount / discountedEntry;
+    return '<tr><th scope="row"><span class="entry-value">' + millions(entry) + '</span></th><td><span class="a-value a-price">' + millions(discountedEntry) + '</span></td>' +
+      aPositionCell(existingOwnership, existingOwnership * entry, false) +
+      aPositionCell(newOwnership, newOwnership * entry, false) +
+      aPositionCell(existingOwnership + newOwnership, (existingOwnership + newOwnership) * entry, true) + '</tr>';
+  }).join('');
+  document.getElementById('terac-a-million-values').innerHTML = entries.map(function (entry) {
+    const discountedEntry = entry * 0.9;
+    const ownership = checks[1].amount / discountedEntry;
+    return '<tr><th scope="row"><span class="entry-value">' + millions(entry) + '</span></th><td><span class="a-value a-price">' + millions(discountedEntry) + '</span></td><td><span class="a-value">' + percent(ownership) + '</span></td><td><span class="a-value">' + exact.format(ownership * entry) + '</span><span class="cell-extra">+$' + Math.round(ownership * entry - checks[1].amount).toLocaleString('en-US') + ' unrealized gain</span></td></tr>';
+  }).join('');
+
   function updateDetail(check) {
     const row = state[check.id][0];
     const column = state[check.id][1];

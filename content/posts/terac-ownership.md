@@ -42,6 +42,37 @@ _build:
     </div>
   </header>
 
+  <section class="section series-a" id="series-a" aria-labelledby="series-a-title">
+    <div class="section-heading">
+      <div><span class="section-number">Start here · Series A</span><h2 id="series-a-title">What would we own at the Series A?</h2></div>
+      <p class="cost">$150M / $200M / $300M valuations</p>
+    </div>
+    <p class="section-note">Only the Series A valuation changes. “Our entry price” is the effective valuation after our 10% discount. These are ownership and paper values immediately after A—not cash proceeds or an exit.</p>
+    <h3>Fund I · Pass vs. add $70K</h3>
+    <p class="section-note">Each position shows our share of the company, with its paper value underneath. The combined column includes both the original $10K and the new $70K.</p>
+    <p class="mobile-hint">Swipe to compare the existing, new and combined positions →</p>
+    <div class="matrix-scroll" tabindex="0" role="region" aria-label="Fund I at Series A, scroll horizontally on smaller screens">
+      <table class="matrix a-matrix">
+        <caption class="sr-only">Fund I ownership and paper value immediately after each Series A valuation, including discounted entry price.</caption>
+        <thead><tr><th scope="col">Series A valuation<strong>Post-money</strong></th><th scope="col">Our entry price<strong>10% discount</strong></th><th scope="col">If we pass<strong>Existing $10K</strong></th><th scope="col">Follow-on only<strong>New $70K</strong></th><th scope="col" class="hold-col">If we invest<strong>$80K combined</strong></th></tr></thead>
+        <tbody id="terac-a-fund-values"></tbody>
+      </table>
+    </div>
+    <p class="a-footnote">Existing stake: $10K at $30M, with the same assumed 20% dilution at A used elsewhere on this page. Its entry price does not change. No B or C dilution is applied here.</p>
+
+    <h3>Separate investment · $1M outside Fund I</h3>
+    <p class="section-note">Just the separate $1M. None of Fund I’s existing or new investment is included.</p>
+    <p class="mobile-hint">Swipe to see ownership and paper value →</p>
+    <div class="matrix-scroll" tabindex="0" role="region" aria-label="Separate one million dollar investment at Series A, scroll horizontally on smaller screens">
+      <table class="matrix a-matrix a-standalone">
+        <caption class="sr-only">Separate one million dollar investment at each Series A valuation, with discounted entry, ownership and paper value.</caption>
+        <thead><tr><th scope="col">Series A valuation<strong>Post-money</strong></th><th scope="col">Our entry price<strong>10% discount</strong></th><th scope="col">What we own<strong>After Series A</strong></th><th scope="col">Value at A<strong>On paper</strong></th></tr></thead>
+        <tbody id="terac-a-million-values"></tbody>
+      </table>
+    </div>
+    <p class="a-takeaway"><strong>Why the new money’s paper value stays the same:</strong> $70K ÷ 90% = $77,778; $1M ÷ 90% = $1,111,111. A higher Series A valuation buys us less ownership, but the same 10% discount gives the same 11.1% paper uplift. These are estimates, not realized gains.</p>
+  </section>
+
   <section class="section" aria-labelledby="baseline-title">
     <div class="section-heading">
       <div><span class="section-number">01 · The baseline</span><h2 id="baseline-title">Existing stake if we pass</h2></div>
