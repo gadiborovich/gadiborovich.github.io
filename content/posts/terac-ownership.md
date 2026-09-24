@@ -1,6 +1,8 @@
 ---
 title: "Terac investment scenarios"
 date: 2026-09-04T12:00:00-07:00
+lastmod: 2026-09-24T12:00:00-07:00
+type: "terac"
 draft: false
 description: "Fund I follow-on scenarios and a separate $1M investment, with independent exit valuations and dilution."
 url: "/terac-ownership/"
@@ -13,177 +15,91 @@ _build:
 ---
 
 {{< rawhtml >}}
-<style>
-  .post > header {
-    display: none;
-  }
-
-  .terac-page {
-    color: #17212b;
-    display: none;
-    margin: 1.2rem 0 4rem;
-  }
-
-  .terac-page.is-unlocked {
-    display: block;
-  }
-
-  .terac-gate {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    min-height: 68vh;
-    padding: 3rem 0;
-  }
-
-  .terac-gate.is-hidden {
-    display: none;
-  }
-
-  .terac-gate-card {
-    border-top: 9px solid #17212b;
-    box-shadow: 0 14px 40px rgba(23, 33, 43, 0.12);
-    max-width: 28rem;
-    padding: 2.2rem;
-    width: 100%;
-  }
-
-  .terac-gate-card h1 {
-    color: #17212b;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 2.2rem;
-    letter-spacing: -0.03em;
-    line-height: 1.05;
-    margin: 0;
-  }
-
-  .terac-gate-card > p {
-    color: #56606b;
-    line-height: 1.5;
-    margin: 0.8rem 0 1.25rem;
-  }
-
-  .terac-gate-fields {
-    display: flex;
-    gap: 0.6rem;
-  }
-
-  .terac-gate-fields input {
-    border: 1px solid #bbc3cc;
-    border-radius: 7px;
-    color: #17212b;
-    flex: 1;
-    font: inherit;
-    min-width: 0;
-    padding: 0.75rem 0.85rem;
-  }
-
-  .terac-gate-fields input:focus {
-    border-color: #17212b;
-    box-shadow: 0 0 0 3px rgba(23, 33, 43, 0.12);
-    outline: none;
-  }
-
-  .terac-gate-fields button {
-    background: #17212b;
-    border: 0;
-    border-radius: 7px;
-    color: #fff;
-    cursor: pointer;
-    font: inherit;
-    font-weight: 700;
-    padding: 0.75rem 1rem;
-  }
-
-  .terac-gate-error {
-    color: #b42318;
-    font-size: 0.88rem;
-    min-height: 1.4em;
-  }
-
-  .terac-sr-only {
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-  }
-
-  .terac-eyebrow { color: #68717c; font-size: 0.78rem; letter-spacing: 0.13em; margin-bottom: 0.9rem; text-transform: uppercase; }
-  #codex-visualization { display: block; width: 100%; height: 1300px; border: 0; }
-  @media (max-width: 650px) { .terac-gate-card { padding: 1.5rem; } }
-</style>
-
-<section class="terac-gate" id="terac-gate">
-  <form class="terac-gate-card" id="terac-gate-form">
-    <div class="terac-eyebrow">Private page</div>
-    <h1>Password required</h1>
-    <p>Enter the password to continue.</p>
-    <label class="terac-sr-only" for="terac-password">Password</label>
-    <div class="terac-gate-fields">
-      <input id="terac-password" type="password" inputmode="numeric" autocomplete="current-password" required autofocus>
+<section class="gate" id="terac-gate" aria-labelledby="gate-title">
+  <p class="eyebrow">Private working page</p>
+  <h1 id="gate-title">Terac investment scenarios</h1>
+  <p>A comparison for Gadi and Daniel.</p>
+  <form id="terac-gate-form">
+    <label for="terac-password">Password</label>
+    <div class="gate-fields">
+      <input id="terac-password" type="password" autocomplete="current-password" required aria-describedby="terac-gate-error">
       <button type="submit">Open</button>
     </div>
-    <p class="terac-gate-error" id="terac-gate-error" role="alert" aria-live="polite"></p>
+    <p class="error" id="terac-gate-error" role="alert"></p>
   </form>
 </section>
 
-<main class="terac-page" id="terac-page" tabindex="-1">
-{{< /rawhtml >}}
-{{< terac-simulator >}}
-{{< rawhtml >}}
+<main class="page" id="terac-page" hidden tabindex="-1">
+  <header class="cover">
+    <p class="eyebrow">Antigravity · Scenario comparison</p>
+    <h1>Terac investment scenarios</h1>
+    <p class="subtitle">A Fund I follow-on. A separate $1M investment. Two independent decisions.</p>
+    <div class="terms">
+      <span><strong>10%</strong> entry discount</span>
+      <span><strong>20%</strong> dilution per later round</span>
+      <span>Series A values are <strong>post-money</strong></span>
+      <span><strong>Gross</strong> proceeds, before fees, carry and taxes</span>
+    </div>
+  </header>
+
+  <section class="section" aria-labelledby="baseline-title">
+    <div class="section-heading">
+      <div><span class="section-number">01 · The baseline</span><h2 id="baseline-title">Existing stake if we pass</h2></div>
+      <p class="cost">$10K already invested</p>
+    </div>
+    <p class="section-note">Original stake estimated at 0.03333%. Assumes 20% dilution at A, B and C, plus one more 20% round for the $5B hold.</p>
+    <div class="baseline" id="terac-pass-values"></div>
+  </section>
+
+  <section class="section" id="fund-i" aria-labelledby="fund-title">
+    <div class="section-heading">
+      <div><span class="section-number">02 · Fund I</span><h2 id="fund-title">Add $70K to our existing position</h2></div>
+      <p class="cost">$10K existing + $70K new = $80K total cost</p>
+    </div>
+    <p class="section-note">Each cell shows combined proceeds and the blended return on $80K. The follow-on contribution is shown separately.</p>
+    <div class="matrix-tools">
+      <div class="legend"><span><i class="swatch old"></i>Existing $10K</span><span><i class="swatch new"></i>New $70K</span></div>
+      <span>Select an amount for the exact breakdown ↓</span>
+    </div>
+    <p class="mobile-hint">Swipe the table to compare all four outcomes →</p>
+    <div class="matrix-scroll" tabindex="0" role="region" aria-label="Fund I outcome comparison, scroll horizontally on smaller screens">
+      <table class="matrix">
+        <caption class="sr-only">Fund I combined outcomes: each Series A entry crossed with each independent exit valuation.</caption>
+        <thead><tr><th scope="col">Series A entry<strong>Post-money</strong></th><th scope="col">Series C<strong>$1.35B</strong></th><th scope="col">Series C<strong>$1.8B</strong></th><th scope="col">Series C<strong>$2.7B</strong></th><th scope="col" class="hold-col">Extended hold<strong>$5B</strong></th></tr></thead>
+        <tbody id="terac-70-values"></tbody>
+      </table>
+    </div>
+    <div class="scenario-detail" id="terac-70-details" role="status" aria-live="polite" aria-atomic="true"></div>
+  </section>
+
+  <section class="section" id="separate-investment" aria-labelledby="separate-title">
+    <div class="section-heading">
+      <div><span class="section-number">03 · Separate from Fund I</span><h2 id="separate-title">Invest an independent $1M</h2></div>
+      <p class="cost">$1M total cost · Outside Fund I</p>
+    </div>
+    <p class="section-note">This investment stands alone. None of Fund I’s existing $10K or additional $70K is included.</p>
+    <div class="matrix-tools"><span>Gross proceeds · Return on the separate $1M · Gross profit</span><span>Select an amount for the exact breakdown ↓</span></div>
+    <p class="mobile-hint">Swipe the table to compare all four outcomes →</p>
+    <div class="matrix-scroll" tabindex="0" role="region" aria-label="Separate one million dollar investment, scroll horizontally on smaller screens">
+      <table class="matrix">
+        <caption class="sr-only">Separate $1M investment outcomes, excluding every Fund I position.</caption>
+        <thead><tr><th scope="col">Series A entry<strong>Post-money</strong></th><th scope="col">Series C<strong>$1.35B</strong></th><th scope="col">Series C<strong>$1.8B</strong></th><th scope="col">Series C<strong>$2.7B</strong></th><th scope="col" class="hold-col">Extended hold<strong>$5B</strong></th></tr></thead>
+        <tbody id="terac-1000-values"></tbody>
+      </table>
+    </div>
+    <div class="scenario-detail" id="terac-1000-details" role="status" aria-live="polite" aria-atomic="true"></div>
+  </section>
+
+  <details class="assumptions">
+    <summary>Model assumptions &amp; formulas</summary>
+    <ul>
+      <li>The Series C outcomes are independent scenarios, not automatically tied to a particular Series A price. The $5B outcome is a longer, more optimistic hold.</li>
+      <li>New ownership after A is approximated as investment ÷ (90% × fully diluted Series A post-money valuation). New shares then retain 64% of that ownership after 20% dilution at B and C, or 51.2% after an additional round for the $5B hold. Actual conversion depends on the financing documents and cap table.</li>
+      <li>The original position starts at $10K ÷ $30M. An additional 20% dilution at A is assumed for those shares; actual historical dilution is not verified.</li>
+      <li>Proceeds = ownership after dilution × exit valuation. Profit = proceeds − investment cost. Return multiple = proceeds ÷ investment cost. Fund I’s denominator is $80K; the separate investment’s denominator is $1M.</li>
+      <li>All proceeds assume a sale at the modeled share value, before fees, carry, taxes or preference effects. A Series C valuation does not guarantee an opportunity to sell. No additional MFN benefit is modeled.</li>
+    </ul>
+  </details>
+  <footer class="footer">Private working comparison · Antigravity</footer>
 </main>
-
-<script>
-  (function () {
-    const expectedHash = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
-    const sessionKey = "terac-ownership-unlocked";
-    const gate = document.getElementById("terac-gate");
-    const form = document.getElementById("terac-gate-form");
-    const input = document.getElementById("terac-password");
-    const error = document.getElementById("terac-gate-error");
-    const page = document.getElementById("terac-page");
-
-    function unlock() {
-      gate.classList.add("is-hidden");
-      page.classList.add("is-unlocked");
-      page.focus();
-    }
-
-    try {
-      if (sessionStorage.getItem(sessionKey) === "yes") {
-        unlock();
-      }
-    } catch (_) {}
-
-    form.addEventListener("submit", async function (event) {
-      event.preventDefault();
-      error.textContent = "";
-
-      try {
-        const bytes = new TextEncoder().encode(input.value);
-        const digest = await crypto.subtle.digest("SHA-256", bytes);
-        const hash = Array.from(new Uint8Array(digest))
-          .map(function (byte) { return byte.toString(16).padStart(2, "0"); })
-          .join("");
-
-        if (hash === expectedHash) {
-          try { sessionStorage.setItem(sessionKey, "yes"); } catch (_) {}
-          input.value = "";
-          unlock();
-          return;
-        }
-      } catch (_) {
-        error.textContent = "This browser cannot open the protected page.";
-        return;
-      }
-
-      error.textContent = "Incorrect password.";
-      input.select();
-    });
-  })();
-</script>
 {{< /rawhtml >}}
