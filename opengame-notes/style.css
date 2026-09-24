@@ -1,0 +1,40 @@
+@font-face{font-family:Notes Mono;src:url('/opengame/fonts/JetBrainsMono-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+:root{--paper:#fff;--ink:#263833;--green:#176a4d;--muted:#607369;--line:#d5dfd8;--serif:Georgia,'Times New Roman',serif;--mono:'Notes Mono',ui-monospace,SFMono-Regular,monospace}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:32px}
+body{margin:0;background:var(--paper);color:var(--ink);font:20px/1.78 var(--serif);-webkit-font-smoothing:antialiased}
+a{color:var(--green);text-underline-offset:4px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--green);outline-offset:6px}
+::selection{background:#deebe1}
+.skip{position:absolute;left:20px;top:-100px;background:white;padding:10px;z-index:2}
+.skip:focus{top:8px}
+.masthead{max-width:1000px;padding:25px 32px;margin:auto;display:flex;justify-content:space-between;gap:20px;align-items:center;font:12px/1.5 var(--mono);color:var(--muted)}
+.masthead a{text-decoration:none;font-size:15px;color:var(--ink)}
+.masthead span{text-transform:uppercase;letter-spacing:.09em;font-size:10px}
+main{max-width:804px;margin:auto;padding:44px 32px 80px}
+.cover{border-top:6px solid var(--green);padding:30px 0 34px}
+.eyebrow{font:11px/1.8 var(--mono);color:var(--muted);margin:0 0 28px}
+h1{font:normal clamp(60px,9vw,88px)/1.02 var(--serif);letter-spacing:-.05em;margin:0 0 17px;color:var(--ink)}
+.subtitle{font:28px/1.4 var(--serif);color:var(--green);margin:0 0 25px;letter-spacing:-.015em}
+.intro{font:15px/1.75 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--muted);max-width:590px;margin:0}
+.contents{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 0 54px;padding:15px 0}
+.contents summary{cursor:pointer;font:12px/1.6 var(--mono);color:var(--muted);list-style:none;display:flex;align-items:center;justify-content:space-between}
+.contents summary::-webkit-details-marker{display:none}
+.contents summary span{font-size:18px;transition:transform .15s}
+.contents[open] summary span{transform:rotate(90deg)}
+.contents ol{font:14px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;padding-left:22px;margin:19px 0 8px;columns:2;column-gap:32px}
+.contents li{break-inside:avoid;padding-left:3px;margin:0 0 12px}
+.contents a{text-decoration:none}
+.contents a:hover{text-decoration:underline}
+.notes-body section{margin:0 0 58px}
+h2{font:normal 32px/1.2 var(--serif);letter-spacing:-.025em;color:var(--green);margin:0 0 25px;padding-top:27px;border-top:1px solid var(--line);text-wrap:pretty}
+.notes-body section:first-child h2{padding-top:0;border:0}
+p{margin:0 0 23px;overflow-wrap:break-word}
+ul{padding-left:24px;margin:0 0 25px}
+li{padding-left:5px;margin:8px 0}
+.editing-note{border-top:1px solid var(--line);padding-top:25px;margin-top:64px;color:var(--muted);font:12px/1.8 var(--mono)}
+.back{display:inline-block;font:11px/1.5 var(--mono);margin-top:26px;text-decoration:none}
+@media(max-width:600px){body{font-size:18px;line-height:1.78}.masthead{padding:21px 23px}main{padding:29px 23px 55px}.cover{padding-top:25px}.eyebrow{font-size:10px;margin-bottom:25px}.subtitle{font-size:25px}.intro{font-size:14px}.contents{margin-bottom:42px}.contents ol{columns:1}h2{font-size:29px}.notes-body section{margin-bottom:45px}.editing-note{font-size:11px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.contents summary span{transition:none}}
+@media print{@page{margin:18mm}body{font-size:11pt;line-height:1.65;color:#222}.masthead,.contents,.back,.skip{display:none}main{max-width:none;padding:0}.cover{padding:20px 0 24px}.cover h1{font-size:44pt}.subtitle{font-size:20pt}.intro{font-size:10pt}.eyebrow{font-size:9pt}h2{font-size:20pt;break-after:avoid}.notes-body section{margin-bottom:28px}p{orphans:3;widows:3;margin-bottom:14px}a{color:inherit}.editing-note{font-size:8pt;margin-top:32px}}

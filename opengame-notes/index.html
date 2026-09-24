@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OpenGame — working notes | gadi.fm</title>
+<meta name="description" content="Notes as I spend more time with OpenGame. By Gadi Borovich, September 23, 2026.">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="color-scheme" content="light">
+<link rel="canonical" href="https://gadi.fm/opengame-notes/">
+<link rel="icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<a class="skip" href="#notes">Skip to the notes</a>
+<nav class="masthead" aria-label="Site"><a href="/">gadi.fm</a><span>Working notes</span></nav>
+<main id="notes">
+<article>
+<header class="cover">
+<p class="eyebrow">Gadi Borovich · <time datetime="2026-09-23">September 23, 2026</time></p>
+<h1>OpenGame</h1>
+<p class="subtitle">Notes as I spend more time with it.</p>
+<p class="intro">Lightly edited and grouped from my notes. Still raw thoughts, including things I want to look into and reactions that change as I read.</p>
+</header>
+<details class="contents"><summary>In these notes <span aria-hidden="true">↘</span></summary><ol><li><a href="#where-i-m-starting">Where I&#x27;m starting</a></li><li><a href="#the-product-is-getting-more-interesting-as-i-actually-spend-time-with-it">The product is getting more interesting as I actually spend time with it</a></li><li><a href="#the-bet-as-i-m-beginning-to-understand-it">The bet, as I&#x27;m beginning to understand it</a></li><li><a href="#their-starting-choices-and-the-bigger-ambition">Their starting choices and the bigger ambition</a></li><li><a href="#giving-rishi-credit-for-the-breadth-of-what-he-s-done">Giving Rishi credit for the breadth of what he&#x27;s done</a></li><li><a href="#how-much-weight-did-i-put-on-elevenlabs">How much weight did I put on ElevenLabs?</a></li><li><a href="#revisiting-my-reaction-to-matt">Revisiting my reaction to Matt</a></li><li><a href="#my-initial-excitement-may-have-been-superficial">My initial excitement may have been superficial</a></li><li><a href="#the-business-model-moment-with-daniel">The business-model moment with Daniel</a></li><li><a href="#the-raise-has-changed">The raise has changed</a></li><li><a href="#understanding-the-competitive-distinctions">Understanding the competitive distinctions</a></li></ol></details>
+<div class="notes-body">
+<section aria-labelledby="where-i-m-starting"><h2 id="where-i-m-starting">Where I&#x27;m starting</h2>
+<p>For now, it&#x27;s more that I&#x27;m acknowledging the materials are good than that my underlying feeling toward the team has changed. I&#x27;m rethinking the opportunity.</p>
+<p>I&#x27;m reading their written memo for the first time. It&#x27;s well written, and I love their thinking. I&#x27;d love for a company like OpenGame to actually exist and do well. They propose an exciting, optimistic future.</p>
+<p>The materials they put together are strong and complete. There&#x27;s clear preparation and an understanding of what kind of company they want to build. I appreciate that, and I want to give them credit for it.</p>
+</section>
+<section aria-labelledby="the-product-is-getting-more-interesting-as-i-actually-spend-time-with-it"><h2 id="the-product-is-getting-more-interesting-as-i-actually-spend-time-with-it">The product is getting more interesting as I actually spend time with it</h2>
+<p>I&#x27;m reviewing Meshy, one of the tools Rishi and OpenGame will use as part of their infrastructure to build games. It&#x27;s kind of cool. I like the idea that as AI gets more capable, something like OpenGame will get more powerful too.</p>
+<p>I&#x27;m watching the five-minute preview of their game builder, and it&#x27;s genuinely cool. It&#x27;s using many tools that are all getting better under the hood. I obviously knew this before, but spending more time with it gives me more appreciation for how much of this is orchestrating different things: Meshy, video generation, intelligence from different model providers, and all the different assets being built as a game gets generated.</p>
+<p>The creator can go into those assets and manipulate them further. The way they&#x27;re laying out and designing the harness makes sense to me. It&#x27;s very hard to do well, but there&#x27;s potential in this direction.</p>
+<p>I agree with Daniel that they&#x27;re trying to build something that allows more serious game development, beyond a quick, slop-like experience that runs on a phone for pure entertainment.</p>
+</section>
+<section aria-labelledby="the-bet-as-i-m-beginning-to-understand-it"><h2 id="the-bet-as-i-m-beginning-to-understand-it">The bet, as I&#x27;m beginning to understand it</h2>
+<p>At the end of the day, Daniel is right: this is a simple bet, and the guys explain it well in their memo.</p>
+<p>Games have historically been one of the hardest things to do well. They require time, investment, production, and lots of different specialists. To a large extent, that&#x27;s still true. But for each major component of what goes into a game, AI infrastructure is getting good: Meshy, LLMs, fal, and so on.</p>
+<p>OpenGame wants to be the harness that manages those tools for someone who isn&#x27;t technical but absolutely loves games. Give that person a tool that lets them make good games that are fun to play, and they may love it. If that&#x27;s true, I can&#x27;t imagine a world where at least a loooot of people aren&#x27;t excited to have fun with this.</p>
+<p>It fits how we see the world. The underlying tools get better as models get smarter. It makes sense why now feels like an increasingly good time to make a bet like OpenGame.</p>
+<p>Another macro observation I appreciate is the explosion in usage of the three.js library. I hadn&#x27;t stopped to think about it. Models are getting capable enough that people who aren&#x27;t necessarily very technical are getting their hands dirty and building games. You can see growth in the tooling and libraries supporting that. That feels like an important tailwind.</p>
+</section>
+<section aria-labelledby="their-starting-choices-and-the-bigger-ambition"><h2 id="their-starting-choices-and-the-bigger-ambition">Their starting choices and the bigger ambition</h2>
+<p>There are so many layers to what they&#x27;re doing. They have to pick the technologies they use to build games—or the game engines. I don&#x27;t fully understand the distinction yet.</p>
+<p>My current understanding is: let&#x27;s start with three.js, make web game development easy, and use the growth in that library because agents like building with it and it&#x27;s simple. Maybe that&#x27;s not quite right; I want to understand this better, including why three.js instead of Unity, Unreal, or something else. In some ways, they&#x27;re picking the medium. They could do mobile or web. They picked web.</p>
+<p>I saw a tweet about Rishi playing around with their Smash Bros. game and adding the ability to use a controller through your computer. It&#x27;s early, but you can see the ambition in the details they&#x27;re working on.</p>
+<p>I also appreciate that they aren&#x27;t assuming everyone has to use their harness. People are already building games in Claude Code, Codex, and other tools. If they just want to export a game into OpenGame&#x27;s gallery, let them. If they want OpenGame to host it and add features like multiplayer parties, let them.</p>
+<p>They&#x27;re trying to find the simplest places to start. There&#x27;s a lot of ground to cover, but the early directions seem cool.</p>
+<p>The longer-term vision is bigger than making deeper games easier to build. It&#x27;s also a platform where people share experiences, creators share their work and potentially make money, and friends collaborate on games. They can jump into shared sessions and online parties.</p>
+<p>That doesn&#x27;t happen overnight. They&#x27;re trying to take steps toward it: making deployment easy, eating their own dog food, building sincere games, building in public, and getting people to react. In a way, they&#x27;re seeding their own marketplace.</p>
+<p>A lot of people wouldn&#x27;t do that. At least they&#x27;re doers. They&#x27;re doing things to try to achieve something quite hard.</p>
+</section>
+<section aria-labelledby="giving-rishi-credit-for-the-breadth-of-what-he-s-done"><h2 id="giving-rishi-credit-for-the-breadth-of-what-he-s-done">Giving Rishi credit for the breadth of what he&#x27;s done</h2>
+<p>I&#x27;m reading the “Right to Win” document on Rishi. My first reaction is “super impressive,” but I want to use better words instead of making what I&#x27;m observing sound bigger than it is.</p>
+<p>What I like is the breadth of his previous work. He&#x27;s built a business and made money through IB Vine. He also seems to care about sharing things with a community and becoming a voice.</p>
+<p>For a consumer product in gaming, you want someone who deeply cares, can articulate opinions, and can share them in a way that people appreciate what he has to say.</p>
+<p>I&#x27;m seeing his Medium posts about coding and different ideas, and the open-source projects he built before, which were not super successful but still.... I&#x27;m thinking: damn, this guy has done so much.</p>
+<p>Seeing that gives me more comfort that the ElevenLabs situation may just be complicated. This is clearly someone whose work extends well beyond a single job. He&#x27;s done a lot more than just have a job.</p>
+</section>
+<section aria-labelledby="how-much-weight-did-i-put-on-elevenlabs"><h2 id="how-much-weight-did-i-put-on-elevenlabs">How much weight did I put on ElevenLabs?</h2>
+<p>As I write these notes, I feel like I want to do the deal. I find the product fun. Maybe I drew the wrong conclusions from a Zoom meeting with Matt and put too much focus on the bad reference about Rishi at ElevenLabs. I&#x27;m also thinking about what Daniel said in our last conversation.</p>
+<p>You don&#x27;t necessarily know what happened when someone gets fired after just two months. It may simply not have worked out. That doesn&#x27;t disqualify someone from being a great founder.</p>
+<p>I don&#x27;t want to leave that at the obvious, high-level statement. This deal has more to process than a one-liner about two good founders. They&#x27;re early, but there&#x27;s a lot of information in the data room: the detail and care in explaining what they&#x27;re doing, the demos, and what Rishi has been putting on Twitter. There are signals that they work, build, and try to do cool stuff.</p>
+<p>In my last huddle with Daniel, I talked about the fundraising processes Pedro and DanJ went through and how much investors focused on references. Those are very early deals, where so much of the assessment comes down to what the founders did in their previous organizations.</p>
+<p>OpenGame is early too. But there&#x27;s merit in how Rishi and Matt are presenting the opportunity and in what they&#x27;ve already put in front of us. I want to give them credit for that.</p>
+<p>There&#x27;s a version of this where I overthought it and gave the wrong weight to the ElevenLabs issue. I reached out to Veronica at CRV and Mike at Floodgate, and both pointed out how short Rishi&#x27;s tenure was. They didn&#x27;t like it. I think I reacted more strongly because I hadn&#x27;t even noticed it. It hadn&#x27;t crossed my mind, and suddenly it was: “Oh shit, you&#x27;re right. I need to know this.”</p>
+<p>I don&#x27;t want to be the dumb guy who makes a quick investment and then the team turns out to be shit. Finding out he got fired made me think harder about the team. Of course I have to take it into account.</p>
+<p>Does the deal come down to that? That&#x27;s what I&#x27;m trying to figure out. Combine it with my immediate reactions to Matt, and I don&#x27;t know what to think about what I used to think—or what I still think. I don&#x27;t know how important it should be.</p>
+</section>
+<section aria-labelledby="revisiting-my-reaction-to-matt"><h2 id="revisiting-my-reaction-to-matt">Revisiting my reaction to Matt</h2>
+<p>I worry that I overweight reactions to individual answers. Maybe he was rehearsing the pitch, maybe he didn&#x27;t recognize what we were asking, or maybe I simply didn&#x27;t like that answer.</p>
+<p>As I read their competitive landscape, I&#x27;m remembering good things Matt said too. They position OpenGame around deeper games that are easier to make, compared with startups like Rosebud and Astrocade.</p>
+<p>I remember Matt saying something like: “We believe this will happen, but we&#x27;re not quite there yet.” I forget the exact context. I want to go back to Granola and find that moment. My recollection is that he was being candid: here&#x27;s how we see it, and we don&#x27;t want to oversell it.</p>
+<p>It&#x27;s worth pointing out moments where Matt made smart contributions. Daniel said this too: when Matt jumped in, he had good things to add. I don&#x27;t know why I ended up with such an opposite view instead of a more nuanced one. Maybe I was quick to jump to conclusions.</p>
+<p>And as I read the data room, it feels clear to me that Matt, with his PE background, was involved. It&#x27;s very well done and rich in content.</p>
+</section>
+<section aria-labelledby="my-initial-excitement-may-have-been-superficial"><h2 id="my-initial-excitement-may-have-been-superficial">My initial excitement may have been superficial</h2>
+<p>I&#x27;m thinking about how I communicate the fact that I can&#x27;t invest now, and how I explain that to myself and Daniel.</p>
+<p>I was excited by the category, the deck, and the materials. But some of that excitement was superficial: “The demo seems cool. The founder seems smart. He came through someone I trust. This is the type of deal we want to do.” Boom.</p>
+<p>Then that conviction quickly disappeared when negative signals came in: my suppositions that Matt wasn&#x27;t an equal partner or particularly useful to this company, and finding out that Rishi got fired.</p>
+<p>What may be changing now is that I&#x27;m spending time with the materials and actually thinking about what they&#x27;re doing. I&#x27;m trying to understand it. I&#x27;ve read their memo and watched all their demos. I&#x27;m getting excited about the depth of thought, the ambition, and the sense that they&#x27;re starting in sensible ways.</p>
+</section>
+<section aria-labelledby="the-business-model-moment-with-daniel"><h2 id="the-business-model-moment-with-daniel">The business-model moment with Daniel</h2>
+<p>I remember an example where Daniel and I were engaging with this at different depths. We were watching the generated video together. I think I got distracted, and there was a slide about the business model.</p>
+<p>Daniel said something like, “Let&#x27;s skip this; it&#x27;s not too relevant.” My quick reaction was something like, “Yeah, this stuff is made up.” I think I literally said that. I want to find the huddle and the exact moment.</p>
+<p>Now I&#x27;m reading their memo and how they think about making money, and that feels like a stupid comment from me. Of course it&#x27;s early. They don&#x27;t yet know what the platform and community will respond to, or which ways of charging will work. But I think the slide was just talking through those things, and I dismissed it because I wasn&#x27;t deeply engaged.</p>
+<p>There&#x27;s nothing crazy in the memo&#x27;s business-model section. It seems smart, and I agree with what they&#x27;re saying. I&#x27;m not claiming the business model is a new reason to be excited. I&#x27;m criticizing how casually I was thinking about it before.</p>
+</section>
+<section aria-labelledby="the-raise-has-changed"><h2 id="the-raise-has-changed">The raise has changed</h2>
+<p>I&#x27;m reading the memo, and they&#x27;ve updated the raise from $6 million to $3 million for the pre-seed. How are they going to spend it now? They changed the structure midway through the process. And for a game. Fuck it.</p>
+</section>
+<section aria-labelledby="understanding-the-competitive-distinctions"><h2 id="understanding-the-competitive-distinctions">Understanding the competitive distinctions</h2>
+<p>In the competition document, they describe Tesana as focused on indie game developers. They also say indie developers are very critical of AI. I&#x27;m not sure why. I haven&#x27;t spent time with Tesana yet.</p>
+<p>There will obviously be tech-forward indie developers who want to use these tools. I&#x27;m trying to understand the distinction. Doesn&#x27;t “indie game” just mean a smaller, less well-known game? If I make a game through OpenGame, aren&#x27;t I participating in the indie game industry too?</p>
+<p>Reading further, I see Tesana is starting with Godot. That helps me understand the claim that they&#x27;re focusing more on developers. It reinforces my feeling that OpenGame is making sensible choices about where to start. I still want to understand the technical distinction better.</p>
+<p>These are two Astrocade examples:</p>
+<ul><li><a href="https://www.astrocade.com/games/hide-or-hunt/01M0N7P0A1BCW02YP91DKNW9M4">Hide or Hunt</a></li><li><a href="https://www.astrocade.com/games/meme-scrawler/01KMDWP2XG0G41XXCCXPMNX79C">Meme Scrawler</a></li></ul>
+<p>This is the company that recently raised a Series B with Sequoia. Once you try these games, the difference from OpenGame&#x27;s vision feels extremely clear. It&#x27;s brain-rot games.</p>
+</section>
+<footer class="editing-note">
+<p>Editing note: spelling and names were normalized; repeated thoughts were grouped. “I can&#x27;t invest now” and “And for a game. Fuck it.” are retained without resolving their intended meaning. This version adds no researched conclusions.</p>
+</footer>
+</div>
+</article>
+<a class="back" href="#notes">Back to the top ↑</a>
+</main>
+</body>
+</html>
