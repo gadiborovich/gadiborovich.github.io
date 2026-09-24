@@ -1,0 +1,155 @@
+<div id="terac-blended-outcomes">
+  <style>
+    #terac-blended-outcomes { color: var(--foreground); }
+    #terac-blended-outcomes .terac-legend { display: flex; flex-wrap: wrap; gap: 0.6rem 1.4rem; margin: 0.7rem 0 1.2rem; }
+    #terac-blended-outcomes .terac-key { display: inline-flex; align-items: center; gap: 0.4rem; }
+    #terac-blended-outcomes .terac-swatch { display: inline-block; width: 0.75rem; height: 0.75rem; }
+    #terac-blended-outcomes .terac-old { background: var(--viz-series-2); }
+    #terac-blended-outcomes .terac-new { background: var(--viz-series-1); }
+    #terac-blended-outcomes .terac-section { margin-top: 1.5rem; }
+    #terac-blended-outcomes .terac-stack { display: flex; height: 0.45rem; margin: 0.5rem 0; width: 100%; }
+    #terac-blended-outcomes .terac-stack > span { display: block; }
+    #terac-blended-outcomes .terac-cell { min-width: 7.5rem; }
+    #terac-blended-outcomes .terac-metric { display: block; }
+    #terac-blended-outcomes .terac-details { margin: 0.7rem 0 0; display: grid; gap: 0.35rem; }
+    #terac-blended-outcomes .terac-detail-values { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; }
+    #terac-blended-outcomes .terac-basis { margin: 0.4rem 0 0.8rem; }
+  </style>
+  <h2>Terac: Fund I and a separate $1M investment</h2>
+  <div class="terac-legend text-small">
+    <span class="terac-key"><span class="terac-swatch terac-old" aria-hidden="true"></span>Existing $10K</span>
+    <span class="terac-key"><span class="terac-swatch terac-new" aria-hidden="true"></span>New investment</span>
+    <span>Fund I bars: share of combined proceeds</span>
+  </div>
+  <div class="text-small text-muted">10% discount · Series A values are post-money · Gross outcomes before fees, carry and taxes</div>
+
+  <section class="terac-section" aria-labelledby="terac-pass-title">
+    <h3 id="terac-pass-title">Existing stake if you pass</h3>
+    <div class="text-small text-muted terac-basis">$10K cost · 0.03333% original stake · Assumed 20% dilution at A, B and C; one more 20% round for the $5B hold</div>
+    <div class="table-responsive">
+      <table class="table table-sm tabular-nums">
+        <caption class="sr-only">Gross proceeds from the existing ten thousand dollar position, with no additional investment</caption>
+        <thead><tr><th scope="col">Series C<br>$1.35B</th><th scope="col">Series C<br>$1.8B</th><th scope="col">Series C<br>$2.7B</th><th scope="col">Extended hold<br>$5B</th></tr></thead>
+        <tbody id="terac-pass-values"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="terac-section" aria-labelledby="terac-70-title">
+    <h3 id="terac-70-title">Fund I: $70K new + $10K existing</h3>
+    <div class="text-small text-muted terac-basis">$80K combined cost · Total proceeds / blended multiple / proceeds added by the new check</div>
+    <div class="table-responsive">
+      <table class="table table-sm tabular-nums">
+        <caption class="sr-only">Every Series A entry crossed with every exit, for a seventy thousand dollar follow-on</caption>
+        <thead><tr><th scope="col">Series A<br>post-money</th><th scope="col">Series C<br>$1.35B</th><th scope="col">Series C<br>$1.8B</th><th scope="col">Series C<br>$2.7B</th><th scope="col">Extended hold<br>$5B</th></tr></thead>
+        <tbody id="terac-70-values"></tbody>
+      </table>
+    </div>
+    <div id="terac-70-details" class="terac-details text-small tabular-nums" aria-live="polite" aria-atomic="true"></div>
+  </section>
+
+  <section class="terac-section" aria-labelledby="terac-1000-title">
+    <h3 id="terac-1000-title">Separate investment: $1M</h3>
+    <div class="text-small text-muted terac-basis">$1M cost · Independent of all Fund I investments · Gross proceeds, multiple and profit</div>
+    <div class="table-responsive">
+      <table class="table table-sm tabular-nums">
+        <caption class="sr-only">Every Series A entry crossed with every exit, for a standalone one million dollar investment outside Fund I</caption>
+        <thead><tr><th scope="col">Series A<br>post-money</th><th scope="col">Series C<br>$1.35B</th><th scope="col">Series C<br>$1.8B</th><th scope="col">Series C<br>$2.7B</th><th scope="col">Extended hold<br>$5B</th></tr></thead>
+        <tbody id="terac-1000-values"></tbody>
+      </table>
+    </div>
+    <div id="terac-1000-details" class="terac-details text-small tabular-nums" aria-live="polite" aria-atomic="true"></div>
+  </section>
+  <script>
+    (function () {
+      const root = document.getElementById('terac-blended-outcomes');
+      const entries = [150e6, 200e6, 300e6];
+      const exits = [1.35e9, 1.8e9, 2.7e9, 5e9];
+      const checks = [{ id: '70', amount: 70000, includeOriginal: true }, { id: '1000', amount: 1000000, includeOriginal: false }];
+      const originalCost = 10000;
+      const originalOwnership = originalCost / 30e6;
+      const oldRetentionAtA = 0.8;
+      const newRetentionAtC = 0.8 * 0.8;
+      const state = { '70': [1, 1], '1000': [1, 1] };
+      const exact = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+      function money(value) {
+        return value >= 1e6 ? '$' + (value / 1e6).toFixed(2) + 'M' : '$' + Math.round(value / 1000) + 'K';
+      }
+      function multiple(value) { return value.toFixed(1) + '×'; }
+      function exitLabel(column) { return (column === 3 ? 'Hold at ' : 'Series C at ') + '$' + exits[column] / 1e9 + 'B'; }
+      function metrics(amount, row, column, includeOriginal = true) {
+        const retention = newRetentionAtC * (column === 3 ? 0.8 : 1);
+        const existing = includeOriginal ? originalOwnership * oldRetentionAtA * retention * exits[column] : 0;
+        const newOwnershipAtA = amount / (0.9 * entries[row]);
+        const added = newOwnershipAtA * retention * exits[column];
+        const total = existing + added;
+        const cost = amount + (includeOriginal ? originalCost : 0);
+        return { existing, added, total, cost, newOwnershipAtA, blended: total / cost, newMultiple: added / amount };
+      }
+      function applyState(saved) {
+        if (!saved || typeof saved !== 'object') return;
+        for (const check of checks) {
+          const item = saved[check.id];
+          if (Array.isArray(item) && Number.isInteger(item[0]) && item[0] >= 0 && item[0] < 3 && Number.isInteger(item[1]) && item[1] >= 0 && item[1] < 4) state[check.id] = item;
+        }
+      }
+      applyState(window.openai && window.openai.widgetState && window.openai.widgetState.modelContent && window.openai.widgetState.modelContent.selection);
+      const pass = root.querySelector('#terac-pass-values');
+      pass.innerHTML = '<tr>' + exits.map(function (_, column) {
+        const proceeds = metrics(70000, 0, column).existing;
+        return '<td>' + exact.format(proceeds) + '<span class="terac-metric text-small text-muted">' + multiple(proceeds / originalCost) + ' on original $10K</span></td>';
+      }).join('') + '</tr>';
+
+      function refreshDetails(check) {
+        const row = state[check.id][0];
+        const column = state[check.id][1];
+        const m = metrics(check.amount, row, column, check.includeOriginal);
+        const target = root.querySelector('#terac-' + check.id + '-details');
+        const selection = '<div>Selected: A $' + entries[row] / 1e6 + 'M → ' + exitLabel(column) + '</div>';
+        target.innerHTML = selection + (check.includeOriginal
+          ? '<div class="terac-detail-values"><span>Existing ' + exact.format(m.existing) + '</span><span>+ new ' + exact.format(m.added) + '</span><span>= combined ' + exact.format(m.total) + '</span></div>' +
+            '<div class="text-muted">New check: ' + multiple(m.newMultiple) + ' · Blended: ' + multiple(m.blended) + ' · New-check profit: ' + exact.format(m.added - check.amount) + ' · Blended profit: ' + exact.format(m.total - m.cost) + '</div>'
+          : '<div class="terac-detail-values"><span>Investment ' + exact.format(check.amount) + '</span><span>Gross proceeds ' + exact.format(m.total) + '</span><span>Profit ' + exact.format(m.total - m.cost) + '</span><span>Return ' + multiple(m.newMultiple) + '</span></div>');
+        for (const button of root.querySelectorAll('button[data-check="' + check.id + '"]')) {
+          button.setAttribute('aria-pressed', String(Number(button.dataset.row) === row && Number(button.dataset.column) === column));
+        }
+      }
+
+      checks.forEach(function (check) {
+        const tbody = root.querySelector('#terac-' + check.id + '-values');
+        tbody.innerHTML = entries.map(function (entry, row) {
+          const share = check.amount / (0.9 * entry) * 100;
+          return '<tr><th scope="row">$' + entry / 1e6 + 'M<span class="terac-metric text-small text-muted">' + share.toFixed(4) + '% new after A</span></th>' + exits.map(function (_, column) {
+            const m = metrics(check.amount, row, column, check.includeOriginal);
+            const oldWidth = m.existing / m.total * 100;
+            const breakdown = check.includeOriginal
+              ? '<div class="terac-stack" role="img" aria-label="Existing stake ' + exact.format(m.existing) + ', new check ' + exact.format(m.added) + '"><span class="terac-old" style="width:' + oldWidth + '%"></span><span class="terac-new" style="width:' + (100 - oldWidth) + '%"></span></div>' +
+                '<span class="terac-metric text-small">' + multiple(m.blended) + ' blended</span>' +
+                '<span class="terac-metric text-small text-muted">+' + money(m.added) + ' new</span>'
+              : '<span class="terac-metric text-small">' + multiple(m.newMultiple) + ' return</span>' +
+                '<span class="terac-metric text-small text-muted">' + money(m.total - m.cost) + ' profit</span>';
+            return '<td><div class="terac-cell">' +
+              '<button type="button" class="btn btn-ghost" data-check="' + check.id + '" data-row="' + row + '" data-column="' + column + '" aria-pressed="false" aria-label="Breakdown for ' + money(check.amount) + ' new at A $' + entry / 1e6 + 'M, ' + exitLabel(column) + ', ' + (check.includeOriginal ? 'combined' : 'standalone') + ' proceeds ' + exact.format(m.total) + '">' + money(m.total) + '</button>' + breakdown + '</div></td>';
+          }).join('') + '</tr>';
+        }).join('');
+        refreshDetails(check);
+      });
+
+      root.addEventListener('click', function (event) {
+        const button = event.target.closest('button[data-check]');
+        if (!button || !root.contains(button)) return;
+        const check = checks.find(function (item) { return item.id === button.dataset.check; });
+        state[check.id] = [Number(button.dataset.row), Number(button.dataset.column)];
+        refreshDetails(check);
+        if (window.openai && typeof window.openai.setWidgetState === 'function') {
+          window.openai.setWidgetState({ modelContent: { selection: state, oldSeriesADilution: 0.2, laterRoundDilution: 0.2 }, privateContent: null }).catch(function () {});
+        }
+      });
+      window.addEventListener('openai:set_globals', function (event) {
+        const saved = event.detail && event.detail.globals && event.detail.globals.widgetState;
+        applyState(saved && saved.modelContent && saved.modelContent.selection);
+        checks.forEach(refreshDetails);
+      });
+    })();
+  </script>
+</div>
