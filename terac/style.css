@@ -42,6 +42,15 @@ h1 { font: 400 clamp(36px, 4.5vw, 54px)/1.12 var(--serif); letter-spacing: -0.03
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px 30px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 23px; }
 h2 { font: 400 32px/1.2 var(--serif); letter-spacing: -0.025em; margin: 5px 0 10px; }
 .cost { margin: 0; color: var(--green); font-size: 16px; font-variant-numeric: tabular-nums; }
+h3 { font: 400 24px/1.3 var(--serif); margin: 30px 0 10px; letter-spacing: -0.02em; }
+.a-value { display: block; font: 26px/1.3 var(--serif); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.a-price { color: var(--green); }
+.a-matrix .a-combined { background: var(--wash); }
+.a-matrix td { padding-top: 24px; padding-bottom: 24px; }
+.a-standalone thead th:first-child { width: 25%; }
+.a-footnote { font-size: 14px; color: var(--muted); margin: 13px 0 0; }
+.a-takeaway { margin: 22px 0 0; padding: 18px 22px; border-left: 3px solid var(--green); background: var(--wash); color: var(--muted); font-size: 15px; }
+.a-takeaway strong { color: var(--ink); }
 .section-note { color: var(--muted); margin: 0 0 20px; font-size: 15px; }
 .baseline { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; margin: 22px 0 0; }
 .baseline-item { border-top: 1px solid var(--line); padding-top: 14px; min-width: 0; }
