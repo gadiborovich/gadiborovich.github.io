@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="color-scheme" content="light">
+  <title>Entender la reconstrucción, paso a paso</title>
+  <meta name="description" content="Una guía paciente para entender la reconstrucción mamaria y preparar conversaciones con el equipo médico.">
+  <style>
+    :root { --ink:#24362f; --muted:#536158; --green:#355e48; --light:#f7f8f4; --cream:#fbf9f1; --line:#d8e2d9; --gold:#a9834b; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:#fff; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .progress { position:fixed; z-index:5; top:0; left:0; height:4px; width:0; background:var(--green); }
+    .skip { position:absolute; left:-9999px; top:8px; background:#fff; padding:.6rem; }
+    .skip:focus { left:8px; z-index:10; }
+    .top { border-bottom:1px solid var(--line); padding:.85rem max(1.2rem, calc((100vw - 900px)/2)); display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+    .brand { color:var(--green); font-family:Georgia,serif; font-weight:bold; letter-spacing:-.02em; font-size:1.1rem; }
+    button { font:inherit; cursor:pointer; color:var(--green); background:transparent; border:1px solid var(--line); border-radius:100px; padding:.45rem .85rem; }
+    button:hover, button:focus-visible { background:var(--light); }
+    .wrap { max-width:900px; padding:0 1.2rem 5rem; margin:0 auto; }
+    .cover { margin:2.1rem 0 2rem; padding:2.2rem 2rem 2.4rem; background:var(--cream); border-top:8px solid var(--green); border-radius:2px 2px 14px 14px; }
+    .eyebrow { color:var(--gold); font-size:.78rem; font-weight:800; text-transform:uppercase; letter-spacing:.12em; margin:0 0 1rem; }
+    .cover h1 { font-family:Georgia,"Times New Roman",serif; color:#244b36; font-size:clamp(2.3rem,6vw,4.1rem); line-height:1.04; letter-spacing:-.025em; max-width:730px; margin:0; }
+    .cover p { font-size:1rem; color:var(--muted); margin:1rem 0 0; }
+    .toc { margin:0 0 3.7rem; padding:1.35rem 1.55rem; border:1px solid var(--line); border-radius:12px; background:var(--light); }
+    .content .toc-title { margin:0 0 .85rem; font-family:Georgia,serif; font-size:1.3rem; color:var(--green); }
+    .toc-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.45rem 1.3rem; }
+    .toc a { color:var(--green); text-decoration:none; font-size:.94rem; padding:.17rem 0; }
+    .toc a:hover, .toc a:focus-visible { text-decoration:underline; }
+    .content { max-width:750px; margin:0 auto; }
+    .content > h1 { display:none; }
+    .content > p:first-of-type { display:none; }
+    .content h2 { scroll-margin-top:1.7rem; margin:3.8rem 0 1.2rem; padding-top:1.3rem; border-top:2px solid var(--green); color:#244b36; font:normal clamp(1.65rem,4vw,2.05rem)/1.14 Georgia,"Times New Roman",serif; }
+    .content h3 { margin:3rem 0 1rem; color:var(--green); font:normal 1.35rem Georgia,serif; }
+    .content p, .content li { font-size:1.075rem; line-height:1.75; }
+    .content p { margin:1rem 0; }
+    .content li { margin:.45rem 0; padding-left:.2rem; }
+    .content ol { padding-left:1.45rem; }
+    .content strong { color:#172c20; }
+    .content a { color:#256346; text-underline-offset:3px; }
+    .content blockquote { margin:2rem 0; padding:1rem 1.5rem; border-left:5px solid var(--green); background:var(--light); border-radius:0 9px 9px 0; }
+    .content blockquote p { margin:.3rem 0; font-size:1.12rem; }
+    .overview { margin:2.2rem 0 3.4rem; padding:1.5rem; border:1px solid var(--line); border-radius:14px; background:var(--cream); }
+    .content .overview h2 { margin:0 0 1rem; padding:0; border:0; scroll-margin-top:1.7rem; font:normal 1.75rem Georgia,serif; }
+    .content .overview > p { font-size:1rem; line-height:1.6; margin:.85rem 0; }
+    .overview-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; margin:1.1rem 0; }
+    .overview-card { padding:.85rem 1rem; border:1px solid var(--line); border-radius:9px; background:#fff; }
+    .content .overview-card h3 { margin:0 0 .4rem; font:normal 1.12rem Georgia,serif; }
+    .content .overview-card p { margin:0; font-size:.93rem; line-height:1.55; color:var(--ink); }
+    .overview-routes .overview-card { background:var(--light); }
+    .content .overview-note { color:var(--muted); font-size:.9rem; }
+    .content hr { border:0; border-top:1px solid var(--line); margin:4rem 0 2rem; }
+    .cite { font-size:.7em; white-space:nowrap; margin-left:.12em; }
+    .cite a { text-decoration:none; }
+    .layer-figure { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin:1.6rem 0 .7rem; }
+    .layer-card { background:var(--light); border:1px solid var(--line); border-radius:11px; padding:1rem; display:flex; flex-direction:column; gap:.35rem; text-align:center; }
+    .layer-card strong { color:var(--green); font:normal 1.08rem Georgia,serif; padding-bottom:.6rem; }
+    .layer-card span, .layer-card b, .layer-card small { padding:.62rem .4rem; border-radius:6px; display:block; line-height:1.2; }
+    .layer-card span { background:#dbe7dc; }
+    .layer-card b { background:#e9d5aa; color:#463719; }
+    .layer-card small { background:#d5d9d4; color:#444; }
+    .plan-card { margin:1.5rem 0; padding:1.1rem 1.35rem; background:var(--cream); border:1px solid #e7e0d0; border-radius:12px; }
+    .plan-card p { margin:.65rem 0; font-size:1rem; border-bottom:1px solid #e6decf; padding-bottom:.58rem; }
+    .plan-card p:last-child { border-bottom:0; padding-bottom:0; }
+    .content h3 + p, .content h3 ~ ol { font-size:.94rem; color:var(--muted); }
+    .content h3 ~ ol li { font-size:.92rem; line-height:1.55; }
+    @media(max-width:620px) { .cover { margin:1rem 0 1.5rem; padding:1.6rem 1.25rem; } .toc-grid,.layer-figure,.overview-grid { grid-template-columns:1fr; } .toc { margin-bottom:2rem; } .content p,.content li { font-size:1.02rem; } .content h2 { margin-top:3.2rem; } .overview { padding:1.1rem; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+    @media print { .top,.toc,.progress { display:none; } .wrap { max-width:none; padding:0; } .cover { margin:0 0 1rem; padding:1rem; } .content { max-width:none; } .content p,.content li { font-size:10.5pt; line-height:1.45; } .content h2 { font-size:17pt; break-after:avoid; } .overview,.layer-figure,.plan-card,blockquote { break-inside:avoid; } a { color:inherit!important; text-decoration:none!important; } body { print-color-adjust:exact; -webkit-print-color-adjust:exact; } }
+  </style>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="top"><span class="brand">gadi.fm</span><button type="button" id="print">Imprimir o guardar PDF</button></header>
+  <div class="wrap">
+    <section class="cover"><p class="eyebrow">Guía para leer con calma</p><h1>Entender la reconstrucción, paso a paso</h1><p>Una explicación para Mariela · 24 de septiembre de 2026</p></section>
+    <main class="content" id="contenido"><h1>Entender la reconstrucción, paso a paso</h1>
+<p><strong>Una guía para Mariela · 24 de septiembre de 2026</strong></p>
+<p>Mamá, después de tantos meses de tratamiento, es comprensible querer que alguien pueda decirte con seguridad cuál es el camino. Tenés dos cirujanos recomendados y escuchaste planes que suenan distintos. Este cuadernillo explica cómo funciona la reconstrucción y te ayuda a comparar lo que propone cada uno. Podés leerlo por partes. No hace falta resolver nada mientras lo leés.</p>
+<section class="overview" aria-labelledby="overview-title">
+  <h2 id="overview-title">Qué estás eligiendo hoy</h2>
+  <p>La decisión de ahora es <strong>con qué cirujano y con qué plan te sentís cómoda</strong>. Ese plan incluye una primera opción y las alternativas que aceptarías si, durante la operación, la piel no permite seguirla. No tenés que anticipar cómo quedará la piel; sí podés entender qué implicaría cada camino para vos.</p>
+  <div class="overview-grid">
+    <div class="overview-card"><h3>Lo que entendimos de Oscar</h3><p>Quiere evaluar los tejidos durante la operación y podría usar un expansor si lo considera necesario. Vale precisar qué haría primero si la piel queda bien y dónde pondría el dispositivo.</p></div>
+    <div class="overview-card"><h3>Lo que entendimos de Natalia</h3><p>Propone colocar directamente un implante de silicona por delante del músculo, salvo que encuentre un motivo importante para cambiar. Vale precisar qué haría en ese caso.</p></div>
+  </div>
+  <p><strong>Para compararlos, dos respuestas:</strong> ¿cuál sería la primera opción de Oscar si la piel queda bien? ¿Cuál sería la alternativa de Natalia si no puede colocar directamente el implante por delante del músculo?</p>
+  <div class="overview-grid overview-routes">
+    <div class="overview-card"><h3>Implante directo</h3><p>Mastectomía → implante definitivo en esa operación → recuperación. No hay un recambio programado, aunque podrían necesitarse ajustes más adelante.</p></div>
+    <div class="overview-card"><h3>Expansor primero</h3><p>Mastectomía → expansor temporal → visitas para llenarlo → otra operación para cambiarlo por el implante definitivo.</p></div>
+  </div>
+  <p class="overview-note">En cualquiera de los dos recorridos, el dispositivo puede ir por delante o por detrás del músculo. Son decisiones diferentes. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f5" aria-label="Fuente 5">5</a></sup></p>
+</section><nav class="toc" aria-label="Capítulos"><p class="toc-title">Para leer por partes</p><div class="toc-grid"><a href="#1-donde-estamos-hoy">1. Dónde estamos hoy</a>
+<a href="#2-que-se-hace-en-una-mastectomia-con-reconstruccion">2. Qué se hace en una mastectomía con reconstrucción</a>
+<a href="#3-como-transcurre-el-proceso">3. Cómo transcurre el proceso</a>
+<a href="#4-hay-dos-decisiones-distintas">4. Hay dos decisiones distintas</a>
+<a href="#5-que-puede-cambiar-al-ponerlo-delante-o-detras">5. Qué puede cambiar al ponerlo delante o detrás</a>
+<a href="#6-implante-definitivo-ahora-o-expansor-primero">6. Implante definitivo ahora o expansor primero</a>
+<a href="#7-como-entender-lo-que-te-ofrecieron-oscar-y-natalia">7. Cómo entender lo que te ofrecieron Oscar y Natalia</a>
+<a href="#8-la-duda-sobre-la-radioterapia-y-el-tumor-anterior">8. La duda sobre la radioterapia y el tumor anterior</a>
+<a href="#9-lo-que-vale-la-pena-saber-sobre-el-resultado-a-largo-plazo">9. Lo que vale la pena saber sobre el resultado a largo plazo</a>
+<a href="#10-un-plan-claro-puede-incluir-una-alternativa">10. Un plan claro puede incluir una alternativa</a>
+<a href="#11-para-las-proximas-consultas">11. Para las próximas consultas</a>
+<a href="#para-cerrar-el-cuadernillo">Para cerrar el cuadernillo</a></div></nav>
+
+<h2 id="1-donde-estamos-hoy">1. Dónde estamos hoy</h2>
+<p>En abril te sacaron el tumor de la mama izquierda mediante una cirugía parcial. El informe encontró un tumor invasivo de alrededor de <strong>13 × 9 mm</strong>, con bordes libres y sin células tumorales en los dos ganglios centinela analizados. El tamaño es solo una parte de la historia del cáncer; no resume por sí mismo por qué recibiste quimioterapia. El resultado genético <strong>BRCA2</strong> es parte de la razón por la que el mastólogo, <strong>Carlitos Arévalo</strong>, te propuso retirar el tejido mamario de ambos lados como medida para reducir el riesgo futuro y coordinar una reconstrucción. <sup class="cite"><a href="#f1" aria-label="Fuente 1">1</a>, <a href="#f2" aria-label="Fuente 2">2</a></sup></p>
+<p>La quimioterapia está terminando. Ahora se están coordinando la cirugía de las mamas, la cirugía ginecológica y el retiro del port-a-cath. Para la reconstrucción, Oscar y Natalia te han propuesto maneras distintas de avanzar. Entender qué busca cada uno con su propuesta puede ayudarte a elegir con más tranquilidad.</p>
+<h2 id="2-que-se-hace-en-una-mastectomia-con-reconstruccion">2. Qué se hace en una mastectomía con reconstrucción</h2>
+<p>En una mastectomía, el mastólogo retira tejido de la mama. Según el caso, puede conservar parte de la piel y, a veces, el pezón. La decisión de conservarlos depende del plan para tratar el cáncer, la anatomía y la circulación de esos tejidos. Después, el cirujano plástico reconstruye la forma de la mama si así se ha acordado. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a></sup></p>
+<p>Para reconstruir con un implante, tiene que quedar <strong>piel capaz de cicatrizar y de cubrirlo</strong>. Esa piel recibe sangre por vasos muy pequeños. Antes de la operación se puede estimar cómo estará; durante la cirugía se ve mejor cómo quedó después de retirar el tejido mamario. Si queda muy tirante o con circulación insuficiente, colocar directamente un implante definitivo puede ser menos aconsejable. Si queda fina pero bien irrigada, también importa cuánto cubre el implante y cuánto se notará. Son situaciones distintas, y por eso los cirujanos preparan alternativas. <sup class="cite"><a href="#f4" aria-label="Fuente 4">4</a>, <a href="#f13" aria-label="Fuente 13">13</a></sup></p>
+<p>Reconstruir la forma tampoco devuelve automáticamente la sensibilidad anterior. Después de una mastectomía suele haber zonas de adormecimiento o cambios de sensibilidad. Conviene hablarlo junto con las expectativas sobre aspecto y comodidad. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a></sup></p>
+<p>La conversación actual está enfocada en <strong>implantes</strong>, porque son los que te propusieron Oscar y Natalia. Existen otros caminos: reconstruir más adelante, utilizar tejido de otra parte del cuerpo o elegir un cierre plano. No hace falta abrir todas esas decisiones ahora; vale saber que podés pedir información si alguna te interesa antes de fijar la operación. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a></sup></p>
+<h2 id="3-como-transcurre-el-proceso">3. Cómo transcurre el proceso</h2>
+<p><strong>Antes de operar</strong>, el equipo define qué tejido se retirará y si se podrá conservar la piel o el pezón. La resonancia mamaria, la cirugía de abril y el plan de radioterapia ayudan a completar esa evaluación. Vos y los cirujanos pueden acordar una primera opción y las alternativas que aceptarías si la piel no permite seguirla. El equipo también coordinará si la cirugía de ovarios y el retiro del port-a-cath se harán ese mismo día o en otro momento.</p>
+<p><strong>Durante la operación</strong>, el mastólogo realiza la mastectomía y el cirujano plástico ve cómo quedaron la piel y su circulación. Puede colocar el implante definitivo, colocar un expansor o seguir otra alternativa que hayan conversado y autorizado. La anatomía patológica definitiva del tejido retirado se conoce después, no mientras vos estás tomando esta decisión. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f4" aria-label="Fuente 4">4</a></sup></p>
+<p><strong>Después</strong>, habrá controles de la herida y es habitual que se usen drenajes temporales. Son tubitos blandos que salen cerca de la herida y llevan a una pequeña perita el líquido que el cuerpo produce al principio, para que no se acumule. El equipo te enseña a cuidarlos en casa y los retira en un control cuando ya no hacen falta. Si se usa un expansor, se suele llenar en visitas posteriores y más adelante se cambia por el implante definitivo. Incluso con un implante directo puede haber ajustes posteriores; el equipo debe contarte qué espera en tu caso y qué señales justificarían llamarles durante la recuperación. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f5" aria-label="Fuente 5">5</a>, <a href="#f14" aria-label="Fuente 14">14</a></sup></p>
+<h2 id="4-hay-dos-decisiones-distintas">4. Hay dos decisiones distintas</h2>
+<p>Es fácil mezclarlas porque suelen explicarse en la misma consulta:</p>
+<p><strong>Dónde queda el dispositivo.</strong> Puede ir <strong>por delante del músculo pectoral</strong> —a veces llamado <em>prepectoral</em>— o <strong>por detrás de ese músculo, al menos en parte</strong> —<em>subpectoral</em>. Esto describe la posición, no cuántas operaciones habrá.</p>
+<p><strong>Cuándo se coloca el implante definitivo.</strong> Puede ponerse en la misma operación que la mastectomía si las condiciones lo permiten. O puede colocarse primero un <strong>expansor</strong> temporal, para cambiarlo por un implante definitivo en otra operación. El expansor también puede ir por delante del músculo. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f5" aria-label="Fuente 5">5</a></sup></p>
+<div class="layer-figure" role="img" aria-label="Esquema simplificado: en la reconstrucción por delante del músculo, el implante queda entre la piel y el pectoral; en la reconstrucción por detrás, el pectoral cubre parte del implante.">
+  <div class="layer-card"><strong>Por delante del músculo</strong><span>Piel y tejido que queda</span><b>Implante o expansor</b><span>Músculo pectoral</span><small>Pared del pecho</small></div>
+  <div class="layer-card"><strong>Por detrás del músculo</strong><span>Piel y tejido que queda</span><b>Músculo pectoral</b><span>Implante o expansor</span><small>Pared del pecho</small></div>
+</div>
+
+<p><em>Esquema simplificado: el músculo puede cubrir solo una parte del implante y puede utilizarse una malla, un material que ayuda a sostenerlo. El dibujo explica las posiciones; no representa exactamente tu cirugía.</em></p>
+<h2 id="5-que-puede-cambiar-al-ponerlo-delante-o-detras">5. Qué puede cambiar al ponerlo delante o detrás</h2>
+<p><strong>Por delante del músculo.</strong> Si la piel que queda tiene buena circulación y suficiente cobertura, esta posición permite dejar el pectoral en su lugar. El músculo no tira del implante al contraerse, por lo que la mama suele moverse menos al usar los brazos o el pecho. En un ensayo clínico pequeño hubo menos dolor los primeros días que con la colocación detrás del músculo, aunque a los tres meses no hubo una diferencia clara. Su límite es que, si queda poca grasa bajo la piel, pueden notarse más los bordes u ondulaciones del implante. <sup class="cite"><a href="#f4" aria-label="Fuente 4">4</a>, <a href="#f6" aria-label="Fuente 6">6</a>, <a href="#f13" aria-label="Fuente 13">13</a></sup></p>
+<p><strong>Por detrás del músculo.</strong> El pectoral cubre parte del implante y puede ayudar a disimular sus bordes, sobre todo en la parte superior, cuando queda menos tejido sobre él. A cambio, el músculo puede mover el implante al contraerse y causar más tirantez o molestias al principio. Esa cobertura extra no devuelve circulación a la piel: si la piel no está en buenas condiciones para cicatrizar, el equipo puede necesitar cambiar algo más que la posición del implante. <sup class="cite"><a href="#f4" aria-label="Fuente 4">4</a>, <a href="#f5" aria-label="Fuente 5">5</a>, <a href="#f13" aria-label="Fuente 13">13</a></sup></p>
+<p>Con <strong>ambas</strong> posiciones pueden aparecer problemas de cicatrización, infección, acumulación de líquido, endurecimiento alrededor del implante o necesidad de otra intervención. Los estudios no sostienen una regla sencilla como “el líquido aparece solo debajo del músculo” o “arriba es siempre más seguro”. La técnica concreta y cómo queda la piel importan tanto como la posición. <sup class="cite"><a href="#f7" aria-label="Fuente 7">7</a>, <a href="#f13" aria-label="Fuente 13">13</a></sup></p>
+<p>En tu caso, sabemos que hubo una cirugía parcial en la mama izquierda y que ahora se está planeando una mastectomía en ambos lados. Vale preguntar si la cirugía de abril cambia la cobertura de ese lado y qué esperan encontrar en cada mama. Si esperan buena cobertura, la opción de Natalia tiene una razón clara: preservar el músculo. Si esperan una cobertura especialmente fina, vale entender qué aportaría usarlo. Una pregunta para ambos es: <strong>“¿Qué ganaría y qué perdería yo con cada posición, según la piel que esperan encontrar?”</strong> <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f4" aria-label="Fuente 4">4</a>, <a href="#f13" aria-label="Fuente 13">13</a></sup></p>
+<h2 id="6-implante-definitivo-ahora-o-expansor-primero">6. Implante definitivo ahora o expansor primero</h2>
+<p><strong>Implante definitivo de entrada.</strong> Si la piel y el espacio disponible permiten colocar sin demasiada tensión un implante del tamaño buscado, se puede planificar su volumen con medidas y colocarlo en la misma operación. Se evita el período con expansor y la cirugía programada para cambiarlo. Aun así, podría hacer falta algún retoque más adelante. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f8" aria-label="Fuente 8">8</a>, <a href="#f12" aria-label="Fuente 12">12</a></sup></p>
+<p><strong>Expansor primero.</strong> Es un dispositivo temporal que suele colocarse parcialmente lleno. Permite empezar con menos volumen si conviene no estirar tanto la piel al principio. Tras la cicatrización inicial, se llena poco a poco en consultas; luego se cambia por el implante definitivo en otra operación. Da tiempo para ir viendo el volumen deseado, pero supone más visitas, un período que puede resultar incómodo y una segunda cirugía prevista. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f5" aria-label="Fuente 5">5</a></sup></p>
+<p>Tu idea de que el expansor ayuda a <strong>ajustar el tamaño</strong> tiene fundamento. Lo que cambia es <em>cuándo</em> se decide el volumen final y si la piel necesita ganar espacio gradualmente. No es indispensable usarlo solo para tomar medidas, y tampoco garantiza un resultado exacto. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f5" aria-label="Fuente 5">5</a>, <a href="#f12" aria-label="Fuente 12">12</a></sup></p>
+<p><strong>Tener 57 años no vuelve obligatorio el expansor.</strong> La edad forma parte de la evaluación de la salud y la cicatrización, junto con la calidad de la piel, el tipo de mastectomía y el tamaño que te gustaría. En un estudio que comparó ambas rutas, quienes recibieron implantes directos eran, en promedio, más jóvenes, tenían menos factores de riesgo y mamas más pequeñas. Al tener en cuenta esas diferencias, no apareció una ventaja clara de seguridad para una ruta. Eso no demuestra que a los 57 sea mejor operar en dos etapas. La pregunta para cada cirujano es qué ganaría <em>tu</em> reconstrucción con una segunda etapa: ¿menos tensión al principio, más espacio, más tiempo para elegir el volumen final u otra razón? <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f4" aria-label="Fuente 4">4</a>, <a href="#f8" aria-label="Fuente 8">8</a></sup></p>
+<h2 id="7-como-entender-lo-que-te-ofrecieron-oscar-y-natalia">7. Cómo entender lo que te ofrecieron Oscar y Natalia</h2>
+<p>Según lo que conversaste con la familia, <strong>Oscar Seoane</strong> propone mirar cómo quedan los tejidos durante la operación y, si lo considera necesario, colocar un expansor para cambiarlo por un implante definitivo más adelante. Sería útil preguntarle cuál es su primera opción cuando la piel queda en buenas condiciones y qué lo llevaría a elegir el expansor.</p>
+<p>Según esas conversaciones, <strong>Natalia Sorrenti</strong> propone colocar un implante de silicona <strong>por delante del músculo</strong>, salvo que durante la operación encuentre un motivo importante para cambiar. Sería útil preguntarle qué la haría cambiar de plan y qué elegiría entonces.</p>
+<p>Lo que contaste de Oscar se refiere sobre todo a <strong>hacer la reconstrucción en una o dos etapas</strong>. No equivale a decir que él haya recomendado poner el implante debajo del músculo. Son dos decisiones diferentes, y vale la pena que cada uno te explique cómo las combinaría en tu caso.</p>
+<p>Carlitos trabaja habitualmente con Natalia y te la recomendó. Esa coordinación puede ser valiosa cuando dos cirujanos comparten una operación. Oscar también tiene recomendaciones fuertes por su trabajo. Además, te resultó más cálida la conversación con Natalia. <strong>Poder hablar con confianza, sentirse escuchada y conocer el trabajo del equipo son partes legítimas de esta decisión.</strong> Ninguno de esos datos, por sí solo, permite saber cuál técnica es mejor para vos.</p>
+<p>Es posible que ambos eligieran algo parecido si encontraran las mismas condiciones durante la operación. También pueden tener criterios distintos. Comparar su primera opción y su alternativa para cada situación ayuda a entender dónde está la diferencia real.</p>
+<h2 id="8-la-duda-sobre-la-radioterapia-y-el-tumor-anterior">8. La duda sobre la radioterapia y el tumor anterior</h2>
+<p>Entendés que <strong>hoy no está prevista radioterapia después de la mastectomía bilateral</strong>. Conviene confirmarlo con el equipo de oncología y mastología antes de usar una posibilidad futura como razón principal para poner el implante delante o detrás del músculo. La radioterapia puede afectar la piel y la reconstrucción. La evidencia disponible no demuestra que colocar el implante debajo del músculo lo proteja siempre mejor si algún día hubiera que irradiar. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f9" aria-label="Fuente 9">9</a>, <a href="#f10" aria-label="Fuente 10">10</a></sup></p>
+<p>El tamaño del tumor retirado, los bordes libres y los ganglios negativos son datos importantes para las decisiones <strong>oncológicas</strong>. No determinan por sí solos dónde colocar un implante en una operación posterior. Para la reconstrucción cuentan más directamente la piel que quede, su circulación, el tamaño y forma buscados, la cirugía anterior y los tratamientos que realmente se esperan. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f4" aria-label="Fuente 4">4</a></sup></p>
+<h2 id="9-lo-que-vale-la-pena-saber-sobre-el-resultado-a-largo-plazo">9. Lo que vale la pena saber sobre el resultado a largo plazo</h2>
+<p>Un implante reconstruye un volumen y una forma; no recrea exactamente la mama que había antes. Puede sentirse distinto, verse distinto al cambiar de postura o necesitar ajustes. Con los años pueden aparecer endurecimiento por la cápsula de cicatriz, ruptura u otros problemas que lleven a controles o cirugías. Los implantes de silicona también tienen recomendaciones de seguimiento por imágenes para detectar rupturas que no den síntomas. Esto no significa que vaya a ocurrirte algo de eso: significa que conviene incluir el cuidado a largo plazo en la decisión. <sup class="cite"><a href="#f3" aria-label="Fuente 3">3</a>, <a href="#f11" aria-label="Fuente 11">11</a></sup></p>
+<p>No tenés que justificar por qué te importa el aspecto, la sensación, la posibilidad de otra operación o la relación con el médico. Es tu cuerpo y son consecuencias distintas. Podés necesitar tiempo para descubrir qué te importa más <strong>en esta cirugía</strong>.</p>
+<h2 id="10-un-plan-claro-puede-incluir-una-alternativa">10. Un plan claro puede incluir una alternativa</h2>
+<p>En la próxima consulta, podés usar estas frases para escuchar la propuesta de cada cirujano. Gadi, papá o quien te acompañe puede anotar las respuestas:</p>
+<div class="plan-card">
+  <p><strong>Mi primera opción para vos sería:</strong> ____________________</p>
+  <p><strong>La elegiría porque en tu caso veo:</strong> ____________________</p>
+  <p><strong>Cambiaría de plan si encuentro:</strong> ____________________</p>
+  <p><strong>Entonces haría:</strong> ____________________</p>
+  <p><strong>El resultado inmediato sería:</strong> ____________________</p>
+  <p><strong>Después esperaría estas visitas u operaciones:</strong> ____________________</p>
+</div>
+
+<p>Así podés confiarle al cirujano la evaluación durante la operación y saber cuál es su primera opción, qué la cambiaría y qué esperar después. Si las respuestas de Oscar y Natalia se parecen, la diferencia puede ser menor de lo que hoy parece. Si son diferentes, vas a tener algo concreto para comparar.</p>
+<p>También podés anotar, sin decidir todavía, qué pesa más para vos: evitar una segunda operación programada; cuidar la piel y la cicatrización aunque haya dos etapas; cómo puede verse y sentirse la mama; y poder hablar con confianza con el equipo. Ninguna de esas prioridades es superficial. Podés cambiar de idea cuando entiendas mejor lo que ofrece cada plan.</p>
+<h2 id="11-para-las-proximas-consultas">11. Para las próximas consultas</h2>
+<p>Estas preguntas son para que Gadi, papá o quien vos elijas pueda ayudarte a reunir respuestas. No tenés que recordar cada detalle ni repetir las consultas sola.</p>
+<ol>
+<li><strong>A Oscar:</strong> “Si después de la mastectomía la piel está bien, ¿cuál sería su primera opción para mí? ¿Dónde pondría el implante o expansor? ¿Qué ganaría yo con usar un expansor primero?”</li>
+<li><strong>A Natalia:</strong> “¿Por qué le parece mejor para mí poner el implante delante del músculo? ¿Ve alguna razón para ponerlo detrás o para empezar con un expansor? ¿Qué la haría cambiar de plan?”</li>
+<li><strong>A ambos:</strong> “¿Ven hoy, antes de operar, alguna razón particular en mi caso para su propuesta? ¿Cómo influye mi cirugía de abril? ¿Qué esperan de toda la recuperación, incluidas visitas, una segunda cirugía prevista y posibles retoques?”</li>
+<li><strong>A Carlitos y oncología:</strong> “¿Qué tipo de mastectomía y conservación de piel o pezón están planeando? ¿Ya se revisó la resonancia mamaria? ¿Se espera radioterapia después de esta operación?”</li>
+</ol>
+<p>Si los cirujanos discrepan sobre un <strong>hecho clínico</strong> —por ejemplo, si tu piel permitiría un implante directo—, vale la pena que lo conversen con Carlitos o pedir otra opinión enfocada en ese punto. Si coinciden en que hay más de una opción médicamente razonable, tus preferencias y la confianza en el equipo tendrán más lugar en la elección.</p>
+<h2 id="para-cerrar-el-cuadernillo">Para cerrar el cuadernillo</h2>
+<p>No necesitás encontrar por tu cuenta la técnica “perfecta”. Sí merecés una explicación concreta del plan que te proponen, de cuándo cambiaría y de lo que cada camino puede implicar para tu cuerpo y tu vida después. Podemos conseguir esa información de a poco y ayudarte a compararla. Hoy no hace falta resolverla toda.</p>
+<hr>
+<h3>De dónde sale esta guía</h3>
+<p>La parte sobre tu historia proviene del informe de cirugía de abril, el estudio genético, las consultas breves vistas en Summum y lo que contaste en las conversaciones familiares. Las propuestas atribuidas a Oscar y Natalia reflejan <strong>lo que entendimos de esas conversaciones</strong> y pueden precisarse con ellos. Preparado con información disponible al <strong>24 de septiembre de 2026</strong>. Este material ayuda a entender y preguntar; el equipo que te atiende debe precisar qué se aplica a vos.</p>
+<ol>
+<li><span id="f1"></span>Informe de anatomía patológica de la cirugía parcial del 23 de abril de 2026, preservado en la carpeta familiar.</li>
+<li><span id="f2"></span><a href="https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet">NCI: BRCA y riesgo hereditario</a>; <a href="https://www.cancer.gov/types/breast/causes-risk-factors/prevention/preventive-breast-surgery">NCI: cirugía para reducir riesgo de cáncer de mama</a>.</li>
+<li><span id="f3"></span><a href="https://www.cancer.gov/types/breast/treatment/surgery/breast-reconstruction">NCI: reconstrucción después de la mastectomía</a>.</li>
+<li><span id="f4"></span><a href="https://ecancer.org/en/journal/article/927-prepectoral-implant-based-breast-reconstruction-a-joint-consensus-guide-from-uk-european-and-usa-breast-and-plastic-reconstructive-surgeons">Consenso de cirujanos sobre reconstrucción por delante del músculo</a>, 2019. Es consenso experto; la evaluación individual sigue siendo esencial.</li>
+<li><span id="f5"></span><a href="https://www.mskcc.org/cancer-care/patient-education/breast-reconstruction-using-tissue-expander">Memorial Sloan Kettering: expansor e implante</a>.</li>
+<li><span id="f6"></span><a href="https://pubmed.ncbi.nlm.nih.gov/36159368/">Ensayo clínico aleatorizado de posición del implante</a>, 2022. Pequeño y con criterios de selección específicos.</li>
+<li><span id="f7"></span><a href="https://link.springer.com/article/10.1245/s10434-022-12567-0">Revisión de estudios comparativos</a>, 2022; <a href="https://pubmed.ncbi.nlm.nih.gov/40100118/">estudio retrospectivo de un centro</a>, 2025. Los resultados sobre líquido e infección no son idénticos entre estudios.</li>
+<li><span id="f8"></span><a href="https://profiles.wustl.edu/en/publications/direct-to-implant-vs-tissue-expander-placement-in-immediate-breas/">Estudio prospectivo sobre implante directo o expansor</a>, 2024. Los grupos tenían diferencias importantes antes de la operación.</li>
+<li><span id="f9"></span><a href="https://pubmed.ncbi.nlm.nih.gov/41308380/">Revisión sobre radioterapia y posición del implante</a>, 2026. No establece una protección universal de una posición.</li>
+<li><span id="f10"></span><a href="https://www.astro.org/provider-resources/guidelines/clinical-practice-guidelines/postmastectomy-radiation-therapy">ASTRO/ASCO/SSO: guía de radioterapia después de mastectomía</a>, 2025. La indicación para una persona concreta corresponde al equipo tratante.</li>
+<li><span id="f11"></span><a href="https://www.fda.gov/medical-devices/breast-implants/risks-and-complications-breast-implants">FDA: riesgos y complicaciones de implantes mamarios</a>.</li>
+<li><span id="f12"></span><a href="https://pubmed.ncbi.nlm.nih.gov/35723790/">Estudio sobre estimación del tamaño del implante en reconstrucción directa</a>, 2022. Muestra que el volumen puede planificarse con medidas e imágenes antes de colocar un implante directo; no predice el resultado individual.</li>
+<li><span id="f13"></span><a href="https://www.cancercareontario.ca/en/guidelines-advice/types-of-cancer/31721">Ontario Health: guía clínica sobre reconstrucción después de mastectomía</a>, 2025. Reconoce un lugar para ambas posiciones y recomienda considerar la reconstrucción por delante cuando la piel tiene grosor y circulación adecuados.</li>
+<li><span id="f14"></span><a href="https://www.mskcc.org/cancer-care/patient-education/caring-your-jackson-pratt-drain">Memorial Sloan Kettering: cuidado de un drenaje después de cirugía</a>. Describe el tubo, la perita y los cuidados hasta su retiro.</li>
+</ol>
+</main>
+  </div>
+  <script>
+    document.getElementById('print').addEventListener('click', () => window.print());
+    const bar = document.querySelector('.progress');
+    addEventListener('scroll', () => {
+      const available = document.documentElement.scrollHeight - innerHeight;
+      bar.style.width = (available > 0 ? Math.min(100, Math.max(0, scrollY / available * 100)) : 100) + '%';
+    }, { passive: true });
+  </script>
+</body>
+</html>

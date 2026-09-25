@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>El video para Mariela</title>
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Una guía para Mariela, para mirar con calma o por capítulos.">
+<style>
+:root{color-scheme:light;--paper:#fbf9f1;--ink:#24362f;--green:#355e48;--line:#d8e2d9}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.5 Arial,Helvetica,sans-serif}main{max-width:1140px;margin:auto;padding:48px 24px 70px}h1,h2{font-family:Georgia,serif;font-weight:400;color:var(--green)}h1{font-size:clamp(32px,5vw,54px);line-height:1.14;max-width:950px;margin:10px 0 22px}h2{font-size:30px;margin:40px 0 16px}.eyebrow{font-size:15px;letter-spacing:.07em;color:#63746a}p{max-width:850px}video{display:block;width:100%;background:var(--paper);border:1px solid var(--line);border-radius:12px;margin:30px 0 16px}.links{display:flex;gap:12px 28px;flex-wrap:wrap;font-size:16px}a{color:var(--green);text-underline-offset:4px}.chapters{display:grid;grid-template-columns:1fr 1fr;gap:10px}button{font:inherit;font-size:17px;display:flex;text-align:left;align-items:baseline;gap:14px;background:#fffefa;border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:16px;cursor:pointer}button span{font-size:15px;font-variant-numeric:tabular-nums;color:#63746a;flex:0 0 46px}button:hover,button[aria-current=true]{background:#e5e9e3;border-color:#8da594}button:focus-visible,a:focus-visible{outline:3px solid var(--green);outline-offset:3px}.note{font-size:15px;color:#63746a;margin-top:28px}@media(max-width:650px){main{padding:28px 16px 45px}.chapters{grid-template-columns:1fr}button{padding:14px}h1{font-size:35px}}
+</style></head><body><main><div class="eyebrow">PARA MARIELA</div><h1>Entender la reconstrucción,<br>paso a paso</h1><p>Podés mirarlo de corrido o elegir un capítulo. El video dura 18 minutos y medio.</p>
+<video id="video" controls playsinline preload="metadata" poster="portada.png"><source src="reconstruccion-para-mariela.mp4" type="video/mp4"><track kind="subtitles" srclang="es" label="Español" src="subtitulos.vtt">Tu navegador no puede reproducir este video. Usá el enlace de descarga.</video>
+<div class="links"><a href="reconstruccion-para-mariela.mp4" download>Descargar el video</a><a href="cuadernillo.html">Abrir el cuadernillo y sus fuentes</a></div>
+<h2>Ver por partes</h2><nav class="chapters" aria-label="Capítulos del video"><button type="button" data-time="0.000"><span>00:00</span>Entender la reconstrucción, paso a paso</button>
+<button type="button" data-time="33.750"><span>00:33</span>Qué estás eligiendo hoy</button>
+<button type="button" data-time="128.792"><span>02:08</span>1. Dónde estamos hoy</button>
+<button type="button" data-time="190.292"><span>03:10</span>2. Qué se hace en una mastectomía con reconstrucción</button>
+<button type="button" data-time="288.292"><span>04:48</span>3. Cómo transcurre el proceso</button>
+<button type="button" data-time="382.125"><span>06:22</span>4. Hay dos decisiones distintas</button>
+<button type="button" data-time="452.917"><span>07:32</span>5. Qué puede cambiar al ponerlo delante o detrás</button>
+<button type="button" data-time="580.500"><span>09:40</span>6. Implante definitivo ahora o expansor primero</button>
+<button type="button" data-time="693.083"><span>11:33</span>7. Cómo entender lo que te ofrecieron Oscar y Natalia</button>
+<button type="button" data-time="799.292"><span>13:19</span>8. La duda sobre la radioterapia y el tumor anterior</button>
+<button type="button" data-time="855.417"><span>14:15</span>9. Lo que vale la pena saber sobre el resultado a largo plazo</button>
+<button type="button" data-time="913.125"><span>15:13</span>10. Un plan claro puede incluir una alternativa</button>
+<button type="button" data-time="984.708"><span>16:24</span>11. Para las próximas consultas</button>
+<button type="button" data-time="1077.042"><span>17:57</span>Para cerrar el cuadernillo</button>
+<button type="button" data-time="1100.875"><span>18:20</span>Para volver al cuadernillo</button></nav>
+<p class="note">Las fuentes y sus enlaces están en el cuadernillo. No se leen en voz alta durante el video.</p>
+</main><script>
+const video=document.getElementById('video');const buttons=[...document.querySelectorAll('[data-time]')];
+for(const button of buttons)button.addEventListener('click',()=>{video.currentTime=Number(button.dataset.time);video.play().catch(()=>{});video.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'});});
+video.addEventListener('timeupdate',()=>{let active=0;buttons.forEach((button,i)=>{if(Number(button.dataset.time)<=video.currentTime)active=i;});buttons.forEach((button,i)=>button.setAttribute('aria-current',i===active?'true':'false'));});
+</script></body></html>
