@@ -1,0 +1,732 @@
+{
+  "prepared": "October 6, 2026",
+  "sourceHashes": {
+    "existing-lps.md": "599644bd174045de668411e14aab844ac706810f789b6e467da097a8ddff510e",
+    "puentes.md": "fef4f781982a9d59c7678091ae2e2760e3c70eec809692cd09e57bf2732500eb"
+  },
+  "people": [
+    {
+      "id": "kurt-read",
+      "name": "Kurt Read",
+      "channel": "iMessage",
+      "route": "Direct conversation",
+      "summary": "An invitation with a useful reason to catch up: the Fund I numbers.",
+      "context": "Kurt asked to go over the Fund I numbers after missing them at the September recap. Gadi sent the slides; a current personal Fund II invitation was not found in the reviewed sources.",
+      "next": "If he takes the call, bring reconciled Fund I figures and the Fund II case. He can also continue asynchronously.",
+      "category": "core",
+      "caution": "October 12 at 2pm PT was free for both partners when checked October 5. The slot is not held; recheck before offering.",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Kurt, we're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. We've finished the materials — sharing them here: https://fund.antigravity.capital/\n\nWe're both free Monday, October 12 at 2pm PT if you'd like to catch up and go through the Fund I numbers and what we're planning for Fund II."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb2902680a09f3ff2890d5f8573"
+        }
+      ]
+    },
+    {
+      "id": "darren-fredette",
+      "name": "Darren Fredette",
+      "channel": "iMessage",
+      "route": "Existing conversation with Daniel",
+      "summary": "A close backer whose tentative interest needs a current invitation.",
+      "context": "Darren helped with Fund I diligence and recently praised Puentes. In July he said he was probably comfortable writing a Fund II check; no amount or investment next step followed.",
+      "next": "Learn his current appetite and address the returns questions that matter to him. His separate Halluminate pass does not settle Fund II.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Darren, we're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials — here they are: https://fund.antigravity.capital/\n\nHappy to catch up and walk through how we're building on Fund I too."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb2902680c68045cb743f8160f8"
+        }
+      ]
+    },
+    {
+      "id": "nico-bistolfi",
+      "name": "Nico Bistolfi",
+      "channel": "WhatsApp",
+      "route": "Direct conversation",
+      "summary": "Build on his recap engagement and invite him into the next fund.",
+      "context": "Nico engaged with the Fund I recap and received its recording. A Puentes invitation is still open in the reviewed exchange; the fund invitation can proceed independently.",
+      "next": "Discuss participation and his actual questions. Another dinner or Q&A is optional, not a condition.",
+      "category": "core",
+      "caution": "This is Nico Bistolfi, distinct from Nicolás Bevacqua in the Puentes group.",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Nico, estamos arrancando con Fund II y empezando por quienes nos acompañaron en el primero. Me encantaría seguir trabajando juntos en este fondo. Ya tenemos los materiales listos: https://fund.antigravity.capital/\n\nSi te sirve, lo charlamos y te cuento cómo lo estamos pensando."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb2902680f4b56ffb64a50ab46d"
+        }
+      ]
+    },
+    {
+      "id": "jonathan-siegel",
+      "name": "Jonathan Siegel",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "A warm recent exchange makes the Fund II invitation natural.",
+      "context": "Jonathan enthusiastically thanked us for including him in Halluminate on October 1. He knows both partners and is comfortable continuing by email.",
+      "next": "Discuss Fund II on its own terms. His Halluminate request concerned the SPV and does not establish a fund allocation.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Hey Jonathan,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through it together too."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb29026800f9f11ec4985090bdb"
+        },
+        {
+          "label": "October 1 reply",
+          "url": "https://mail.google.com/mail/u/0/#all/1a0fa0e4673100e5"
+        }
+      ],
+      "subject": "Fund II"
+    },
+    {
+      "id": "marc-fielding",
+      "name": "Marc Fielding",
+      "channel": "WhatsApp",
+      "route": "Direct conversation",
+      "summary": "An ordinary returning-LP invitation, grounded in an ongoing founder relationship.",
+      "context": "Marc knows the Puentes hiring work and previously welcomed a general fund catch-up. No personal invitation into the current Fund II raise was found.",
+      "next": "If he wants to go deeper, connect the Puentes work he has seen to the investment case.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Marc! We're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. We've finished the materials: https://fund.antigravity.capital/\n\nWould be great to catch up and go through it together too."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb2902680ac8ee3d920ab6de6c3"
+        }
+      ]
+    },
+    {
+      "id": "michael-bhagat",
+      "name": "Michael Bhagat",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "Use the investment thinking he already engaged with as the opening for more depth.",
+      "context": "The picks-and-shovels case for Halluminate resonated with Michael. That provides a concrete starting point if he wants to understand the next fund.",
+      "next": "Connect that example to portfolio construction and investment judgment; establish his Fund II appetite independently of his Fund I ticket.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Hey Michael,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through the next fund, including the broader thinking behind investments like Halluminate."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb29026807ca00dd4a57a970a81"
+        },
+        {
+          "label": "His response",
+          "url": "https://mail.google.com/mail/u/0/#all/19fb089b505c84b2"
+        }
+      ],
+      "subject": "Fund II"
+    },
+    {
+      "id": "keith-guerin",
+      "name": "Keith Guerin",
+      "channel": "iMessage",
+      "route": "Direct conversation",
+      "summary": "Invite him directly; the recap does not need to become homework.",
+      "context": "Keith helped think about LP Day and received the Fund I recording. A current personal Fund II invitation was not found in the reviewed conversation.",
+      "next": "Follow the investment question he raises. Use concrete production examples if they help answer it.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Hey Keith, we're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through what we've learned from Fund I and how we're approaching this next one."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb2902680908cfdcd1fc084f457"
+        }
+      ]
+    },
+    {
+      "id": "zack-rosen",
+      "name": "Zack Rosen",
+      "channel": "WhatsApp",
+      "route": "Direct conversation",
+      "summary": "Answer the question he already asked: we are raising Fund II now.",
+      "context": "Zack asked in July whether Fund II was raising; Gadi said soon. His later Puentes travel conflict and Flai pass were separate matters.",
+      "next": "Learn his current personal appetite for Fund II. This is his LP relationship, not an assumed Ribbit allocation.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Zack, picking up your question about Fund II — we're raising now and bringing our existing LPs in first. Would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and go through it together too."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb2902680a7bf53d0a14457f2c7"
+        }
+      ]
+    },
+    {
+      "id": "josh-harvey",
+      "name": "Josh Harvey",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "Give the catch-up invitation the investment purpose it was missing.",
+      "context": "Josh received the Fund I replay and a general catch-up offer on September 25. That note did not invite him to participate in Fund II.",
+      "next": "If he replies with questions by email, answer them there instead of turning the exchange back into scheduling.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Hey Josh,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. Sharing our finished materials here: https://fund.antigravity.capital/\n\nHappy to talk it through too, or keep it over email if that's easier."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb2902680648810d6bb09bca565"
+        },
+        {
+          "label": "Replay already sent",
+          "url": "https://mail.google.com/mail/u/0/#all/1a0d99c191f51bbc"
+        }
+      ],
+      "subject": "Fund II"
+    },
+    {
+      "id": "bou-berendsen",
+      "name": "Bou Berendsen",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "Share the fund case and make an asynchronous conversation easy.",
+      "context": "Bou received the recap replay and a general catch-up invitation. A current Fund II invitation was not found; his location has also changed since older CRM notes.",
+      "next": "Continue over email if useful. If he wants a call, offer times in his actual timezone.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Hey Bou,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to go through it together too, or keep it over email if that's easier."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb2902680bbb98ed6e4ef0e3e37"
+        },
+        {
+          "label": "Replay already sent",
+          "url": "https://mail.google.com/mail/u/0/#all/1a0d99d2809c491f"
+        }
+      ],
+      "subject": "Fund II"
+    },
+    {
+      "id": "justin-alexander",
+      "name": "Justin Alexander",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "A possible addition with a simple, direct re-up invitation.",
+      "context": "The bounded email review found no current personal Fund II invitation. Justin previously flagged replies leaking through the LP mailing list.",
+      "next": "If selected for this pass, start a new private email and continue from his answer.",
+      "category": "candidate",
+      "caution": "Off-channel history was not fully recovered; confirm the current context before sending.",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Hey Justin,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through it together too."
+        }
+      ],
+      "sources": [],
+      "subject": "Fund II"
+    },
+    {
+      "id": "jonny-price",
+      "name": "Jonny Price",
+      "channel": "iMessage",
+      "route": "Direct conversation",
+      "summary": "A short familiar note can open the current investment conversation.",
+      "context": "The recent exchange concerns Wefunder and Kai paperwork. The reviewed texts and email did not establish a current Fund II invitation.",
+      "next": "If selected, invite him personally and learn his appetite; his Wefunder role does not determine the investing vehicle.",
+      "category": "candidate",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Jonny, we're bringing our existing LPs into Fund II now. Would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and talk through it too."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "casey-melcher",
+      "name": "Casey Melcher",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "A possible addition; keep the fund invitation distinct from past recording requests.",
+      "context": "Recent email concerns the recap. Casey previously requested the Halluminate recording, but its delivery was not established in this review.",
+      "next": "If selected, invite him into Fund II and resolve any still-owed recording separately.",
+      "category": "candidate",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Hey Casey,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and go through it together too."
+        }
+      ],
+      "sources": [],
+      "subject": "Fund II"
+    },
+    {
+      "id": "kim-andy",
+      "name": "Kim / Andy",
+      "channel": "iMessage",
+      "route": "Existing conversation with Kim and Daniel",
+      "summary": "Continue the Fund II conversation Kim already asked to have.",
+      "context": "Kim requested a deeper Fund II discussion after the September 16 Spotlight. Gadi offered LP conversations and Daniel shared the SOI; a re-up decision has not been established.",
+      "next": "Make participation explicit, then offer real times if she wants a conversation with Andy. A shared Q&A is not a prerequisite.",
+      "category": "continuation",
+      "caution": "Andy is not in this iMessage group. Address Kim and refer to both; this is outside the new-invitation count.",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Kim, picking up on our Fund II conversation after the Spotlight — Daniel and I would love to have you and Andy with us again. We've finished the materials: https://fund.antigravity.capital/\n\nWould be great to catch up with you both and go through it together."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb290268093b358c0d600820074"
+        }
+      ]
+    },
+    {
+      "id": "elias-torres",
+      "name": "Elias Torres",
+      "channel": "WhatsApp",
+      "route": "Existing direct conversation",
+      "summary": "Support the fellow conversations already underway and complete the investment handoff.",
+      "context": "Elias is already speaking with fellows. Gadi's October 4 message recaps an investment discussion and promises onboarding; that message is not proof of signing.",
+      "next": "Share the fellows page, make the introductions he requests, and verify the existing onboarding handoff separately.",
+      "category": "current",
+      "caution": "Personal timing makes remote introductions the useful default. Follow the current thread rather than setting an automatic nudge.",
+      "group": "puentes",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Elías, ya está la página con todos los fellows: https://puentes.antigravity.capital/puentes-iv\n\nVi que venís avanzando con Santi. Decime a quién más querés conocer y te conecto; no hace falta esperar a Puentes. Que salga todo bien el viernes!"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "devan-malhotra",
+      "name": "Devan Malhotra",
+      "channel": "WhatsApp",
+      "route": "Existing direct conversation",
+      "summary": "Deliver the fellows page he is expecting, connect Rumi, and open the fund conversation.",
+      "context": "Devan confirmed he will be in SF and received dinner links on October 5. Gadi promised the fellows page; Rumi supplies a concrete hiring connection.",
+      "next": "Settle the role, relevant fellow and dinner guest. Make the separate Fund II invitation as the exchange resumes; neither dinner nor a hire must happen first.",
+      "category": "current",
+      "group": "puentes",
+      "drafts": [
+        {
+          "label": "Puentes follow-through",
+          "text": "Bro, here's the fellows page I promised: https://puentes.antigravity.capital/puentes-iv\n\nRicardo could be interesting for Rumi — he's building guardrails for AI agents that move money. Would love for you to meet him. Which dinner night works? Happy to have whoever's closest to hiring at Rumi join you too."
+        },
+        {
+          "label": "Fund II invitation",
+          "text": "Also bro, I'd love to have you involved in our next fund. Daniel and I are raising $10–15m. Let's find half an hour next week and I'll walk you through it."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "nicolas-bevacqua",
+      "name": "Nicolás Bevacqua / Ramp",
+      "channel": "WhatsApp",
+      "route": "Existing direct conversation",
+      "summary": "Offer Ana's introduction and pick up the fund invitation already made.",
+      "context": "The relationship connects Ramp's engineering and talent work with Puentes. Gadi has already said he would love Nico as an LP; Nico's answer is not established in the retained sources.",
+      "next": "Confirm mutual interest in Ana's introduction, resolve the existing Will Koh route for a Ramp guest, and follow the actual response to the Fund II invitation.",
+      "category": "current",
+      "caution": "The local chat history is incomplete. Read the latest conversation before using either draft; do not assume Nico will be in SF.",
+      "group": "puentes",
+      "drafts": [
+        {
+          "label": "Puentes follow-through",
+          "text": "Nico! Ya está la página del grupo que viene a SF del 18 al 26: https://puentes.antigravity.capital/puentes-iv\n\nMe acordé de Ramp con Ana. En Buda lideró a cuatro developers; su equipo manejaba la infraestructura detrás de todos los movimientos de plata. Me encantaría que la conozcas. ¿Te conecto con ella? Y para que alguien de Ramp venga a la casa, ¿seguimos por Will, que me habías pasado?"
+        },
+        {
+          "label": "Fund II follow-up",
+          "text": "Y retomando lo que te comenté del fondo, me encantaría que te sumes como LP. ¿Coordinamos una llamada con Daniel y conmigo la semana que viene para mostrarte Fund II?"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "max-zang",
+      "name": "Max Zang / Audacious",
+      "channel": "WhatsApp",
+      "route": "Existing direct conversation",
+      "summary": "Turn his dinner yes into a chosen night and a relevant guest.",
+      "context": "Max said he would join a dinner after receiving the September links. No night was selected in the reviewed exchange, and no Fund II interest is established.",
+      "next": "If included in this pass, settle the night and ask which portfolio team might benefit from meeting the fellows.",
+      "category": "candidate",
+      "group": "puentes",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Max, ya está la página de los fellows: https://puentes.antigravity.capital/puentes-iv. ¿Qué noche te sumás? Si hay alguna empresa del portfolio buscando engineers, decime cuál y vemos a quién le puede servir conocer."
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "micky-malka",
+      "name": "Micky Malka",
+      "channel": "Email",
+      "route": "New personal email; proposed cc Daniel",
+      "summary": "Bring the new fellows to someone who already knows Puentes, with a fintech connection.",
+      "context": "The recent exchange is in Spanish. Ana and Ricardo provide specific reasons this cohort could interest Micky and Ribbit founders.",
+      "next": "Agree a dinner night and identify any hiring founder who should join. Make relevant introductions before the fellows arrive.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — del 18 al 26 de octubre",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hola Micky,\n\nSe viene la cuarta edición de Puentes, del 18 al 26 de octubre. Me encantaría que puedas pasar por la casa una noche y conocer a este grupo.\n\nAcá están los [15 fellows que vienen esta vez](https://puentes.antigravity.capital/puentes-iv). Creo que te va a interesar conocer a Ana, que lideró a cuatro developers en Buda, y a Ricardo, que está construyendo guardrails para agentes de AI que mueven plata.\n\nSi hay founders de Ribbit que estén contratando ingenieros, nos encantaría que se sumen también. Podemos hacer las presentaciones antes de que lleguen los fellows, para que empiecen a conversar desde ahora.\n\nVamos a hacer cenas del 18 al 23, a las 7 pm, en 255 Marina Boulevard. Te dejo los links para elegir la noche que mejor te quede:\n\n- [Domingo 18 de octubre](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Lunes 19 de octubre](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Martes 20 de octubre](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Miércoles 21 de octubre](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Jueves 22 de octubre](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Viernes 23 de octubre](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nAbrazo,\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Recent exchange",
+          "url": "https://mail.google.com/mail/u/0/#all/19febdad4f6169a7"
+        }
+      ]
+    },
+    {
+      "id": "ryan-felipe",
+      "name": "Ryan Bloomer + Felipe Levi Gurgel",
+      "channel": "Email",
+      "route": "New joint email; proposed cc Daniel",
+      "summary": "Repeat a useful collaboration: involve Actions founders who are hiring.",
+      "context": "Ryan forwarded the earlier invitation to Actions founders; Felipe also received an invitation. Prior attendance is not established.",
+      "next": "Choose their night, identify the companies hiring now, and suggest introductions before arrival.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — October 18–26",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Ryan and Felipe,\n\nOur fourth Puentes cohort is coming to SF October 18–26. Would love to have you both over at the house one night.\n\nHere are the [15 fellows coming this time](https://puentes.antigravity.capital/puentes-iv). I think this is our strongest batch so far — Bauti has been contributing to tinygrad and building his own inference engine, and Felix built a CRM for padel clubs that's now at $600k ARR.\n\nRyan, would love to get Actions founders involved again. Are there any portfolio companies hiring aggressively that you think should meet them? We can make introductions before the fellows arrive so the teams get a head start on interviews.\n\nDinners are October 18–23 at 7 pm at 255 Marina Boulevard. Pick whichever night works for you, and feel free to share with the founders:\n\n- [Sunday, October 18](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Monday, October 19](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Tuesday, October 20](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Wednesday, October 21](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Thursday, October 22](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Friday, October 23](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ryan's prior invitation",
+          "url": "https://mail.google.com/mail/u/0/#all/19dd557d2578c26e"
+        },
+        {
+          "label": "Felipe's prior invitation",
+          "url": "https://mail.google.com/mail/u/0/#all/19de595aa1ce8686"
+        }
+      ]
+    },
+    {
+      "id": "tracy-utkarsh",
+      "name": "Tracy Fong + Utkarsh Bajpai",
+      "channel": "Email",
+      "route": "New joint email; proposed cc Daniel",
+      "summary": "Invite Tracy back and build on Utkarsh's earlier company introduction.",
+      "context": "Tracy attended the May dinner and Utkarsh introduced Kasim at a1mobile. This is the selected joint invitation; current GC investment interest is not established.",
+      "next": "Ask which GC teams are hiring now, including whether a1mobile should rejoin, and coordinate the guests' night.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — October 18–26",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Tracy and Utkarsh,\n\nWe're doing our fourth Puentes cohort October 18–26. Tracy, would love to have you back at the house, and Utkarsh, hope you can join this time too.\n\nHere are the [15 fellows coming this round](https://puentes.antigravity.capital/puentes-iv), with their stories and what they've been building.\n\nAre there any GC portfolio companies hiring aggressively that you'd like to invite? If a1mobile is still hiring, happy to loop Kasim in again too. We can make introductions before the fellows arrive so the teams get a head start on interviews.\n\nWe're hosting dinners October 18–23 at 7 pm at 255 Marina Boulevard. Pick whichever night works for you, and feel free to share with the founders you have in mind:\n\n- [Sunday, October 18](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Monday, October 19](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Tuesday, October 20](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Wednesday, October 21](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Thursday, October 22](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Friday, October 23](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Tracy's exchange",
+          "url": "https://mail.google.com/mail/u/0/#all/19d4bbfd620132d7"
+        },
+        {
+          "label": "a1mobile introduction",
+          "url": "https://mail.google.com/mail/u/0/#all/19dd14e8ad79047a"
+        }
+      ]
+    },
+    {
+      "id": "lotti-santi",
+      "name": "Lotti Siniscalco + Santi Subotovsky",
+      "channel": "Email",
+      "route": "New joint email; proposed cc Daniel",
+      "summary": "Give them an easy way to connect specific fellows with Emergence founders.",
+      "context": "Lotti visited and later asked for forwardable individual introductions. Santi offered to review fellows for portfolio matches but was unavailable for the earlier fireside.",
+      "next": "Use the companies or roles they name to prepare short, forwardable introductions and coordinate a night at the house.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — October 18–26",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Lotti and Santi,\n\nOur fourth Puentes cohort is coming to SF October 18–26. Lotti, would love to have you back at the house, and Santi, hopefully the timing works for you this round.\n\nHere are the [15 fellows coming this time](https://puentes.antigravity.capital/puentes-iv). Are there any Emergence portfolio companies hiring aggressively that you'd like to invite?\n\nHappy to suggest a few fellows for specific teams and send short introductions you can forward to the founders. We can connect them before the fellows arrive so they get a head start on interviews.\n\nWe're hosting dinners October 18–23 at 7 pm at 255 Marina Boulevard. Would love for you to join whichever night works, along with founders you think should meet the group:\n\n- [Sunday, October 18](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Monday, October 19](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Tuesday, October 20](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Wednesday, October 21](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Thursday, October 22](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Friday, October 23](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lotti's exchange",
+          "url": "https://mail.google.com/mail/u/0/#all/19dd14e000768b65"
+        },
+        {
+          "label": "Santi's exchange",
+          "url": "https://mail.google.com/mail/u/0/#all/19be27184aac8218"
+        }
+      ]
+    },
+    {
+      "id": "james-gabriel",
+      "name": "James da Costa + Gabriel Vasquez",
+      "channel": "Email",
+      "route": "New joint email; proposed cc Daniel",
+      "summary": "Invite both into the new cohort and connect the fellows with hiring teams.",
+      "context": "Both have received prior invitations according to Gadi. Gabriel's invitation and acceptance are documented; shared attendance is not established.",
+      "next": "Learn which a16z founders should meet the group and arrange relevant introductions before the visit.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — October 18–26",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey James and Gabe,\n\nOur fourth Puentes cohort is coming to SF October 18–26. Would love to have you both join us at the house.\n\nHere are the [15 fellows coming this time](https://puentes.antigravity.capital/puentes-iv). There's a great range in this group — from Ana, who led four developers at Buda, to Bauti, who's been contributing to tinygrad and building his own inference engine.\n\nAre there any a16z companies hiring aggressively that you'd want to invite? Founders are welcome at the dinners, and we can make introductions before the fellows arrive so they get a head start on interviews.\n\nDinners are October 18–23 at 7 pm at 255 Marina Boulevard. Pick whichever night works for you:\n\n- [Sunday, October 18](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Monday, October 19](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Tuesday, October 20](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Wednesday, October 21](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Thursday, October 22](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Friday, October 23](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Gabriel's prior invitation",
+          "url": "https://mail.google.com/mail/u/0/#all/199e4b69379773d4"
+        },
+        {
+          "label": "James's address and relationship",
+          "url": "https://mail.google.com/mail/u/0/#all/19e75f17237311b6"
+        }
+      ]
+    },
+    {
+      "id": "tomas-alvarez-belon",
+      "name": "Tomas Alvarez Belon",
+      "channel": "Email",
+      "route": "New personal email; proposed cc Daniel",
+      "summary": "Build on the Fig and Mercator introductions with current hiring needs.",
+      "context": "Tomas connected Fig and Mercator in the last round. The next invitation asks whether those teams or other Innovation Endeavors companies are hiring now.",
+      "next": "Get a couple of companies or roles, suggest specific fellows, and coordinate the dinner invitation.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — October 18–26",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Tomas,\n\nWe're doing our fourth Puentes cohort October 18–26 and would love to have you join us at the house.\n\nHere are the [15 fellows coming this round](https://puentes.antigravity.capital/puentes-iv). Are there any Innovation Endeavors companies hiring aggressively that you'd like to invite? Happy to involve Fig and Mercator again if they're hiring, or connect with other teams you have in mind.\n\nWe can make introductions before the fellows arrive so the companies get a head start on interviews. If you send me a couple of companies or roles, I can suggest specific fellows.\n\nWe're hosting dinners October 18–23 at 7 pm at 255 Marina Boulevard. Pick whichever night works for you, and feel free to share with the founders:\n\n- [Sunday, October 18](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Monday, October 19](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Tuesday, October 20](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Wednesday, October 21](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Thursday, October 22](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Friday, October 23](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Prior cohort and company introductions",
+          "url": "https://mail.google.com/mail/u/0/#all/19dd150371a392db"
+        }
+      ]
+    },
+    {
+      "id": "matt-caroline-rak",
+      "name": "Matt Stephenson + Caroline Toch Docal + Rak Garg",
+      "channel": "Email",
+      "route": "New joint email; proposed cc Daniel",
+      "summary": "Bring BCV companies back, including founding engineers when founders cannot join.",
+      "context": "Rak previously introduced Echelon's founding engineer while the founders were unavailable. That is a useful model for inviting the right person from a hiring team.",
+      "next": "Match the fellows to named companies or roles and coordinate founders or engineering leads at a dinner.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — October 18–26",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Matt, Caroline and Rak,\n\nWe're doing our fourth Puentes cohort October 18–26 and would love to get BCV companies involved again.\n\nHere are the [15 fellows coming this round](https://puentes.antigravity.capital/puentes-iv). Are there any portfolio companies hiring aggressively that you'd like to invite? As with Echelon last time, founding engineers are welcome too if the founders can't make it.\n\nWe can make introductions before the fellows arrive so the teams get a head start on interviews. Happy to suggest specific fellows for any companies or roles you have in mind.\n\nWe're hosting dinners October 18–23 at 7 pm at 255 Marina Boulevard. Would love to have you join as well. Pick whichever night works, and feel free to share with the teams:\n\n- [Sunday, October 18](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Monday, October 19](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Tuesday, October 20](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Wednesday, October 21](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Thursday, October 22](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Friday, October 23](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "BCV / Echelon exchange",
+          "url": "https://mail.google.com/mail/u/0/#all/19ddabeb94a1b491"
+        }
+      ]
+    },
+    {
+      "id": "anna-pinol",
+      "name": "Anna Piñol",
+      "channel": "Email",
+      "route": "New personal email; proposed cc Daniel",
+      "summary": "Ask Anna to share with hiring NFX founders while inviting her personally.",
+      "context": "Anna posted the prior invitation and made a Neon Health hiring introduction. The current note builds directly on that help.",
+      "next": "Suggest relevant fellows for the teams she identifies and settle her own visit if she can join.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — October 18–26",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Anna,\n\nWe're doing our fourth Puentes cohort October 18–26. Would love to have you over at the house one night.\n\nHere are the [15 fellows coming this time](https://puentes.antigravity.capital/puentes-iv), with their stories and what they've been building.\n\nWould you share this with NFX founders who are hiring, like last time? They're welcome to join us, and we can make introductions before the fellows arrive so they have a head start on interviews. If there are particular teams you think would be a good fit, happy to suggest a few fellows.\n\nWe're hosting dinners October 18–23 at 7 pm at 255 Marina Boulevard. Pick whichever night works for you:\n\n- [Sunday, October 18](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Monday, October 19](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Tuesday, October 20](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Wednesday, October 21](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Thursday, October 22](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Friday, October 23](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nHope to see you there!\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Prior invitation",
+          "url": "https://mail.google.com/mail/u/0/#all/19ddc8d167077016"
+        },
+        {
+          "label": "Hiring introduction",
+          "url": "https://mail.google.com/mail/u/0/#all/19df575e832e181f"
+        }
+      ]
+    },
+    {
+      "id": "pedro-franceschi",
+      "name": "Pedro Franceschi",
+      "channel": "Email",
+      "route": "New personal email; proposed cc founder office and Daniel",
+      "summary": "Invite another conversation with the fellows, using the format that works for Pedro.",
+      "context": "Pedro hosted the May group at Brex. The invitation proposes a 45-minute fireside at the house and keeps a daytime Brex visit available.",
+      "next": "Find his availability, confirm a program slot, then arrange the visit and the relevant dinner link.",
+      "category": "fireside",
+      "group": "puentes",
+      "subject": "Puentes — another fireside in October?",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Pedro,\n\nOur next Puentes cohort is coming to SF October 18–26. Would love for this group to meet you too if you have time for another 45-minute fireside.\n\nHere are the [15 fellows coming this time](https://puentes.antigravity.capital/puentes-iv). A couple I think you'd enjoy meeting: Ana, who led four developers at Buda working on its money-movement infrastructure, and Ricardo, who's building guardrails for AI agents moving money.\n\nIdeally we'd have you at the house around 6 pm one evening October 18–23, with dinner at 7 afterward. We're happy to come to Brex during the day again if that's easier. We'll be at 255 Marina Boulevard.\n\nAny day that could work on your side?\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Prior Brex visit and latest exchange",
+          "url": "https://mail.google.com/mail/u/0/#all/199ee1c42cbffa72"
+        }
+      ]
+    },
+    {
+      "id": "victor-cardenas",
+      "name": "Victor Cardenas",
+      "channel": "Email",
+      "route": "New personal email; proposed cc Daniel",
+      "summary": "Invite a fireside with the notice Victor previously requested.",
+      "context": "Victor asked for roughly two weeks' notice. His earlier fireside acceptance is documented; the current note is a new availability request.",
+      "next": "Agree a feasible 45-minute conversation and dinner plan. Email is the chosen draft route; WhatsApp is an alternative, not a duplicate send.",
+      "category": "fireside",
+      "group": "puentes",
+      "subject": "Puentes — ¿te sumás a una charla en octubre?",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Victor,\n\nYa está el grupo de la próxima edición de Puentes, del 18 al 26 de octubre en SF. Me habías dicho que te avisara unas dos semanas antes, así que acá estoy.\n\n¿Tenés tiempo para una charla de 45 minutos con los fellows? Estaría buenísimo tenerte en la casa una noche, cerca de las 6, y que te quedes a cenar con ellos después. Las cenas son del 18 al 23, a las 7 pm, en 255 Marina Boulevard.\n\nAcá están los [15 fellows](https://puentes.antigravity.capital/puentes-iv). Creo que te va a gustar conocer a Ana, que lideró a cuatro developers en Buda, y a Ricardo, que está construyendo guardrails para agentes de AI que mueven plata.\n\nDecime qué días te podrían quedar bien y lo armamos.\n\nAbrazo,\nGadi"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "rodrigo-schmidt",
+      "name": "Rodrigo Schmidt",
+      "channel": "Email",
+      "route": "New personal email; proposed cc Daniel",
+      "summary": "Invite Rodrigo back to meet builders whose work connects to his interests.",
+      "context": "Rodrigo's prior visit is confirmed by Samuel's follow-up. Bauti and Santi give this invitation concrete examples of the new group's work.",
+      "next": "Find an evening for the fireside and dinner, or a daytime alternative, then confirm the program slot.",
+      "category": "fireside",
+      "caution": "English is a working choice; the original direct invitation prose was not recovered.",
+      "group": "puentes",
+      "subject": "Puentes — another fireside in October?",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Rodrigo,\n\nOur next Puentes cohort is coming to SF October 18–26. Would love to have you back at the house for a 45-minute fireside with this group.\n\nHere are the [15 fellows coming this time](https://puentes.antigravity.capital/puentes-iv). Bauti has been contributing to tinygrad and building his own inference engine, and Santi built a Mac app that runs coding agents in parallel, from tickets to pull requests. I think you'd enjoy meeting them.\n\nDo you have an evening that could work October 18–23? Ideally we'd do the conversation around 6 pm and dinner at 7, and would love for you to stay. We can also find a daytime slot if that's easier.\n\nWe'll be at 255 Marina Boulevard. Let me know what works on your side.\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "May invitation",
+          "url": "https://mail.google.com/mail/u/0/#all/19cc219ea390792f"
+        },
+        {
+          "label": "Samuel's follow-up confirming the house meeting",
+          "url": "https://mail.google.com/mail/u/0/#all/19ecc864307a1810"
+        }
+      ]
+    },
+    {
+      "id": "allen-taylor",
+      "name": "Allen Taylor",
+      "channel": "Email",
+      "route": "New personal email; proposed cc Daniel",
+      "summary": "A personal invitation to spend time with the new fellows.",
+      "context": "Allen knows Puentes and previously offered support for the first cohort's flights. The current invitation is simply to join the group at the house.",
+      "next": "Choose a dinner night and reconnect through the fellows; no new sponsorship request is attached.",
+      "category": "dinner",
+      "group": "puentes",
+      "subject": "Puentes IV — October 18–26",
+      "drafts": [
+        {
+          "label": "Working email",
+          "text": "Hey Allen,\n\nWe're getting ready for our fourth Puentes cohort, October 18–26. Would love to have you come by the house for dinner one night and meet this group.\n\nHere are the [15 fellows coming to SF](https://puentes.antigravity.capital/puentes-iv), with their stories and what they've been building. I think you'd really enjoy spending time with them.\n\nWe're hosting dinners October 18–23 at 7 pm at 255 Marina Boulevard. Pick whichever night works for you — would be great to catch up:\n\n- [Sunday, October 18](https://partiful.com/e/LTeGBdfvVPp4FHdmTSQE)\n- [Monday, October 19](https://partiful.com/e/bHeobRSCDFWX4aCUyiwc)\n- [Tuesday, October 20](https://partiful.com/e/OVOoG04vvG4ogMVUqrJO)\n- [Wednesday, October 21](https://partiful.com/e/Qa6Qv6n1gOzgvpUpX3m1)\n- [Thursday, October 22](https://partiful.com/e/vSIYpv66Jp2oMNW8uRbh)\n- [Friday, October 23](https://partiful.com/e/GV3htESpa8Cf2GmZhdZq)\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Prior invitation and support",
+          "url": "https://mail.google.com/mail/u/0/#all/195d423dfdec7a50"
+        }
+      ]
+    }
+  ]
+}
