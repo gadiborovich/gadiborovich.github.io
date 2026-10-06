@@ -1,7 +1,7 @@
 {
   "prepared": "October 6, 2026",
   "sourceHashes": {
-    "existing-lps.md": "599644bd174045de668411e14aab844ac706810f789b6e467da097a8ddff510e",
+    "existing-lps.md": "12aae062ff02ea363f3a1ca03dfae0a3662b9a4456daf6dcc1abf6cc6df54806",
     "puentes.md": "fef4f781982a9d59c7678091ae2e2760e3c70eec809692cd09e57bf2732500eb"
   },
   "people": [
@@ -183,14 +183,15 @@
       "name": "Zack Rosen",
       "channel": "WhatsApp",
       "route": "Direct conversation",
-      "summary": "Answer the question he already asked: we are raising Fund II now.",
-      "context": "Zack asked in July whether Fund II was raising; Gadi said soon. His later Puentes travel conflict and Flai pass were separate matters.",
-      "next": "Learn his current personal appetite for Fund II. This is his LP relationship, not an assumed Ribbit allocation.",
-      "category": "core",
+      "summary": "Outside this core pass: his Fund I participation was a $5K relationship check.",
+      "context": "Gadi moved Zack out of the core on October 6 based on the nature of his $5K Fund I participation. His earlier question about Fund II remains relationship context, not a reason to prioritize him in this pass.",
+      "next": "Keep the earlier preparation for later consideration. No outreach is selected for this wave, and this does not change his CRM stage.",
+      "category": "outside",
+      "caution": "Not selected for this pass. This is a relationship-specific priority decision, not a universal minimum-check rule.",
       "group": "lps",
       "drafts": [
         {
-          "label": "Working message",
+          "label": "Earlier draft — outside this pass",
           "text": "Zack, picking up your question about Fund II — we're raising now and bringing our existing LPs in first. Would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and go through it together too."
         }
       ],
@@ -262,10 +263,10 @@
       "name": "Justin Alexander",
       "channel": "Email",
       "route": "New private email; cc Daniel",
-      "summary": "A possible addition with a simple, direct re-up invitation.",
+      "summary": "A core returning-LP invitation through a new private email.",
       "context": "The bounded email review found no current personal Fund II invitation. Justin previously flagged replies leaking through the LP mailing list.",
-      "next": "If selected for this pass, start a new private email and continue from his answer.",
-      "category": "candidate",
+      "next": "Start a new private email and continue from his answer.",
+      "category": "core",
       "caution": "Off-channel history was not fully recovered; confirm the current context before sending.",
       "group": "lps",
       "drafts": [
@@ -284,8 +285,8 @@
       "route": "Direct conversation",
       "summary": "A short familiar note can open the current investment conversation.",
       "context": "The recent exchange concerns Wefunder and Kai paperwork. The reviewed texts and email did not establish a current Fund II invitation.",
-      "next": "If selected, invite him personally and learn his appetite; his Wefunder role does not determine the investing vehicle.",
-      "category": "candidate",
+      "next": "Invite him personally and learn his appetite; his Wefunder role does not determine the investing vehicle.",
+      "category": "core",
       "group": "lps",
       "drafts": [
         {
@@ -300,10 +301,10 @@
       "name": "Casey Melcher",
       "channel": "Email",
       "route": "New private email; cc Daniel",
-      "summary": "A possible addition; keep the fund invitation distinct from past recording requests.",
+      "summary": "A core fund invitation, separate from past recording requests.",
       "context": "Recent email concerns the recap. Casey previously requested the Halluminate recording, but its delivery was not established in this review.",
-      "next": "If selected, invite him into Fund II and resolve any still-owed recording separately.",
-      "category": "candidate",
+      "next": "Invite him into Fund II and resolve any still-owed recording separately.",
+      "category": "core",
       "group": "lps",
       "drafts": [
         {
@@ -319,16 +320,16 @@
       "name": "Kim / Andy",
       "channel": "iMessage",
       "route": "Existing conversation with Kim and Daniel",
-      "summary": "Continue the Fund II conversation Kim already asked to have.",
-      "context": "Kim requested a deeper Fund II discussion after the September 16 Spotlight. Gadi offered LP conversations and Daniel shared the SOI; a re-up decision has not been established.",
+      "summary": "Invite Kim and Andy into the Fund II conversation they have not had yet.",
+      "context": "Gadi confirmed October 6 that they have not had a Fund II conversation. Kim’s earlier interest in a discussion and Daniel sharing the SOI were preparation; they belong in the same core invitation group.",
       "next": "Make participation explicit, then offer real times if she wants a conversation with Andy. A shared Q&A is not a prerequisite.",
-      "category": "continuation",
-      "caution": "Andy is not in this iMessage group. Address Kim and refer to both; this is outside the new-invitation count.",
+      "category": "core",
+      "caution": "Andy is not in this iMessage group. Address Kim and refer to both.",
       "group": "lps",
       "drafts": [
         {
           "label": "Working message",
-          "text": "Kim, picking up on our Fund II conversation after the Spotlight — Daniel and I would love to have you and Andy with us again. We've finished the materials: https://fund.antigravity.capital/\n\nWould be great to catch up with you both and go through it together."
+          "text": "Kim, we're bringing our existing LPs into Fund II now. Daniel and I would love to have you and Andy with us again. We've finished the materials: https://fund.antigravity.capital/\n\nWould be great to catch up with you both and go through it together."
         }
       ],
       "sources": [
@@ -337,6 +338,57 @@
           "url": "https://app.notion.com/198daeb290268093b358c0d600820074"
         }
       ]
+    },
+    {
+      "id": "daniel-correa",
+      "name": "Daniel Correa",
+      "channel": "WhatsApp",
+      "route": "Direct conversation",
+      "summary": "A core invitation to an existing LP who previously asked about reinvesting.",
+      "context": "Daniel is a personal Fund I LP. In April he asked whether he could reinvest a distribution; Gadi pointed to the next fund. Gadi selected him for the core on October 6.",
+      "next": "Discuss his personal participation and actual questions. The Kapitalo relationship does not establish a firm allocation.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Daniel, we're bringing our existing LPs into Fund II now. We'd love to keep working with you in this next fund. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through it together too."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/p/198daeb29026808b869ce1eb8f4f80a1"
+        }
+      ]
+    },
+    {
+      "id": "kevin-novak",
+      "name": "Kevin Novak",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "A core invitation, with room to talk around his AGM workload.",
+      "context": "Kevin is a personal Fund I LP. His latest personal email declined October Puentes because of Rackhouse’s October 19 AGM. That was an event timing constraint, not a Fund II pass.",
+      "next": "Invite him now; answer over email or find a useful time once he is through the AGM. Keep the invitation separate from the Puentes thread and its other recipients.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Hey Kevin,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up once you're through the AGM, or keep it over email if that's easier."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/p/198daeb29026805cbfe2e6e17f13aa3c"
+        },
+        {
+          "label": "Latest personal exchange, reread October 6",
+          "url": "https://mail.google.com/mail/u/?authuser=gadi%40antigravity.capital#all/1a0f0175d34e47c3"
+        }
+      ],
+      "subject": "Fund II"
     },
     {
       "id": "elias-torres",

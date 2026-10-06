@@ -87,9 +87,10 @@ LP_SPECS = [
          "Keith helped think about LP Day and received the Fund I recording. A current personal Fund II invitation was not found in the reviewed conversation.",
          "Follow the investment question he raises. Use concrete production examples if they help answer it."),
     spec("zack-rosen", "Zack Rosen", "WhatsApp", "Direct conversation",
-         "Answer the question he already asked: we are raising Fund II now.",
-         "Zack asked in July whether Fund II was raising; Gadi said soon. His later Puentes travel conflict and Flai pass were separate matters.",
-         "Learn his current personal appetite for Fund II. This is his LP relationship, not an assumed Ribbit allocation."),
+         "Outside this core pass: his Fund I participation was a $5K relationship check.",
+         "Gadi moved Zack out of the core on October 6 based on the nature of his $5K Fund I participation. His earlier question about Fund II remains relationship context, not a reason to prioritize him in this pass.",
+         "Keep the earlier preparation for later consideration. No outreach is selected for this wave, and this does not change his CRM stage.",
+         category="outside", caution="Not selected for this pass. This is a relationship-specific priority decision, not a universal minimum-check rule."),
     spec("josh-harvey", "Josh Harvey", "Email", "New private email; cc Daniel",
          "Give the catch-up invitation the investment purpose it was missing.",
          "Josh received the Fund I replay and a general catch-up offer on September 25. That note did not invite him to participate in Fund II.",
@@ -99,26 +100,30 @@ LP_SPECS = [
          "Bou received the recap replay and a general catch-up invitation. A current Fund II invitation was not found; his location has also changed since older CRM notes.",
          "Continue over email if useful. If he wants a call, offer times in his actual timezone."),
     spec("justin-alexander", "Justin Alexander", "Email", "New private email; cc Daniel",
-         "A possible addition with a simple, direct re-up invitation.",
+         "A core returning-LP invitation through a new private email.",
          "The bounded email review found no current personal Fund II invitation. Justin previously flagged replies leaking through the LP mailing list.",
-         "If selected for this pass, start a new private email and continue from his answer.",
-         category="candidate", caution="Off-channel history was not fully recovered; confirm the current context before sending."),
+         "Start a new private email and continue from his answer.", caution="Off-channel history was not fully recovered; confirm the current context before sending."),
     spec("jonny-price", "Jonny Price", "iMessage", "Direct conversation",
          "A short familiar note can open the current investment conversation.",
          "The recent exchange concerns Wefunder and Kai paperwork. The reviewed texts and email did not establish a current Fund II invitation.",
-         "If selected, invite him personally and learn his appetite; his Wefunder role does not determine the investing vehicle.",
-         category="candidate"),
+         "Invite him personally and learn his appetite; his Wefunder role does not determine the investing vehicle."),
     spec("casey-melcher", "Casey Melcher", "Email", "New private email; cc Daniel",
-         "A possible addition; keep the fund invitation distinct from past recording requests.",
+         "A core fund invitation, separate from past recording requests.",
          "Recent email concerns the recap. Casey previously requested the Halluminate recording, but its delivery was not established in this review.",
-         "If selected, invite him into Fund II and resolve any still-owed recording separately.",
-         category="candidate"),
+         "Invite him into Fund II and resolve any still-owed recording separately."),
     spec("kim-andy", "Kim / Andy", "iMessage", "Existing conversation with Kim and Daniel",
-         "Continue the Fund II conversation Kim already asked to have.",
-         "Kim requested a deeper Fund II discussion after the September 16 Spotlight. Gadi offered LP conversations and Daniel shared the SOI; a re-up decision has not been established.",
+         "Invite Kim and Andy into the Fund II conversation they have not had yet.",
+         "Gadi confirmed October 6 that they have not had a Fund II conversation. Kim’s earlier interest in a discussion and Daniel sharing the SOI were preparation; they belong in the same core invitation group.",
          "Make participation explicit, then offer real times if she wants a conversation with Andy. A shared Q&A is not a prerequisite.",
-         heading="Kim / Andy — continuation", category="continuation",
-         caution="Andy is not in this iMessage group. Address Kim and refer to both; this is outside the new-invitation count."),
+         caution="Andy is not in this iMessage group. Address Kim and refer to both."),
+    spec("daniel-correa", "Daniel Correa", "WhatsApp", "Direct conversation",
+         "A core invitation to an existing LP who previously asked about reinvesting.",
+         "Daniel is a personal Fund I LP. In April he asked whether he could reinvest a distribution; Gadi pointed to the next fund. Gadi selected him for the core on October 6.",
+         "Discuss his personal participation and actual questions. The Kapitalo relationship does not establish a firm allocation."),
+    spec("kevin-novak", "Kevin Novak", "Email", "New private email; cc Daniel",
+         "A core invitation, with room to talk around his AGM workload.",
+         "Kevin is a personal Fund I LP. His latest personal email declined October Puentes because of Rackhouse’s October 19 AGM. That was an event timing constraint, not a Fund II pass.",
+         "Invite him now; answer over email or find a useful time once he is through the AGM. Keep the invitation separate from the Puentes thread and its other recipients."),
 ]
 
 
@@ -223,6 +228,7 @@ def build():
             messages = quoted_drafts(body)
             labels = (["Puentes follow-through", "Fund II invitation"] if card["id"] == "devan-malhotra"
                       else ["Puentes follow-through", "Fund II follow-up"] if card["id"] == "nicolas-bevacqua"
+                      else ["Earlier draft — outside this pass"] if card["category"] == "outside"
                       else ["Working message"])
             if len(messages) != len(labels):
                 raise ValueError(f"Unexpected draft count for {card['id']}: {len(messages)}")
@@ -255,9 +261,10 @@ def build():
         name: hashlib.sha256(text.encode()).hexdigest() for name, text in texts.items()}, people=people)
     counts = Counter(p["group"] for p in people)
     categories = Counter(f"{p['group']}:{p['category']}" for p in people)
-    assert counts == {"lps": 14, "puentes": 16}, counts
-    assert len({p["id"] for p in people}) == len(people) == 30
-    assert len(extraction_checks) == 32, len(extraction_checks)
+    assert counts == {"lps": 16, "puentes": 16}, counts
+    assert categories["lps:core"] == 15 and categories["lps:outside"] == 1, categories
+    assert len({p["id"] for p in people}) == len(people) == 32
+    assert len(extraction_checks) == 34, len(extraction_checks)
     assert all(p["drafts"] and all(d["text"].strip() for d in p["drafts"]) for p in people)
     assert all(not re.search(r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}", json.dumps(p)) for p in people)
     assert all(not re.search(r"\+\d[\d ()-]{8,}\d|\bchat \d+\b", json.dumps(p), re.I) for p in people)
