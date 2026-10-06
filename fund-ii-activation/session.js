@@ -3,9 +3,8 @@
 const filters = { lps: 'all', puentes: 'all' };
 const groupSections = {
   lps: [
-    { categories: ['core'], title: 'Core invitations', note: '10 people' },
-    { categories: ['candidate'], title: 'Additional candidates', note: 'Choose whether to include' },
-    { categories: ['continuation'], title: 'Already in conversation', note: 'Continue the existing ask' }
+    { categories: ['core'], title: 'Core invitations', note: '15 LP relationships' },
+    { categories: ['outside'], title: 'Outside this core pass', note: 'Preparation retained for later' }
   ],
   puentes: [
     { categories: ['current'], title: 'Current relationship threads', note: 'Pick up where we left off' },
