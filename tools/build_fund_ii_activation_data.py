@@ -125,6 +125,24 @@ LP_SPECS = [
          "A core invitation, with room to talk around his AGM workload.",
          "Kevin is a personal Fund I LP. His latest personal email declined October Puentes because of Rackhouse’s October 19 AGM. That was an event timing constraint, not a Fund II pass.",
          "Propose the October 16 catch-up and follow his availability around the AGM. Keep the invitation separate from the Puentes thread and its other recipients."),
+    spec("ignacio-rosales", "Ignacio Rosales", "Email", "New private email; cc Daniel",
+         "A core returning-LP invitation, with care around current timing.",
+         "Long-time friend, Fund I LP and BuenTrip co-investing relationship. He shares portfolio introductions and requested the September recap. The October 5 WhatsApp review retained Gadi’s September 25 personal check-in without a later response.",
+         "Confirm current timing, then use the shared Fund II invitation and follow his questions.",
+         caution="Check his current personal circumstances before sending."),
+    spec("bernhard-gapp", "Bernhard Gapp", "Email", "New private email; cc Daniel",
+         "Invite him now; there is no established need to wait for other LPs.",
+         "Existing Fund I LP with an ongoing investing/network relationship. After the July Halluminate Spotlight he offered Jerry thoughts and meeting times. That is portfolio engagement; his Fund II appetite remains to be learned.",
+         "Use the ordinary returning-LP invitation and learn his current appetite from his reply.",
+         caution="The Wednesday 3:30pm offer begins as Daniel’s existing block ends. Check that transition before confirming."),
+    spec("susan-liu", "Susan Liu", "Email", "New private email; cc Daniel",
+         "A personal LP invitation through an active investing-peer relationship.",
+         "Existing Fund I LP and investing peer at Uncork. In September she welcomed the Place Labs introduction and proposed meeting times with the founders. No current Fund II decision is recorded.",
+         "Invite her personally into Fund II. Keep her own participation separate from Uncork and founder introductions."),
+    spec("salomon-abauat", "Salomon Abauat", "Email", "New private email to Salo; cc Daniel",
+         "Reopen the investment conversation with an existing Fund I backer.",
+         "Existing Fund I LP through Golden Fields Foundation. Earlier exchanges were warm; the reviewed WhatsApp history includes a July event invitation and a September recap reminder. Gadi previously called the relationship dormant and now includes him in this wave; no Fund II decline is established.",
+         "Use the shared invitation. His reply determines current appetite and who should join the investment discussion."),
 ]
 
 
@@ -267,10 +285,10 @@ def build():
         name: hashlib.sha256(text.encode()).hexdigest() for name, text in texts.items()}, people=people)
     counts = Counter(p["group"] for p in people)
     categories = Counter(f"{p['group']}:{p['category']}" for p in people)
-    assert counts == {"lps": 16, "puentes": 16}, counts
-    assert categories["lps:core"] == 15 and categories["lps:outside"] == 1, categories
-    assert len({p["id"] for p in people}) == len(people) == 32
-    assert len(extraction_checks) == 34, len(extraction_checks)
+    assert counts == {"lps": 20, "puentes": 16}, counts
+    assert categories["lps:core"] == 19 and categories["lps:outside"] == 1, categories
+    assert len({p["id"] for p in people}) == len(people) == 36
+    assert len(extraction_checks) == 38, len(extraction_checks)
     assert all(p["drafts"] and all(d["text"].strip() for d in p["drafts"]) for p in people)
     assert all(not re.search(r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}", json.dumps(p)) for p in people)
     assert all(not re.search(r"\+\d[\d ()-]{8,}\d|\bchat \d+\b", json.dumps(p), re.I) for p in people)

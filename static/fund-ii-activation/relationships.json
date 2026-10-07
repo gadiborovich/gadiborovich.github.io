@@ -1,7 +1,7 @@
 {
   "prepared": "October 7, 2026",
   "sourceHashes": {
-    "existing-lps.md": "e52ca9f8fe2b4c7a24cd39799e41b311ec1f93b295aea16e88e1c11c916e7b58",
+    "existing-lps.md": "32b5593961a21363c1fac89573515cafdd8461d504e7ece790ddfbf108a89e52",
     "puentes.md": "920d584c43726ef6944aa83c308a4d3a3c60efbbb70e8bdac7822f256921aa58"
   },
   "people": [
@@ -423,6 +423,120 @@
         {
           "label": "Latest personal exchange, reread October 6",
           "url": "https://mail.google.com/mail/u/?authuser=gadi%40antigravity.capital#all/1a0f0175d34e47c3"
+        }
+      ],
+      "subject": "Antigravity Fund II"
+    },
+    {
+      "id": "ignacio-rosales",
+      "name": "Ignacio Rosales",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "A core returning-LP invitation, with care around current timing.",
+      "context": "Long-time friend, Fund I LP and BuenTrip co-investing relationship. He shares portfolio introductions and requested the September recap. The October 5 WhatsApp review retained Gadi’s September 25 personal check-in without a later response.",
+      "next": "Confirm current timing, then use the shared Fund II invitation and follow his questions.",
+      "category": "core",
+      "caution": "Check his current personal circumstances before sending.",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Ignacio,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Tuesday, October 13 at 3pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb29026800e9de1d8d37f98344b"
+        },
+        {
+          "label": "Recipient and relationship verified October 7",
+          "url": "https://mail.google.com/mail/u/0/#all/19caf16db44f03ed"
+        }
+      ],
+      "subject": "Antigravity Fund II"
+    },
+    {
+      "id": "bernhard-gapp",
+      "name": "Bernhard Gapp",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "Invite him now; there is no established need to wait for other LPs.",
+      "context": "Existing Fund I LP with an ongoing investing/network relationship. After the July Halluminate Spotlight he offered Jerry thoughts and meeting times. That is portfolio engagement; his Fund II appetite remains to be learned.",
+      "next": "Use the ordinary returning-LP invitation and learn his current appetite from his reply.",
+      "category": "core",
+      "caution": "The Wednesday 3:30pm offer begins as Daniel’s existing block ends. Check that transition before confirming.",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Bernie,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Wednesday, October 14 at 3:30pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb29026805fb068c504ca8683b4"
+        },
+        {
+          "label": "Recipient and relationship verified October 7",
+          "url": "https://mail.google.com/mail/u/0/#all/19faf3c49ff7bb18"
+        }
+      ],
+      "subject": "Antigravity Fund II"
+    },
+    {
+      "id": "susan-liu",
+      "name": "Susan Liu",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
+      "summary": "A personal LP invitation through an active investing-peer relationship.",
+      "context": "Existing Fund I LP and investing peer at Uncork. In September she welcomed the Place Labs introduction and proposed meeting times with the founders. No current Fund II decision is recorded.",
+      "next": "Invite her personally into Fund II. Keep her own participation separate from Uncork and founder introductions.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Susan,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Thursday, October 15 at 3pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb290268074bf3dc64630bfb1ac"
+        },
+        {
+          "label": "Recipient and relationship verified October 7",
+          "url": "https://mail.google.com/mail/u/0/#all/1a08cbad4922e15b"
+        }
+      ],
+      "subject": "Antigravity Fund II"
+    },
+    {
+      "id": "salomon-abauat",
+      "name": "Salomon Abauat",
+      "channel": "Email",
+      "route": "New private email to Salo; cc Daniel",
+      "summary": "Reopen the investment conversation with an existing Fund I backer.",
+      "context": "Existing Fund I LP through Golden Fields Foundation. Earlier exchanges were warm; the reviewed WhatsApp history includes a July event invitation and a September recap reminder. Gadi previously called the relationship dormant and now includes him in this wave; no Fund II decline is established.",
+      "next": "Use the shared invitation. His reply determines current appetite and who should join the investment discussion.",
+      "category": "core",
+      "group": "lps",
+      "drafts": [
+        {
+          "label": "Working message",
+          "text": "Salo,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Friday, October 16 at 3:15pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CRM",
+          "url": "https://app.notion.com/198daeb29026806d914acef89117593f"
+        },
+        {
+          "label": "Recipient and relationship verified October 7",
+          "url": "https://mail.google.com/mail/u/0/#all/193c1f60d9364271"
         }
       ],
       "subject": "Antigravity Fund II"
