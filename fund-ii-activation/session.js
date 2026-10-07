@@ -3,7 +3,7 @@
 const filters = { lps: 'all', puentes: 'all' };
 const groupSections = {
   lps: [
-    { categories: ['core'], title: 'Core invitations', note: '15 LP relationships' },
+    { categories: ['core'], title: 'Core invitations', note: '19 LP relationships' },
     { categories: ['outside'], title: 'Outside this core pass', note: 'Preparation retained for later' }
   ],
   puentes: [
