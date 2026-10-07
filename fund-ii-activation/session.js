@@ -56,7 +56,7 @@ function card(person) {
       <div class="person-meta"><p class="route">${escapeHTML(person.channel)} · ${escapeHTML(person.route)}</p><button type="button" class="link-button" aria-label="Copy link to ${escapeHTML(person.name)}">Link to this entry ↗</button></div>
       <div class="context"><span class="micro">Relationship / latest</span><p>${escapeHTML(person.context)}</p></div>
       ${person.caution ? `<p class="caution">${escapeHTML(person.caution)}</p>` : ''}
-      ${person.drafts.map((draft, i) => `<div class="draft"><div class="draft-header"><span class="micro">${escapeHTML(draft.label)} · unsent</span><button type="button" class="copy-button" data-draft="${i}" aria-label="Copy ${escapeHTML(draft.label.toLowerCase())} for ${escapeHTML(person.name)}">Copy text</button></div>${i === 0 && person.subject ? `<p class="draft-subject"><span>Subject</span>${escapeHTML(person.subject)}</p>` : ''}<div class="draft-body">${markdown(draft.text)}</div></div>`).join('')}
+      ${person.drafts.map((draft, i) => `<div class="draft"><div class="draft-header"><span class="micro">${escapeHTML(draft.label)} · ${draft.sentOn ? `sent ${escapeHTML(draft.sentOn)}` : 'unsent'}</span><button type="button" class="copy-button" data-draft="${i}" aria-label="Copy ${escapeHTML(draft.label.toLowerCase())} for ${escapeHTML(person.name)}">Copy text</button></div>${i === 0 && person.subject ? `<p class="draft-subject"><span>Subject</span>${escapeHTML(person.subject)}</p>` : ''}<div class="draft-body">${markdown(draft.text)}</div></div>`).join('')}
       <div class="next-step"><span class="micro">What follows</span><p>${escapeHTML(person.next)}</p></div>
       ${person.sources.length ? `<div class="sources">${person.sources.map(source => `<a href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(source.label)} ↗</a>`).join('')}</div>` : ''}
     </div>`;
@@ -65,7 +65,7 @@ function card(person) {
     button.addEventListener('click', () => {
       const draft = person.drafts[Number(button.dataset.draft)];
       const plain = draft.text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '$1 ($2)');
-      copy(plain, 'Draft copied — nothing sent', button);
+      copy(plain, draft.sentOn ? 'Sent email copied' : 'Draft copied — nothing sent', button);
     });
   });
   detail.addEventListener('toggle', () => updateExpandControl(person.group));
