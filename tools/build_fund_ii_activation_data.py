@@ -57,10 +57,9 @@ def spec(id, name, channel, route, summary, context, next, *,
 
 LP_SPECS = [
     spec("kurt-read", "Kurt Read", "Email", "New private email; cc Daniel. Direct iMessage note only if no response.",
-         "An invitation with a useful reason to catch up: the Fund I numbers.",
+         "Invite him into Fund II and propose a catch-up with both partners.",
          "Kurt asked to go over the Fund I numbers after missing them at the September recap. Gadi sent the slides; a current personal Fund II invitation was not found in the reviewed sources.",
-         "If he takes the call, bring reconciled Fund I figures and the Fund II case. He can also continue asynchronously.",
-         caution="October 12 at 2pm PT was free for both partners when checked October 5. The slot is not held; recheck before offering."),
+         "If he takes the call, bring the Fund II case and reconciled Fund I figures for his questions. Recheck the proposed time before confirming."),
     spec("darren-fredette", "Darren Fredette", "Email", "New private email; cc Daniel. Note in the existing iMessage with Daniel only if no response.",
          "A close backer whose tentative interest needs a current invitation.",
          "Darren helped with Fund I diligence and recently praised Puentes. In July he said he was probably comfortable writing a Fund II check; no amount or investment next step followed.",
@@ -79,7 +78,7 @@ LP_SPECS = [
          "Marc knows the Puentes hiring work and previously welcomed a general fund catch-up. No personal invitation into the current Fund II raise was found.",
          "If he wants to go deeper, connect the Puentes work he has seen to the investment case."),
     spec("michael-bhagat", "Michael Bhagat", "Email", "New private email; cc Daniel",
-         "Use the investment thinking he already engaged with as the opening for more depth.",
+         "Invite him into Fund II; keep the company context for his questions.",
          "The picks-and-shovels case for Halluminate resonated with Michael. That provides a concrete starting point if he wants to understand the next fund.",
          "Connect that example to portfolio construction and investment judgment; establish his Fund II appetite independently of his Fund I ticket."),
     spec("keith-guerin", "Keith Guerin", "Email", "New private email; cc Daniel. Direct iMessage note only if no response.",
@@ -96,15 +95,15 @@ LP_SPECS = [
          "Josh received the Fund I replay and a general catch-up offer on September 25. That note did not invite him to participate in Fund II.",
          "If he replies with questions by email, answer them there instead of turning the exchange back into scheduling."),
     spec("bou-berendsen", "Bou Berendsen", "Email", "New private email; cc Daniel. Direct WhatsApp note only if no response.",
-         "Share the fund case and make an asynchronous conversation easy.",
+         "Share the fund case and propose a catch-up with both partners.",
          "Bou received the recap replay and a general catch-up invitation. A current Fund II invitation was not found; his location has also changed since older CRM notes.",
-         "Continue over email if useful. If he wants a call, offer times in his actual timezone."),
+         "Confirm whether the proposed Pacific time works in his timezone; arrange another time or continue by email if needed."),
     spec("justin-alexander", "Justin Alexander", "Email", "New private email; cc Daniel",
          "A core returning-LP invitation through a new private email.",
          "The bounded email review found no current personal Fund II invitation. Justin previously flagged replies leaking through the LP mailing list.",
          "Start a new private email and continue from his answer.", caution="Off-channel history was not fully recovered; confirm the current context before sending."),
     spec("jonny-price", "Jonny Price", "iMessage", "Direct conversation",
-         "A short familiar note can open the current investment conversation.",
+         "The shared Fund II invitation, delivered through the familiar text thread.",
          "The recent exchange concerns Wefunder and Kai paperwork. The reviewed texts and email did not establish a current Fund II invitation.",
          "Invite him personally and learn his appetite; his Wefunder role does not determine the investing vehicle."),
     spec("casey-melcher", "Casey Melcher", "Email", "New private email; cc Daniel",
@@ -114,7 +113,7 @@ LP_SPECS = [
     spec("kim-andy", "Kim / Andy", "Email", "New private email to Kim and Andy; cc Daniel. Note in the existing iMessage with Kim and Daniel only if no response.",
          "Invite Kim and Andy into the Fund II conversation they have not had yet.",
          "Gadi confirmed October 6 that they have not had a Fund II conversation. Kim’s earlier interest in a discussion and Daniel sharing the SOI were preparation; they belong in the same core invitation group.",
-         "Make participation explicit, then offer real times if they want a conversation. A shared Q&A is not a prerequisite.",
+         "Invite both into Fund II with the proposed catch-up. Recheck the time when they respond and prepare for their questions.",
          caution="Andy is not in the iMessage follow-up group. Address Kim and refer to both in that note."),
     spec("daniel-correa", "Daniel Correa", "WhatsApp", "Direct conversation",
          "A core invitation to an existing LP who previously asked about reinvesting.",
@@ -123,7 +122,7 @@ LP_SPECS = [
     spec("kevin-novak", "Kevin Novak", "Email", "New private email; cc Daniel",
          "A core invitation, with room to talk around his AGM workload.",
          "Kevin is a personal Fund I LP. His latest personal email declined October Puentes because of Rackhouse’s October 19 AGM. That was an event timing constraint, not a Fund II pass.",
-         "Invite him now; answer over email or find a useful time once he is through the AGM. Keep the invitation separate from the Puentes thread and its other recipients."),
+         "Propose the October 15 catch-up and follow his availability around the AGM. Keep the invitation separate from the Puentes thread and its other recipients."),
 ]
 
 
@@ -257,7 +256,7 @@ def build():
         extraction_checks.append((card["id"], message))
         people.append(card)
 
-    result = dict(prepared="October 6, 2026", sourceHashes={
+    result = dict(prepared="October 7, 2026", sourceHashes={
         name: hashlib.sha256(text.encode()).hexdigest() for name, text in texts.items()}, people=people)
     counts = Counter(p["group"] for p in people)
     categories = Counter(f"{p['group']}:{p['category']}" for p in people)
