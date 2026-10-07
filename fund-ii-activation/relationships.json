@@ -1,8 +1,8 @@
 {
-  "prepared": "October 6, 2026",
+  "prepared": "October 7, 2026",
   "sourceHashes": {
-    "existing-lps.md": "f9c6930adc67d31658f67c317092648ec895f3d9342eef0c09202f8efebdda53",
-    "puentes.md": "fef4f781982a9d59c7678091ae2e2760e3c70eec809692cd09e57bf2732500eb"
+    "existing-lps.md": "b5609d46efdf5e438ed3a0c222826d430b0275bcba85b80d7f8fdf2b8dc1a0a8",
+    "puentes.md": "920d584c43726ef6944aa83c308a4d3a3c60efbbb70e8bdac7822f256921aa58"
   },
   "people": [
     {
@@ -10,16 +10,15 @@
       "name": "Kurt Read",
       "channel": "Email",
       "route": "New private email; cc Daniel. Direct iMessage note only if no response.",
-      "summary": "An invitation with a useful reason to catch up: the Fund I numbers.",
+      "summary": "Invite him into Fund II and propose a catch-up with both partners.",
       "context": "Kurt asked to go over the Fund I numbers after missing them at the September recap. Gadi sent the slides; a current personal Fund II invitation was not found in the reviewed sources.",
-      "next": "If he takes the call, bring reconciled Fund I figures and the Fund II case. He can also continue asynchronously.",
+      "next": "If he takes the call, bring the Fund II case and reconciled Fund I figures for his questions. Recheck the proposed time before confirming.",
       "category": "core",
-      "caution": "October 12 at 2pm PT was free for both partners when checked October 5. The slot is not held; recheck before offering.",
       "group": "lps",
       "drafts": [
         {
           "label": "Working message",
-          "text": "Kurt, we're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. We've finished the materials — sharing them here: https://fund.antigravity.capital/\n\nWe're both free Monday, October 12 at 2pm PT if you'd like to catch up and go through the Fund I numbers and what we're planning for Fund II."
+          "text": "Kurt,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Tuesday, October 13 at 11am PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -47,7 +46,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Darren, we're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials — here they are: https://fund.antigravity.capital/\n\nHappy to catch up and walk through how we're building on Fund I too."
+          "text": "Darren,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Tuesday, October 13 at 11:30am PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -76,7 +75,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Nico, estamos arrancando con Fund II y empezando por quienes nos acompañaron en el primero. Me encantaría seguir trabajando juntos en este fondo. Ya tenemos los materiales listos: https://fund.antigravity.capital/\n\nSi te sirve, lo charlamos y te cuento cómo lo estamos pensando."
+          "text": "Nico,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Tuesday, October 13 at 1pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -104,7 +103,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Jonathan,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through it together too."
+          "text": "Jonathan,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Tuesday, October 13 at 1:30pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -132,7 +131,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Marc! We're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. We've finished the materials: https://fund.antigravity.capital/\n\nWould be great to catch up and go through it together too."
+          "text": "Marc,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Wednesday, October 14 at 11am PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -148,7 +147,7 @@
       "name": "Michael Bhagat",
       "channel": "Email",
       "route": "New private email; cc Daniel",
-      "summary": "Use the investment thinking he already engaged with as the opening for more depth.",
+      "summary": "Invite him into Fund II; keep the company context for his questions.",
       "context": "The picks-and-shovels case for Halluminate resonated with Michael. That provides a concrete starting point if he wants to understand the next fund.",
       "next": "Connect that example to portfolio construction and investment judgment; establish his Fund II appetite independently of his Fund I ticket.",
       "category": "core",
@@ -156,7 +155,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Michael,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through the next fund, including the broader thinking behind investments like Halluminate."
+          "text": "Michael,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Wednesday, October 14 at 11:30am PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -184,7 +183,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Keith, we're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through what we've learned from Fund I and how we're approaching this next one."
+          "text": "Keith,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Wednesday, October 14 at 12pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -236,7 +235,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Josh,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. Sharing our finished materials here: https://fund.antigravity.capital/\n\nHappy to talk it through too, or keep it over email if that's easier."
+          "text": "Josh,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Thursday, October 15 at 11am PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -256,15 +255,15 @@
       "name": "Bou Berendsen",
       "channel": "Email",
       "route": "New private email; cc Daniel. Direct WhatsApp note only if no response.",
-      "summary": "Share the fund case and make an asynchronous conversation easy.",
+      "summary": "Share the fund case and propose a catch-up with both partners.",
       "context": "Bou received the recap replay and a general catch-up invitation. A current Fund II invitation was not found; his location has also changed since older CRM notes.",
-      "next": "Continue over email if useful. If he wants a call, offer times in his actual timezone.",
+      "next": "Confirm whether the proposed Pacific time works in his timezone; arrange another time or continue by email if needed.",
       "category": "core",
       "group": "lps",
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Bou,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to go through it together too, or keep it over email if that's easier."
+          "text": "Bou,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Thursday, October 15 at 11:30am PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -293,7 +292,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Justin,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through it together too."
+          "text": "Justin,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Thursday, October 15 at 12pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [],
@@ -304,7 +303,7 @@
       "name": "Jonny Price",
       "channel": "iMessage",
       "route": "Direct conversation",
-      "summary": "A short familiar note can open the current investment conversation.",
+      "summary": "The shared Fund II invitation, delivered through the familiar text thread.",
       "context": "The recent exchange concerns Wefunder and Kai paperwork. The reviewed texts and email did not establish a current Fund II invitation.",
       "next": "Invite him personally and learn his appetite; his Wefunder role does not determine the investing vehicle.",
       "category": "core",
@@ -312,7 +311,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Jonny, we're bringing our existing LPs into Fund II now. Would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and talk through it too."
+          "text": "Jonny,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Thursday, October 15 at 12:30pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": []
@@ -330,7 +329,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Casey,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to keep working with you in this next fund. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and go through it together too."
+          "text": "Casey,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Thursday, October 15 at 1pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [],
@@ -343,14 +342,14 @@
       "route": "New private email to Kim and Andy; cc Daniel. Note in the existing iMessage with Kim and Daniel only if no response.",
       "summary": "Invite Kim and Andy into the Fund II conversation they have not had yet.",
       "context": "Gadi confirmed October 6 that they have not had a Fund II conversation. Kim’s earlier interest in a discussion and Daniel sharing the SOI were preparation; they belong in the same core invitation group.",
-      "next": "Make participation explicit, then offer real times if they want a conversation. A shared Q&A is not a prerequisite.",
+      "next": "Invite both into Fund II with the proposed catch-up. Recheck the time when they respond and prepare for their questions.",
       "category": "core",
       "caution": "Andy is not in the iMessage follow-up group. Address Kim and refer to both in that note.",
       "group": "lps",
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Kim and Andy,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you both with us again. We've finished the materials: https://fund.antigravity.capital/\n\nWould be great to catch up with you both and go through it together."
+          "text": "Kim and Andy,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Thursday, October 15 at 1:30pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -378,7 +377,7 @@
       "drafts": [
         {
           "label": "Working message",
-          "text": "Daniel, we're bringing our existing LPs into Fund II now. We'd love to keep working with you in this next fund. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up and walk through it together too."
+          "text": "Daniel,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Tuesday, October 13 at 2pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
@@ -395,13 +394,13 @@
       "route": "New private email; cc Daniel",
       "summary": "A core invitation, with room to talk around his AGM workload.",
       "context": "Kevin is a personal Fund I LP. His latest personal email declined October Puentes because of Rackhouse’s October 19 AGM. That was an event timing constraint, not a Fund II pass.",
-      "next": "Invite him now; answer over email or find a useful time once he is through the AGM. Keep the invitation separate from the Puentes thread and its other recipients.",
+      "next": "Propose the October 15 catch-up and follow his availability around the AGM. Keep the invitation separate from the Puentes thread and its other recipients.",
       "category": "core",
       "group": "lps",
       "drafts": [
         {
           "label": "Working message",
-          "text": "Hey Kevin,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you with us again. We've finished the materials: https://fund.antigravity.capital/\n\nHappy to catch up once you're through the AGM, or keep it over email if that's easier."
+          "text": "Kevin,\n\nWe’re kicking off fundraising for Antigravity Fund II and targeting our first close in the next couple of months. Ahead of our LP meetings, we’re signing up our existing Fund I LPs, and we’d love to have you on board.\n\nHere are the materials we’re sharing with our Fund I investors: https://fund.antigravity.capital/\n\nAre you free Thursday, October 15 at 2pm PT for a 30-minute catch-up with Daniel and me? We can walk you through Fund II and answer your questions.\n\nGadi"
         }
       ],
       "sources": [
