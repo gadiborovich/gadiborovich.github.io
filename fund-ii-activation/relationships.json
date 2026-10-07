@@ -1,15 +1,15 @@
 {
   "prepared": "October 6, 2026",
   "sourceHashes": {
-    "existing-lps.md": "12aae062ff02ea363f3a1ca03dfae0a3662b9a4456daf6dcc1abf6cc6df54806",
+    "existing-lps.md": "f9c6930adc67d31658f67c317092648ec895f3d9342eef0c09202f8efebdda53",
     "puentes.md": "fef4f781982a9d59c7678091ae2e2760e3c70eec809692cd09e57bf2732500eb"
   },
   "people": [
     {
       "id": "kurt-read",
       "name": "Kurt Read",
-      "channel": "iMessage",
-      "route": "Direct conversation",
+      "channel": "Email",
+      "route": "New private email; cc Daniel. Direct iMessage note only if no response.",
       "summary": "An invitation with a useful reason to catch up: the Fund I numbers.",
       "context": "Kurt asked to go over the Fund I numbers after missing them at the September recap. Gadi sent the slides; a current personal Fund II invitation was not found in the reviewed sources.",
       "next": "If he takes the call, bring reconciled Fund I figures and the Fund II case. He can also continue asynchronously.",
@@ -26,14 +26,19 @@
         {
           "label": "CRM",
           "url": "https://app.notion.com/198daeb2902680a09f3ff2890d5f8573"
+        },
+        {
+          "label": "Recipient verified",
+          "url": "https://mail.google.com/mail/u/0/#all/19fd2967ba588dc3"
         }
-      ]
+      ],
+      "subject": "Fund II"
     },
     {
       "id": "darren-fredette",
       "name": "Darren Fredette",
-      "channel": "iMessage",
-      "route": "Existing conversation with Daniel",
+      "channel": "Email",
+      "route": "New private email; cc Daniel. Note in the existing iMessage with Daniel only if no response.",
       "summary": "A close backer whose tentative interest needs a current invitation.",
       "context": "Darren helped with Fund I diligence and recently praised Puentes. In July he said he was probably comfortable writing a Fund II check; no amount or investment next step followed.",
       "next": "Learn his current appetite and address the returns questions that matter to him. His separate Halluminate pass does not settle Fund II.",
@@ -49,14 +54,19 @@
         {
           "label": "CRM",
           "url": "https://app.notion.com/198daeb2902680c68045cb743f8160f8"
+        },
+        {
+          "label": "Recipient verified",
+          "url": "https://mail.google.com/mail/u/0/#all/1a005f5f8f536345"
         }
-      ]
+      ],
+      "subject": "Fund II"
     },
     {
       "id": "nico-bistolfi",
       "name": "Nico Bistolfi",
-      "channel": "WhatsApp",
-      "route": "Direct conversation",
+      "channel": "Email",
+      "route": "New private email; cc Daniel. Direct WhatsApp note only if no response.",
       "summary": "Build on his recap engagement and invite him into the next fund.",
       "context": "Nico engaged with the Fund I recap and received its recording. A Puentes invitation is still open in the reviewed exchange; the fund invitation can proceed independently.",
       "next": "Discuss participation and his actual questions. Another dinner or Q&A is optional, not a condition.",
@@ -73,8 +83,13 @@
         {
           "label": "CRM",
           "url": "https://app.notion.com/198daeb2902680f4b56ffb64a50ab46d"
+        },
+        {
+          "label": "Recipient verified",
+          "url": "https://mail.google.com/mail/u/0/#all/19d2651f70d30184"
         }
-      ]
+      ],
+      "subject": "Fund II"
     },
     {
       "id": "jonathan-siegel",
@@ -107,8 +122,8 @@
     {
       "id": "marc-fielding",
       "name": "Marc Fielding",
-      "channel": "WhatsApp",
-      "route": "Direct conversation",
+      "channel": "Email",
+      "route": "New private email; cc Daniel",
       "summary": "An ordinary returning-LP invitation, grounded in an ongoing founder relationship.",
       "context": "Marc knows the Puentes hiring work and previously welcomed a general fund catch-up. No personal invitation into the current Fund II raise was found.",
       "next": "If he wants to go deeper, connect the Puentes work he has seen to the investment case.",
@@ -125,7 +140,8 @@
           "label": "CRM",
           "url": "https://app.notion.com/198daeb2902680ac8ee3d920ab6de6c3"
         }
-      ]
+      ],
+      "subject": "Fund II"
     },
     {
       "id": "michael-bhagat",
@@ -158,8 +174,8 @@
     {
       "id": "keith-guerin",
       "name": "Keith Guerin",
-      "channel": "iMessage",
-      "route": "Direct conversation",
+      "channel": "Email",
+      "route": "New private email; cc Daniel. Direct iMessage note only if no response.",
       "summary": "Invite him directly; the recap does not need to become homework.",
       "context": "Keith helped think about LP Day and received the Fund I recording. A current personal Fund II invitation was not found in the reviewed conversation.",
       "next": "Follow the investment question he raises. Use concrete production examples if they help answer it.",
@@ -175,8 +191,13 @@
         {
           "label": "CRM",
           "url": "https://app.notion.com/198daeb2902680908cfdcd1fc084f457"
+        },
+        {
+          "label": "Recipient verified",
+          "url": "https://mail.google.com/mail/u/0/#all/19f4a76e7641e27e"
         }
-      ]
+      ],
+      "subject": "Fund II"
     },
     {
       "id": "zack-rosen",
@@ -234,7 +255,7 @@
       "id": "bou-berendsen",
       "name": "Bou Berendsen",
       "channel": "Email",
-      "route": "New private email; cc Daniel",
+      "route": "New private email; cc Daniel. Direct WhatsApp note only if no response.",
       "summary": "Share the fund case and make an asynchronous conversation easy.",
       "context": "Bou received the recap replay and a general catch-up invitation. A current Fund II invitation was not found; his location has also changed since older CRM notes.",
       "next": "Continue over email if useful. If he wants a call, offer times in his actual timezone.",
@@ -318,26 +339,31 @@
     {
       "id": "kim-andy",
       "name": "Kim / Andy",
-      "channel": "iMessage",
-      "route": "Existing conversation with Kim and Daniel",
+      "channel": "Email",
+      "route": "New private email to Kim and Andy; cc Daniel. Note in the existing iMessage with Kim and Daniel only if no response.",
       "summary": "Invite Kim and Andy into the Fund II conversation they have not had yet.",
       "context": "Gadi confirmed October 6 that they have not had a Fund II conversation. Kim’s earlier interest in a discussion and Daniel sharing the SOI were preparation; they belong in the same core invitation group.",
-      "next": "Make participation explicit, then offer real times if she wants a conversation with Andy. A shared Q&A is not a prerequisite.",
+      "next": "Make participation explicit, then offer real times if they want a conversation. A shared Q&A is not a prerequisite.",
       "category": "core",
-      "caution": "Andy is not in this iMessage group. Address Kim and refer to both.",
+      "caution": "Andy is not in the iMessage follow-up group. Address Kim and refer to both in that note.",
       "group": "lps",
       "drafts": [
         {
           "label": "Working message",
-          "text": "Kim, we're bringing our existing LPs into Fund II now. Daniel and I would love to have you and Andy with us again. We've finished the materials: https://fund.antigravity.capital/\n\nWould be great to catch up with you both and go through it together."
+          "text": "Hey Kim and Andy,\n\nWe're bringing our existing LPs into Fund II now. Daniel and I would love to have you both with us again. We've finished the materials: https://fund.antigravity.capital/\n\nWould be great to catch up with you both and go through it together."
         }
       ],
       "sources": [
         {
           "label": "CRM",
           "url": "https://app.notion.com/198daeb290268093b358c0d600820074"
+        },
+        {
+          "label": "Joint email verified",
+          "url": "https://mail.google.com/mail/u/0/#all/19fd983884de5b3d"
         }
-      ]
+      ],
+      "subject": "Fund II"
     },
     {
       "id": "daniel-correa",
