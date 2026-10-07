@@ -57,13 +57,15 @@ def spec(id, name, channel, route, summary, context, next, *,
 
 LP_SPECS = [
     spec("kurt-read", "Kurt Read", "Email", "New private email; cc Daniel. Direct iMessage note only if no response.",
-         "Invite him into Fund II and propose a catch-up with both partners.",
-         "Kurt asked to go over the Fund I numbers after missing them at the September recap. Gadi sent the slides; a current personal Fund II invitation was not found in the reviewed sources.",
-         "If he takes the call, bring the Fund II case and reconciled Fund I figures for his questions. Recheck the proposed time before confirming."),
+         "Invitation sent: Tuesday, October 13 at 11am PT.",
+         "Gadi sent the Fund II invitation October 7, offering Tuesday, October 13 at 11am PT. No reply was present in the checked thread. Kurt previously asked to go over the Fund I numbers after the recap.",
+         "Preserve the sent 11am offer. If he accepts, confirm availability and prepare the Fund II case and figures for his questions.",
+         caution="The 11am offer starts as another event on Daniel’s calendar ends. Check that transition before confirming."),
     spec("darren-fredette", "Darren Fredette", "Email", "New private email; cc Daniel. Note in the existing iMessage with Daniel only if no response.",
-         "A close backer whose tentative interest needs a current invitation.",
-         "Darren helped with Fund I diligence and recently praised Puentes. In July he said he was probably comfortable writing a Fund II check; no amount or investment next step followed.",
-         "Learn his current appetite and address the returns questions that matter to him. His separate Halluminate pass does not settle Fund II."),
+         "Invitation sent: Tuesday, October 13 at noon PT.",
+         "Gadi sent the Fund II invitation October 7, offering Tuesday, October 13 at noon PT. No reply was present in the checked thread. Darren is a close Fund I backer; his earlier tentative interest was not a commitment.",
+         "Preserve the sent noon offer. If Darren accepts, Gadi intends to move the overlapping meeting before confirming.",
+         caution="The noon offer overlaps an accepted noon–1pm meeting. Gadi intends to move that meeting if Darren accepts; the calendar has not yet changed."),
     spec("nico-bistolfi", "Nico Bistolfi", "Email", "New private email; cc Daniel. Direct WhatsApp note only if no response.",
          "Build on his recap engagement and invite him into the next fund.",
          "Nico engaged with the Fund I recap and received its recording. A Puentes invitation is still open in the reviewed exchange; the fund invitation can proceed independently.",
@@ -122,7 +124,7 @@ LP_SPECS = [
     spec("kevin-novak", "Kevin Novak", "Email", "New private email; cc Daniel",
          "A core invitation, with room to talk around his AGM workload.",
          "Kevin is a personal Fund I LP. His latest personal email declined October Puentes because of Rackhouse’s October 19 AGM. That was an event timing constraint, not a Fund II pass.",
-         "Propose the October 15 catch-up and follow his availability around the AGM. Keep the invitation separate from the Puentes thread and its other recipients."),
+         "Propose the October 16 catch-up and follow his availability around the AGM. Keep the invitation separate from the Puentes thread and its other recipients."),
 ]
 
 
@@ -234,6 +236,11 @@ def build():
             card.update(group=group, drafts=[dict(label=label, text=message)
                                            for label, message in zip(labels, messages)],
                         sources=external_sources(body))
+            sent = re.search(r"^\*\*Sent:\*\* ([A-Za-z]+ \d{1,2}, \d{4})\.", body, re.M)
+            if sent:
+                if len(card["drafts"]) != 1:
+                    raise ValueError(f"Ambiguous sent record for {card['id']}")
+                card["drafts"][0].update(label="Email record", sentOn=sent.group(1))
             if group == "lps" and card["channel"] == "Email":
                 subject = re.search(r"\*\*Subject: ([^*]+)\*\*", texts[filename])
                 if not subject:
