@@ -1,0 +1,1668 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Fund I · What could come back?</title><style>:root{--paper:#f5f2e9;--white:#fcfbf6;--ink:#183d42;--muted:#657876;--line:#cdd5cb;--teal:#236777;--wash:#e6ece3;--gold:#aa793a}*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}a{color:var(--teal);text-underline-offset:3px}button,input,select,textarea{font:inherit;color:inherit}button,summary,select,.file-button{cursor:pointer}button{border:1px solid var(--line);background:transparent;padding:8px 12px;border-radius:4px}button:hover{background:var(--wash)}button:disabled{opacity:.45;cursor:default}button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:3px}input,select{background:var(--white);border:1px solid var(--line);border-radius:3px;padding:9px;width:100%;min-width:0}input[type=checkbox]{width:17px;height:17px;accent-color:var(--teal)}p{margin:0 0 12px}.muted,.small{color:var(--muted)}.small{font-size:12px;line-height:1.55}.eyebrow{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip{position:absolute;top:-60px;left:20px;background:var(--paper);padding:10px;z-index:10}.skip:focus{top:10px}header,main{max-width:1460px;margin:auto;padding:0 42px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:24px;padding-bottom:24px;border-bottom:1px solid var(--line)}.brand{font:28px Georgia,serif}.brand small{font:10px -apple-system,sans-serif;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-left:20px}.intro{display:grid;grid-template-columns:1fr 1.15fr;gap:70px;align-items:center;padding:48px 0 38px}h1{font:normal clamp(45px,5.5vw,74px)/1.02 Georgia,serif;letter-spacing:-2px;margin:14px 0}h1 em{font-weight:normal;color:var(--teal)}.intro-copy>p:first-child{font:25px/1.35 Georgia,serif}.intro-copy>.muted{max-width:510px;font-size:13px}.history{display:flex;gap:35px;margin-top:23px}.history strong{font:26px Georgia,serif;display:block}.history span{display:block;font-size:10px;color:var(--muted);margin-top:5px}.history b{font-weight:500}.workbench{display:grid;grid-template-columns:250px minmax(0,1fr);gap:38px;border-top:1px solid var(--ink);padding-top:25px}.library{border-right:1px solid var(--line);padding-right:23px}.section-title{display:flex;align-items:center;justify-content:space-between;gap:10px}.section-title h2{font:22px Georgia,serif;margin:0}.section-title>.muted{font-size:10px;white-space:nowrap}.library>.small{font-size:10px;margin:8px 0 13px}.search input{font-size:12px;padding:9px 10px;margin-bottom:12px}#library-list{max-height:1000px;overflow:auto;padding-right:4px}.library-item{padding:12px 0;border-bottom:1px solid var(--line);cursor:grab}.library-item.selected{opacity:.55;cursor:default}.library-item.historical{cursor:default}.library-row{display:flex;justify-content:space-between;align-items:center;gap:8px}.company-name{border:0;padding:0;text-align:left;font-size:13px;font-weight:600}.company-name:hover{background:none;text-decoration:underline}.library-row .add{font-size:10px;padding:4px 8px}.library-item p{font-size:10px;line-height:1.5;color:var(--muted);margin:5px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.badge{font-size:9px;display:inline-block;border:1px solid var(--line);border-radius:3px;padding:2px 5px;color:var(--muted)}.library-item .badge{margin-top:6px}.scenario{min-width:0}.scenario-heading{display:flex;justify-content:space-between;gap:15px;align-items:center}.scenario-heading h2{font:30px Georgia,serif;margin:5px 0}.scenario-heading .eyebrow{margin:0}.actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.actions button,.menu summary,.file-button{font-size:11px}#top-template{background:var(--ink);color:var(--paper);border-color:var(--ink)}.quiet{border-color:transparent;font-size:11px;padding:7px 5px;color:var(--muted)}.menu{position:relative}.menu summary{padding:8px;list-style:none;border:1px solid var(--line);border-radius:4px}.menu summary:after{content:' ⌄'}.menu-content{position:absolute;right:0;top:42px;z-index:4;background:var(--white);border:1px solid var(--line);box-shadow:0 8px 22px #183d4214;min-width:180px;padding:8px;display:grid;gap:3px}.menu-content button,.file-button{display:block;text-align:left;padding:8px;border:0}.file-button input{position:absolute;width:1px;height:1px;opacity:0}.file-button:focus-within{outline:2px solid var(--gold)}.status{min-height:18px;margin:8px 0}.dropzone{border:1px dashed #a5b8ae;border-radius:5px;min-height:180px;transition:background .15s,border-color .15s}.dropzone.has-companies{border-style:solid;border-color:var(--line);background:var(--white)}.dropzone.drag-over{background:#d8e9e0;border:2px solid var(--teal)}#empty-state{text-align:center;padding:27px 18px;color:var(--muted)}.empty-icon{font:31px Georgia,serif;color:var(--teal)}#empty-state h3{font:23px Georgia,serif;margin:4px 0 8px;color:var(--ink)}#empty-state p{font-size:12px;margin:0}.selected-company{padding:18px 20px;border-bottom:1px solid var(--line)}.selected-company:last-child{border-bottom:0}.selected-heading{display:flex;justify-content:space-between;align-items:center;gap:15px}.selected-heading h3{font:24px Georgia,serif;margin:0}.selected-heading h3 button{font:inherit;border:0;padding:0}.selected-heading h3 button:hover{text-decoration:underline;background:none}.selected-heading .remove{font-size:20px;padding:0 6px;border:0;color:var(--muted)}.selected-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:5px 0 12px}.context-link{font-size:10px;padding:0;border:0;text-decoration:underline;color:var(--teal)}.controls{display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr;gap:12px}.controls label,.bridge-fields label,.advanced-fields label{font-size:10px;color:var(--muted);display:block}.controls input,.controls select{font-size:13px;margin-top:4px;padding:8px}.controls small{font-size:9px;display:block;min-height:15px;margin-top:4px;color:var(--muted)}.selected-bottom{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-top:13px}.company-result{font-size:11px;margin:0;color:var(--teal)}.ownership{font-size:10px;max-width:65%}.ownership summary{color:var(--muted);font-size:10px;white-space:nowrap}.ownership[open]{max-width:none;width:100%}.ownership p{font-size:11px;color:var(--muted);margin-top:10px}.advanced-fields{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin:10px 0}.advanced-fields input{margin-top:5px}.selected-bottom:has(.ownership[open]){flex-wrap:wrap}.scenario-footer{display:flex;justify-content:space-between;align-items:center;gap:15px;margin:10px 0 28px}.scenario-footer .small{font-size:10px;max-width:60%}.scenario-footer button{white-space:nowrap}.results>.section-title{border-top:1px solid var(--ink);padding-top:21px;margin-bottom:14px}.results .section-title p{margin:0}.chart-card{border:1px solid var(--line);border-radius:5px;padding:23px 24px;background:var(--white)}.lp-card{background:#e8eee5}.chart-heading{display:flex;align-items:start;justify-content:space-between;gap:25px}.chart-heading h2{font:27px Georgia,serif;margin:0 0 7px}.chart-heading p{max-width:390px;font-size:11px;margin-bottom:0}.metric{text-align:right;white-space:nowrap}.metric strong{font:35px/1.1 Georgia,serif;display:block}.metric span{display:block;font-size:10px;color:var(--muted);margin-top:6px}.chart{margin-top:17px}.chart svg{width:100%;height:auto;display:block}.chart-foot{font-size:11px;color:var(--muted);margin:11px 0 0}.link-button{border:0;padding:7px 0;font-size:11px;color:var(--teal);text-decoration:underline;text-underline-offset:3px}.bridge{margin:10px 0 23px;font-size:12px}.bridge>summary{padding:8px 2px;color:var(--muted)}.bridge>summary span{float:right;font-size:10px;max-width:65%;text-align:right}.bridge-body{padding:16px;border:1px solid var(--line);border-radius:4px;margin-top:7px}.switch{display:flex;gap:9px;align-items:center;font-size:12px;margin:16px 0}.bridge-fields{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin:16px 0}.bridge-fields input{margin-top:5px}.bridge-fields input:disabled{opacity:.6}#bridge-breakdown{font-size:11px}#bridge-breakdown div{display:flex;justify-content:space-between;border-top:1px solid var(--line);gap:15px;padding:4px 0}.fund-card{background:transparent}.legend{display:flex;gap:8px 15px;flex-wrap:wrap;font-size:10px;color:var(--muted);margin-top:8px}.legend span{display:inline-flex;align-items:center;gap:5px}.legend i{width:9px;height:9px;border-radius:2px;display:inline-block}.scope-note{font-size:10px;color:var(--muted);margin:13px 0 0}.method{margin:38px 0 24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.method>summary{font-size:12px;padding:16px 0;color:var(--muted)}.method-body{max-width:880px;font-size:12px;padding-bottom:16px;color:var(--muted)}footer{display:flex;justify-content:space-between;gap:15px;color:var(--muted);font-size:10px;padding-bottom:30px}dialog{background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:25px;max-width:570px;width:calc(100% - 35px);max-height:85vh;overflow:auto;box-shadow:0 20px 80px #102c3540}dialog::backdrop{background:#112b3266}.dialog-header{display:flex;align-items:start;justify-content:space-between;gap:20px;margin-bottom:17px}.dialog-header h2{font:32px Georgia,serif;margin:0}.dialog-header .eyebrow{margin-bottom:6px}.dialog-header>button{font-size:23px;border:0;padding:0 5px}#context-body h3{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin:23px 0 8px}#context-body p{font-size:13px}.reference{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}.reference strong{font:18px Georgia,serif;display:block;margin-bottom:5px}.reference p{color:var(--muted);font-size:12px!important}.reference a{font-size:11px}.context-sources{font-size:11px;margin-top:20px}.context-sources a{display:block;margin:7px 0}textarea{width:100%;resize:vertical;font:11px/1.5 monospace;padding:10px;background:var(--white);border:1px solid var(--line);margin-bottom:15px}#errors{background:#f2e1ce;color:#7d4325;border:1px solid #ca9c75;padding:12px;font-size:12px;margin:15px 0}
+@media(min-width:1150px){.library{position:sticky;top:20px;align-self:start}.library #library-list{max-height:calc(100vh - 170px)}}
+@media(max-width:1100px){header,main{padding-left:26px;padding-right:26px}.workbench{grid-template-columns:215px minmax(0,1fr);gap:24px}.intro{gap:35px}.scenario-heading{align-items:start;flex-direction:column}.chart-card{padding:20px}.controls{grid-template-columns:1fr 1fr}.bridge-fields{grid-template-columns:1fr 1fr}.history{gap:20px}.history strong{font-size:23px}}
+@media(max-width:760px){header,main{padding-left:20px;padding-right:20px}header{align-items:start}.brand small{display:block;margin:5px 0 0}header>.eyebrow{max-width:115px;text-align:right;font-size:8px}.intro{display:block;padding:30px 0}h1{font-size:55px}.intro-copy{margin-top:25px}.intro-copy>p:first-child{font-size:22px}.history{justify-content:space-between;gap:14px}.history strong{font-size:24px}.history span{font-size:9px}.workbench{display:block}.library{border:0;padding:0;margin-bottom:25px}#library-list{display:grid;grid-template-columns:1fr 1fr;gap:0 15px;max-height:285px;border-bottom:1px solid var(--line)}.library-item{padding:10px 0}.library-item p{font-size:9px}.scenario-heading{gap:12px}.scenario-heading h2{font-size:29px}.scenario-footer{align-items:start;flex-direction:column;gap:5px}.scenario-footer .small{max-width:none}.chart-heading{gap:13px}.chart-heading h2{font-size:25px}.chart-heading p{font-size:10px}.metric strong{font-size:29px}.metric span{font-size:9px}.chart-card{padding:17px 14px}.selected-company{padding:16px 14px}.selected-heading h3{font-size:24px}.controls{gap:11px}.ownership{max-width:60%}.company-result{font-size:10px}.chart-foot{font-size:10px}.bridge>summary span{max-width:55%}.method{margin-top:25px}footer{display:block}footer span{display:block;margin-top:5px}}
+@media print{body{background:white;font-size:11px}header,main{max-width:none;padding-left:0;padding-right:0}.intro{padding:12px 0;gap:25px}h1{font-size:40px}.intro-copy>p:first-child{font-size:20px}.library,.actions,.scenario-footer button,.remove,.menu,.context-link,#open-bridge,#status{display:none!important}.workbench{display:block}.scenario-heading h2{font-size:25px}.selected-company,.chart-card{break-inside:avoid}.chart-card{padding:15px}.chart{max-width:740px}.controls{grid-template-columns:repeat(4,1fr)}.method-body,.bridge-body{display:block}footer{margin-top:20px}dialog{display:none}button{pointer-events:none}.ownership{max-width:none;width:100%}}
+
+/* Prepared outcomes: two decisions up front, calculation details underneath. */
+.sale-routes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}.sale-routes button{text-align:left;background:var(--paper);padding:11px 13px}.sale-routes strong,.sale-routes span{display:block}.sale-routes strong{font-size:13px;font-weight:600}.sale-routes span{font-size:10px;color:var(--muted);margin-top:3px}.sale-routes button[aria-pressed=true]{border-color:var(--teal);box-shadow:inset 0 0 0 1px var(--teal);background:#e6eee5}.partial-options{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:10px;color:var(--muted);margin:12px 0}.partial-options button{padding:3px 10px;font-size:11px}.partial-options button[aria-pressed=true]{background:var(--ink);color:var(--white)}.partial-options span:last-child{margin-left:auto}.example-note{font-size:10px;color:var(--muted);margin:14px 0 10px}.outcome-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:15px}.outcome-options button{text-align:left;padding:8px 10px}.outcome-options strong,.outcome-options span,.outcome-options small{display:block}.outcome-options strong{font:20px Georgia,serif}.outcome-options span{font-size:9px;color:var(--muted);margin-top:3px}.outcome-options button[aria-pressed=true]{border-color:var(--teal);background:var(--wash)}.simple-controls{grid-template-columns:1fr 1fr}.company-cash{display:flex;justify-content:space-between;gap:15px;align-items:baseline;border-top:1px solid var(--line);padding-top:12px;margin-top:7px}.company-result{font:21px/1.4 Georgia,serif}.company-cash .small{font-size:10px;text-align:right;max-width:42%}.remaining-note{font-size:10px;margin:7px 0}.selected-company>.ownership{max-width:none;width:100%;margin-top:12px}.selected-company>.ownership summary{white-space:normal}.reset-example{display:block;margin-top:10px}.expanded.outcome-options{grid-template-columns:1fr;gap:8px}.expanded.outcome-options button{display:grid;grid-template-columns:90px minmax(0,1fr);gap:3px 12px;padding:13px}.expanded.outcome-options strong{grid-row:span 2;font-size:24px}.expanded.outcome-options span{font-size:12px;font-weight:600;color:var(--ink);margin:0}.expanded.outcome-options small{grid-column:2;font-size:11px;color:var(--muted);line-height:1.5}.market-references{font-size:11px;margin:18px 0}.market-references summary{color:var(--teal)}
+@media(max-width:760px){.sale-routes{gap:8px}.sale-routes button{padding:10px}.sale-routes strong{font-size:12px}.outcome-options{gap:5px}.outcome-options button{padding:7px}.outcome-options span{font-size:8px}.company-cash{display:block}.company-cash .small{display:block;max-width:none;text-align:left;margin-top:5px}.company-result{font-size:23px}.partial-options span:last-child{margin-left:0}.simple-controls{gap:10px}}
+
+.chart-legend{display:flex;gap:20px;flex-wrap:wrap;font-size:10px;color:var(--muted);margin-top:5px}.chart-legend span{display:flex;align-items:center;gap:7px}.chart-legend i{width:22px;height:0;border-top:2px solid var(--teal)}.chart-legend .dashed-line{border-top-style:dashed}.chart-heading .eyebrow{margin-bottom:8px}.results>.lp-card{margin-top:22px}.intro{padding-bottom:28px}.bridge{margin-bottom:10px}.bridge>summary span{font-size:9px}.chart-card .chart{overflow-x:auto}.chart-card .chart svg{min-width:0}.lp-card{background:var(--white)}
+</style></head>
+<body><a class="skip" href="#scenario">Skip to scenario</a>
+<header><span class="brand">gadi.fm <small>Antigravity / Fund I</small></span><span class="eyebrow">A conversation about possibilities</span></header>
+<main>
+<section class="intro"><div><p class="eyebrow">Fund I · Distribution simulator</p><h1>What could<br><em>come back?</em></h1></div><div class="intro-copy"><p>Choose the companies. Explore the outcomes.</p><p class="muted">A way to think together about how much could come back, and when. These are hypothetical scenarios, not a forecast.</p></div></section>
+<div class="workbench">
+<aside class="library" aria-label="Portfolio library"><div class="section-title"><h2>The portfolio</h2><span class="muted">21 companies</span></div><p class="small">Drag into your scenario, or choose Add.</p><label class="search"><span class="sr-only">Find a company</span><input id="search" type="search" placeholder="Find a company…" autocomplete="off"></label><div id="library-list"></div></aside>
+<section id="scenario" class="scenario" aria-label="Build a scenario"><div class="scenario-heading"><div><p class="eyebrow">01 / Build a scenario</p><h2>A few possibilities.</h2></div><div class="actions"><button id="top-template">Top companies</button><button id="reset" class="quiet">Reset</button><details class="menu"><summary>Save / load</summary><div class="menu-content"><button id="save">Save scenario</button><label class="file-button">Load scenario<input id="import" type="file" accept="application/json,.json"></label><button id="print">Print</button><button id="copy-toggle">Copy / paste inputs</button></div></details></div></div>
+<p id="status" class="small status" role="status" aria-live="polite"></p>
+<div id="dropzone" class="dropzone"><div id="empty-state"><span class="empty-icon">+</span><h3>Start with a company</h3><p>Drag one here, or try your top companies.<br>Start with a prepared outcome, then make it yours.</p></div><div id="selected-companies"></div></div>
+<div class="scenario-footer"><span id="selection-note" class="small">Shopgenie is already included in the historical starting balance.</span><button id="delay" class="quiet">Move receipts 2 years later →</button></div>
+<div id="errors" role="alert" hidden></div>
+<section class="results" aria-label="Scenario results"><div class="chart-card lp-card"><div class="chart-heading"><div><p class="eyebrow">The scenario over time</p><h2>Cash back to LPs</h2><p id="lp-caption" class="small">Shopgenie history + the outcomes you choose.</p></div><div class="metric"><strong id="lp-total">$140k</strong><span id="through">Through 2034</span></div></div><div id="lp-chart" class="chart" role="img" aria-label="Cumulative illustrative LP distributions"></div><div class="chart-legend"><span><i class="solid-line"></i> Historical distributions</span><span><i class="dashed-line"></i> Hypothetical future distributions</span></div><div id="lp-explanation" class="chart-foot"></div><p id="undated-note" class="chart-foot" hidden></p><p id="incomplete-note" class="chart-foot" hidden></p></div>
+<details id="bridge-details" class="bridge"><summary>Distribution assumptions <span id="bridge-badge"></span></summary><div class="bridge-body"><p class="small">The chart starts with the $140,000 Shopgenie distribution, initiated in October 2025 after the 2024 acquisition. Future sale proceeds pass through the assumptions below before appearing as LP cash.</p><div class="bridge-fields"><label>Additional reserves / expenses ($)<input id="reserve" type="number" min="0" max="10000000000" step="1000" value="0"></label><label>Retain / recycle (%)<input id="retainPct" type="number" min="0" max="100" step="5" value="0"></label><label>Illustrative carry (%)<input id="carryPct" type="number" min="0" max="100" step="1" value="20"></label><label>Further LP payment delay (years)<input id="lpLag" type="number" min="0" max="5" step="1" value="0"></label></div><p class="small">Starts with no additional reserves or recycling, same-year payment, and 20% carry after contributed capital is returned. These are editable illustration assumptions; actual distributions follow fund terms and the administrator’s calculation.</p><div id="bridge-breakdown"></div></div></details>
+<p class="scope-note">Only selected outcomes are modeled. Other holdings remain outside the scenario; they are not assumed to be worth zero.</p></section>
+</section></div>
+<details class="method"><summary>How this works &amp; sources</summary><div class="method-body"><p>The normal chart window is 2024–2034. Fund I fundraising began in 2022 and the final close was in December 2024; the chart’s starting year does not reset anyone’s investment date. Prepared cash years reflect companies already underway and remain hypothetical. Manually entered later receipts or payment delays extend the chart; 2034 is a viewing horizon, not a stated legal fund term.</p><p>Company equity value × modeled ownership × percentage sold gives hypothetical fund proceeds, with any selected haircut. Company inputs are independent; one sale per company is modeled. Financing marks and possible acquirers are starting points for a discussion, not available offers or promised exits.</p><p>The fund reports $140,000 distributed against $2,087,500 contributed including fees. Shopgenie is history, not a second future sale. Its retained/recycled proceeds are not added again. Historical amounts are source-reported; no new bank-settlement audit is implied.</p><p>Ownership bases vary. Dated pro formas include their modeled rounds; entry estimates require dilution from entry. Security preferences, taxes and individual LP terms are outside this simplified illustration. The cumulative LP chart applies additional reserves, retention, a common carry assumption, and an LP payment delay. It starts with 20% carry above capital returned, no additional reserves or retention, and same-year payment. Historical payments use the official October 15, 2025 distribution date; individual bank settlements varied. It is not the administrator’s waterfall. No future capital calls or returns on reinvested proceeds are assumed.</p><p>Every active company has editable hypothetical values, dilution and cash years. These are discussion assumptions, not expected outcomes. Unknown ownership remains a required input. Switching full exit / partial sale changes only the fraction of our position sold. Exit references offer perspective on possible buyers and outcomes. Some are reported discussions or adjacent transactions; their headline values are not directly interchangeable. Sources and dates are available inside each company’s context.</p><a id="fund-source" target="_blank" rel="noreferrer">Fund I schedule of investments ↗</a><span class="small"> · Source checked October 8, 2026</span></div></details>
+<footer><span>Antigravity Capital · Fund I</span><span>Hypothetical scenarios for discussion · October 2026</span></footer>
+</main>
+<dialog id="context-dialog" aria-labelledby="context-title"><div class="dialog-header"><div><p id="context-sector" class="eyebrow"></p><h2 id="context-title"></h2></div><button id="close-context" aria-label="Close company context">×</button></div><div id="context-body"></div></dialog>
+<dialog id="exchange-dialog" aria-labelledby="exchange-title"><div class="dialog-header"><h2 id="exchange-title">Saved assumptions</h2><button id="close-exchange" aria-label="Close saved assumptions">×</button></div><p class="small">Copy these inputs to keep them, or paste a saved scenario to restore it.</p><p id="exchange-error" role="alert" class="small"></p><textarea id="scenario-json" aria-label="Saved scenario inputs" rows="12" spellcheck="false"></textarea><div class="actions"><button id="apply-json">Load these inputs</button><button id="copy-json">Copy inputs</button></div></dialog>
+<script>(function (root) {
+  'use strict';
+  const copy = x => JSON.parse(JSON.stringify(x));
+  const isRecord = value => value !== null && typeof value === 'object' && !Array.isArray(value);
+  const known = value => typeof value === 'number' && Number.isFinite(value);
+  function validate(s) {
+    const errors = [];
+    const n = (v, label, lo, hi, nullable = false) => {
+      if (nullable && v === null) return;
+      if (!known(v) || v < lo || v > hi) errors.push(`${label}: enter a number from ${lo} to ${hi}.`);
+    };
+    if (!isRecord(s)) return ['Missing scenario.'];
+    n(s.paidIn, 'Contributed capital', 1, 1e12);
+    n(s.priorDistributions, 'Historical distributions', 0, 1e12);
+    n(s.horizon, 'View through year', 2026, 2050);
+    if (!Number.isInteger(s.horizon)) errors.push('View through year must be a whole year.');
+    if (!isRecord(s.bridge) || typeof s.bridge.enabled !== 'boolean') return errors.concat('Missing distribution bridge.');
+    if (s.bridge.enabled && s.priorDistributions > s.paidIn) errors.push('This simplified bridge cannot model historical distributions above paid-in capital.');
+    n(s.bridge.reserve, 'Additional expense / reserve allowance', 0, 1e10);
+    n(s.bridge.retainPct, 'Proceeds retained or recycled', 0, 100);
+    n(s.bridge.carryPct, 'Illustrative carry', 0, 100);
+    const lpLag = s.bridge.lpLag === undefined ? 0 : s.bridge.lpLag;
+    n(lpLag, 'Further LP distribution lag', 0, 5);
+    if (!Number.isInteger(lpLag)) errors.push('LP distribution lag must be a whole year.');
+    if (!Array.isArray(s.companies)) return errors.concat('The scenario must contain a company selection.');
+    const ids = new Set();
+    for (const c of s.companies) {
+      if (!isRecord(c)) { errors.push('Missing company input.'); continue; }
+      const canonicalId = typeof c.id === 'string' ? c.id.trim().toLowerCase() : '';
+      if (!canonicalId || ids.has(canonicalId)) errors.push('Company IDs must be nonempty and unique.');
+      ids.add(canonicalId);
+      if (canonicalId === 'shopgenie') errors.push('Shopgenie is historical and cannot be added as future proceeds.');
+      if (!['none', 'partial', 'exit', 'loss'].includes(c.event)) errors.push(`${c.id}: choose a supported event.`);
+      if (c.timed !== undefined && typeof c.timed !== 'boolean') errors.push(`${c.id}: timing must be assigned or unassigned.`);
+      n(c.basisPct, `${c.id} ownership basis`, 0, 100, true);
+      n(c.dilutionPct, `${c.id} dilution`, 0, 100, true);
+      n(c.valueM, `${c.id} equity value ($m)`, 0, 1000000, true);
+      n(c.soldPct, `${c.id} position sold`, 0, 100, true);
+      n(c.discountPct, `${c.id} price haircut`, 0, 100);
+      n(c.year, `${c.id} cash receipt year`, 2026, 2045, true);
+      if (c.year !== null && !Number.isInteger(c.year)) errors.push(`${c.id}: cash receipt year must be a whole year.`);
+      if (c.timed === true && c.year === null) errors.push(`${c.id}: assign a cash receipt year or leave timing unspecified.`);
+      const lag = c.lag === undefined ? 0 : c.lag;
+      n(lag, `${c.id} receipt lag`, 0, 5);
+      if (!Number.isInteger(lag)) errors.push(`${c.id}: receipt lag must be a whole year.`);
+    }
+    return errors;
+  }
+  function calculate(s) {
+    const errors = validate(s);
+    if (errors.length) return { errors };
+    const companies = s.companies.map(c => {
+      const sells = c.event === 'partial' || c.event === 'exit';
+      const ownershipPct = known(c.basisPct) && known(c.dilutionPct) ? c.basisPct * (1 - c.dilutionPct / 100) : null;
+      const soldPct = c.event === 'exit' ? 100 : c.soldPct;
+      const referenceValue = known(c.valueM) && ownershipPct !== null ? c.valueM * 1e6 * ownershipPct / 100 : null;
+      // A zero sale is a complete cash assumption, even when the retained stake is unknown.
+      const ready = !sells || soldPct === 0 || (referenceValue !== null && known(soldPct));
+      const gross = !ready ? null : !sells || soldPct === 0 ? 0 : referenceValue * soldPct / 100 * (1 - c.discountPct / 100);
+      // Missing assumptions and no sale are not write-offs or zero-valued holdings.
+      const unsoldReference = c.event === 'loss' ? 0 : c.event === 'none' || referenceValue === null || !known(soldPct) ? null : referenceValue * (1 - soldPct / 100);
+      const timed = c.timed !== false && c.year !== null;
+      return { ...c, ready, timed, ownershipPct, soldPct, gross, unsoldReference, receiptYear: timed ? c.year + (c.lag ?? 0) : null, sells };
+    });
+    const incompleteCompanies = companies.filter(c => !c.ready).map(c => c.id);
+    const datedSales = companies.filter(c => c.ready && c.sells && c.timed);
+    const lpLag = s.bridge.enabled ? (s.bridge.lpLag ?? 0) : 0;
+    const lastYear = Math.max(s.horizon, ...datedSales.map(c => c.receiptYear + lpLag));
+    let reserveLeft = s.bridge.reserve, grossCum = 0, allocatedCum = 0, carryCum = 0, lpCum = s.priorDistributions;
+    let heldCum = 0, expenseCum = 0, generatedAllocationCum = 0;
+    const scheduledAllocation = {};
+    const years = [];
+    for (let year = 2026; year <= lastYear; year++) {
+      const rows = datedSales.filter(c => c.receiptYear === year);
+      const gross = rows.reduce((a, c) => a + c.gross, 0);
+      grossCum += gross;
+      const expense = s.bridge.enabled ? Math.min(reserveLeft, gross) : 0;
+      reserveLeft -= expense;
+      const retained = s.bridge.enabled ? (gross - expense) * s.bridge.retainPct / 100 : 0;
+      const generatedAllocation = s.bridge.enabled ? gross - expense - retained : 0;
+      generatedAllocationCum += generatedAllocation;
+      scheduledAllocation[year + lpLag] = (scheduledAllocation[year + lpLag] || 0) + generatedAllocation;
+      const allocated = scheduledAllocation[year] || 0;
+      allocatedCum += allocated;
+      // A teaching bridge only: common rate, no preferred return/catch-up, historical
+      // distributions treated as returned capital, no historical carry adjustments.
+      const newCarryCum = s.bridge.enabled ? Math.max(0, s.priorDistributions + allocatedCum - s.paidIn) * s.bridge.carryPct / 100 : 0;
+      const carry = newCarryCum - carryCum;
+      carryCum = newCarryCum;
+      const lp = allocated - carry;
+      lpCum += lp; heldCum += retained; expenseCum += expense;
+      years.push({ year, gross, grossCum, expense, retained, allocated, carry, lp, lpCum, heldCum, expenseCum, carryCum, pendingAllocation:generatedAllocationCum-allocatedCum, names: rows.map(c => c.id) });
+    }
+    const atHorizon = years.find(y => y.year === s.horizon);
+    const totalGross = companies.reduce((a,c) => a+(c.gross ?? 0), 0);
+    const unscheduledGross = companies.filter(c=>c.ready&&c.sells&&!c.timed).reduce((a,c)=>a+c.gross,0);
+    const totalUnsoldReference = companies.reduce((a,c) => a+(c.unsoldReference ?? 0), 0);
+    const firstCapitalReturnYear = s.bridge.enabled ? (years.find(y => y.lpCum >= s.paidIn)?.year ?? null) : null;
+    return { errors: [], companies, incompleteCompanies, years, atHorizon, totalGross, unscheduledGross, grossAfterHorizon: Math.max(0, totalGross - unscheduledGross - atHorizon.grossCum),
+      totalUnsoldReference, unknownRetainedCount:companies.filter(c=>c.unsoldReference===null).length,
+      reserveShortfall: s.bridge.enabled ? Math.max(0, s.bridge.reserve-atHorizon.expenseCum) : null,
+      finalReserveShortfall:reserveLeft, multiple: s.bridge.enabled ? atHorizon.lpCum / s.paidIn : null,
+      additionalLP: s.bridge.enabled ? atHorizon.lpCum - s.priorDistributions : null, firstCapitalReturnYear };
+  }
+  const api = { copy, validate, calculate };
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  root.DistributionModel = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this);
+</script><script>// Portfolio facts and separate, authored hypothetical starting examples.
+window.SimulatorResearch = {
+  "version": "2026-10-08-v5",
+  "checked": "October 8, 2026",
+  "paidIn": 2087500,
+  "priorDistributions": 140000,
+  "fundSource": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+  "companies": [
+    {
+      "id": "shopgenie",
+      "name": "Shopgenie",
+      "aliases": [],
+      "sector": "Auto repair software",
+      "cost": 125000,
+      "basisPct": null,
+      "basisType": "Historical",
+      "basisNote": "Fully exited. Gross realized proceeds and the $140,000 LP distribution are historical; no new sale can be added.",
+      "dilutionLabel": "Not applicable",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Acquired by Tekmetric in October 2024. The $140,000 LP distribution was initiated in October 2025; it is already included in the chart.",
+      "contextDate": "Acquisition 2024 · distribution initiated 2025",
+      "contextSources": [
+        {
+          "label": "Fund I realized proceeds and distributions",
+          "url": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit"
+        },
+        {
+          "label": "Tekmetric announcement · October 16, 2024",
+          "url": "https://www.tekmetric.com/post/tekmetric-and-shopgenie-join-forces-to-revolutionize-auto-repair-shop-management"
+        },
+        {
+          "label": "Administrator payment initiation · October 15, 2025",
+          "url": "https://mail.google.com/mail/#all/199e95cd90d2b72f"
+        }
+      ],
+      "references": [],
+      "historical": true
+    },
+    {
+      "id": "pace",
+      "name": "Pace",
+      "aliases": [
+        "Pace AI"
+      ],
+      "sector": "Adult learning",
+      "cost": 200000,
+      "basisPct": 4.0,
+      "basisType": "Entry estimate",
+      "basisNote": "$200,000 invested / $5m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "A large adult-education partnership is progressing toward contracting. Commercial momentum could broaden future strategic options; no transaction is assumed.",
+      "contextDate": "September 2026 update",
+      "contextSources": [
+        {
+          "label": "September founder update · sent October 3",
+          "url": "https://mail.google.com/mail/#all/1a1026b06cf37caa"
+        },
+        {
+          "label": "Earlier Fund I scenario planning · historical assumptions",
+          "url": "https://app.notion.com/p/23bdaeb2902680129f9ce024d59be853"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mondly → Pearson · £135m · 2022",
+          "detail": "Language-learning acquisition: £105m upfront plus £30m deferred. Shows the scale of an established digital-learning product; a different audience and business from Pace.",
+          "url": "https://plc.pearson.com/sites/pearson-corp/files/pearson/annual-report-2022/Financial_Statements_2022.pdf#page=35"
+        },
+        {
+          "title": "eDynamic Learning → Pearson · £168m · 2025",
+          "detail": "Cash acquisition of career and technical curriculum with institutional distribution. A useful example of a scaled education platform. Figures remain in their original currency.",
+          "url": "https://plc.pearson.com/sites/pearson-corp/files/annual-reports/2025/financial-statements-2025.pdf#page=64"
+        },
+        {
+          "title": "MedCerts → Stride · $70m upfront · 2020",
+          "detail": "Plus contingent consideration, against $19m trailing revenue. A workforce-training business and now a Pace partner; training delivery has different economics from software.",
+          "url": "https://investors.stridelearning.com/news/news-details/2020/Stride-Inc.-to-Acquire-Healthcare-Talent-Development-Pioneer-MedCerts/default.aspx"
+        },
+        {
+          "title": "Busuu → Chegg · ~$436m · 2022",
+          "detail": "Headline acquisition consideration for a much larger language-learning business. An older, higher-multiple reference for the larger outcome, not a current valuation benchmark.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1364954/000136495422000002/chgg-20220113.htm"
+        }
+      ],
+      "example": {
+        "valueM": 150,
+        "year": 2028,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "Education acquisitions give a sense of scale: £135m for Mondly, £168m for eDynamic and $70m upfront for MedCerts. These rounded dollar examples describe possible future businesses, not Pace’s value today.",
+        "scaleNote": "For scale: the revenue figures shown use a chosen 5× multiple. They are neither current revenue nor a revenue forecast. All three are successful outcomes, not a floor; custom values can be lower or zero.",
+        "options": [
+          {
+            "valueM": 50,
+            "title": "Focused acquisition",
+            "detail": "A strong adult-learning product. For scale: $10m annual revenue × 5."
+          },
+          {
+            "valueM": 150,
+            "title": "Scaled education platform",
+            "detail": "Recurring business across several education partners. For scale: $30m annual revenue × 5."
+          },
+          {
+            "valueM": 300,
+            "title": "Broader learning platform",
+            "detail": "Substantial expansion into publisher and workforce channels. For scale: $60m annual revenue × 5."
+          }
+        ],
+        "timingNote": "The 2028 cash example builds on a company operating since 2023 and its existing education partnerships. It explores liquidity after several years of building; a larger platform outcome may take longer."
+      }
+    },
+    {
+      "id": "jo",
+      "name": "jo",
+      "aliases": [
+        "Askjo"
+      ],
+      "sector": "Personal AI agent",
+      "cost": 10000,
+      "basisPct": 0.09090909090909091,
+      "basisType": "Entry estimate",
+      "basisNote": "$10,000 invested / $11m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Now positioned around a personal agent that follows through on work and household tasks using connected apps. No specific liquidity update available.",
+      "contextDate": "Public product · October 2026",
+      "contextSources": [
+        {
+          "label": "Current jo product",
+          "url": "https://askjo.ai/app"
+        }
+      ],
+      "references": [
+        {
+          "title": "Humane AI capabilities → HP · $116m · 2025",
+          "detail": "HP agreed to buy Humane’s AI platform, selected talent and IP. A reference for strategic demand for personal-AI technology; an asset transaction, not a whole-company equity sale or a consumer-subscription multiple.",
+          "url": "https://www.hp.com/us-en/newsroom/press-releases/2025/hp-accelerates-ai-software-investments-to-transform-the-future-of-work.html"
+        }
+      ],
+      "example": {
+        "valueM": 100,
+        "year": 2031,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "An acquisition could be driven by a retained paying audience or by a platform buyer wanting jo’s personal-agent technology. The three examples make the subscription route concrete without treating a technology asset deal as a valuation formula.",
+        "scaleNote": "For scale only: a chosen $200 annual subscription and 5× annual revenue. These are not jo’s current price, subscribers or forecast. All three are successful outcomes, not a floor.",
+        "options": [
+          {
+            "valueM": 25,
+            "title": "Focused personal assistant",
+            "detail": "25,000 paying users at $200 a year would produce $5m annual revenue; 5× gives $25m."
+          },
+          {
+            "valueM": 100,
+            "title": "Everyday household tool",
+            "detail": "100,000 paying users at $200 a year would produce $20m annual revenue; 5× gives $100m."
+          },
+          {
+            "valueM": 300,
+            "title": "Broad personal-agent product",
+            "detail": "300,000 paying users at $200 a year would produce $60m annual revenue; 5× gives $300m."
+          }
+        ]
+      }
+    },
+    {
+      "id": "margin",
+      "name": "Margin",
+      "aliases": [
+        "Transformity"
+      ],
+      "sector": "Retail distribution software",
+      "cost": 150000,
+      "basisPct": 1.0,
+      "basisType": "Entry estimate",
+      "basisNote": "$150,000 invested / $15m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Expanding from liquor-store software into helping stores sell higher-margin products, including their own spirits labels. DoorDash explored an acquisition twice; no transaction is currently being pursued.",
+      "contextDate": "October 2026 portfolio discussion",
+      "contextSources": [
+        {
+          "label": "Portfolio discussion · October 8",
+          "url": "codex://threads/01a1098a-a62f-75c1-87d2-72f0a70681ce"
+        },
+        {
+          "label": "Founder description of the distribution shift · September 8",
+          "url": "https://mail.google.com/mail/#all/1a0823c65462209b"
+        }
+      ],
+      "references": [
+        {
+          "title": "Penelope Bourbon → MGP · $105m upfront · 2023",
+          "detail": "A young spirits brand with distribution potential. Up to $110.8m more was contingent on performance, not paid upfront. Useful for the owned-brand route; whiskey inventory and brand economics differ from software.",
+          "url": "https://ir.mgpingredients.com/sec-filings/all-sec-filings/content/0001628280-23-027007/mgpi-20230630.htm"
+        },
+        {
+          "title": "Luxco → MGP · $475m announced enterprise value · 2021",
+          "detail": "An established spirits portfolio and national distribution platform, with about $202m trailing net revenue. The deal included cash and stock; enterprise value is not the amount paid to equity holders. A larger-scale reference for Margin’s newer direction.",
+          "url": "https://ir.mgpingredients.com/sec-filings/all-sec-filings/content/0001628280-21-000762/0001628280-21-000762.pdf"
+        },
+        {
+          "title": "SevenRooms → DoorDash · ~$1.2bn announced · 2025",
+          "detail": "Hospitality software and merchant relationships joining a commerce platform. A much larger software-led business; it is a different route from building a spirits brand and distribution network.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1792789/000162828025022396/q12025dashex991-pressrelea.htm"
+        }
+      ],
+      "example": {
+        "valueM": 75,
+        "year": 2029,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "Three different businesses, rather than three prices around the old DoorDash conversation: a focused strategic sale, a profitable store network, or a broader spirits platform. The growth cases depend on earning more per store and expanding distribution.",
+        "scaleNote": "The profit multiples below are chosen scenario assumptions, not observed Margin multiples or forecasts. They assume no net debt; inventory financing or other claims would reduce equity proceeds. GMV is not company revenue or profit.",
+        "options": [
+          {
+            "valueM": 25,
+            "title": "Focused strategic sale",
+            "detail": "One illustration of the earlier acquisition discussion’s scale. No quoted bid or active process."
+          },
+          {
+            "valueM": 75,
+            "title": "Profitable store network",
+            "detail": "Store brands and distribution produce $10m annual EBITDA × a chosen 7.5 multiple."
+          },
+          {
+            "valueM": 200,
+            "title": "Broader spirits platform",
+            "detail": "Multiple successful labels and wider distribution: $20m annual EBITDA × a chosen 10 multiple."
+          }
+        ],
+        "timingNote": "The 2029 cash example allows time to build the private-label and distribution business. The earlier acquisition interest is not a live offer; the larger operating model still has to be built."
+      }
+    },
+    {
+      "id": "weave",
+      "name": "Weave",
+      "aliases": [],
+      "sector": "Design to manufacturing",
+      "cost": 100000,
+      "basisPct": 1.25,
+      "basisType": "Entry estimate",
+      "basisNote": "$100,000 invested / $8m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "No specific liquidity update available yet.",
+      "contextDate": "",
+      "contextSources": [],
+      "references": [
+        {
+          "title": "Gerber Technology → Lectra · ~€300m announced · 2021",
+          "detail": "Fashion design-to-production software and equipment: €175m cash plus 5m Lectra shares, valued at about €300m when announced. A close workflow reference, but with an established hardware and services business; not a pure SaaS multiple.",
+          "url": "https://www.lectra.com/sites/default/files/2021-04/pr-gerber-technology-acquisition-project-2-08-2021-en.pdf"
+        },
+        {
+          "title": "Onshape → PTC · ~$470m net of cash · 2019",
+          "detail": "Cloud product-design software acquired by a large industrial platform. A useful reference if Weave owns an important design workflow; mechanical CAD and apparel manufacturing have different customer economics.",
+          "url": "https://www.ptc.com/en/news/2019/ptc-to-acquire-leading-saas-product-development-platform-provider-onshape"
+        }
+      ],
+      "example": {
+        "valueM": 150,
+        "year": 2030,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "Value could come from becoming the software that connects a fashion design to production. Gerber illustrates a buyer in the same workflow; Onshape shows the larger design-platform route.",
+        "scaleNote": "Revenue figures use a chosen 5× annual software-revenue multiple, not a current valuation or forecast. They exclude garment GMV and pass-through manufacturing revenue. Prices shown are hypothetical equity values.",
+        "options": [
+          {
+            "valueM": 50,
+            "title": "A valuable design tool",
+            "detail": "A focused product adopted by fashion teams. For scale: $10m annual software revenue × 5."
+          },
+          {
+            "valueM": 150,
+            "title": "Design-to-production platform",
+            "detail": "Recurring use across brands and manufacturing partners. For scale: $30m annual software revenue × 5."
+          },
+          {
+            "valueM": 400,
+            "title": "A major industry workflow",
+            "detail": "An important platform for the apparel industry. For scale: $80m annual software revenue × 5."
+          }
+        ]
+      }
+    },
+    {
+      "id": "atom",
+      "name": "Atom Limbs",
+      "aliases": [
+        "Atom",
+        "Atom Bodies"
+      ],
+      "sector": "Neural prosthetics",
+      "cost": 10000,
+      "basisPct": 0.016666666666666666,
+      "basisType": "Entry estimate",
+      "basisNote": "$10,000 invested / $60m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "No specific liquidity update available yet.",
+      "contextDate": "",
+      "contextSources": [],
+      "references": [
+        {
+          "title": "Touch Bionics → Össur · $39m / £27.5m · 2016",
+          "detail": "An upper-limb prosthetics company, acquired on a debt- and cash-free basis, with $21m prior-year sales. A closer product reference than an exoskeleton asset sale; its technology, maturity and reimbursement environment differ from Atom’s.",
+          "url": "https://www.globenewswire.com/news-release/2016/04/11/1579327/0/en/%C3%96ssur-acquires-touch-bionics.html"
+        },
+        {
+          "title": "Indego assets → Ekso Bionics · $10m · 2022",
+          "detail": "Parker’s human-motion business assets, including an exoskeleton product. Illustrates a technology-and-product sale at smaller scale; this was not a whole-company upper-limb prosthetics acquisition.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1549084/000154908422000075/ex991.htm"
+        }
+      ],
+      "example": {
+        "valueM": 150,
+        "year": 2032,
+        "dilutionPct": 60,
+        "partialPct": 70,
+        "rationale": "A prosthetics outcome needs clinical adoption, reliable manufacturing and reimbursement. Touch Bionics supplies a real upper-limb reference; larger cases require Atom to build a substantially larger business or a broader neural-control platform.",
+        "scaleNote": "The larger examples use chosen 3–4× annual product-revenue multiples, not software multiples. These are business-scale assumptions, not clinical, regulatory or sales forecasts. Net debt and senior claims would reduce equity proceeds.",
+        "options": [
+          {
+            "valueM": 40,
+            "title": "Specialist prosthetics sale",
+            "detail": "A product-and-technology acquisition near the historical Touch Bionics deal’s scale; could be below Atom’s financing reference."
+          },
+          {
+            "valueM": 150,
+            "title": "Commercial bionic-arm business",
+            "detail": "A reimbursed product with repeatable manufacturing. For scale: $50m annual product revenue × 3."
+          },
+          {
+            "valueM": 500,
+            "title": "Broader neural-control platform",
+            "detail": "Expansion beyond one product and a much larger installed base. For scale: $125m annual product revenue × 4."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bem",
+      "name": "Bem",
+      "aliases": [],
+      "sector": "Unstructured data",
+      "cost": 100000,
+      "basisPct": 0.2607869751942661,
+      "basisType": "Provisional pro forma",
+      "basisNote": "46,480 provisional conversion shares across both Fund I tranches: 0.260787% in the September 23 full-round pro forma. Closing and final issuance remain unconfirmed.",
+      "dilutionLabel": "Further dilution after pro forma (%)",
+      "source": "https://mail.google.com/mail/#all/1a1123fa6739afa8",
+      "sourceName": "September 23 pro forma · October 6 submission",
+      "context": "New financing provides a more developed ownership basis. Potential strategic fit sits around enterprise data and automation; no liquidity transaction is assumed.",
+      "contextDate": "September 2026 financing",
+      "contextSources": [
+        {
+          "label": "Q3 conversion evidence · October 6",
+          "url": "https://mail.google.com/mail/#all/1a1123fa6739afa8"
+        }
+      ],
+      "references": [
+        {
+          "title": "Re:infer → UiPath · $44.6m total consideration · 2022",
+          "detail": "Unstructured communications converted into usable data: close product logic. UiPath’s filing separates about $30.1m closing cash from stock and deferred loan notes; the headline was not all immediate cash.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1734722/000173472225000007/R14.htm"
+        },
+        {
+          "title": "Talend → Thoma Bravo · ~$2.4bn · 2021",
+          "detail": "All-cash acquisition of a much broader data-integration and data-quality platform. Shows the larger market Bem could grow into; an established platform from the 2021 market, not a direct valuation benchmark.",
+          "url": "https://www.thomabravo.com/press-releases/thoma-bravo-completes-acquisition-of-talend"
+        }
+      ],
+      "example": {
+        "valueM": 250,
+        "year": 2030,
+        "dilutionPct": 25,
+        "partialPct": 70,
+        "rationale": "Bem can stay a valuable document-processing capability or become the production layer connecting unstructured inputs to enterprise operations. Re:infer anchors the specialist route; Talend shows how much broader the platform route would need to become.",
+        "scaleNote": "The 5–6× revenue multiples below are chosen scale assumptions, not observed Bem multiples or forecasts. These are hypothetical equity values; larger prices require substantial customer expansion beyond today’s business.",
+        "options": [
+          {
+            "valueM": 75,
+            "title": "Document-processing specialist",
+            "detail": "A useful capability inside a larger automation suite. For scale: $15m annual recurring revenue × 5."
+          },
+          {
+            "valueM": 250,
+            "title": "Enterprise workflow layer",
+            "detail": "Durable production workflows across several industries. For scale: $50m annual recurring revenue × 5."
+          },
+          {
+            "valueM": 750,
+            "title": "Broad data infrastructure",
+            "detail": "A larger platform for reliable enterprise data and automation. For scale: $125m annual recurring revenue × 6."
+          }
+        ]
+      }
+    },
+    {
+      "id": "origami",
+      "name": "Origami",
+      "aliases": [],
+      "sector": "Outbound and recruiting",
+      "cost": 50000,
+      "basisPct": 0.2,
+      "basisType": "Entry estimate",
+      "basisNote": "$50,000 invested / $25m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "No specific liquidity update available yet.",
+      "contextDate": "",
+      "contextSources": [],
+      "references": [
+        {
+          "title": "Clearbit → HubSpot · ~$147m total purchase price · 2023",
+          "detail": "HubSpot’s filing reports $146.8m purchase price, or $140.4m net of acquired cash. B2B data improving a customer platform is relevant buyer logic; Origami must also prove durable workflow adoption and retention.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1404655/000095017024015277/hubs-20231231.htm"
+        },
+        {
+          "title": "Chorus → ZoomInfo · $575m announced · 2021",
+          "detail": "A cash purchase of conversation-intelligence assets and specified liabilities, with a buyer tax benefit. Illustrates a larger sales-workflow acquisition; conversation analysis differs from outbound research and recruiting.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451521000170/zi-8kex991x20210713.htm"
+        }
+      ],
+      "example": {
+        "valueM": 150,
+        "year": 2030,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "A buyer could want the prospect intelligence, the daily workflow, or both. Clearbit gives a relevant data acquisition near the middle example; the larger case requires Origami to become a durable sales or recruiting platform.",
+        "scaleNote": "For scale, each case uses a chosen 5× annual recurring-revenue multiple. These are not current revenue, a revenue forecast, or a valuation derived mechanically from the reference deals.",
+        "options": [
+          {
+            "valueM": 50,
+            "title": "Focused prospecting capability",
+            "detail": "A useful data and research product for a larger platform. For scale: $10m annual recurring revenue × 5."
+          },
+          {
+            "valueM": 150,
+            "title": "Embedded outbound workflow",
+            "detail": "Teams use it repeatedly and retain well. For scale: $30m annual recurring revenue × 5."
+          },
+          {
+            "valueM": 500,
+            "title": "Broader revenue platform",
+            "detail": "Expansion across research, outreach and recruiting workflows. For scale: $100m annual recurring revenue × 5."
+          }
+        ]
+      }
+    },
+    {
+      "id": "solea",
+      "name": "Solea",
+      "aliases": [],
+      "sector": "Field-service software",
+      "cost": 125000,
+      "basisPct": 1.25,
+      "basisType": "Entry estimate",
+      "basisNote": "$125,000 invested / $10m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Winning field-service customers, with contracted accounts still coming online. Competition and consolidation among trades-software platforms make strategic acquisition a scenario worth exploring.",
+      "contextDate": "September 2026 update",
+      "contextSources": [
+        {
+          "label": "September founder update · sent October 2",
+          "url": "https://mail.google.com/mail/#all/1a0ff0ca455e18f0"
+        }
+      ],
+      "references": [
+        {
+          "title": "FieldRoutes → ServiceTitan · $577m cash · 2022",
+          "detail": "Pest-control and lawn-care operating software: the closest category reference. ServiceTitan disclosed $576.9m for the whole business in its IPO financials. A much more established platform than Solea today.",
+          "url": "https://investors.servicetitan.com/static-files/d1c56258-fcb3-48d4-8249-749936d493b3#page=224"
+        },
+        {
+          "title": "Schedule Engine → ServiceTitan · $58.8m · 2022",
+          "detail": "Online booking for home and commercial services. $13.5m cash plus $45.3m stock at acquisition. Shows a smaller, focused product joining a broader trades platform.",
+          "url": "https://investors.servicetitan.com/static-files/d1c56258-fcb3-48d4-8249-749936d493b3#page=222"
+        }
+      ],
+      "example": {
+        "valueM": 250,
+        "year": 2030,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "Trades software has produced both focused product acquisitions and larger operating platforms. These examples ask how far Solea could expand from its current customer base. FieldRoutes is a useful scale reference, not a value for Solea today.",
+        "scaleNote": "For scale only, a chosen 5× annual-revenue multiple implies $15m / $50m / $120m of revenue for these values. These are future business sizes, not forecasts.",
+        "options": [
+          {
+            "valueM": 75,
+            "title": "Focused trades product",
+            "detail": "A valuable customer base and a strong workflow in one trade; a strategic product acquisition."
+          },
+          {
+            "valueM": 250,
+            "title": "Broader operating platform",
+            "detail": "Owns scheduling, dispatch and payments across a substantial base of service businesses."
+          },
+          {
+            "valueM": 600,
+            "title": "FieldRoutes-scale outcome",
+            "detail": "A leading vertical platform with deep workflows and distribution; near the scale of the FieldRoutes sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bluejay",
+      "name": "Bluejay",
+      "aliases": [],
+      "sector": "AI testing and monitoring",
+      "cost": 75000,
+      "basisPct": 0.3,
+      "basisType": "Entry estimate",
+      "basisNote": "$75,000 invested / $25m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Testing and monitoring voice and chat agents for enterprise customers. Acquisition by a developer-tool or security platform is one possible route to explore; no transaction is assumed.",
+      "contextDate": "October 2026 update",
+      "contextSources": [
+        {
+          "label": "Founder product and customer context · October 1–3",
+          "url": "https://mail.google.com/mail/#all/1a0f82c2d25d182b"
+        }
+      ],
+      "references": [
+        {
+          "title": "Arize → Dynatrace · $915m headline value · 2026",
+          "detail": "A close fit: AI tracing, evaluation and monitoring. Announced at about $815m cash plus replacement employee awards; completed October 1. Shows demand for a broad AI-quality platform, beyond voice testing alone.",
+          "url": "https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-arize/"
+        },
+        {
+          "title": "Galileo → Cisco / Splunk · 2026",
+          "detail": "AI evaluation and production monitoring joining an observability platform. A second close product and buyer reference. Acquisition completed; price not disclosed.",
+          "url": "https://blogs.cisco.com/news/cisco-announces-the-intent-to-acquire-galileo"
+        },
+        {
+          "title": "Protect AI → Palo Alto Networks · $634.5m · 2025",
+          "detail": "AI security and testing platform: $607.4m cash plus replacement awards in the purchase consideration. Adjacent buyer demand; security and conversational-agent quality serve different budgets.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000130817925000625/panw014404-arsa.pdf"
+        },
+        {
+          "title": "Cognigy → NiCE · ~$955m announced · 2025",
+          "detail": "Enterprise voice and conversational agents joining a customer-experience platform. A relevant buyer ecosystem for Bluejay, but Cognigy builds agents rather than independently testing them.",
+          "url": "https://www.nice.com/press-releases/nice-to-acquire-cognigy-advancing-the-leading-cx-ai-platform-to-accelerate-ai-first-customer-experience"
+        }
+      ],
+      "example": {
+        "valueM": 350,
+        "year": 2029,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "Bluejay could remain a focused testing product or become a wider quality layer for enterprise agents. Arize and Galileo are closer references than generic AI acquisitions; Protect AI and Cognigy show adjacent strategic buyers.",
+        "scaleNote": "The $900m example assumes a broad platform with adoption well beyond today. Acquisition headlines can include employee awards; these scenarios separately assume the selected amount is equity value available to shareholders.",
+        "options": [
+          {
+            "valueM": 100,
+            "title": "Voice-testing specialist",
+            "detail": "A strong testing product and enterprise customer base acquired by a voice or customer-experience platform."
+          },
+          {
+            "valueM": 350,
+            "title": "Agent-quality platform",
+            "detail": "Testing and monitoring across voice and chat become important production infrastructure for enterprises."
+          },
+          {
+            "valueM": 900,
+            "title": "Broad AI observability",
+            "detail": "Expands into evaluation, tracing and improvement across agents; near the scale of the Arize transaction."
+          }
+        ],
+        "timingNote": "The 2029 cash example allows time to broaden the current testing and monitoring product into the selected agent-quality platform. Strategic buyer interest in the category does not establish Bluejay’s sale timing."
+      }
+    },
+    {
+      "id": "human-behavior",
+      "name": "Human Behavior",
+      "aliases": [],
+      "sector": "Behavior analytics",
+      "cost": 75000,
+      "basisPct": 0.2142857142857143,
+      "basisType": "Entry estimate",
+      "basisNote": "$75,000 invested / $35m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "No specific liquidity update available yet.",
+      "contextDate": "",
+      "contextSources": [],
+      "references": [
+        {
+          "title": "Glassbox → Alicorn · ~$150m · 2024",
+          "detail": "All-cash take-private of a customer-intelligence and digital-experience platform. Close relevance to understanding web sessions, but an established business and a financial-buyer transaction.",
+          "url": "https://www.glassbox.com/news/glassbox-to-be-acquired-by-alicorn-venture-partners/"
+        },
+        {
+          "title": "Decibel → Medallia · ~$162.5m closing cash · 2021",
+          "detail": "Medallia’s closing filing reports the purchase of all equity in the digital-experience analytics company. A close strategic example for turning user behavior into actions; it predates the current AI product generation.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1540184/000162828021004689/medallia-form8xkdecibel.htm"
+        }
+      ],
+      "example": {
+        "valueM": 150,
+        "year": 2030,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "Glassbox and Decibel make the middle example concrete. A larger outcome requires more than summarizing replays: becoming a system that helps product teams find issues, fix them and improve conversion.",
+        "scaleNote": "The chosen 5× annual recurring-revenue multiple is scale math, not a forecast. The acquisition references demonstrate possible buyer interest in this category, not an offer for Human Behavior.",
+        "options": [
+          {
+            "valueM": 50,
+            "title": "AI analysis capability",
+            "detail": "A useful product-analytics feature and customer base. For scale: $10m annual recurring revenue × 5."
+          },
+          {
+            "valueM": 150,
+            "title": "Digital-experience platform",
+            "detail": "A repeatable enterprise product near the scale of the referenced acquisitions. For scale: $30m annual recurring revenue × 5."
+          },
+          {
+            "valueM": 500,
+            "title": "From diagnosis to action",
+            "detail": "A broader platform that identifies and resolves product problems. For scale: $100m annual recurring revenue × 5."
+          }
+        ]
+      }
+    },
+    {
+      "id": "flai",
+      "name": "Flai",
+      "aliases": [],
+      "sector": "Dealership AI workers",
+      "cost": 75000,
+      "basisPct": 0.16624908441206793,
+      "basisType": "Dated pro forma",
+      "basisNote": "23,614 shares / 14,203,988 fully diluted shares in the September 8 full-round pro forma. A dated basis; apply subsequent dilution separately.",
+      "dilutionLabel": "Further dilution after pro forma (%)",
+      "source": "https://mail.google.com/mail/#all/1a083f8b3a520d7f",
+      "sourceName": "September 8 full-round pro forma",
+      "context": "Series A financing supports continued expansion in dealership automation. Automotive software consolidation provides a useful backdrop for exit scenarios.",
+      "contextDate": "September 2026 financing",
+      "contextSources": [
+        {
+          "label": "Conversion confirmation · September 9",
+          "url": "https://mail.google.com/mail/#all/1a083f8b3a520d7f"
+        }
+      ],
+      "references": [
+        {
+          "title": "Tekion · >$4bn financing value · 2024",
+          "detail": "Cloud-native dealership software spanning sales, service, accounting and dealer operations. The most useful product ambition reference for Flai. A financing valuation, not an acquisition or shareholder payout.",
+          "url": "https://tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group"
+        },
+        {
+          "title": "Outsell → Impel · >$100m cash + equity · 2024",
+          "detail": "Dealership customer-engagement software joining an AI sales-and-marketing platform. A focused strategic exit, much narrower than replacing the dealership back office.",
+          "url": "https://impel.ai/news/impel-acquires-automotive-customer-engagement-platform-outsell/"
+        },
+        {
+          "title": "Dealertrack → Cox Automotive · $4bn · 2015",
+          "detail": "A broad dealership-software and finance network acquired for cash. Shows the value of owning essential dealer workflows and industry connections at scale; an older, established business.",
+          "url": "https://www.coxautoinc.com/press-releases/cox-automotive-invest-customers-auto-industry-4-billion-acquisition-dealertrack/"
+        },
+        {
+          "title": "CDK Global → Brookfield · $8.3bn EV · 2022",
+          "detail": "A mature dealership-management system serving core operations. This is enterprise value including debt, not equity proceeds; useful market scale for a much broader platform.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1609702/000095014222001328/eh220242462_ex9901.htm"
+        }
+      ],
+      "example": {
+        "valueM": 1000,
+        "year": 2028,
+        "dilutionPct": 25,
+        "partialPct": 70,
+        "rationale": "Flai is pursuing the dealership back office with AI, not only call handling. The relevant paths range from a valuable automation product to a broader operating platform competing for workflows served by Tekion, CDK and Dealertrack.",
+        "scaleNote": "These are chosen equity-value examples. Tekion is a financing reference and CDK is enterprise value; neither is inserted directly into the proceeds calculation. A partial sale also requires a buyer and permission to sell.",
+        "options": [
+          {
+            "valueM": 300,
+            "title": "Dealer automation acquisition",
+            "detail": "Strong adoption in a focused set of workflows makes Flai useful to a dealership-software consolidator."
+          },
+          {
+            "valueM": 1000,
+            "title": "AI back-office platform",
+            "detail": "Expands across several core workflows and dealer groups, becoming a strategic operating layer."
+          },
+          {
+            "valueM": 3000,
+            "title": "Broad dealership system",
+            "detail": "A much larger business that owns core dealership operations; closer to the ambition represented by Tekion."
+          }
+        ],
+        "timingNote": "The 2028 cash example explores an acquisition or partial secondary after the Series A. Reaching the selected platform scale that quickly is an ambitious scenario; a broader dealership system may take longer."
+      }
+    },
+    {
+      "id": "halluminate",
+      "name": "Halluminate",
+      "aliases": [],
+      "sector": "RL environments",
+      "cost": 75000,
+      "basisPct": 0.14343577969251584,
+      "basisType": "Dated pro forma",
+      "basisNote": "23,825 Fund I shares / 16,610,221 fully diluted shares in the August 19 full-round pro forma. Includes modeled financing; excludes the separate co-investment SPV.",
+      "dilutionLabel": "Further dilution after pro forma (%)",
+      "source": "https://mail.google.com/mail/#all/1a023731ec6940dc",
+      "sourceName": "August 19 full-round pro forma",
+      "context": "Closed a $30m Series A at $200m post-money. Frontier-lab demand makes a strategic acquisition or partial secondary a useful scenario to explore as the business grows.",
+      "contextDate": "October 2026 discussion",
+      "contextSources": [
+        {
+          "label": "BL discussion · October 8",
+          "url": "https://notes.granola.ai/t/b5bafba8-4e6d-420c-9319-eff8c00bf02b-008umkv4"
+        },
+        {
+          "label": "Fund I conversion evidence",
+          "url": "https://mail.google.com/mail/#all/1a1123fa6739afa8"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mechanize + Google · $1.5bn+ reported talks · 2026",
+          "detail": "The closest product analogy: RL training environments. Reporting discussed technology licensing and talent, with the final shareholder economics unclear. Useful strategic scale, not a completed whole-company equity price.",
+          "url": "https://www.businessinsider.com/google-mechanize-deal-talent-tech-ai-coding-2026-8"
+        },
+        {
+          "title": "Character.AI + Google · $2.7bn cash · 2024",
+          "detail": "Alphabet disclosed a non-exclusive technology license, hiring and cancellation of convertible instruments. Shows what strategic AI capabilities can command; a different product and transaction from an ordinary acquisition.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        },
+        {
+          "title": "Scale + Meta · >$29bn company value · 2025",
+          "detail": "A minority investment that provided shareholder liquidity while leaving holders invested. A useful partial-sale mechanism for AI data; Scale is far larger and this is not a full-exit price.",
+          "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution"
+        }
+      ],
+      "example": {
+        "valueM": 1000,
+        "year": 2028,
+        "dilutionPct": 25,
+        "partialPct": 70,
+        "rationale": "Three distinct paths beyond the $200m Series A: a lab buys the capability sooner, Halluminate becomes a core training partner, or it builds a broader simulation infrastructure business. $1bn is a discussion case, not a measured market median.",
+        "scaleNote": "All values are hypothetical equity values available to shareholders. Licensing fees, retention packages and minority-investment headlines do not automatically translate into that amount of distributable equity value.",
+        "options": [
+          {
+            "valueM": 500,
+            "title": "Earlier lab acquisition",
+            "detail": "A frontier lab buys the team, environments and finance expertise; 2.5× the recent financing value."
+          },
+          {
+            "valueM": 1000,
+            "title": "Core training partner",
+            "detail": "Durable demand from labs for difficult knowledge-work environments makes Halluminate a strategic capability."
+          },
+          {
+            "valueM": 3000,
+            "title": "Simulation infrastructure",
+            "detail": "Expands beyond finance into a broad system for training agents on complex, long-running tasks."
+          }
+        ],
+        "timingNote": "The 2028 cash example explores a strategic acquisition or partial secondary after the Series A. The company’s journey is already underway; the broader simulation-infrastructure outcome may take longer."
+      }
+    },
+    {
+      "id": "cactus",
+      "name": "Cactus Compute",
+      "aliases": [
+        "Cactus"
+      ],
+      "sector": "On-device AI",
+      "cost": 75000,
+      "basisPct": 0.3,
+      "basisType": "Entry estimate",
+      "basisNote": "$75,000 invested / $25m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Building small automation models that run locally across phones, wearables and other devices. A chip or device platform could value distribution and model efficiency; no transaction is assumed.",
+      "contextDate": "Public product · October 2026",
+      "contextSources": [
+        {
+          "label": "Cactus product",
+          "url": "https://cactuscompute.com/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Silo AI → AMD · $665m headline deal · 2024",
+          "detail": "AMD bought AI models and engineering capability to improve its hardware ecosystem. AMD recorded $553m of purchase consideration after adjustments and deferred compensation. A larger, broader AI lab than Cactus.",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-25-000012/amd-20241228.htm"
+        },
+        {
+          "title": "Edge Impulse → Qualcomm · 2025",
+          "detail": "A close strategic route: edge-AI development and deployment tools joining a chip platform. No separate price was found in the company’s disclosure, so it supplies buyer logic rather than a numeric anchor.",
+          "url": "https://www.edgeimpulse.com/about"
+        }
+      ],
+      "example": {
+        "valueM": 200,
+        "year": 2031,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "The useful progression is from a focused on-device capability to broadly licensed infrastructure. Silo AI supplies a priced example of a hardware platform buying AI capability; Edge Impulse supplies the closer product route.",
+        "scaleNote": "The revenue illustrations use a chosen 5× multiple of annual licensing/software revenue. They are not current traction or a forecast. Device adoption, renewal economics and strategic fit would determine an actual price.",
+        "options": [
+          {
+            "valueM": 50,
+            "title": "Focused technology acquisition",
+            "detail": "A valuable on-device capability adopted by a few customers. For scale: $10m annual licensing revenue × 5."
+          },
+          {
+            "valueM": 200,
+            "title": "Widely licensed device layer",
+            "detail": "Repeatable adoption across several device manufacturers. For scale: $40m annual licensing revenue × 5."
+          },
+          {
+            "valueM": 600,
+            "title": "Strategic edge-AI platform",
+            "detail": "Infrastructure used across large device ecosystems. For scale: $120m annual licensing revenue × 5."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentra",
+      "name": "Sentra",
+      "aliases": [],
+      "sector": "Organizational AI memory",
+      "cost": 75000,
+      "basisPct": 0.4166666666666667,
+      "basisType": "Entry estimate",
+      "basisNote": "$75,000 invested / $18m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Building shared company memory from meetings, messages and work systems, accessible to people and agents. Enterprise knowledge and assistant acquisitions provide relevant strategic routes; no liquidity process is assumed.",
+      "contextDate": "Public product · October 2026",
+      "contextSources": [
+        {
+          "label": "Sentra product and company",
+          "url": "https://www.sentra.app/about"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sana → Workday · ~$1.1bn · 2025",
+          "detail": "Enterprise knowledge, AI search, agents and learning joining a large system of record. Useful for thinking about the value of company context; Sana also had a substantial learning product.",
+          "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Signs-Definitive-Agreement-to-Acquire-Sana-09-16-2025/default.aspx"
+        },
+        {
+          "title": "Moveworks → ServiceNow · ~$2.4bn at close · 2025",
+          "detail": "Cash-and-stock purchase consideration for enterprise search and employee assistants. Shows a larger outcome for a widely adopted workflow product; not a valuation assigned to organizational memory alone.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/R13.htm"
+        }
+      ],
+      "example": {
+        "valueM": 500,
+        "year": 2031,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "Sana and Moveworks show buyers paying for enterprise context coupled with useful actions. Sentra’s path would require becoming a durable layer that employees and agents repeatedly depend on.",
+        "scaleNote": "For scale: a chosen 10× annual recurring revenue multiple, not an observed Sentra or transaction multiple. These are successful future businesses; lower outcomes remain possible.",
+        "options": [
+          {
+            "valueM": 100,
+            "title": "Company-memory product",
+            "detail": "Useful adoption in a focused set of enterprises. For scale: $10m ARR × 10."
+          },
+          {
+            "valueM": 500,
+            "title": "Shared enterprise context layer",
+            "detail": "Repeatable deployments across departments and agents. For scale: $50m ARR × 10."
+          },
+          {
+            "valueM": 1500,
+            "title": "Major enterprise platform",
+            "detail": "Broad adoption and substantial strategic relevance to a large workflow buyer. For scale: $150m ARR × 10."
+          }
+        ]
+      }
+    },
+    {
+      "id": "respan",
+      "name": "Respan",
+      "aliases": [
+        "Keywords AI"
+      ],
+      "sector": "AI observability",
+      "cost": 75000,
+      "basisPct": 0.15,
+      "basisType": "Entry estimate",
+      "basisNote": "$75,000 invested / $50m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Combining model routing, tracing, monitoring and evaluations for AI agents. The opportunity is to become part of the production stack, rather than only a logging feature. No specific liquidity update available.",
+      "contextDate": "Public product · October 2026",
+      "contextSources": [
+        {
+          "label": "Respan product",
+          "url": "https://www.respan.ai/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Weights & Biases → CoreWeave · $1.029bn at close · 2025",
+          "detail": "Recorded cash-and-stock consideration for an AI developer platform spanning model training and application development. A useful larger platform outcome; most consideration was stock, not immediate cash.",
+          "url": "https://s205.q4cdn.com/133937190/files/doc_financials/2025/q4/CoreWeave-Inc-FY25-10-K-7.pdf"
+        },
+        {
+          "title": "Eppo → Datadog · 2025",
+          "detail": "Experimentation and feature management joining observability. A relevant buyer route. The company did not disclose an individual price; the widely reported $220m headline is not treated here as a confirmed shareholder payout.",
+          "url": "https://www.datadoghq.com/blog/datadog-acquires-eppo/"
+        }
+      ],
+      "example": {
+        "valueM": 300,
+        "year": 2031,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "A smaller buyer could acquire a useful evaluation product; a larger outcome requires a production platform with routing, observability and repeatable enterprise revenue. Weights & Biases provides a priced example of that broader platform route.",
+        "scaleNote": "For scale: 5× annual net software revenue, excluding model-provider spend passed through to customers. The multiple and revenue levels are chosen assumptions, not a forecast.",
+        "options": [
+          {
+            "valueM": 100,
+            "title": "Valuable AI tooling product",
+            "detail": "A durable evaluation and monitoring product. For scale: $20m annual net software revenue × 5."
+          },
+          {
+            "valueM": 300,
+            "title": "Production AI platform",
+            "detail": "Routing and evaluation become embedded in enterprise operations. For scale: $60m annual net software revenue × 5."
+          },
+          {
+            "valueM": 1000,
+            "title": "Major developer platform",
+            "detail": "Broad enterprise usage across the AI application lifecycle. For scale: $200m annual net software revenue × 5."
+          }
+        ]
+      }
+    },
+    {
+      "id": "terac",
+      "name": "Terac",
+      "aliases": [],
+      "sector": "AI research and evaluation",
+      "cost": 9998.91,
+      "basisPct": null,
+      "basisType": "Needs assumption",
+      "basisNote": "Priced investment. Add a share-count / fully diluted ownership assumption before calculating proceeds.",
+      "dilutionLabel": "Dilution after starting basis (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Supplies verified experts for research, AI training and evaluation. Scale could come from recurring expert-data demand and a reusable network. No specific liquidity process is assumed.",
+      "contextDate": "Public product · October 2026",
+      "contextSources": [
+        {
+          "label": "Terac AI-data offering",
+          "url": "https://terac.com/ai"
+        }
+      ],
+      "references": [
+        {
+          "title": "Figure Eight → Appen · $175m upfront · 2019",
+          "detail": "Training-data software and human annotation. Appen also agreed to an earnout capped at $125m; $300m was the maximum package, not guaranteed consideration. Older but closer in business model than a frontier lab.",
+          "url": "https://announcements.asx.com.au/asxpdf/20190311/pdf/443cfv5490039h.pdf"
+        },
+        {
+          "title": "Tegus → AlphaSense · $930m · 2024",
+          "detail": "Expert research, transcripts, financial data and workflow tools. Useful for the value of an expert network plus reusable information; materially broader than simply paying experts for individual tasks.",
+          "url": "https://www.prnewswire.com/news-releases/alphasense-completes-acquisition-of-tegus-302190934.html"
+        }
+      ],
+      "example": {
+        "valueM": 250,
+        "year": 2031,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "The important distinction is task volume versus a durable expert-data platform. Figure Eight and Tegus illustrate those adjacent models. The larger examples require recurring relationships and reusable network value.",
+        "scaleNote": "For scale: a chosen 5× annual platform revenue after expert payouts, not total customer spending. Ownership still needs confirmation before Fund I proceeds can be calculated.",
+        "options": [
+          {
+            "valueM": 50,
+            "title": "Specialist expert network",
+            "detail": "A strong niche in expert sourcing and evaluation. For scale: $10m annual net platform revenue × 5."
+          },
+          {
+            "valueM": 250,
+            "title": "Recurring expert-data platform",
+            "detail": "Reliable enterprise and lab demand across many domains. For scale: $50m annual net platform revenue × 5."
+          },
+          {
+            "valueM": 750,
+            "title": "Large research and AI-data network",
+            "detail": "An extensive network with recurring data products. For scale: $150m annual net platform revenue × 5."
+          }
+        ]
+      }
+    },
+    {
+      "id": "veria",
+      "name": "Veria Labs",
+      "aliases": [
+        "Veria"
+      ],
+      "sector": "AI penetration testing",
+      "cost": 75000,
+      "basisPct": 0.25,
+      "basisType": "Entry estimate",
+      "basisNote": "$75,000 invested / $30m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Building AI agents that continuously test applications and demonstrate real vulnerabilities. The strategic value is automated offensive-security capability plus recurring customer deployments. No liquidity process is assumed.",
+      "contextDate": "Public product · October 2026",
+      "contextSources": [
+        {
+          "label": "Veria Labs company and product",
+          "url": "https://www.ycombinator.com/companies/veria-labs"
+        }
+      ],
+      "references": [
+        {
+          "title": "Protect AI → Palo Alto Networks · $634.5m · 2025",
+          "detail": "Recorded purchase consideration, mostly cash, for AI-security technology. Shows strategic demand for new security capabilities; Protect AI secured AI systems, while Veria uses AI to attack-test applications.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000027/panw-20250731.htm"
+        },
+        {
+          "title": "IntSights → Rapid7 · ~$335m announced · 2021",
+          "detail": "Cash-and-stock acquisition of external threat intelligence and remediation. Relevant security-platform buyer logic; threat intelligence differs from continuous penetration testing.",
+          "url": "https://www.rapid7.com/about/press-releases/rapid7-acquires-intsights/"
+        }
+      ],
+      "example": {
+        "valueM": 350,
+        "year": 2031,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "A buyer could first value Veria for a differentiated attack-testing engine, then for a scaled recurring security business. Protect AI and IntSights bracket useful acquisition scales without being direct product equivalents.",
+        "scaleNote": "For scale: a chosen 10× recurring software revenue multiple. These are authored examples, not current Veria revenue or transaction-derived multiples.",
+        "options": [
+          {
+            "valueM": 100,
+            "title": "Specialist security product",
+            "detail": "A focused continuous-testing product with paying enterprise customers. For scale: $10m ARR × 10."
+          },
+          {
+            "valueM": 350,
+            "title": "Scaled automated pentesting",
+            "detail": "Reliable detection and renewals across many security teams. For scale: $35m ARR × 10."
+          },
+          {
+            "valueM": 750,
+            "title": "Strategic security platform",
+            "detail": "Broad testing coverage and substantial recurring enterprise adoption. For scale: $75m ARR × 10."
+          }
+        ]
+      }
+    },
+    {
+      "id": "company-company",
+      "name": "The Company Company",
+      "aliases": [
+        "Company Company"
+      ],
+      "sector": "AI business operations",
+      "cost": 75000,
+      "basisPct": 0.5,
+      "basisType": "Entry estimate",
+      "basisNote": "$75,000 invested / $15m entry reference. An entry estimate, not current ownership; allow for conversion terms and all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "Building agents to run work across engineering, sales, marketing, support, finance and operations. A larger outcome requires dependable execution across departments, beyond a single assistant. No specific liquidity update available.",
+      "contextDate": "Public product · October 2026",
+      "contextSources": [
+        {
+          "label": "The Company Company product",
+          "url": "https://www.thecompany.company/"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cloud Elements → UiPath · $36.1m · 2021",
+          "detail": "Recorded purchase consideration for API integration technology that connected business applications. An example of a focused automation capability joining a larger platform.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1734722/000173472221000009/path-20210731.htm"
+        },
+        {
+          "title": "Moveworks → ServiceNow · ~$2.4bn at close · 2025",
+          "detail": "Enterprise assistants and search joining a workflow platform. A larger acquisition route once a product is widely deployed; The Company Company’s early, broad ambition is not equivalent to that scale.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/R13.htm"
+        }
+      ],
+      "example": {
+        "valueM": 250,
+        "year": 2032,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "The range spans a focused automation acquisition, a repeatable business-operations product and a broad agent platform. Cloud Elements and Moveworks illustrate different levels of product scope and strategic relevance.",
+        "scaleNote": "For scale: a chosen 10× annual recurring software revenue multiple. No current revenue or acquisition interest is implied; these are successful outcome examples.",
+        "options": [
+          {
+            "valueM": 50,
+            "title": "One valuable operating workflow",
+            "detail": "A repeatable product for one business function. For scale: $5m ARR × 10."
+          },
+          {
+            "valueM": 250,
+            "title": "Several business functions",
+            "detail": "Agents reliably operate across a few core departments. For scale: $25m ARR × 10."
+          },
+          {
+            "valueM": 1000,
+            "title": "Broad business-operations platform",
+            "detail": "A trusted system running recurring work across many companies. For scale: $100m ARR × 10."
+          }
+        ]
+      }
+    },
+    {
+      "id": "place",
+      "name": "Place Labs",
+      "aliases": [
+        "Sift",
+        "Place"
+      ],
+      "sector": "Edge video intelligence",
+      "cost": 150000,
+      "basisPct": 2.5,
+      "basisType": "Entry estimate",
+      "basisNote": "$150,000 / $6m post-money SAFE = 2.5% entry estimate. The later $45m SAFE is a financing cap, not a converted current ownership basis. Include all dilution since entry.",
+      "dilutionLabel": "Total dilution from entry (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "A new SAFE was funded at a $45m cap. This is a financing reference, not a sale; physical operations and edge-AI platforms offer possible strategic paths to explore.",
+      "contextDate": "September 2026 financing",
+      "contextSources": [
+        {
+          "label": "Fund I SOI · financing confirmed September 27",
+          "url": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit"
+        }
+      ],
+      "references": [
+        {
+          "title": "Sense360 → Medallia · ~$44m cash · 2020",
+          "detail": "Consumer intelligence for restaurant and retail chains, combining visits, transactions and feedback. A focused data-and-insights outcome; not the same technology as Place’s video operations layer.",
+          "url": "https://www.medallia.com/press-release/experience-management-leader-medallia-acquires-behavioral-consumer-intelligence-benchmarking-leader-sense360/"
+        },
+        {
+          "title": "G2K → ServiceNow · $465m cash · 2023",
+          "detail": "Smart-IoT technology connecting digital and in-store data to enterprise workflows. A close example of a larger physical-operations platform; cash was paid in two installments, not all at closing.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/R13.htm"
+        }
+      ],
+      "example": {
+        "valueM": 250,
+        "year": 2030,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "The route runs from a focused restaurant-insights product to a system that manages physical operations across many sites. Sense360 anchors the smaller analytics route; G2K supports thinking about a broader strategic platform.",
+        "scaleNote": "The chosen 5–6× annual software-revenue multiples are scale assumptions, not current revenue or forecasts. They exclude pass-through hardware or installation revenue. Values are hypothetical equity values.",
+        "options": [
+          {
+            "valueM": 50,
+            "title": "Restaurant-insights product",
+            "detail": "A focused product used across chains. For scale: $10m annual software revenue × 5."
+          },
+          {
+            "valueM": 250,
+            "title": "Physical-operations platform",
+            "detail": "Repeatable deployments across many restaurant and retail locations. For scale: $50m annual software revenue × 5."
+          },
+          {
+            "valueM": 750,
+            "title": "Broader operating system",
+            "detail": "Expansion across industries and operational workflows. For scale: $125m annual software revenue × 6."
+          }
+        ]
+      }
+    },
+    {
+      "id": "intelligent-machines",
+      "name": "Intelligent Machines",
+      "aliases": [],
+      "sector": "Industrial planning",
+      "cost": 149997.18,
+      "basisPct": null,
+      "basisType": "Needs assumption",
+      "basisNote": "Priced investment. Add a share-count / fully diluted ownership assumption before calculating proceeds.",
+      "dilutionLabel": "Dilution after starting basis (%)",
+      "source": "https://docs.google.com/spreadsheets/d/17VQ2Po_TQT14jczRdm2UtIeVspZcN0fFs4pZQH1cIHE/edit",
+      "sourceName": "Fund I SOI · September 30, 2026",
+      "context": "No specific liquidity update available yet.",
+      "contextDate": "",
+      "contextSources": [],
+      "references": [
+        {
+          "title": "Rubikloud → Kinaxis · ~$60m cash · 2020",
+          "detail": "AI demand forecasting and decision software for retail and consumer-goods operations. A focused, relevant example of a planning platform buying an AI capability.",
+          "url": "https://www.kinaxis.com/en/news/press-releases/2020/kinaxis-acquire-ai-based-retail-and-cpg-demand-planning-provider-rubikloud"
+        },
+        {
+          "title": "One Network → Blue Yonder · ~$839m enterprise value · 2024",
+          "detail": "A much broader supply-chain planning and coordination network. Enterprise value includes financing adjustments and is not automatically shareholder cash; useful scale for a mature platform.",
+          "url": "https://media.blueyonder.com/blue-yonder-acquires-one-network-enterprises-to-unlock-an-agile-interconnected-supply-chain-ecosystem/"
+        }
+      ],
+      "example": {
+        "valueM": 300,
+        "year": 2032,
+        "dilutionPct": 50,
+        "partialPct": 70,
+        "rationale": "The progression is from a valuable planning capability to a deeply integrated industrial operating platform. Rubikloud and One Network provide acquisition examples at very different stages of that journey.",
+        "scaleNote": "For scale: a chosen 5× annual software revenue multiple. The modeled values are equity-value assumptions, with no net debt assumed. Ownership needs confirmation before Fund I proceeds can be calculated.",
+        "options": [
+          {
+            "valueM": 75,
+            "title": "Focused planning acquisition",
+            "detail": "An effective forecasting or scheduling product. For scale: $15m annual software revenue × 5."
+          },
+          {
+            "valueM": 300,
+            "title": "Integrated industrial platform",
+            "detail": "Repeatable ERP integrations across planning and procurement. For scale: $60m annual software revenue × 5."
+          },
+          {
+            "valueM": 800,
+            "title": "Broad supply-chain system",
+            "detail": "Substantial enterprise adoption across operational workflows. For scale: $160m annual software revenue × 5."
+          }
+        ]
+      }
+    }
+  ],
+  "topCompanies": [
+    "pace",
+    "margin",
+    "bem",
+    "solea",
+    "halluminate",
+    "flai",
+    "bluejay"
+  ],
+  "defaultHorizon": 2034
+};
+
+window.makeInitialScenario = () => ({
+  paidIn: window.SimulatorResearch.paidIn,
+  priorDistributions: window.SimulatorResearch.priorDistributions,
+  horizon: window.SimulatorResearch.defaultHorizon,
+  bridge: { enabled: true, reserve: 0, retainPct: 0, carryPct: 20, lpLag: 0 },
+  companies: []
+});
+window.makeCompanyScenario = id => {
+  const meta = window.SimulatorResearch.companies.find(company => company.id === id);
+  if (!meta || meta.historical) throw new Error('Choose an active Fund I company.');
+  const ex = meta.example;
+  return { id, event: 'partial', timed: !!ex, basisPct: meta.basisPct,
+    dilutionPct: ex ? ex.dilutionPct : meta.basisPct === null ? null : /pro forma/i.test(meta.basisType) ? 25 : 50,
+    valueM: ex ? ex.valueM : null, soldPct: 100, discountPct: 0, year: ex ? ex.year : null, lag: 0 };
+};
+// Switching the liquidity route changes only the fraction of our position sold.
+// Custom price, date, ownership and dilution remain intact.
+window.chooseSaleFraction = (company, soldPct) => {
+  if (![50, 70, 100].includes(soldPct)) throw new Error('Choose 50%, 70% or 100% of our position.');
+  return { ...company, soldPct };
+};
+</script><script id="scenario-state" type="application/json">null</script><script>(function () {
+  'use strict';
+  const R = window.SimulatorResearch, M = window.DistributionModel;
+  const $ = id => document.getElementById(id);
+  const esc = v => String(v == null ? '' : v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const meta = id => R.companies.find(c => c.id === id);
+  const money = n => '$' + (Math.abs(n) >= 1e9 ? (n / 1e9).toLocaleString('en-US',{maximumFractionDigits:2}) + 'bn' : Math.abs(n) >= 1e6 ? (n / 1e6).toLocaleString('en-US',{maximumFractionDigits:2}) + 'm' : Math.abs(n) >= 1e3 ? (n / 1e3).toLocaleString('en-US',{maximumFractionDigits:1}) + 'k' : Math.round(n).toLocaleString('en-US'));
+  const exact = n => '$' + Math.round(n).toLocaleString('en-US');
+  const colors = ['#236777','#aa793a','#699183','#b16f5b','#647caa','#a49c61','#805f7f','#508e99','#9e7761','#718b51'];
+  const color = id => colors[R.companies.filter(c => !c.historical).findIndex(c => c.id === id) % colors.length];
+  let state = makeInitialScenario(), lastResult = null;
+  function status(s) { $('status').textContent = s; }
+  function renderLibrary() {
+    const q = $('search').value.trim().toLowerCase();
+    const shown = R.companies.filter(c => [c.name,c.sector].concat(c.aliases || []).join(' ').toLowerCase().includes(q));
+    $('library-list').innerHTML = shown.map(c => {
+      const selected = state.companies.some(s => s.id === c.id), draggable = !c.historical && !selected;
+      return '<article class="library-item' + (selected?' selected':'') + (c.historical?' historical':'') + '" data-library="' + esc(c.id) + '" draggable="' + draggable + '"><div class="library-row"><button class="company-name" data-context="' + esc(c.id) + '">' + esc(c.name) + '</button>' + (c.historical?'<span class="badge">Realized</span>':'<button class="add" data-add="' + esc(c.id) + '" aria-label="Add ' + esc(c.name) + '"' + (selected?' disabled':'') + '>' + (selected?'Added':'Add +') + '</button>') + '</div><p>' + esc(c.context) + '</p></article>';
+    }).join('') || '<p class="small">No companies match that search.</p>';
+  }
+  function field(c,key,label,max,step,help) {
+    return '<label for="' + c.id + '-' + key + '">' + label + '<input id="' + c.id + '-' + key + '" type="number" min="0" max="' + max + '" step="' + step + '" data-company="' + c.id + '" data-field="' + key + '" value="' + (c[key] == null ? '' : c[key]) + '" placeholder="—"><small>' + (help || '&nbsp;') + '</small></label>';
+  }
+  function outcomeOptions(m,c,modal=false) {
+    if (!m.example) return '';
+    return '<div class="outcome-options' + (modal?' expanded':'') + '" aria-label="' + esc(m.name) + ' example company values">' + m.example.options.map(o =>
+      '<button data-outcome="' + m.id + '" data-value="' + o.valueM + '" aria-pressed="' + (c && c.valueM===o.valueM?'true':'false') + '"><strong>' + money(o.valueM*1e6) + '</strong><span>' + esc(o.title) + '</span>' + (modal?'<small>' + esc(o.detail) + '</small>':'') + '</button>').join('') + '</div>';
+  }
+  function renderSelected() {
+    $('empty-state').hidden = state.companies.length > 0;
+    $('dropzone').classList.toggle('has-companies',state.companies.length > 0);
+    $('selected-companies').innerHTML = state.companies.map(c => {
+      const m = meta(c.id), partial=c.soldPct>0 && c.soldPct<100;
+      const years = '<option value="">Unspecified</option>' + Array.from({length:20},(_,i) => '<option value="' + (2026+i) + '"' + (c.timed && c.year === 2026+i?' selected':'') + '>' + (2026+i) + '</option>').join('');
+      return '<article class="selected-company" id="selected-' + c.id + '"><div class="selected-heading"><h3><button data-context="' + c.id + '">' + esc(m.name) + '</button></h3><button class="remove" data-remove="' + c.id + '" aria-label="Remove ' + esc(m.name) + '">×</button></div><div class="selected-meta"><span class="badge" id="basis-badge-' + c.id + '">' + esc(m.basisType) + '</span><button class="context-link" data-context="' + c.id + '">' + (m.example?'Why these numbers?':'Context & exit references') + ' ↗</button></div>' +
+      '<div class="sale-routes" role="group" aria-label="' + esc(m.name) + ' liquidity route"><button data-sale="' + c.id + '" data-fraction="100" aria-pressed="' + (c.soldPct===100) + '"><strong>Full exit</strong><span>Sell our whole position</span></button><button data-sale="' + c.id + '" data-fraction="' + (partial?c.soldPct:70) + '" aria-pressed="' + partial + '"><strong>Partial sale</strong><span>Sell part at a later round</span></button></div>' +
+      '<div class="partial-options" id="partial-' + c.id + '"' + (partial?'':' hidden') + '><span>Sell our position:</span><button data-sale="' + c.id + '" data-fraction="50" aria-pressed="' + (c.soldPct===50) + '">50%</button><button data-sale="' + c.id + '" data-fraction="70" aria-pressed="' + (c.soldPct===70) + '">70%</button><span id="retained-' + c.id + '"></span></div>' +
+      '<p class="example-note">' + (m.example?'Illustrative starting values and year · adjust either below.':'No priced starting example yet. Add a value and year; ownership assumptions are prepared where available.') + '</p>' +
+      outcomeOptions(m,c) + '<div class="controls simple-controls">' + field(c,'valueM','Company equity value ($m)',1000000,1) +
+      '<label for="' + c.id + '-year">Cash reaches Fund I<select id="' + c.id + '-year" data-company="' + c.id + '" data-field="year">' + years + '</select><small>Illustrative cash year</small></label></div>' +
+      '<div class="company-cash"><p class="company-result" id="output-' + c.id + '"></p><span id="stake-' + c.id + '" class="small"></span></div><p class="remaining-note small" id="remaining-' + c.id + '"' + (partial?'':' hidden') + '>Remaining stake stays invested; no later sale is included. A round alone does not create a buyer for our shares.</p>' +
+      '<details class="ownership"' + (c.basisPct == null?' open':'') + '><summary>Adjust assumptions</summary><p>' + esc(m.basisNote) + '</p><p>Dilution and the cash year are prepared scenario assumptions, not company guidance. Changing the sale route keeps your value, timing and other edits.</p><div class="advanced-fields">' +
+      field(c,'basisPct','Starting ownership (%)',100,.0001) + field(c,'dilutionPct',esc(m.dilutionLabel),100,5) + field(c,'soldPct','Our position sold (%)',100,5) + field(c,'discountPct','Sale price haircut (%)',100,5) +
+      '</div><a href="' + esc(m.source) + '" target="_blank" rel="noreferrer">' + esc(m.sourceName) + ' ↗</a>' + (m.example?'<button class="link-button reset-example" data-reset-example="' + c.id + '">Restore starting example</button>':'') + '</details></article>';
+    }).join('');
+  }
+  function syncBridge() {
+    ['reserve','retainPct','carryPct','lpLag'].forEach(k => { $(k).value = state.bridge[k]; });
+  }
+  function addCompany(id,announce=true) {
+    const c = meta(id);
+    if (!c || c.historical || state.companies.some(s => s.id === id)) return false;
+    state.companies.push(makeCompanyScenario(id));
+    renderLibrary(); renderSelected(); update();
+    if (announce) status(c.name + (c.example ? ' added with an illustrative full-exit example. Switch to a partial sale or adjust the value and year.' : ' added. Choose a company value and timing to explore.'));
+    return true;
+  }
+  function svgStart(title,w,h) { return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true"><title>' + esc(title) + '</title>'; }
+  function txt(x,y,s,anchor,fill,size) { return '<text x="' + x + '" y="' + y + '" text-anchor="' + (anchor || 'start') + '" fill="' + (fill || '#657876') + '" font-size="' + (size || 10) + '" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">' + esc(s) + '</text>'; }
+  function charts(r) {
+    const ys=[{year:2024,lpCum:0,lp:0},{year:2025,lpCum:state.priorDistributions,lp:state.priorDistributions}].concat(r.years.filter(y=>y.year<=state.horizon));
+    const w=Math.max(330,Math.min(1000,$('lp-chart').clientWidth||820)),h=310,L=54,right=20,top=36,bottom=53,base=h-bottom;
+    const x=year=>L+(w-L-right)*(year-2024)/(state.horizon-2024);
+    const maxLP=Math.max(state.paidIn*1.4,...ys.map(y=>y.lpCum*1.22));
+    const yLP=value=>base-value/maxLP*(base-top);
+    let svg=svgStart('Historical and hypothetical cumulative distributions to LPs',w,h);
+    svg+='<rect x="'+L+'" y="'+top+'" width="'+(x(2026)-L)+'" height="'+(base-top)+'" fill="#183d4207"/>';
+    const grid=[0,state.paidIn];
+    if(r.atHorizon.lpCum>state.paidIn*2)grid.push(r.atHorizon.lpCum);
+    grid.forEach(value=>{
+      const capital=value===state.paidIn;
+      svg+='<line x1="'+L+'" x2="'+(w-right)+'" y1="'+yLP(value)+'" y2="'+yLP(value)+'" stroke="'+(capital?'#aa793a':'#cdd5cb')+'" stroke-dasharray="'+(capital?'4 5':'0')+'"/>';
+      if(!capital)svg+=txt(L-9,yLP(value)+4,money(value),'end');
+    });
+    svg+=txt(w-right,yLP(state.paidIn)-8,'1× contributed capital · '+money(state.paidIn),'end','#91662e',11);
+    ys.forEach(y=>{if(y.year===2024||y.year===2026||y.year===state.horizon||(y.year>2026&&(y.year-2026)%Math.max(2,Math.ceil((state.horizon-2026)/(w<500?4:8)))===0))svg+=txt(x(y.year),h-30,y.year===2026?'Today':y.year,'middle',null,11);});
+    svg+='<path d="M'+x(2024)+','+base+' H'+x(2025)+' V'+yLP(state.priorDistributions)+' H'+x(2026)+'" fill="none" stroke="#236777" stroke-width="2.5"/>';
+    svg+='<circle cx="'+x(2025)+'" cy="'+yLP(state.priorDistributions)+'" r="4" fill="#236777"><title>October 2025: $140,000 distribution initiated after Shopgenie acquisition in 2024.</title></circle>';
+    svg+=txt(x(2024),h-10,'Shopgenie acquired','start',null,9);
+    svg+=txt(x(2025)+8,yLP(state.priorDistributions)-10,'$140k · 2025','start','#236777',10);
+    svg+='<line x1="'+x(2026)+'" x2="'+x(2026)+'" y1="'+top+'" y2="'+base+'" stroke="#abb9ae" stroke-dasharray="2 5"/>';
+    let path='M'+x(2026)+','+yLP(state.priorDistributions);
+    r.years.filter(y=>y.year<=state.horizon).forEach(y=>{path+=' H'+x(y.year)+' V'+yLP(y.lpCum);});
+    svg+='<path d="'+path+'" fill="none" stroke="#236777" stroke-width="3" stroke-dasharray="6 4"/>';
+    r.years.filter(y=>y.year<=state.horizon&&y.lp>0).forEach(y=>{
+      const cs=r.companies.filter(c=>c.ready&&c.timed&&c.gross>0&&c.receiptYear+(state.bridge.lpLag??0)===y.year);
+      const names=cs.map(c=>meta(c.id).name).join(' + ');
+      svg+='<circle cx="'+x(y.year)+'" cy="'+yLP(y.lpCum)+'" r="4" fill="#236777"><title>'+y.year+': '+esc(names)+'; '+exact(y.lp)+' new LP cash; '+exact(y.lpCum)+' cumulative.</title></circle>';
+      const namesLabel=cs.length>(w<500?1:2)?cs.length+' companies':names;
+      const label=namesLabel?y.year+' · '+namesLabel:'';
+      const labelLeft=x(y.year)>w*.6;
+      if(label)svg+=txt(x(y.year)+(labelLeft?-7:7),yLP(y.lpCum)-11,label,labelLeft?'end':'start','#236777',10);
+    });
+    $('lp-chart').innerHTML=svg+'</svg>';
+    $('lp-chart').setAttribute('aria-label','Shopgenie acquired in 2024; $140,000 distribution initiated in 2025. Illustrative cumulative LP distributions through '+state.horizon+': '+exact(r.atHorizon.lpCum)+'. '+r.years.filter(y=>y.lp>0).map(y=>y.year+': '+exact(y.lp)+' new LP cash').join('; '));
+  }
+  function update() {
+    const years = state.companies.filter(c=>c.timed && Number.isInteger(c.year)).map(c=>c.year+(state.bridge.enabled && Number.isFinite(state.bridge.lpLag)?state.bridge.lpLag:0));
+    state.horizon=Math.min(2050,Math.max(R.defaultHorizon,...years));
+    $('scenario-state').textContent=JSON.stringify(state);
+    const r=M.calculate(state); lastResult=r;
+    $('errors').hidden=!r.errors.length;
+    const selectedTop=(R.topCompanies||[]).filter(id=>state.companies.some(c=>c.id===id)).length;
+    $('top-template').textContent='Top companies'+(selectedTop?' · '+selectedTop+'/'+R.topCompanies.length:'');
+    $('bridge-badge').textContent=state.bridge.carryPct+'% carry · '+(state.bridge.reserve?money(state.bridge.reserve)+' reserve · ':'')+state.bridge.retainPct+'% held · '+(state.bridge.lpLag?state.bridge.lpLag+'y delay':'same-year payment');
+    $('through').textContent='Through '+state.horizon+(state.horizon>R.defaultHorizon?' · extended scenario':'');
+    if(r.errors.length) {
+      $('errors').textContent=r.errors.join(' ');
+      ['lp-total'].forEach(id=>$(id).textContent='—');
+      ['lp-chart','lp-explanation','bridge-breakdown'].forEach(id=>$(id).innerHTML='');
+      ['lp-chart'].forEach(id=>$(id).setAttribute('aria-label','Calculation paused: invalid input.'));
+      $('lp-caption').textContent='Correct the input above to calculate.';
+      ['undated-note','incomplete-note'].forEach(id=>$(id).hidden=true);
+      state.companies.forEach(c=>{$('output-'+c.id).textContent='Check assumptions above.';});
+      return;
+    }
+    $('lp-total').textContent=money(r.atHorizon.lpCum);
+    $('lp-caption').textContent='Shopgenie history + selected hypothetical outcomes, after illustrative carry.';
+    const crossing=r.firstCapitalReturnYear?'1× reached in '+r.firstCapitalReturnYear+' in this scenario.':r.atHorizon.grossCum?'This scenario stays below 1× through '+state.horizon+'.':'Add a company to explore future cash back.';
+    $('lp-explanation').textContent=crossing+' Change a value, sale size or year to see the curve move.';
+    $('undated-note').hidden=!r.unscheduledGross;
+    $('undated-note').textContent=money(r.unscheduledGross)+' in additional possible proceeds has no year assigned. It is outside the timeline.';
+    $('incomplete-note').hidden=!r.incompleteCompanies.length;
+    $('incomplete-note').textContent='Awaiting assumptions: '+r.incompleteCompanies.map(id=>meta(id).name).join(', ')+'. These positions are not included in the totals yet.';
+    if(r.incompleteCompanies.length) $('lp-explanation').textContent+=' Incomplete positions are excluded.';
+    r.companies.forEach(c=>{
+      const sourceBasis=meta(c.id).basisPct;
+      $('basis-badge-'+c.id).textContent=c.basisPct!==sourceBasis?'Your ownership assumption':meta(c.id).basisType;
+      $('stake-'+c.id).textContent=c.ownershipPct==null?'Ownership assumption needed':c.ownershipPct.toFixed(3)+'% modeled stake · dilution included';
+      $('output-'+c.id).textContent=!c.ready?'Complete the assumptions to see proceeds.':c.soldPct===0?'No sale modeled.':money(c.gross)+' to Fund I'+(c.timed?' in '+c.receiptYear: ' · year unspecified');
+      const partial=c.soldPct>0 && c.soldPct<100;
+      $('partial-'+c.id).hidden=!partial;$('remaining-'+c.id).hidden=!partial;
+      $('retained-'+c.id).textContent=partial?(100-c.soldPct)+'% stays invested':'';
+      document.querySelectorAll('#selected-'+c.id+' [data-sale]').forEach(btn=>{
+        const fraction=Number(btn.dataset.fraction), isRoute=btn.parentElement.classList.contains('sale-routes');
+        btn.setAttribute('aria-pressed',isRoute && fraction!==100?partial:c.soldPct===fraction);
+      });
+      document.querySelectorAll('#selected-'+c.id+' [data-outcome]').forEach(btn=>btn.setAttribute('aria-pressed',c.valueM===Number(btn.dataset.value)));
+    });
+    const br=[['New fund receipts',r.atHorizon.grossCum],['Reserves / expenses',r.atHorizon.expenseCum],['Retained / recycled',r.atHorizon.heldCum],['Illustrative carry',r.atHorizon.carryCum],['Future LP payments',r.additionalLP||0]];
+    $('bridge-breakdown').innerHTML=state.bridge.enabled?br.map(row=>'<div><span>'+row[0]+'</span><span>'+money(row[1])+'</span></div>').join(''):'';
+    charts(r);
+  }
+  function showContext(id) {
+    const c=meta(id);if(!c)return;
+    const selected=state.companies.find(x=>x.id===id);
+    $('context-title').textContent=c.name;$('context-sector').textContent=c.sector||'Fund I';
+    $('context-body').innerHTML='<p>'+esc(c.context)+'</p><p class="small">'+esc(c.contextDate||'')+'</p>' +
+      (c.example?'<h3>Ways to think about an outcome</h3><p>'+esc(c.example.rationale)+'</p>'+outcomeOptions(c,selected,true)+'<p class="small">'+esc(c.example.scaleNote || 'Illustrative company values. Choose one to use it in the simulator; your sale fraction and other edits stay intact.')+'</p>'+(c.example.timingNote?'<p class="small">'+esc(c.example.timingNote)+'</p>':''):'')+
+      '<details class="market-references"'+(c.example?'':' open')+'><summary>Market references & sources</summary>'+
+      ((c.references||[]).length?(c.references||[]).map(ref=>'<div class="reference"><strong>'+esc(ref.title)+'</strong><p>'+esc(ref.detail)+'</p>'+(ref.url?'<a href="'+esc(ref.url)+'" target="_blank" rel="noreferrer">Read more ↗</a>':'')+'</div>').join(''):'<p class="small">No close exit reference added yet.</p>')+'</details>'+
+      '<details class="context-sources"><summary>Ownership & supporting sources</summary><p>'+esc(c.basisNote)+'</p><a href="'+esc(c.source)+'" target="_blank" rel="noreferrer">'+esc(c.sourceName)+' ↗</a>'+
+      (c.contextSources||[]).map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noreferrer">'+esc(s.label)+' ↗</a>').join('')+'</details>';
+    $('context-dialog').showModal();
+  }
+  document.addEventListener('click',e=>{
+    const sale=e.target.closest('[data-sale]');if(sale){
+      const index=state.companies.findIndex(c=>c.id===sale.dataset.sale);if(index<0)return;
+      // The partial-route button restores a custom fraction if it is already active.
+      const current=state.companies[index];
+      const isPartialRoute=sale.parentElement.classList.contains('sale-routes') && sale.dataset.fraction!=='100';
+      const fraction=isPartialRoute && current.soldPct>0 && current.soldPct<100 ? current.soldPct : Number(sale.dataset.fraction);
+      if([50,70,100].includes(fraction))state.companies[index]=chooseSaleFraction(current,fraction);
+      else if(fraction!==current.soldPct)return;
+      renderSelected();update();
+      const selector='#selected-'+sale.dataset.sale+' .sale-routes button:nth-child('+(fraction===100?1:2)+')';
+      document.querySelector(selector)?.focus();
+      status(meta(sale.dataset.sale).name+': sell '+fraction+'% of our position. Value, timing and ownership assumptions preserved.');return;
+    }
+    const outcome=e.target.closest('[data-outcome]');if(outcome){
+      const id=outcome.dataset.outcome;addCompany(id,false);
+      state.companies.find(c=>c.id===id).valueM=Number(outcome.dataset.value);
+      $('context-dialog').close();renderSelected();update();
+      document.querySelector('#selected-'+id+' [data-value="'+outcome.dataset.value+'"]')?.focus();
+      status(meta(id).name+': '+money(Number(outcome.dataset.value)*1e6)+' company-value example. Other assumptions preserved.');return;
+    }
+    const reset=e.target.closest('[data-reset-example]');if(reset){
+      const index=state.companies.findIndex(c=>c.id===reset.dataset.resetExample);if(index<0)return;
+      state.companies[index]=makeCompanyScenario(reset.dataset.resetExample);renderSelected();update();
+      document.querySelector('#selected-'+reset.dataset.resetExample+' .sale-routes button')?.focus();
+      status(meta(reset.dataset.resetExample).name+' starting example restored.');return;
+    }
+    const context=e.target.closest('[data-context]');if(context){showContext(context.dataset.context);return;}
+    const add=e.target.closest('[data-add]');if(add){addCompany(add.dataset.add);return;}
+    const remove=e.target.closest('[data-remove]');if(remove){const id=remove.dataset.remove;state.companies=state.companies.filter(c=>c.id!==id);renderLibrary();renderSelected();update();status(meta(id).name+' removed from this scenario.');document.querySelector('[data-add="'+id+'"]')?.focus();}
+  });
+  $('search').addEventListener('input',renderLibrary);
+  $('library-list').addEventListener('dragstart',e=>{const row=e.target.closest('[data-library]');if(!row || row.getAttribute('draggable')!=='true'){e.preventDefault();return;}e.dataTransfer.setData('application/x-antigravity-company',row.dataset.library);e.dataTransfer.setData('text/plain',row.dataset.library);e.dataTransfer.effectAllowed='copy';});
+  $('dropzone').addEventListener('dragover',e=>{e.preventDefault();e.dataTransfer.dropEffect='copy';$('dropzone').classList.add('drag-over');});
+  $('dropzone').addEventListener('dragleave',e=>{if(!$('dropzone').contains(e.relatedTarget))$('dropzone').classList.remove('drag-over');});
+  $('dropzone').addEventListener('drop',e=>{e.preventDefault();$('dropzone').classList.remove('drag-over');const id=e.dataTransfer.getData('application/x-antigravity-company')||e.dataTransfer.getData('text/plain');addCompany(id);});
+  document.addEventListener('dragend',()=>$('dropzone').classList.remove('drag-over'));
+  $('selected-companies').addEventListener('input',e=>{
+    const id=e.target.dataset.company,key=e.target.dataset.field;if(!id||!key)return;
+    const c=state.companies.find(c=>c.id===id);if(!c)return;
+    c[key]=e.target.value===''?null:Number(e.target.value);
+    if(key==='year'){c.timed=c.year!=null;c.lag=0;}
+    update();
+  });
+  $('selected-companies').addEventListener('change',e=>{if(e.target.tagName==='SELECT')e.target.dispatchEvent(new Event('input',{bubbles:true}));});
+  ['reserve','retainPct','carryPct','lpLag'].forEach(k=>$(k).addEventListener('input',e=>{state.bridge[k]=e.target.value===''?null:Number(e.target.value);update();}));
+  $('top-template').addEventListener('click',()=>{
+    let added=0;(R.topCompanies||[]).forEach(id=>{if(addCompany(id,false))added++;});
+    status(added ? added+' top '+(added===1?'company added':'companies added')+'; all '+R.topCompanies.length+' are now in your scenario. Existing edits are preserved.' : 'All '+R.topCompanies.length+' top companies are already in your scenario. Nothing was removed or changed.');
+  });
+  $('reset').addEventListener('click',()=>{state=makeInitialScenario();$('bridge-details').open=false;syncBridge();renderLibrary();renderSelected();update();status('Scenario reset. Historical distributions are unchanged.');});
+  $('delay').addEventListener('click',()=>{
+    const rows=state.companies.filter(c=>c.timed);
+    if(!rows.length){status('Assign a receipt year to a company first.');return;}
+    if(rows.some(c=>c.year+2>2045)){status('A receipt year is already near the supported limit of 2045.');return;}
+    rows.forEach(c=>c.year+=2);renderSelected();update();status('Dated fund receipts moved two years later. Other assumptions are unchanged.');
+  });
+  function scenarioPackage() {return {schema:'antigravity-fund-i-scenario-v2',researchVersion:R.version,description:'Hypothetical scenario; not a forecast.',scenario:state};}
+  function loadScenario(raw) {
+    const f=JSON.parse(raw);
+    if(f.schema!=='antigravity-fund-i-scenario-v2'||![R.version,'2026-10-08-v2','2026-10-08-v3','2026-10-08-v4'].includes(f.researchVersion))throw Error('This scenario uses a different model or source version.');
+    const s=f.scenario, errors=M.validate(s);if(errors.length)throw Error(errors[0]);
+    if(s.companies.some(c=>c.event!=='partial'||c.lag!==0||c.timed!==(c.year!==null)))throw Error('Saved inputs use sale or timing settings that this version cannot display.');
+    if(s.companies.some(c=>!meta(c.id)||meta(c.id).historical))throw Error('A company does not belong to the current active portfolio.');
+    if(s.paidIn!==R.paidIn||s.priorDistributions!==R.priorDistributions)throw Error('Historical fund inputs differ from this version.');
+    const wasOff=!s.bridge.enabled;
+    state=M.copy(s);state.bridge.enabled=true;state.bridge.lpLag??=0;syncBridge();renderLibrary();renderSelected();update();
+    status('Saved scenario restored.'+(wasOff?' The cumulative LP illustration is now active using your saved distribution assumptions.':''));return true;
+  }
+  function openExchange(){if(lastResult.errors.length){status('Correct invalid inputs before saving.');return;}$('exchange-error').textContent='';$('scenario-json').value=JSON.stringify(scenarioPackage(),null,2);$('exchange-dialog').showModal();}
+  $('copy-toggle').addEventListener('click',openExchange);
+  $('save').addEventListener('click',()=>{
+    if(lastResult.errors.length){status('Correct invalid inputs before saving.');return;}
+    const a=document.createElement('a'),url=URL.createObjectURL(new Blob([JSON.stringify(scenarioPackage(),null,2)],{type:'application/json'}));
+    a.href=url;a.download='fund-i-scenario.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    status('Download requested. Copy / paste inputs is also available in Save / load.');
+  });
+  $('apply-json').addEventListener('click',()=>{try{loadScenario($('scenario-json').value);$('exchange-dialog').close();}catch(e){$('exchange-error').textContent='Could not load: '+e.message;}});
+  $('copy-json').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('scenario-json').value);status('Scenario inputs copied.');}catch{$('scenario-json').select();status('Select and copy the inputs shown here.');}});
+  $('import').addEventListener('change',async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>100000)throw Error('Scenario file is too large.');loadScenario(await file.text());}catch(error){status('Could not load: '+error.message);}e.target.value='';});
+  $('close-context').addEventListener('click',()=>$('context-dialog').close());
+  $('close-exchange').addEventListener('click',()=>$('exchange-dialog').close());
+  $('print').addEventListener('click',()=>window.print());
+  let priorOpen=[];
+  window.addEventListener('beforeprint',()=>{priorOpen=[...document.querySelectorAll('details[open]')];document.querySelectorAll('.ownership,.bridge,.method').forEach(d=>d.open=true);});
+  window.addEventListener('afterprint',()=>{document.querySelectorAll('details').forEach(d=>d.open=priorOpen.includes(d));});
+  $('fund-source').href=R.fundSource;
+  window.addEventListener('resize',()=>{if(lastResult&&!lastResult.errors.length)charts(lastResult);});
+  syncBridge();renderLibrary();renderSelected();update();
+})();
+</script>
+</body></html>
