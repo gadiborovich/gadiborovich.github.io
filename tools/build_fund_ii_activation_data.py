@@ -296,9 +296,11 @@ def build():
                 raise ValueError(f"Missing {label} for {heading}")
             fields[label] = match.group(1).strip()
         slug = re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", heading).encode("ascii", "ignore").decode().lower()).strip("-")
+        temperature = re.search(r"^\*\*Temperature:\*\* (.+)$", body, re.M)
+        colder = bool(temperature and temperature.group(1).strip().lower() == "colder")
         warm_people.append(dict(id=slug, name=heading, group="warm", category="developing",
-            channel="Approach TBD", route="Working list · approach still being developed.",
-            summary="Very warm relationship to resume · approach to determine",
+            channel="Colder · approach TBD" if colder else "Approach TBD", route="Working list · approach still being developed.",
+            summary="Colder relationship · approach to determine" if colder else "Relationship to resume · approach to determine",
             context=fields["Context"], contextLabel="Why on the list",
             planningNote=fields["Possible approach"], next=fields["To decide"], nextLabel="To work through",
             drafts=[], sources=external_sources(body)))
