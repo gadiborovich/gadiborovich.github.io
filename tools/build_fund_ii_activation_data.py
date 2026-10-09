@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the two canonical activation sequences into a shareable, read-only brief.
+"""Render the canonical activation sequences into a shareable, read-only brief.
 
 Messages are extracted verbatim at build time. The short presentation notes below
 are editorial summaries, not a CRM mirror or a record that outreach happened.
@@ -10,6 +10,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import unicodedata
 
 
 SITE = Path(__file__).resolve().parents[1]
@@ -236,7 +237,7 @@ EMAIL_SPECS = [
 
 
 def build():
-    texts = {name: (SEQUENCES / name).read_text() for name in ("existing-lps.md", "puentes.md")}
+    texts = {name: (SEQUENCES / name).read_text() for name in ("existing-lps.md", "puentes.md", "warm-relationships.md")}
     people = []
     extraction_checks = []
     for definitions, filename, group in ((LP_SPECS, "existing-lps.md", "lps"),
@@ -281,15 +282,39 @@ def build():
         extraction_checks.append((card["id"], message))
         people.append(card)
 
-    result = dict(prepared="October 7, 2026", sourceHashes={
+    # In-progress relationships carry working context, not invented message drafts.
+    warm_text = texts["warm-relationships.md"]
+    warm_people = []
+    for heading in re.findall(r"^## (.+)$", warm_text, re.M):
+        body = section(warm_text, heading)
+        if not re.search(r"^\*\*Context:\*\* ", body, re.M):
+            continue
+        fields = {}
+        for label in ("Context", "Possible approach", "To decide"):
+            match = re.search(rf"^\*\*{re.escape(label)}:\*\* (.+)$", body, re.M)
+            if not match:
+                raise ValueError(f"Missing {label} for {heading}")
+            fields[label] = match.group(1).strip()
+        slug = re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", heading).encode("ascii", "ignore").decode().lower()).strip("-")
+        warm_people.append(dict(id=slug, name=heading, group="warm", category="developing",
+            channel="Approach TBD", route="Working list · approach still being developed.",
+            summary="Very warm relationship to resume · approach to determine",
+            context=fields["Context"], contextLabel="Why on the list",
+            planningNote=fields["Possible approach"], next=fields["To decide"], nextLabel="To work through",
+            drafts=[], sources=external_sources(body)))
+    if not warm_people:
+        raise ValueError("Warm-relationship working list is empty")
+    people.extend(warm_people)
+
+    result = dict(prepared="October 9, 2026", sourceHashes={
         name: hashlib.sha256(text.encode()).hexdigest() for name, text in texts.items()}, people=people)
     counts = Counter(p["group"] for p in people)
     categories = Counter(f"{p['group']}:{p['category']}" for p in people)
-    assert counts == {"lps": 20, "puentes": 16}, counts
+    assert counts == {"lps": 20, "puentes": 16, "warm": len(warm_people)}, counts
     assert categories["lps:core"] == 19 and categories["lps:outside"] == 1, categories
-    assert len({p["id"] for p in people}) == len(people) == 36
+    assert len({p["id"] for p in people}) == len(people) == 36 + len(warm_people)
     assert len(extraction_checks) == 38, len(extraction_checks)
-    assert all(p["drafts"] and all(d["text"].strip() for d in p["drafts"]) for p in people)
+    assert all((not p["drafts"] and p.get("planningNote")) if p["group"] == "warm" else (p["drafts"] and all(d["text"].strip() for d in p["drafts"])) for p in people)
     assert all(not re.search(r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}", json.dumps(p)) for p in people)
     assert all(not re.search(r"\+\d[\d ()-]{8,}\d|\bchat \d+\b", json.dumps(p), re.I) for p in people)
     assert all(not re.search(r"\b(surgery|ACL|hospital|medical)\b", json.dumps(p), re.I) for p in people)

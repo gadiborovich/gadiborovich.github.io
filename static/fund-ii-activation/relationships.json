@@ -1,8 +1,9 @@
 {
-  "prepared": "October 7, 2026",
+  "prepared": "October 9, 2026",
   "sourceHashes": {
     "existing-lps.md": "b871103d1a257d993580ef4104c4143e29b7f7258e2f250612d1083f15fea643",
-    "puentes.md": "920d584c43726ef6944aa83c308a4d3a3c60efbbb70e8bdac7822f256921aa58"
+    "puentes.md": "920d584c43726ef6944aa83c308a4d3a3c60efbbb70e8bdac7822f256921aa58",
+    "warm-relationships.md": "938e95fdf1c12873b1d949e9ffce4ee8e0bb8614ea021625661def241bfe6390"
   },
   "people": [
     {
@@ -930,6 +931,22 @@
           "url": "https://mail.google.com/mail/u/0/#all/195d423dfdec7a50"
         }
       ]
+    },
+    {
+      "id": "nicolas-simon-de-ferrari",
+      "name": "Nicolas Simon de Ferrari",
+      "group": "warm",
+      "category": "developing",
+      "channel": "Approach TBD",
+      "route": "Working list · approach still being developed.",
+      "summary": "Very warm relationship to resume · approach to determine",
+      "context": "Nicolas is a very warm relationship Gadi wants to resume, outside the Fund I LP base. He is the first name added to this list, on October 9.",
+      "contextLabel": "Why on the list",
+      "planningNote": "A short email proposing a specific time with Daniel and Gadi could work. We still need to choose the opening.",
+      "next": "Where the relationship left off, whether he has already met Daniel, and what invitation fits now.",
+      "nextLabel": "To work through",
+      "drafts": [],
+      "sources": []
     }
   ]
 }
