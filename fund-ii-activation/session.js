@@ -1,10 +1,13 @@
 'use strict';
 
-const filters = { lps: 'all', puentes: 'all' };
+const filters = { lps: 'all', puentes: 'all', warm: 'all' };
 const groupSections = {
   lps: [
     { categories: ['core'], title: 'Core invitations', note: '19 LP relationships' },
     { categories: ['outside'], title: 'Outside this core pass', note: 'Preparation retained for later' }
+  ],
+  warm: [
+    { categories: ['developing'], title: 'Working list', note: 'Approach still to be determined' }
   ],
   puentes: [
     { categories: ['current'], title: 'Current relationship threads', note: 'Pick up where we left off' },
@@ -54,10 +57,11 @@ function card(person) {
     <summary><span><span class="person-name">${escapeHTML(person.name)}</span><span class="person-summary">${escapeHTML(person.summary)}</span></span><span class="summary-meta"><span class="channel">${escapeHTML(person.channel)}</span><span class="plus" aria-hidden="true">+</span></span></summary>
     <div class="person-content">
       <div class="person-meta"><p class="route">${escapeHTML(person.channel)} · ${escapeHTML(person.route)}</p><button type="button" class="link-button" aria-label="Copy link to ${escapeHTML(person.name)}">Link to this entry ↗</button></div>
-      <div class="context"><span class="micro">Relationship / latest</span><p>${escapeHTML(person.context)}</p></div>
+      <div class="context"><span class="micro">${escapeHTML(person.contextLabel || 'Relationship / latest')}</span><p>${escapeHTML(person.context)}</p></div>
       ${person.caution ? `<p class="caution">${escapeHTML(person.caution)}</p>` : ''}
+      ${person.planningNote ? `<div class="shared-note"><span class="micro">Possible approach · not chosen</span><p>${escapeHTML(person.planningNote)}</p></div>` : ''}
       ${person.drafts.map((draft, i) => `<div class="draft"><div class="draft-header"><span class="micro">${escapeHTML(draft.label)} · ${draft.sentOn ? `sent ${escapeHTML(draft.sentOn)}` : 'unsent'}</span><button type="button" class="copy-button" data-draft="${i}" aria-label="Copy ${escapeHTML(draft.label.toLowerCase())} for ${escapeHTML(person.name)}">Copy text</button></div>${i === 0 && person.subject ? `<p class="draft-subject"><span>Subject</span>${escapeHTML(person.subject)}</p>` : ''}<div class="draft-body">${markdown(draft.text)}</div></div>`).join('')}
-      <div class="next-step"><span class="micro">What follows</span><p>${escapeHTML(person.next)}</p></div>
+      <div class="next-step"><span class="micro">${escapeHTML(person.nextLabel || 'What follows')}</span><p>${escapeHTML(person.next)}</p></div>
       ${person.sources.length ? `<div class="sources">${person.sources.map(source => `<a href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(source.label)} ↗</a>`).join('')}</div>` : ''}
     </div>`;
   detail.querySelector('.link-button').addEventListener('click', () => copy(`${location.origin}${location.pathname}#${person.id}`, 'Entry link copied'));
@@ -187,7 +191,7 @@ document.querySelectorAll('.print-button').forEach(button => button.addEventList
 
 async function init() {
   try {
-    const response = await fetch('./relationships.json');
+    const response = await fetch('./relationships.json?v=20261009-warm');
     if (!response.ok) throw new Error(`Unable to load relationship data (${response.status})`);
     const data = await response.json();
     if (!Array.isArray(data.people) || data.people.length === 0) throw new Error('Relationship data is empty');
