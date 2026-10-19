@@ -308,7 +308,7 @@ def build():
         raise ValueError("Warm-relationship working list is empty")
     people.extend(warm_people)
 
-    result = dict(prepared="October 9, 2026", sourceHashes={
+    result = dict(prepared="October 19, 2026", sourceHashes={
         name: hashlib.sha256(text.encode()).hexdigest() for name, text in texts.items()}, people=people)
     counts = Counter(p["group"] for p in people)
     categories = Counter(f"{p['group']}:{p['category']}" for p in people)

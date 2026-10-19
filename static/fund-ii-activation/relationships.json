@@ -1,9 +1,9 @@
 {
-  "prepared": "October 9, 2026",
+  "prepared": "October 19, 2026",
   "sourceHashes": {
-    "existing-lps.md": "b871103d1a257d993580ef4104c4143e29b7f7258e2f250612d1083f15fea643",
+    "existing-lps.md": "d2b0847b41e4e96bc3d61934b84aae67a63a329a173d2ce9d9039de0d4fd4e3e",
     "puentes.md": "920d584c43726ef6944aa83c308a4d3a3c60efbbb70e8bdac7822f256921aa58",
-    "warm-relationships.md": "fe48745905ffa963c058f31d87b078503d6b375004e39c9b9210982b3cc9466c"
+    "warm-relationships.md": "2dde8b95cc8c8b917f35a3e2b4b23b45565eaaf2c9a6e04fad85c78d0f6cf7a0"
   },
   "people": [
     {
@@ -1053,6 +1053,22 @@
       "route": "Working list · approach still being developed.",
       "summary": "Relationship to resume · approach to determine",
       "context": "Added to this working list by Gadi on October 9.",
+      "contextLabel": "Why on the list",
+      "planningNote": "To be determined.",
+      "next": "Where to pick up the conversation.",
+      "nextLabel": "To work through",
+      "drafts": [],
+      "sources": []
+    },
+    {
+      "id": "nakul-patel",
+      "name": "Nakul Patel",
+      "group": "warm",
+      "category": "developing",
+      "channel": "Approach TBD",
+      "route": "Working list · approach still being developed.",
+      "summary": "Relationship to resume · approach to determine",
+      "context": "Added to this working list by Gadi on October 19.",
       "contextLabel": "Why on the list",
       "planningNote": "To be determined.",
       "next": "Where to pick up the conversation.",
