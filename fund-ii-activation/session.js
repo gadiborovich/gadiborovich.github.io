@@ -191,7 +191,7 @@ document.querySelectorAll('.print-button').forEach(button => button.addEventList
 
 async function init() {
   try {
-    const response = await fetch('./relationships.json?v=20261009-warm-expanded');
+    const response = await fetch('./relationships.json?v=20261019-nakul');
     if (!response.ok) throw new Error(`Unable to load relationship data (${response.status})`);
     const data = await response.json();
     if (!Array.isArray(data.people) || data.people.length === 0) throw new Error('Relationship data is empty');
