@@ -39,7 +39,7 @@ def external_sources(text):
     result = []
     seen = set()
     for label, url in re.findall(r"\[([^\]]+)\]\((https?://[^\s)]+)\)", text):
-        if re.match(r"https://(?:app\.)?notion\.(?:com|so)/|https://mail\.google\.com/", url):
+        if re.match(r"https://(?:app\.)?notion\.(?:com|so)/|https://mail\.google\.com/|https://(?:www\.)?linkedin\.com/in/", url):
             if url not in seen:
                 result.append({"label": label, "url": url})
                 seen.add(url)
@@ -308,7 +308,7 @@ def build():
         raise ValueError("Warm-relationship working list is empty")
     people.extend(warm_people)
 
-    result = dict(prepared="October 19, 2026", sourceHashes={
+    result = dict(prepared="October 26, 2026", sourceHashes={
         name: hashlib.sha256(text.encode()).hexdigest() for name, text in texts.items()}, people=people)
     counts = Counter(p["group"] for p in people)
     categories = Counter(f"{p['group']}:{p['category']}" for p in people)
